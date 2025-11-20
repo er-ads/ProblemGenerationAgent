@@ -1,12 +1,13 @@
-
+import os
 import sys
 import traceback
 import google.generativeai as genai
-api_key = "AIzaSyAujOLrQ8gihFekqPNtzO2oWmRmxqzZAjg"
+api_key = os.environ.get("GOOGLE_API_KEY")
+if not api_key:
+    raise RuntimeError("Missing GOOGLE_API_KEY environment variable. Set it before running.")
 genai.configure(api_key=api_key)
 llm = genai.GenerativeModel('gemini-2.5-flash')
 
-import os
 from prompts import *
 import json
 import math
