@@ -1,0 +1,124 @@
+{
+  "Rigid Body Dynamics": [
+      {
+        "formula_id": "10_A",
+        "function_name": "calculate_moment_of_inertia_discrete",
+        "docstring": "Calculates the moment of inertia (I) for a system of discrete point masses about a given axis.\n\nParameters:\n    masses (list[float]): A list of the masses of the particles (m_i) in kilograms (kg).\n    radii (list[float]): A list of the perpendicular distances (r_i) of each mass from the axis of rotation in meters (m).\n\nReturns:\n    float: The total moment of inertia (I) in kilogram-meter squared (kg·m^2).",
+        "python_code": "def calculate_moment_of_inertia_discrete(masses: list[float], radii: list[float]) -> float:\n    if len(masses) != len(radii):\n        raise ValueError(\"Masses and radii lists must have the same length.\")\n    return sum(m * r**2 for m, r in zip(masses, radii))"
+      },
+      {
+        "formula_id": "10_B",
+        "function_name": "calculate_Iz_perpendicular_axis",
+        "docstring": "Calculates the moment of inertia (Iz) about an axis perpendicular to a plane lamina, given the moments of inertia about two perpendicular axes in the plane (Perpendicular Axis Theorem).\n\nParameters:\n    inertia_x (float): The moment of inertia (Ix) about the x-axis in the plane in kg·m^2.\n    inertia_y (float): The moment of inertia (Iy) about the y-axis in the plane in kg·m^2.\n\nReturns:\n    float: The moment of inertia (Iz) about the z-axis in kg·m^2.",
+        "python_code": "def calculate_Iz_perpendicular_axis(inertia_x: float, inertia_y: float) -> float:\n    return inertia_x + inertia_y"
+      },
+      {
+        "formula_id": "10_C",
+        "function_name": "calculate_parallel_axis_inertia",
+        "docstring": "Calculates the moment of inertia (I_AB) about an axis (AB) parallel to an axis through the center of mass (I_cm) (Parallel Axis Theorem).\n\nParameters:\n    inertia_cm (float): The moment of inertia (I_cm) about the center of mass in kg·m^2.\n    mass (float): The total mass (M) of the object in kilograms (kg).\n    distance (float): The perpendicular distance (d) between the two parallel axes in meters (m).\n\nReturns:\n    float: The moment of inertia (I_AB) about the new axis in kg·m^2.",
+        "python_code": "def calculate_parallel_axis_inertia(inertia_cm: float, mass: float, distance: float) -> float:\n    return inertia_cm + (mass * distance**2)"
+      },
+      {
+        "formula_id": "10_D",
+        "function_name": "calculate_inertia_solid_sphere",
+        "docstring": "Calculates the moment of inertia of a uniform solid sphere about an axis through its center.\n\nParameters:\n    mass (float): The mass (M) of the sphere in kilograms (kg).\n    radius (float): The radius (R) of the sphere in meters (m).\n\nReturns:\n    float: The moment of inertia (I) in kg·m^2.",
+        "python_code": "def calculate_inertia_solid_sphere(mass: float, radius: float) -> float:\n    return (2 / 5) * mass * radius**2"
+      },
+      {
+        "formula_id": "10_E",
+        "function_name": "calculate_inertia_hollow_sphere",
+        "docstring": "Calculates the moment of inertia of a uniform hollow sphere (shell) about an axis through its center.\n\nParameters:\n    mass (float): The mass (M) of the shell in kilograms (kg).\n    radius (float): The radius (R) of the shell in meters (m).\n\nReturns:\n    float: The moment of inertia (I) in kg·m^2.",
+        "python_code": "def calculate_inertia_hollow_sphere(mass: float, radius: float) -> float:\n    return (2 / 3) * mass * radius**2"
+      },
+      {
+        "formula_id": "10_F",
+        "function_name": "calculate_inertia_ring_perp_axis",
+        "docstring": "Calculates the moment of inertia of a ring about an axis perpendicular to its plane and passing through its center.\n\nParameters:\n    mass (float): The mass (M) of the ring in kilograms (kg).\n    radius (float): The radius (R) of the ring in meters (m).\n\nReturns:\n    float: The moment of inertia (I) in kg·m^2.",
+        "python_code": "def calculate_inertia_ring_perp_axis(mass: float, radius: float) -> float:\n    return mass * radius**2"
+      },
+      {
+        "formula_id": "10_G",
+        "function_name": "calculate_inertia_disc_perp_axis",
+        "docstring": "Calculates the moment of inertia of a uniform disc about an axis perpendicular to its plane and passing through its center.\n\nParameters:\n    mass (float): The mass (M) of the disc in kilograms (kg).\n    radius (float): The radius (R) of the disc in meters (m).\n\nReturns:\n    float: The moment of inertia (I) in kg·m^2.",
+        "python_code": "def calculate_inertia_disc_perp_axis(mass: float, radius: float) -> float:\n    return (1 / 2) * mass * radius**2"
+      },
+      {
+        "formula_id": "10_H",
+        "function_name": "calculate_inertia_hollow_cylinder_axis",
+        "docstring": "Calculates the moment of inertia of a hollow cylinder (hoop) about its central axis.\n\nParameters:\n    mass (float): The mass (M) of the cylinder in kilograms (kg).\n    radius (float): The radius (R) of the cylinder in meters (m).\n\nReturns:\n    float: The moment of inertia (I) in kg·m^2.",
+        "python_code": "def calculate_inertia_hollow_cylinder_axis(mass: float, radius: float) -> float:\n    return mass * radius**2"
+      },
+      {
+        "formula_id": "10_I",
+        "function_name": "calculate_inertia_solid_cylinder_axis",
+        "docstring": "Calculates the moment of inertia of a uniform solid cylinder about its central axis.\n\nParameters:\n    mass (float): The mass (M) of the cylinder in kilograms (kg).\n    radius (float): The radius (R) of the cylinder in meters (m).\n\nReturns:\n    float: The moment of inertia (I) in kg·m^2.",
+        "python_code": "def calculate_inertia_solid_cylinder_axis(mass: float, radius: float) -> float:\n    return (1 / 2) * mass * radius**2"
+      },
+      {
+        "formula_id": "10_J",
+        "function_name": "calculate_inertia_rod_end",
+        "docstring": "Calculates the moment of inertia of a uniform rod about an axis perpendicular to the rod and passing through one end.\n\nParameters:\n    mass (float): The mass (M) of the rod in kilograms (kg).\n    length (float): The length (L) of the rod in meters (m).\n\nReturns:\n    float: The moment of inertia (I) in kg·m^2.",
+        "python_code": "def calculate_inertia_rod_end(mass: float, length: float) -> float:\n    return (1 / 3) * mass * length**2"
+      },
+      {
+        "formula_id": "10_K",
+        "function_name": "calculate_inertia_rod_center",
+        "docstring": "Calculates the moment of inertia of a uniform rod about an axis perpendicular to the rod and passing through its center.\n\nParameters:\n    mass (float): The mass (M) of the rod in kilograms (kg).\n    length (float): The length (L) of the rod in meters (m).\n\nReturns:\n    float: The moment of inertia (I) in kg·m^2.",
+        "python_code": "def calculate_inertia_rod_center(mass: float, length: float) -> float:\n    return (1 / 12) * mass * length**2"
+      },
+      {
+        "formula_id": "10_L",
+        "function_name": "calculate_inertia_rect_plate_perp_center",
+        "docstring": "Calculates the moment of inertia of a uniform rectangular plate about an axis perpendicular to the plate and passing through its center.\n\nParameters:\n    mass (float): The mass (M) of the plate in kilograms (kg).\n    side_a (float): The length of side 'a' in meters (m).\n    side_b (float): The length of side 'b' in meters (m).\n\nReturns:\n    float: The moment of inertia (I) in kg·m^2.",
+        "python_code": "def calculate_inertia_rect_plate_perp_center(mass: float, side_a: float, side_b: float) -> float:\n    return (mass * (side_a**2 + side_b**2)) / 12"
+      },
+      {
+        "formula_id": "10_M",
+        "function_name": "calculate_radius_of_gyration",
+        "docstring": "Calculates the radius of gyration (K) of an object, given its moment of inertia (I) and mass (M).\n\nParameters:\n    moment_of_inertia (float): The moment of inertia (I) of the object in kg·m^2.\n    mass (float): The total mass (M) of the object in kilograms (kg).\n\nReturns:\n    float: The radius of gyration (K) in meters (m).",
+        "python_code": "import math\n\ndef calculate_radius_of_gyration(moment_of_inertia: float, mass: float) -> float:\n    if mass == 0:\n        return float('inf')\n    return math.sqrt(moment_of_inertia / mass)"
+      },
+      {
+        "formula_id": "10_N",
+        "function_name": "calculate_torque_magnitude",
+        "docstring": "Calculates the magnitude of the torque (τ) produced by a force (F) at a given distance (r) and angle (θ).\n\nParameters:\n    force_magnitude (float): The magnitude of the force (F) in Newtons (N).\n    lever_arm (float): The distance (r) from the pivot to the point of force application in meters (m).\n    angle_degrees (float): The angle (θ) between the lever arm vector (r) and the force vector (F) in degrees.\n\nReturns:\n    float: The magnitude of the torque (τ) in Newton-meters (N·m).",
+        "python_code": "import math\n\ndef calculate_torque_magnitude(force_magnitude: float, lever_arm: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return lever_arm * force_magnitude * math.sin(angle_radians)"
+      },
+      {
+        "formula_id": "10_O",
+        "function_name": "calculate_angular_acceleration_from_torque",
+        "docstring": "Calculates the angular acceleration (α) of a rigid body given the net external torque (τ) and its moment of inertia (I).\n\nParameters:\n    net_torque (float): The net external torque (τ_ext) about the axis of rotation in Newton-meters (N·m).\n    moment_of_inertia (float): The moment of inertia (I) about the same axis in kg·m^2.\n\nReturns:\n    float: The angular acceleration (α) in radians per second squared (rad/s^2).",
+        "python_code": "def calculate_angular_acceleration_from_torque(net_torque: float, moment_of_inertia: float) -> float:\n    if moment_of_inertia == 0:\n        return float('inf')\n    return net_torque / moment_of_inertia"
+      },
+      {
+        "formula_id": "10_P",
+        "function_name": "calculate_rotational_kinetic_energy",
+        "docstring": "Calculates the rotational kinetic energy (KE_rot) of a rigid body.\n\nParameters:\n    moment_of_inertia (float): The moment of inertia (I) about the axis of rotation in kg·m^2.\n    angular_velocity (float): The angular velocity (ω) about the same axis in radians per second (rad/s).\n\nReturns:\n    float: The rotational kinetic energy in Joules (J).",
+        "python_code": "def calculate_rotational_kinetic_energy(moment_of_inertia: float, angular_velocity: float) -> float:\n    return 0.5 * moment_of_inertia * angular_velocity**2"
+      },
+      {
+        "formula_id": "10_Q",
+        "function_name": "calculate_angular_momentum_particle_magnitude",
+        "docstring": "Calculates the magnitude of the angular momentum (L) of a particle about a point.\n\nParameters:\n    momentum (float): The magnitude of the linear momentum (P) of the particle in kg·m/s.\n    position_vector_magnitude (float): The magnitude of the position vector (r) from the point to the particle in meters (m).\n    angle_degrees (float): The angle (θ) between the position vector (r) and the momentum vector (P) in degrees.\n\nReturns:\n    float: The magnitude of the angular momentum (L) in Joule-seconds (J·s) or kg·m^2/s.",
+        "python_code": "import math\n\ndef calculate_angular_momentum_particle_magnitude(momentum: float, position_vector_magnitude: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return position_vector_magnitude * momentum * math.sin(angle_radians)"
+      },
+      {
+        "formula_id": "10_R",
+        "function_name": "calculate_angular_momentum_rigid_body",
+        "docstring": "Calculates the angular momentum (L_H) of a rigid body rotating about a fixed axis (H).\n\nParameters:\n    moment_of_inertia (float): The moment of inertia (I_H) about the axis of rotation in kg·m^2.\n    angular_velocity (float): The angular velocity (ω) about the same axis in radians per second (rad/s).\n\nReturns:\n    float: The angular momentum (L_H) in Joule-seconds (J·s) or kg·m^2/s.",
+        "python_code": "def calculate_angular_momentum_rigid_body(moment_of_inertia: float, angular_velocity: float) -> float:\n    return moment_of_inertia * angular_velocity"
+      },
+      {
+        "formula_id": "10_S",
+        "function_name": "calculate_angular_momentum_change",
+        "docstring": "Calculates the change in angular momentum (ΔL) given the average torque (τ) and the time interval (Δt) over which it is applied (Angular Impulse-Momentum Theorem).\n\nParameters:\n    average_torque (float): The average torque (τ) applied in Newton-meters (N·m).\n    time_interval (float): The time interval (Δt) in seconds (s).\n\nReturns:\n    float: The change in angular momentum (ΔL) in kg·m^2/s.",
+        "python_code": "def calculate_angular_momentum_change(average_torque: float, time_interval: float) -> float:\n    return average_torque * time_interval"
+      },
+      {
+        "formula_id": "10_T",
+        "function_name": "calculate_total_kinetic_energy_rigid_body",
+        "docstring": "Calculates the total kinetic energy of a rigid body undergoing both translation and rotation.\n\nParameters:\n    mass (float): The total mass (M) of the object in kilograms (kg).\n    com_velocity (float): The speed of the center of mass (v_cm) in m/s.\n    inertia_cm (float): The moment of inertia (I_cm) about the center of mass in kg·m^2.\n    angular_velocity (float): The angular velocity (ω) about the center of mass in rad/s.\n\nReturns:\n    float: The total kinetic energy in Joules (J).",
+        "python_code": "def calculate_total_kinetic_energy_rigid_body(mass: float, com_velocity: float, inertia_cm: float, angular_velocity: float) -> float:\n    translational_ke = 0.5 * mass * com_velocity**2\n    rotational_ke = 0.5 * inertia_cm * angular_velocity**2\n    return translational_ke + rotational_ke"
+      }
+    ]
+  }

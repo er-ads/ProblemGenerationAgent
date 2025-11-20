@@ -1,0 +1,124 @@
+{
+  "Circular Motion": [
+      {
+        "formula_id": "8_A",
+        "function_name": "calculate_average_angular_velocity",
+        "docstring": "Calculates the average angular velocity (ω_av) of a rotating object.\n\nParameters:\n    delta_theta (float): The change in angular displacement in radians (rad).\n    delta_time (float): The time interval in seconds (s).\n\nReturns:\n    float: The average angular velocity in radians per second (rad/s).",
+        "python_code": "def calculate_average_angular_velocity(delta_theta: float, delta_time: float) -> float:\n    if delta_time == 0:\n        return float('inf')\n    return delta_theta / delta_time"
+      },
+      {
+        "formula_id": "8_B",
+        "function_name": "calculate_average_angular_acceleration",
+        "docstring": "Calculates the average angular acceleration (α_av) of a rotating object.\n\nParameters:\n    delta_omega (float): The change in angular velocity in radians per second (rad/s).\n    delta_time (float): The time interval in seconds (s).\n\nReturns:\n    float: The average angular acceleration in radians per second squared (rad/s^2).",
+        "python_code": "def calculate_average_angular_acceleration(delta_omega: float, delta_time: float) -> float:\n    if delta_time == 0:\n        return float('inf')\n    return delta_omega / delta_time"
+      },
+      {
+        "formula_id": "8_C",
+        "function_name": "calculate_linear_speed_from_angular_velocity",
+        "docstring": "Calculates the tangential linear speed (v) of a point on a rotating object.\n\nParameters:\n    radius (float): The distance from the axis of rotation in meters (m).\n    angular_velocity (float): The angular velocity in radians per second (rad/s).\n\nReturns:\n    float: The tangential linear speed in meters per second (m/s).",
+        "python_code": "def calculate_linear_speed_from_angular_velocity(radius: float, angular_velocity: float) -> float:\n    return radius * angular_velocity"
+      },
+      {
+        "formula_id": "8_D",
+        "function_name": "calculate_tangential_acceleration",
+        "docstring": "Calculates the tangential acceleration (a_t) of a point on a rotating object.\n\nParameters:\n    radius (float): The distance from the axis of rotation in meters (m).\n    angular_acceleration (float): The angular acceleration in radians per second squared (rad/s^2).\n\nReturns:\n    float: The tangential acceleration in meters per second squared (m/s^2).",
+        "python_code": "def calculate_tangential_acceleration(radius: float, angular_acceleration: float) -> float:\n    return radius * angular_acceleration"
+      },
+      {
+        "formula_id": "8_E",
+        "function_name": "calculate_centripetal_acceleration",
+        "docstring": "Calculates the centripetal (or radial) acceleration (a_r) of an object in circular motion.\n\nParameters:\n    linear_speed (float, optional): The tangential linear speed in m/s. (Provide either linear_speed or angular_velocity)\n    angular_velocity (float, optional): The angular velocity in rad/s. (Provide either linear_speed or angular_velocity)\n    radius (float): The radius of the circular path in meters (m).\n\nReturns:\n    float: The centripetal acceleration in meters per second squared (m/s^2).",
+        "python_code": "def calculate_centripetal_acceleration(radius: float, linear_speed: float = None, angular_velocity: float = None) -> float:\n    if radius == 0:\n        return 0.0\n    if linear_speed is not None:\n        return linear_speed**2 / radius\n    elif angular_velocity is not None:\n        return angular_velocity**2 * radius\n    else:\n        raise ValueError(\"Must provide either linear_speed or angular_velocity\")"
+      },
+      {
+        "formula_id": "8_F",
+        "function_name": "calculate_total_acceleration",
+        "docstring": "Calculates the magnitude of the total acceleration for an object in non-uniform circular motion.\n\nParameters:\n    tangential_acceleration (float): The tangential acceleration (a_t) in m/s^2.\n    centripetal_acceleration (float): The centripetal (radial) acceleration (a_r) in m/s^2.\n\nReturns:\n    float: The magnitude of the total acceleration (a) in m/s^2.",
+        "python_code": "import math\n\ndef calculate_total_acceleration(tangential_acceleration: float, centripetal_acceleration: float) -> float:\n    return math.sqrt(tangential_acceleration**2 + centripetal_acceleration**2)"
+      },
+      {
+        "formula_id": "8_G",
+        "function_name": "calculate_radius_of_curvature",
+        "docstring": "Calculates the radius of curvature (R) for a particle's motion at an instant.\n\nParameters:\n    speed (float): The instantaneous speed (v) of the particle in m/s.\n    perpendicular_acceleration (float): The component of acceleration (a_perp) perpendicular to the velocity in m/s^2.\n\nReturns:\n    float: The radius of curvature (R) in meters (m).",
+        "python_code": "def calculate_radius_of_curvature(speed: float, perpendicular_acceleration: float) -> float:\n    if perpendicular_acceleration == 0:\n        return float('inf')\n    return speed**2 / perpendicular_acceleration"
+      },
+      {
+        "formula_id": "8_H",
+        "function_name": "calculate_normal_force_concave_bridge",
+        "docstring": "Calculates the normal force on a vehicle on a concave (dipped) bridge.\n\nParameters:\n    mass (float): The mass of the vehicle in kilograms (kg).\n    speed (float): The speed of the vehicle in m/s.\n    radius (float): The radius of curvature of the bridge in meters (m).\n    angle_degrees (float): The angle of the vehicle's position from the vertical (bottom) in degrees. Defaults to 0.\n    gravity (float, optional): The acceleration due to gravity in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The normal force (N) in Newtons (N).",
+        "python_code": "import math\n\ndef calculate_normal_force_concave_bridge(mass: float, speed: float, radius: float, angle_degrees: float = 0.0, gravity: float = 9.81) -> float:\n    angle_radians = math.radians(angle_degrees)\n    if radius == 0:\n        return float('inf')\n    return (mass * gravity * math.cos(angle_radians)) + (mass * speed**2 / radius)"
+      },
+      {
+        "formula_id": "8_I",
+        "function_name": "calculate_normal_force_convex_bridge",
+        "docstring": "Calculates the normal force on a vehicle on a convex (humped) bridge.\n\nParameters:\n    mass (float): The mass of the vehicle in kilograms (kg).\n    speed (float): The speed of the vehicle in m/s.\n    radius (float): The radius of curvature of the bridge in meters (m).\n    angle_degrees (float): The angle of the vehicle's position from the vertical (top) in degrees. Defaults to 0.\n    gravity (float, optional): The acceleration due to gravity in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The normal force (N) in Newtons (N).",
+        "python_code": "import math\n\ndef calculate_normal_force_convex_bridge(mass: float, speed: float, radius: float, angle_degrees: float = 0.0, gravity: float = 9.81) -> float:\n    angle_radians = math.radians(angle_degrees)\n    if radius == 0:\n        return float('inf')\n    return (mass * gravity * math.cos(angle_radians)) - (mass * speed**2 / radius)"
+      },
+      {
+        "formula_id": "8_J",
+        "function_name": "calculate_max_safe_speed_level_road",
+        "docstring": "Calculates the maximum safe speed for a vehicle on a level (unbanked) road to avoid skidding.\n\nParameters:\n    coefficient_of_static_friction (float): The coefficient of static friction (μ) (unitless).\n    radius (float): The radius of the curve in meters (m).\n    gravity (float, optional): The acceleration due to gravity in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The maximum safe speed (v_safe) in m/s.",
+        "python_code": "import math\n\ndef calculate_max_safe_speed_level_road(coefficient_of_static_friction: float, radius: float, gravity: float = 9.81) -> float:\n    return math.sqrt(coefficient_of_static_friction * gravity * radius)"
+      },
+      {
+        "formula_id": "8_K",
+        "function_name": "calculate_max_angular_velocity_platform",
+        "docstring": "Calculates the maximum angular velocity for an object on a rotating platform to avoid skidding.\n\nParameters:\n    coefficient_of_static_friction (float): The coefficient of static friction (μ) (unitless).\n    radius (float): The distance of the object from the center in meters (m).\n    gravity (float, optional): The acceleration due to gravity in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The maximum angular velocity (ω_max) in rad/s.",
+        "python_code": "import math\n\ndef calculate_max_angular_velocity_platform(coefficient_of_static_friction: float, radius: float, gravity: float = 9.81) -> float:\n    if radius == 0:\n        return float('inf')\n    return math.sqrt(coefficient_of_static_friction * gravity / radius)"
+      },
+      {
+        "formula_id": "8_L",
+        "function_name": "calculate_bending_angle",
+        "docstring": "Calculates the bending angle (θ) for a cyclist or the banking angle for a road without friction.\n\nParameters:\n    speed (float): The speed of the cyclist/vehicle in m/s.\n    radius (float): The radius of the curve in meters (m).\n    gravity (float, optional): The acceleration due to gravity in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The bending/banking angle (θ) from the vertical in degrees.",
+        "python_code": "import math\n\ndef calculate_bending_angle(speed: float, radius: float, gravity: float = 9.81) -> float:\n    if radius * gravity == 0:\n        return 90.0 if speed > 0 else 0.0\n    ratio = speed**2 / (radius * gravity)\n    return math.degrees(math.atan(ratio))"
+      },
+      {
+        "formula_id": "8_M",
+        "function_name": "calculate_max_safe_speed_banked_road",
+        "docstring": "Calculates the maximum safe speed for a vehicle on a banked, frictional road.\n\nParameters:\n    radius (float): The radius of the curve in meters (m).\n    coefficient_of_static_friction (float): The coefficient of static friction (μ) (unitless).\n    banking_angle_degrees (float): The banking angle (θ) of the road in degrees.\n    gravity (float, optional): The acceleration due to gravity in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The maximum safe speed (V_max) in m/s.",
+        "python_code": "import math\n\ndef calculate_max_safe_speed_banked_road(radius: float, coefficient_of_static_friction: float, banking_angle_degrees: float, gravity: float = 9.81) -> float:\n    banking_angle_radians = math.radians(banking_angle_degrees)\n    tan_theta = math.tan(banking_angle_radians)\n    mu = coefficient_of_static_friction\n    numerator = radius * gravity * (mu + tan_theta)\n    denominator = 1 - mu * tan_theta\n    if denominator <= 0:\n        return float('inf')  # Speed is theoretically unlimited or angle is too steep\n    return math.sqrt(numerator / denominator)"
+      },
+      {
+        "formula_id": "8_N",
+        "function_name": "calculate_min_safe_speed_banked_road",
+        "docstring": "Calculates the minimum safe speed for a vehicle on a banked, frictional road to prevent sliding down.\n\nParameters:\n    radius (float): The radius of the curve in meters (m).\n    coefficient_of_static_friction (float): The coefficient of static friction (μ) (unitless).\n    banking_angle_degrees (float): The banking angle (θ) of the road in degrees.\n    gravity (float, optional): The acceleration due to gravity in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The minimum safe speed (V_min) in m/s.",
+        "python_code": "import math\n\ndef calculate_min_safe_speed_banked_road(radius: float, coefficient_of_static_friction: float, banking_angle_degrees: float, gravity: float = 9.81) -> float:\n    banking_angle_radians = math.radians(banking_angle_degrees)\n    tan_theta = math.tan(banking_angle_radians)\n    mu = coefficient_of_static_friction\n    numerator = radius * gravity * (tan_theta - mu)\n    denominator = 1 + mu * tan_theta\n    if numerator < 0:\n        return 0.0  # Friction is large enough to hold it even at rest\n    if denominator == 0:\n        return float('inf')\n    return math.sqrt(numerator / denominator)"
+      },
+      {
+        "formula_id": "8_O",
+        "function_name": "calculate_centrifugal_force",
+        "docstring": "Calculates the magnitude of the centrifugal pseudo-force in a rotating reference frame.\n\nParameters:\n    mass (float): The mass of the object in kilograms (kg).\n    angular_velocity (float): The angular velocity (ω) of the frame in rad/s.\n    radius (float): The distance of the object from the axis of rotation in meters (m).\n\nReturns:\n    float: The magnitude of the centrifugal force (f) in Newtons (N).",
+        "python_code": "def calculate_centrifugal_force(mass: float, angular_velocity: float, radius: float) -> float:\n    return mass * angular_velocity**2 * radius"
+      },
+      {
+        "formula_id": "8_P",
+        "function_name": "calculate_apparent_weight_earth_rotation",
+        "docstring": "Calculates the apparent weight (Normal force, N) of an object on Earth's surface, considering Earth's rotation.\n\nParameters:\n    mass (float): The mass of the object in kilograms (kg).\n    latitude_degrees (float): The latitude (θ) of the object's location in degrees.\n    earth_radius (float, optional): The radius of the Earth (R) in meters. Defaults to 6,371,000 m.\n    earth_angular_velocity (float, optional): The angular velocity of the Earth (ω) in rad/s. Defaults to 7.292e-5 rad/s.\n    gravity (float, optional): The acceleration due to gravity (g) in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The apparent weight (Normal force, N) in Newtons (N).",
+        "python_code": "import math\n\ndef calculate_apparent_weight_earth_rotation(mass: float, latitude_degrees: float, earth_radius: float = 6371000.0, earth_angular_velocity: float = 7.292e-5, gravity: float = 9.81) -> float:\n    latitude_radians = math.radians(latitude_degrees)\n    true_weight = mass * gravity\n    centrifugal_component = mass * earth_radius * earth_angular_velocity**2 * (math.cos(latitude_radians)**2)\n    return true_weight - centrifugal_component"
+      },
+      {
+        "formula_id": "8_Q",
+        "function_name": "calculate_conical_pendulum_period",
+        "docstring": "Calculates the time period (T) of a conical pendulum.\n\nParameters:\n    length (float): The length (L) of the pendulum string/rod in meters (m).\n    angle_degrees (float): The angle (θ) the string makes with the vertical in degrees.\n    gravity (float, optional): The acceleration due to gravity (g) in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The time period (T) in seconds (s).",
+        "python_code": "import math\n\ndef calculate_conical_pendulum_period(length: float, angle_degrees: float, gravity: float = 9.81) -> float:\n    if gravity == 0:\n        return float('inf')\n    angle_radians = math.radians(angle_degrees)\n    cos_theta = math.cos(angle_radians)\n    if cos_theta < 0:\n        return float('nan') # Angle > 90 degrees\n    return 2 * math.pi * math.sqrt(length * cos_theta / gravity)"
+      },
+      {
+        "formula_id": "8_R",
+        "function_name": "calculate_final_angular_velocity",
+        "docstring": "Calculates the final angular velocity (ω) for an object with constant angular acceleration.\n\nParameters:\n    initial_angular_velocity (float): The initial angular velocity (ω₀) in rad/s.\n    angular_acceleration (float): The constant angular acceleration (α) in rad/s^2.\n    time (float): The time interval (t) in seconds (s).\n\nReturns:\n    float: The final angular velocity (ω) in rad/s.",
+        "python_code": "def calculate_final_angular_velocity(initial_angular_velocity: float, angular_acceleration: float, time: float) -> float:\n    return initial_angular_velocity + angular_acceleration * time"
+      },
+      {
+        "formula_id": "8_S",
+        "function_name": "calculate_angular_displacement",
+        "docstring": "Calculates the angular displacement (θ) for an object with constant angular acceleration.\n\nParameters:\n    initial_angular_velocity (float): The initial angular velocity (ω₀) in rad/s.\n    angular_acceleration (float): The constant angular acceleration (α) in rad/s^2.\n    time (float): The time interval (t) in seconds (s).\n\nReturns:\n    float: The angular displacement (θ) in radians (rad).",
+        "python_code": "def calculate_angular_displacement(initial_angular_velocity: float, angular_acceleration: float, time: float) -> float:\n    return (initial_angular_velocity * time) + (0.5 * angular_acceleration * time**2)"
+      },
+      {
+        "formula_id": "8_T",
+        "function_name": "calculate_final_angular_velocity_from_displacement",
+        "docstring": "Calculates the final angular velocity (ω) for an object with constant angular acceleration, given the angular displacement.\n\nParameters:\n    initial_angular_velocity (float): The initial angular velocity (ω₀) in rad/s.\n    angular_acceleration (float): The constant angular acceleration (α) in rad/s^2.\n    angular_displacement (float): The angular displacement (θ) in radians (rad).\n\nReturns:\n    float: The magnitude of the final angular velocity (ω) in rad/s.",
+        "python_code": "import math\n\ndef calculate_final_angular_velocity_from_displacement(initial_angular_velocity: float, angular_acceleration: float, angular_displacement: float) -> float:\n    value = initial_angular_velocity**2 + 2 * angular_acceleration * angular_displacement\n    if value < 0:\n        return float('nan') # Imaginary result\n    return math.sqrt(value)"
+      }
+    ]
+  }

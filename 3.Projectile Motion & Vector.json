@@ -1,0 +1,76 @@
+{
+  "Projectile Motion & Vector": [
+      {
+        "formula_id": "3_A",
+        "function_name": "calculate_projectile_time_of_flight",
+        "docstring": "Calculates the total time of flight for a projectile on a level surface.\n\nParameters:\n    initial_speed (float): The initial launch speed (u) in m/s.\n    launch_angle_degrees (float): The launch angle (θ) with respect to the horizontal in degrees.\n    gravity (float, optional): The acceleration due to gravity (g) in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The total time of flight (T) in seconds (s).",
+        "python_code": "import math\n\ndef calculate_projectile_time_of_flight(initial_speed: float, launch_angle_degrees: float, gravity: float = 9.81) -> float:\n    if gravity == 0:\n        return float('inf')\n    launch_angle_radians = math.radians(launch_angle_degrees)\n    return (2 * initial_speed * math.sin(launch_angle_radians)) / gravity"
+      },
+      {
+        "formula_id": "3_B",
+        "function_name": "calculate_projectile_horizontal_range",
+        "docstring": "Calculates the horizontal range (R) for a projectile on a level surface.\n\nParameters:\n    initial_speed (float): The initial launch speed (u) in m/s.\n    launch_angle_degrees (float): The launch angle (θ) with respect to the horizontal in degrees.\n    gravity (float, optional): The acceleration due to gravity (g) in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The horizontal range (R) in meters (m).",
+        "python_code": "import math\n\ndef calculate_projectile_horizontal_range(initial_speed: float, launch_angle_degrees: float, gravity: float = 9.81) -> float:\n    if gravity == 0:\n        return float('inf')\n    launch_angle_radians = math.radians(launch_angle_degrees)\n    return (initial_speed**2 * math.sin(2 * launch_angle_radians)) / gravity"
+      },
+      {
+        "formula_id": "3_C",
+        "function_name": "calculate_projectile_max_height",
+        "docstring": "Calculates the maximum height (H) reached by a projectile on a level surface.\n\nParameters:\n    initial_speed (float): The initial launch speed (u) in m/s.\n    launch_angle_degrees (float): The launch angle (θ) with respect to the horizontal in degrees.\n    gravity (float, optional): The acceleration due to gravity (g) in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The maximum height (H) in meters (m).",
+        "python_code": "import math\n\ndef calculate_projectile_max_height(initial_speed: float, launch_angle_degrees: float, gravity: float = 9.81) -> float:\n    if gravity == 0:\n        return float('inf')\n    launch_angle_radians = math.radians(launch_angle_degrees)\n    return (initial_speed**2 * math.sin(launch_angle_radians)**2) / (2 * gravity)"
+      },
+      {
+        "formula_id": "3_D",
+        "function_name": "calculate_projectile_trajectory_y",
+        "docstring": "Calculates the vertical position (y) of a projectile given its horizontal position (x) (Trajectory Equation).\n\nParameters:\n    x_position (float): The horizontal distance (x) from the launch point in meters (m).\n    initial_speed (float): The initial launch speed (u) in m/s.\n    launch_angle_degrees (float): The launch angle (θ) with respect to the horizontal in degrees.\n    gravity (float, optional): The acceleration due to gravity (g) in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The vertical position (y) in meters (m).",
+        "python_code": "import math\n\ndef calculate_projectile_trajectory_y(x_position: float, initial_speed: float, launch_angle_degrees: float, gravity: float = 9.81) -> float:\n    launch_angle_radians = math.radians(launch_angle_degrees)\n    tan_theta = math.tan(launch_angle_radians)\n    cos_theta = math.cos(launch_angle_radians)\n    if initial_speed == 0 or cos_theta == 0:\n        return float('nan')\n    term1 = x_position * tan_theta\n    term2 = (gravity * x_position**2) / (2 * initial_speed**2 * cos_theta**2)\n    return term1 - term2"
+      },
+      {
+        "formula_id": "3_E",
+        "function_name": "calculate_projectile_trajectory_y_from_range",
+        "docstring": "Calculates the vertical position (y) of a projectile given its horizontal position (x) and total range (R) (Trajectory Equation).\n\nParameters:\n    x_position (float): The horizontal distance (x) from the launch point in meters (m).\n    horizontal_range (float): The total horizontal range (R) in meters (m).\n    launch_angle_degrees (float): The launch angle (θ) with respect to the horizontal in degrees.\n\nReturns:\n    float: The vertical position (y) in meters (m).",
+        "python_code": "import math\n\ndef calculate_projectile_trajectory_y_from_range(x_position: float, horizontal_range: float, launch_angle_degrees: float) -> float:\n    if horizontal_range == 0:\n        return float('nan')\n    launch_angle_radians = math.radians(launch_angle_degrees)\n    tan_theta = math.tan(launch_angle_radians)\n    return x_position * tan_theta * (1 - (x_position / horizontal_range))"
+      },
+      {
+        "formula_id": "3_F",
+        "function_name": "calculate_projectile_range_up_incline",
+        "docstring": "Calculates the range of a projectile launched up an inclined plane.\n\nParameters:\n    initial_speed (float): The initial launch speed (u) in m/s.\n    projection_angle_alpha_degrees (float): The projection angle (α) relative to the incline in degrees.\n    incline_angle_beta_degrees (float): The angle of the incline (β) relative to the horizontal in degrees.\n    gravity (float, optional): The acceleration due to gravity (g) in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The range (R) along the incline in meters (m).",
+        "python_code": "import math\n\ndef calculate_projectile_range_up_incline(initial_speed: float, projection_angle_alpha_degrees: float, incline_angle_beta_degrees: float, gravity: float = 9.81) -> float:\n    alpha_rad = math.radians(projection_angle_alpha_degrees)\n    beta_rad = math.radians(incline_angle_beta_degrees)\n    cos_beta = math.cos(beta_rad)\n    if gravity == 0 or cos_beta == 0:\n        return float('inf')\n    numerator = 2 * initial_speed**2 * math.sin(alpha_rad) * math.cos(alpha_rad + beta_rad)\n    denominator = gravity * cos_beta**2\n    return numerator / denominator"
+      },
+      {
+        "formula_id": "3_G",
+        "function_name": "calculate_projectile_time_on_incline",
+        "docstring": "Calculates the time of flight for a projectile launched on an inclined plane (either up or down).\n\nParameters:\n    initial_speed (float): The initial launch speed (u) in m/s.\n    projection_angle_alpha_degrees (float): The projection angle (α) relative to the incline in degrees.\n    incline_angle_beta_degrees (float): The angle of the incline (β) relative to the horizontal in degrees.\n    gravity (float, optional): The acceleration due to gravity (g) in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The total time of flight (T) in seconds (s).",
+        "python_code": "import math\n\ndef calculate_projectile_time_on_incline(initial_speed: float, projection_angle_alpha_degrees: float, incline_angle_beta_degrees: float, gravity: float = 9.81) -> float:\n    alpha_rad = math.radians(projection_angle_alpha_degrees)\n    beta_rad = math.radians(incline_angle_beta_degrees)\n    cos_beta = math.cos(beta_rad)\n    if gravity == 0 or cos_beta == 0:\n        return float('inf')\n    return (2 * initial_speed * math.sin(alpha_rad)) / (gravity * cos_beta)"
+      },
+      {
+        "formula_id": "3_H",
+        "function_name": "calculate_angle_for_max_range_up_incline",
+        "docstring": "Calculates the projection angle (α) relative to the incline that gives the maximum range up the incline.\n\nParameters:\n    incline_angle_beta_degrees (float): The angle of the incline (β) relative to the horizontal in degrees.\n\nReturns:\n    float: The projection angle (α) for maximum range in degrees.",
+        "python_code": "import math\n\ndef calculate_angle_for_max_range_up_incline(incline_angle_beta_degrees: float) -> float:\n    return 45 - (incline_angle_beta_degrees / 2)"
+      },
+      {
+        "formula_id": "3_I",
+        "function_name": "calculate_max_range_up_incline",
+        "docstring": "Calculates the maximum possible range of a projectile launched up an inclined plane.\n\nParameters:\n    initial_speed (float): The initial launch speed (u) in m/s.\n    incline_angle_beta_degrees (float): The angle of the incline (β) relative to the horizontal in degrees.\n    gravity (float, optional): The acceleration due to gravity (g) in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The maximum range (R_max) along the incline in meters (m).",
+        "python_code": "import math\n\ndef calculate_max_range_up_incline(initial_speed: float, incline_angle_beta_degrees: float, gravity: float = 9.81) -> float:\n    beta_rad = math.radians(incline_angle_beta_degrees)\n    denominator = gravity * (1 + math.sin(beta_rad))\n    if denominator == 0:\n        return float('inf')\n    return initial_speed**2 / denominator"
+      },
+      {
+        "formula_id": "3_J",
+        "function_name": "calculate_projectile_range_down_incline",
+        "docstring": "Calculates the range of a projectile launched down an inclined plane.\n\nParameters:\n    initial_speed (float): The initial launch speed (u) in m/s.\n    projection_angle_alpha_degrees (float): The projection angle (α) relative to the incline in degrees.\n    incline_angle_beta_degrees (float): The angle of the incline (β) relative to the horizontal in degrees.\n    gravity (float, optional): The acceleration due to gravity (g) in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The range (R) along the incline in meters (m).",
+        "python_code": "import math\n\ndef calculate_projectile_range_down_incline(initial_speed: float, projection_angle_alpha_degrees: float, incline_angle_beta_degrees: float, gravity: float = 9.81) -> float:\n    alpha_rad = math.radians(projection_angle_alpha_degrees)\n    beta_rad = math.radians(incline_angle_beta_degrees)\n    cos_beta = math.cos(beta_rad)\n    if gravity == 0 or cos_beta == 0:\n        return float('inf')\n    numerator = 2 * initial_speed**2 * math.sin(alpha_rad) * math.cos(alpha_rad - beta_rad)\n    denominator = gravity * cos_beta**2\n    return numerator / denominator"
+      },
+      {
+        "formula_id": "3_K",
+        "function_name": "calculate_angle_for_max_range_down_incline",
+        "docstring": "Calculates the projection angle (α) relative to the incline that gives the maximum range down the incline.\n\nParameters:\n    incline_angle_beta_degrees (float): The angle of the incline (β) relative to the horizontal in degrees.\n\nReturns:\n    float: The projection angle (α) for maximum range in degrees.",
+        "python_code": "import math\n\ndef calculate_angle_for_max_range_down_incline(incline_angle_beta_degrees: float) -> float:\n    return 45 + (incline_angle_beta_degrees / 2)"
+      },
+      {
+        "formula_id": "3_L",
+        "function_name": "calculate_max_range_down_incline",
+        "docstring": "Calculates the maximum possible range of a projectile launched down an inclined plane.\n\nParameters:\n    initial_speed (float): The initial launch speed (u) in m/s.\n    incline_angle_beta_degrees (float): The angle of the incline (β) relative to the horizontal in degrees.\n    gravity (float, optional): The acceleration due to gravity (g) in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The maximum range (R_max) along the incline in meters (m).",
+        "python_code": "import math\n\ndef calculate_max_range_down_incline(initial_speed: float, incline_angle_beta_degrees: float, gravity: float = 9.81) -> float:\n    beta_rad = math.radians(incline_angle_beta_degrees)\n    denominator = gravity * (1 - math.sin(beta_rad))\n    if denominator == 0:\n        return float('inf')\n    return initial_speed**2 / denominator"
+      }
+    ]
+  }

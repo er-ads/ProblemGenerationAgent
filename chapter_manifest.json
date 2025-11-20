@@ -1,0 +1,161 @@
+{
+  "chapter_manifest": {
+    "2.Rectilinear Motion": {
+      "description": "Covers the fundamental equations of motion (kinematics) in one dimension, assuming constant acceleration. Used to solve problems involving displacement, velocity, acceleration, and time for objects moving in a straight line, including free fall.",
+      "formula_names": [
+        "calculate_average_velocity",
+        "calculate_average_speed",
+        "calculate_average_acceleration",
+        "calculate_final_velocity_from_time",
+        "calculate_displacement_from_time",
+        "calculate_displacement_from_final_velocity",
+        "calculate_final_velocity_from_displacement",
+        "calculate_displacement_from_avg_velocity",
+        "calculate_displacement_in_nth_second",
+        "calculate_free_fall_velocity",
+        "calculate_free_fall_displacement",
+        "calculate_free_fall_velocity_from_displacement",
+        "calculate_free_fall_displacement_in_nth_second"
+      ]
+    },
+    "3.Projectile Motion & Vector": {
+      "description": "Analyzes the motion of objects launched into the air (projectiles) by separating motion into independent horizontal and vertical components. Solves for time of flight, range, and maximum height on both level surfaces and inclined planes.",
+      "formula_names": [
+        "calculate_projectile_time_of_flight",
+        "calculate_projectile_horizontal_range",
+        "calculate_projectile_max_height",
+        "calculate_projectile_trajectory_y",
+        "calculate_projectile_trajectory_y_from_range",
+        "calculate_projectile_range_up_incline",
+        "calculate_projectile_time_on_incline",
+        "calculate_angle_for_max_range_up_incline",
+        "calculate_max_range_up_incline",
+        "calculate_projectile_range_down_incline",
+        "calculate_angle_for_max_range_down_incline",
+        "calculate_max_range_down_incline"
+      ]
+    },
+    "4.Relative Motion": {
+      "description": "Defines motion as perceived from different (moving) frames of reference by using vector subtraction for velocity and acceleration. Solves problems like river crossings (shortest time vs. shortest path) and 'rain-man' scenarios.",
+      "formula_names": [
+        "calculate_relative_velocity_1d",
+        "calculate_relative_acceleration_1d",
+        "calculate_relative_position_1d",
+        "calculate_river_crossing_net_speed_shortest_time",
+        "calculate_river_crossing_net_speed_shortest_path",
+        "calculate_river_crossing_time_shortest_path",
+        "calculate_river_crossing_angle_shortest_path",
+        "calculate_relative_speed_rain_problem_perpendicular"
+      ]
+    },
+    "5.Newton's Laws of Motion": {
+      "description": "Focuses on the relationship between forces and motion (dynamics) using F=ma, and the concept of forces as interactions (3rd law). Solves problems involving springs (Hooke's Law), pulley systems (Atwood machines), and non-inertial (accelerating) reference frames.",
+      "formula_names": [
+        "calculate_net_force",
+        "calculate_spring_force",
+        "calculate_new_spring_constant_from_length",
+        "calculate_springs_in_series",
+        "calculate_springs_in_parallel",
+        "calculate_atwood_machine_acceleration",
+        "calculate_atwood_machine_tension",
+        "calculate_pulley_velocity",
+        "calculate_pulley_acceleration",
+        "calculate_pseudo_force"
+      ]
+    },
+    "6.Friction": {
+      "description": "Quantifies the forces that oppose relative motion or tendency of motion between surfaces in contact. Used to determine the 'f_k' (kinetic friction) for moving objects and the 'f_s_max' (static friction) threshold to initiate motion.",
+      "formula_names": [
+        "calculate_kinetic_friction",
+        "calculate_max_static_friction"
+      ]
+    },
+    "7.Work, Power & Energy": {
+      "description": "Introduces the concepts of energy, work, and power as alternative methods to analyze motion, especially when forces are not constant. Solves problems using the Work-Energy Theorem (W_net = ΔK) and the relationship between work, energy, and power (P = W/t).",
+      "formula_names": [
+        "calculate_work_done_constant_force",
+        "calculate_total_work_from_list",
+        "calculate_kinetic_energy_from_momentum",
+        "calculate_momentum_from_kinetic_energy",
+        "calculate_potential_energy_change_from_work",
+        "calculate_change_in_kinetic_energy",
+        "calculate_work_non_conservative_pseudo",
+        "calculate_average_power",
+        "calculate_instantaneous_power"
+      ]
+    },
+    "8.Circular Motion": {
+      "description": "Describes the motion of objects moving in a circle, introducing angular variables (ω, α) and centripetal force (F_c = mv²/r). Solves problems involving safe speeds on banked curves, motion in vertical loops, conical pendulums, and rotational kinematics.",
+      "formula_names": [
+        "calculate_average_angular_velocity",
+        "calculate_average_angular_acceleration",
+        "calculate_linear_speed_from_angular_velocity",
+        "calculate_tangential_acceleration",
+        "calculate_centripetal_acceleration",
+        "calculate_total_acceleration",
+        "calculate_radius_of_curvature",
+        "calculate_normal_force_concave_bridge",
+        "calculate_normal_force_convex_bridge",
+        "calculate_max_safe_speed_level_road",
+        "calculate_max_angular_velocity_platform",
+        "calculate_bending_angle",
+        "calculate_max_safe_speed_banked_road",
+        "calculate_min_safe_speed_banked_road",
+        "calculate_centrifugal_force",
+        "calculate_apparent_weight_earth_rotation",
+        "calculate_conical_pendulum_period",
+        "calculate_final_angular_velocity",
+        "calculate_angular_displacement",
+        "calculate_final_angular_velocity_from_displacement"
+      ]
+    },
+    "9.Centre of Mass": {
+      "description": "Analyzes the motion of systems of particles by tracking a single point (the center of mass) and using the conservation of momentum. Solves problems involving collisions (impulse, coefficient of restitution) and variable mass systems (rockets).",
+      "formula_names": [
+        "calculate_center_of_mass_1d",
+        "calculate_com_distances_two_masses",
+        "calculate_com_rectangular_plate",
+        "calculate_com_triangular_plate",
+        "calculate_com_semicircular_ring",
+        "calculate_com_semicircular_disc",
+        "calculate_com_hemispherical_shell",
+        "calculate_com_solid_hemisphere",
+        "calculate_com_solid_cone",
+        "calculate_com_hollow_cone",
+        "calculate_com_velocity_1d",
+        "calculate_system_momentum",
+        "calculate_com_acceleration_1d",
+        "calculate_net_external_force",
+        "calculate_impulse_from_momentum_change",
+        "calculate_coefficient_of_restitution_1d",
+        "calculate_thrust_force",
+        "calculate_rocket_final_velocity"
+      ]
+    },
+    "10.Rigid Body Dynamics": {
+      "description": "Extends dynamics to rotating extended objects, introducing torque (τ) as the rotational equivalent of force and moment of inertia (I) as rotational mass. Solves problems using τ = Iα, rotational kinetic energy, and angular momentum (L = Iω).",
+      "formula_names": [
+        "calculate_moment_of_inertia_discrete",
+        "calculate_Iz_perpendicular_axis",
+        "calculate_parallel_axis_inertia",
+        "calculate_inertia_solid_sphere",
+        "calculate_inertia_hollow_sphere",
+        "calculate_inertia_ring_perp_axis",
+        "calculate_inertia_disc_perp_axis",
+        "calculate_inertia_hollow_cylinder_axis",
+        "calculate_inertia_solid_cylinder_axis",
+        "calculate_inertia_rod_end",
+        "calculate_inertia_rod_center",
+        "calculate_inertia_rect_plate_perp_center",
+        "calculate_radius_of_gyration",
+        "calculate_torque_magnitude",
+        "calculate_angular_acceleration_from_torque",
+        "calculate_rotational_kinetic_energy",
+        "calculate_angular_momentum_particle_magnitude",
+        "calculate_angular_momentum_rigid_body",
+        "calculate_angular_momentum_change",
+        "calculate_total_kinetic_energy_rigid_body"
+      ]
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "Centre of Mass": [
+      {
+        "formula_id": "9_A",
+        "function_name": "calculate_center_of_mass_1d",
+        "docstring": "Calculates the center of mass (x_cm) for a 1D system of discrete particles.\n\nParameters:\n    masses (list[float]): A list of the masses of the particles in kilograms (kg).\n    positions (list[float]): A list of the corresponding 1D positions (x) of the particles in meters (m).\n\nReturns:\n    float: The position of the center of mass in meters (m).",
+        "python_code": "def calculate_center_of_mass_1d(masses: list[float], positions: list[float]) -> float:\n    if len(masses) != len(positions):\n        raise ValueError(\"Masses and positions lists must have the same length.\")\n    total_mass = sum(masses)\n    if total_mass == 0:\n        return 0.0\n    mass_moment = sum(m * p for m, p in zip(masses, positions))\n    return mass_moment / total_mass"
+      },
+      {
+        "formula_id": "9_B",
+        "function_name": "calculate_com_distances_two_masses",
+        "docstring": "Calculates the distance of two point masses from their mutual center of mass, given the distance between them.\n\nParameters:\n    mass_1 (float): The first mass (m1) in kilograms (kg).\n    mass_2 (float): The second mass (m2) in kilograms (kg).\n    total_distance (float): The total distance (L) separating the two masses in meters (m).\n\nReturns:\n    tuple[float, float]: A tuple containing (r1, r2), where r1 is the distance from m1 to the CoM and r2 is the distance from m2 to the CoM, both in meters (m).",
+        "python_code": "def calculate_com_distances_two_masses(mass_1: float, mass_2: float, total_distance: float) -> tuple[float, float]:\n    total_mass = mass_1 + mass_2\n    if total_mass == 0:\n        return (0.0, 0.0)\n    distance_from_m1 = (mass_2 * total_distance) / total_mass\n    distance_from_m2 = (mass_1 * total_distance) / total_mass\n    return (distance_from_m1, distance_from_m2)"
+      },
+      {
+        "formula_id": "9_C",
+        "function_name": "calculate_com_rectangular_plate",
+        "docstring": "Calculates the center of mass (x_c, y_c) of a uniform rectangular plate, relative to one corner (0,0).\n\nParameters:\n    base (float): The length of the plate along the x-axis (b) in meters (m).\n    height (float): The length of the plate along the y-axis (L) in meters (m).\n\nReturns:\n    tuple[float, float]: The (x, y) coordinates of the center of mass in meters (m).",
+        "python_code": "def calculate_com_rectangular_plate(base: float, height: float) -> tuple[float, float]:\n    return (base / 2, height / 2)"
+      },
+      {
+        "formula_id": "9_D",
+        "function_name": "calculate_com_triangular_plate",
+        "docstring": "Calculates the y-coordinate of the center of mass for a uniform triangular plate, measured from its base.\n\nParameters:\n    height (float): The height (h) of the triangle perpendicular to the base in meters (m).\n\nReturns:\n    float: The y-coordinate (y_c) of the center of mass from the base in meters (m).",
+        "python_code": "def calculate_com_triangular_plate(height: float) -> float:\n    return height / 3"
+      },
+      {
+        "formula_id": "9_E",
+        "function_name": "calculate_com_semicircular_ring",
+        "docstring": "Calculates the y-coordinate of the center of mass for a uniform semicircular ring, measured from the center of the diameter.\n\nParameters:\n    radius (float): The radius (R) of the ring in meters (m).\n\nReturns:\n    float: The y-coordinate (y_c) of the center of mass in meters (m).",
+        "python_code": "import math\n\ndef calculate_com_semicircular_ring(radius: float) -> float:\n    if math.pi == 0:\n        return 0.0\n    return (2 * radius) / math.pi"
+      },
+      {
+        "formula_id": "9_F",
+        "function_name": "calculate_com_semicircular_disc",
+        "docstring": "Calculates the y-coordinate of the center of mass for a uniform semicircular disc, measured from the center of the diameter.\n\nParameters:\n    radius (float): The radius (R) of the disc in meters (m).\n\nReturns:\n    float: The y-coordinate (y_c) of the center of mass in meters (m).",
+        "python_code": "import math\n\ndef calculate_com_semicircular_disc(radius: float) -> float:\n    if 3 * math.pi == 0:\n        return 0.0\n    return (4 * radius) / (3 * math.pi)"
+      },
+      {
+        "formula_id": "9_G",
+        "function_name": "calculate_com_hemispherical_shell",
+        "docstring": "Calculates the y-coordinate of the center of mass for a uniform hemispherical shell, measured from the center of its circular base.\n\nParameters:\n    radius (float): The radius (R) of the shell in meters (m).\n\nReturns:\n    float: The y-coordinate (y_c) of the center of mass in meters (m).",
+        "python_code": "def calculate_com_hemispherical_shell(radius: float) -> float:\n    return radius / 2"
+      },
+      {
+        "formula_id": "9_H",
+        "function_name": "calculate_com_solid_hemisphere",
+        "docstring": "Calculates the y-coordinate of the center of mass for a uniform solid hemisphere, measured from the center of its circular base.\n\nParameters:\n    radius (float): The radius (R) of the hemisphere in meters (m).\n\nReturns:\n    float: The y-coordinate (y_c) of the center of mass in meters (m).",
+        "python_code": "def calculate_com_solid_hemisphere(radius: float) -> float:\n    return (3 * radius) / 8"
+      },
+      {
+        "formula_id": "9_I",
+        "function_name": "calculate_com_solid_cone",
+        "docstring": "Calculates the y-coordinate of the center of mass for a uniform solid circular cone, measured from the center of its base.\n\nParameters:\n    height (float): The height (h) of the cone in meters (m).\n\nReturns:\n    float: The y-coordinate (y_c) of the center of mass in meters (m).",
+        "python_code": "def calculate_com_solid_cone(height: float) -> float:\n    return height / 4"
+      },
+      {
+        "formula_id": "9_J",
+        "function_name": "calculate_com_hollow_cone",
+        "docstring": "Calculates the y-coordinate of the center of mass for a uniform hollow circular cone (surface only), measured from the center of its base.\n\nParameters:\n    height (float): The height (h) of the cone in meters (m).\n\nReturns:\n    float: The y-coordinate (y_c) of the center of mass in meters (m).",
+        "python_code": "def calculate_com_hollow_cone(height: float) -> float:\n    return height / 3"
+      },
+      {
+        "formula_id": "9_K",
+        "function_name": "calculate_com_velocity_1d",
+        "docstring": "Calculates the velocity of the center of mass (v_cm) for a 1D system of discrete particles.\n\nParameters:\n    masses (list[float]): A list of the masses of the particles in kilograms (kg).\n    velocities (list[float]): A list of the corresponding 1D velocities (v) of the particles in m/s.\n\nReturns:\n    float: The velocity of the center of mass in m/s.",
+        "python_code": "def calculate_com_velocity_1d(masses: list[float], velocities: list[float]) -> float:\n    if len(masses) != len(velocities):\n        raise ValueError(\"Masses and velocities lists must have the same length.\")\n    total_mass = sum(masses)\n    if total_mass == 0:\n        return 0.0\n    total_momentum = sum(m * v for m, v in zip(masses, velocities))\n    return total_momentum / total_mass"
+      },
+      {
+        "formula_id": "9_L",
+        "function_name": "calculate_system_momentum",
+        "docstring": "Calculates the total linear momentum (P_system) of a system of particles.\n\nParameters:\n    total_mass (float): The total mass (M) of the system in kilograms (kg).\n    com_velocity (float): The velocity of the center of mass (v_cm) in m/s.\n\nReturns:\n    float: The total linear momentum of the system in kilogram-meters per second (kg·m/s).",
+        "python_code": "def calculate_system_momentum(total_mass: float, com_velocity: float) -> float:\n    return total_mass * com_velocity"
+      },
+      {
+        "formula_id": "9_M",
+        "function_name": "calculate_com_acceleration_1d",
+        "docstring": "Calculates the acceleration of the center of mass (a_cm) for a 1D system of discrete particles.\n\nParameters:\n    masses (list[float]): A list of the masses of the particles in kilograms (kg).\n    accelerations (list[float]): A list of the corresponding 1D accelerations (a) of the particles in m/s^2.\n\nReturns:\n    float: The acceleration of the center of mass in m/s^2.",
+        "python_code": "def calculate_com_acceleration_1d(masses: list[float], accelerations: list[float]) -> float:\n    if len(masses) != len(accelerations):\n        raise ValueError(\"Masses and accelerations lists must have the same length.\")\n    total_mass = sum(masses)\n    if total_mass == 0:\n        return 0.0\n    total_force = sum(m * a for m, a in zip(masses, accelerations))\n    return total_force / total_mass"
+      },
+      {
+        "formula_id": "9_N",
+        "function_name": "calculate_net_external_force",
+        "docstring": "Calculates the net external force (F_ext) on a system using Newton's second law for a system.\n\nParameters:\n    total_mass (float): The total mass (M) of the system in kilograms (kg).\n    com_acceleration (float): The acceleration of the center of mass (a_cm) in m/s^2.\n\nReturns:\n    float: The net external force on the system in Newtons (N).",
+        "python_code": "def calculate_net_external_force(total_mass: float, com_acceleration: float) -> float:\n    return total_mass * com_acceleration"
+      },
+      {
+        "formula_id": "9_O",
+        "function_name": "calculate_impulse_from_momentum_change",
+        "docstring": "Calculates the impulse (J) applied to an object based on its change in linear momentum (ΔP).\n\nParameters:\n    final_momentum (float): The final momentum (P_f) in kg·m/s.\n    initial_momentum (float): The initial momentum (P_i) in kg·m/s.\n\nReturns:\n    float: The impulse (J) in Newton-seconds (N·s).",
+        "python_code": "def calculate_impulse_from_momentum_change(final_momentum: float, initial_momentum: float) -> float:\n    return final_momentum - initial_momentum"
+      },
+      {
+        "formula_id": "9_P",
+        "function_name": "calculate_coefficient_of_restitution_1d",
+        "docstring": "Calculates the coefficient of restitution (e) for a 1D collision between two objects.\n\nParameters:\n    initial_velocity_1 (float): Initial velocity of the first object (u1) in m/s.\n    initial_velocity_2 (float): Initial velocity of the second object (u2) in m/s.\n    final_velocity_1 (float): Final velocity of the first object (v1) in m/s.\n    final_velocity_2 (float): Final velocity of the second object (v2) in m/s.\n\nReturns:\n    float: The coefficient of restitution (e) (unitless).",
+        "python_code": "def calculate_coefficient_of_restitution_1d(initial_velocity_1: float, initial_velocity_2: float, final_velocity_1: float, final_velocity_2: float) -> float:\n    velocity_of_approach = initial_velocity_1 - initial_velocity_2\n    velocity_of_separation = final_velocity_2 - final_velocity_1\n    if velocity_of_approach == 0:\n        return float('inf')  # Or 1.0 if they were already touching\n    return velocity_of_separation / velocity_of_approach"
+      },
+      {
+        "formula_id": "9_Q",
+        "function_name": "calculate_thrust_force",
+        "docstring": "Calculates the thrust force (Ft) generated by ejecting or adding mass at a constant relative velocity.\n\nParameters:\n    relative_velocity (float): The relative velocity (v_rel) of the ejected/added mass w.r.t. the system in m/s.\n    mass_flow_rate (float): The rate of change of mass (dm/dt) in kg/s.\n\nReturns:\n    float: The thrust force (Ft) in Newtons (N).",
+        "python_code": "def calculate_thrust_force(relative_velocity: float, mass_flow_rate: float) -> float:\n    return relative_velocity * mass_flow_rate"
+      },
+      {
+        "formula_id": "9_R",
+        "function_name": "calculate_rocket_final_velocity",
+        "docstring": "Calculates the final velocity (v) of a rocket (Tsiolkovsky rocket equation), ignoring gravity and starting from rest.\n\nParameters:\n    exhaust_velocity (float): The relative exhaust velocity of the propellant (v_r) in m/s.\n    initial_mass (float): The initial total mass of the rocket (m0) in kg.\n    final_mass (float): The final mass of the rocket after propellant is expended (m) in kg.\n\nReturns:\n    float: The final velocity (v) of the rocket in m/s.",
+        "python_code": "import math\n\ndef calculate_rocket_final_velocity(exhaust_velocity: float, initial_mass: float, final_mass: float) -> float:\n    if final_mass <= 0 or initial_mass <= 0 or final_mass > initial_mass:\n        return float('nan')\n    return exhaust_velocity * math.log(initial_mass / final_mass)"
+      }
+    ]
+  }

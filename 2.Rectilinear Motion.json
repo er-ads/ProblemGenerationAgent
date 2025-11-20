@@ -1,0 +1,82 @@
+{
+    "Rectilinear Motion": [
+      {
+        "formula_id": "2_A",
+        "function_name": "calculate_average_velocity",
+        "docstring": "Calculates the average velocity (in one dimension) over a time interval.\n\nParameters:\n    final_position (float): The final position (rf or xf) in meters (m).\n    initial_position (float): The initial position (ri or xi) in meters (m).\n    time_interval (float): The total time taken (Δt) in seconds (s).\n\nReturns:\n    float: The average velocity (v_av) in meters per second (m/s).",
+        "python_code": "def calculate_average_velocity(final_position: float, initial_position: float, time_interval: float) -> float:\n    if time_interval == 0:\n        return float('inf')\n    return (final_position - initial_position) / time_interval"
+      },
+      {
+        "formula_id": "2_B",
+        "function_name": "calculate_average_speed",
+        "docstring": "Calculates the average speed over a time interval.\n\nParameters:\n    total_distance (float): The total distance travelled in meters (m).\n    total_time (float): The total time taken in seconds (s).\n\nReturns:\n    float: The average speed in meters per second (m/s).",
+        "python_code": "def calculate_average_speed(total_distance: float, total_time: float) -> float:\n    if total_time == 0:\n        return float('inf')\n    return total_distance / total_time"
+      },
+      {
+        "formula_id": "2_C",
+        "function_name": "calculate_average_acceleration",
+        "docstring": "Calculates the average acceleration (in one dimension) over a time interval.\n\nParameters:\n    final_velocity (float): The final velocity (vf) in meters per second (m/s).\n    initial_velocity (float): The initial velocity (vi) in meters per second (m/s).\n    time_interval (float): The total time taken (Δt) in seconds (s).\n\nReturns:\n    float: The average acceleration (a_av) in meters per second squared (m/s^2).",
+        "python_code": "def calculate_average_acceleration(final_velocity: float, initial_velocity: float, time_interval: float) -> float:\n    if time_interval == 0:\n        return float('inf')\n    return (final_velocity - initial_velocity) / time_interval"
+      },
+      {
+        "formula_id": "2_D",
+        "function_name": "calculate_final_velocity_from_time",
+        "docstring": "Calculates the final velocity (v) of an object under constant acceleration (v = u + at).\n\nParameters:\n    initial_velocity (float): The initial velocity (u) in m/s.\n    acceleration (float): The constant acceleration (a) in m/s^2.\n    time (float): The time interval (t) in seconds (s).\n\nReturns:\n    float: The final velocity (v) in m/s.",
+        "python_code": "def calculate_final_velocity_from_time(initial_velocity: float, acceleration: float, time: float) -> float:\n    return initial_velocity + (acceleration * time)"
+      },
+      {
+        "formula_id": "2_E",
+        "function_name": "calculate_displacement_from_time",
+        "docstring": "Calculates the displacement (s) of an object under constant acceleration (s = ut + 0.5at^2).\n\nParameters:\n    initial_velocity (float): The initial velocity (u) in m/s.\n    acceleration (float): The constant acceleration (a) in m/s^2.\n    time (float): The time interval (t) in seconds (s).\n\nReturns:\n    float: The displacement (s) in meters (m).",
+        "python_code": "def calculate_displacement_from_time(initial_velocity: float, acceleration: float, time: float) -> float:\n    return (initial_velocity * time) + (0.5 * acceleration * time**2)"
+      },
+      {
+        "formula_id": "2_F",
+        "function_name": "calculate_displacement_from_final_velocity",
+        "docstring": "Calculates the displacement (s) of an object under constant acceleration (s = vt - 0.5at^2).\n\nParameters:\n    final_velocity (float): The final velocity (v) in m/s.\n    acceleration (float): The constant acceleration (a) in m/s^2.\n    time (float): The time interval (t) in seconds (s).\n\nReturns:\n    float: The displacement (s) in meters (m).",
+        "python_code": "def calculate_displacement_from_final_velocity(final_velocity: float, acceleration: float, time: float) -> float:\n    return (final_velocity * time) - (0.5 * acceleration * time**2)"
+      },
+      {
+        "formula_id": "2_G",
+        "function_name": "calculate_final_velocity_from_displacement",
+        "docstring": "Calculates the final velocity (v) of an object under constant acceleration (v^2 = u^2 + 2as). Returns the magnitude (positive root).\n\nParameters:\n    initial_velocity (float): The initial velocity (u) in m/s.\n    acceleration (float): The constant acceleration (a) in m/s^2.\n    displacement (float): The displacement (s) in meters (m).\n\nReturns:\n    float: The magnitude of the final velocity (v) in m/s.",
+        "python_code": "import math\n\ndef calculate_final_velocity_from_displacement(initial_velocity: float, acceleration: float, displacement: float) -> float:\n    value = initial_velocity**2 + 2 * acceleration * displacement\n    if value < 0:\n        return float('nan')  # Represents an imaginary velocity\n    return math.sqrt(value)"
+      },
+      {
+        "formula_id": "2_H",
+        "function_name": "calculate_displacement_from_avg_velocity",
+        "docstring": "Calculates the displacement (s) of an object under constant acceleration using the average velocity (s = (u+v)t / 2).\n\nParameters:\n    initial_velocity (float): The initial velocity (u) in m/s.\n    final_velocity (float): The final velocity (v) in m/s.\n    time (float): The time interval (t) in seconds (s).\n\nReturns:\n    float: The displacement (s) in meters (m).",
+        "python_code": "def calculate_displacement_from_avg_velocity(initial_velocity: float, final_velocity: float, time: float) -> float:\n    return (initial_velocity + final_velocity) / 2 * time"
+      },
+      {
+        "formula_id": "2_I",
+        "function_name": "calculate_displacement_in_nth_second",
+        "docstring": "Calculates the displacement (s_n) during the nth second of motion under constant acceleration (s_n = u + a/2 * (2n-1)).\n\nParameters:\n    initial_velocity (float): The initial velocity (u) in m/s.\n    acceleration (float): The constant acceleration (a) in m/s^2.\n    second_number (int): The specific second (n) (e.g., 1 for first second, 2 for second second).\n\nReturns:\n    float: The displacement during the nth second in meters (m).",
+        "python_code": "def calculate_displacement_in_nth_second(initial_velocity: float, acceleration: float, second_number: int) -> float:\n    return initial_velocity + (acceleration / 2) * (2 * second_number - 1)"
+      },
+      {
+        "formula_id": "2_J",
+        "function_name": "calculate_free_fall_velocity",
+        "docstring": "Calculates the velocity (v) of a freely falling body (starting from rest) with upward as positive (v = -gt).\n\nParameters:\n    time (float): The time interval (t) in seconds (s).\n    gravity (float, optional): The acceleration due to gravity (g) in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The final velocity (v) in m/s.",
+        "python_code": "def calculate_free_fall_velocity(time: float, gravity: float = 9.81) -> float:\n    return -gravity * time"
+      },
+      {
+        "formula_id": "2_K",
+        "function_name": "calculate_free_fall_displacement",
+        "docstring": "Calculates the displacement (s) of a freely falling body (starting from rest) with upward as positive (s = -0.5gt^2).\n\nParameters:\n    time (float): The time interval (t) in seconds (s).\n    gravity (float, optional): The acceleration due to gravity (g) in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The displacement (s) in meters (m).",
+        "python_code": "def calculate_free_fall_displacement(time: float, gravity: float = 9.81) -> float:\n    return -0.5 * gravity * time**2"
+      },
+      {
+        "formula_id": "2_L",
+        "function_name": "calculate_free_fall_velocity_from_displacement",
+        "docstring": "Calculates the velocity (v) of a freely falling body (starting from rest) given its displacement (v^2 = -2gs). Returns magnitude.\n\nParameters:\n    displacement (float): The displacement (s) in meters (m). Assumed to be negative for downward motion.\n    gravity (float, optional): The acceleration due to gravity (g) in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The magnitude of the final velocity (v) in m/s.",
+        "python_code": "import math\n\ndef calculate_free_fall_velocity_from_displacement(displacement: float, gravity: float = 9.81) -> float:\n    value = -2 * gravity * displacement\n    if value < 0:\n        return float('nan')\n    return math.sqrt(value)"
+      },
+      {
+        "formula_id": "2_M",
+        "function_name": "calculate_free_fall_displacement_in_nth_second",
+        "docstring": "Calculates the displacement (s_n) of a freely falling body (starting from rest) during the nth second (s_n = -g/2 * (2n-1)).\n\nParameters:\n    second_number (int): The specific second (n) (e.g., 1 for first second, 2 for second second).\n    gravity (float, optional): The acceleration due to gravity (g) in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The displacement during the nth second in meters (m).",
+        "python_code": "def calculate_free_fall_displacement_in_nth_second(second_number: int, gravity: float = 9.81) -> float:\n    return (-gravity / 2) * (2 * second_number - 1)"
+      }
+    ]
+  }

@@ -1,0 +1,58 @@
+{
+  "Work, Power & Energy": [
+      {
+        "formula_id": "7_A",
+        "function_name": "calculate_work_done_constant_force",
+        "docstring": "Calculates the work done by a constant force, given the force, displacement, and the angle between them (W = F · S).\n\nParameters:\n    force_magnitude (float): The magnitude of the constant force in Newtons (N).\n    displacement_magnitude (float): The magnitude of the displacement in meters (m).\n    angle_degrees (float): The angle between the force and displacement vectors in degrees.\n\nReturns:\n    float: The work done in Joules (J).",
+        "python_code": "import math\n\ndef calculate_work_done_constant_force(force_magnitude: float, displacement_magnitude: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return force_magnitude * displacement_magnitude * math.cos(angle_radians)"
+      },
+      {
+        "formula_id": "7_B",
+        "function_name": "calculate_total_work_from_list",
+        "docstring": "Calculates the total or net work done on an object by summing the work done by individual forces.\n\nParameters:\n    work_list (list[float]): A list of work values (W1, W2, ...) in Joules (J).\n\nReturns:\n    float: The total work done in Joules (J).",
+        "python_code": "def calculate_total_work_from_list(work_list: list[float]) -> float:\n    return sum(work_list)"
+      },
+      {
+        "formula_id": "7_C",
+        "function_name": "calculate_kinetic_energy_from_momentum",
+        "docstring": "Calculates the kinetic energy (K) of an object given its linear momentum (P) and mass (m).\n\nParameters:\n    momentum (float): The linear momentum of the object in kilogram-meters per second (kg·m/s).\n    mass (float): The mass of the object in kilograms (kg).\n\nReturns:\n    float: The kinetic energy in Joules (J).",
+        "python_code": "def calculate_kinetic_energy_from_momentum(momentum: float, mass: float) -> float:\n    if mass == 0:\n        return float('inf')\n    return (momentum**2) / (2 * mass)"
+      },
+      {
+        "formula_id": "7_D",
+        "function_name": "calculate_momentum_from_kinetic_energy",
+        "docstring": "Calculates the magnitude of the linear momentum (P) of an object given its kinetic energy (K) and mass (m).\n\nParameters:\n    kinetic_energy (float): The kinetic energy of the object in Joules (J).\n    mass (float): The mass of the object in kilograms (kg).\n\nReturns:\n    float: The magnitude of the linear momentum in kilogram-meters per second (kg·m/s).",
+        "python_code": "import math\n\ndef calculate_momentum_from_kinetic_energy(kinetic_energy: float, mass: float) -> float:\n    if kinetic_energy < 0 or mass < 0:\n        return float('nan')\n    return math.sqrt(2 * mass * kinetic_energy)"
+      },
+      {
+        "formula_id": "7_E",
+        "function_name": "calculate_potential_energy_change_from_work",
+        "docstring": "Calculates the change in potential energy (ΔU) based on the work (W) done by a conservative force.\n\nParameters:\n    work_by_conservative_force (float): The work done by the conservative force in Joules (J).\n\nReturns:\n    float: The change in potential energy (U2 - U1) in Joules (J).",
+        "python_code": "def calculate_potential_energy_change_from_work(work_by_conservative_force: float) -> float:\n    return -work_by_conservative_force"
+      },
+      {
+        "formula_id": "7_F",
+        "function_name": "calculate_change_in_kinetic_energy",
+        "docstring": "Calculates the change in kinetic energy (ΔK) of a system using the Work-Energy Theorem.\n\nParameters:\n    work_conservative (float): Work done by conservative forces in Joules (J).\n    work_non_conservative (float): Work done by non-conservative forces in Joules (J).\n    work_pseudo_force (float): Work done by pseudo-forces in Joules (J).\n\nReturns:\n    float: The change in kinetic energy (ΔK) in Joules (J).",
+        "python_code": "def calculate_change_in_kinetic_energy(work_conservative: float, work_non_conservative: float, work_pseudo_force: float) -> float:\n    return work_conservative + work_non_conservative + work_pseudo_force"
+      },
+      {
+        "formula_id": "7_G",
+        "function_name": "calculate_work_non_conservative_pseudo",
+        "docstring": "Calculates the sum of work done by non-conservative (W_NC) and pseudo-forces (W_PS) using the modified work-energy theorem.\n\nParameters:\n    delta_kinetic_energy (float): The change in kinetic energy (ΔK) in Joules (J).\n    delta_potential_energy (float): The change in potential energy (ΔU) in Joules (J).\n\nReturns:\n    float: The sum of non-conservative and pseudo-force work (W_NC + W_PS) in Joules (J).",
+        "python_code": "def calculate_work_non_conservative_pseudo(delta_kinetic_energy: float, delta_potential_energy: float) -> float:\n    return delta_kinetic_energy + delta_potential_energy"
+      },
+      {
+        "formula_id": "7_H",
+        "function_name": "calculate_average_power",
+        "docstring": "Calculates the average power (P_avg) delivered by an agent.\n\nParameters:\n    work (float): The total work done in Joules (J).\n    time (float): The time interval over which the work was done in seconds (s).\n\nReturns:\n    float: The average power in Watts (W).",
+        "python_code": "def calculate_average_power(work: float, time: float) -> float:\n    if time == 0:\n        return float('inf')\n    return work / time"
+      },
+      {
+        "formula_id": "7_I",
+        "function_name": "calculate_instantaneous_power",
+        "docstring": "Calculates the instantaneous power (P) delivered by a force, given the force, velocity, and the angle between them (P = F · v).\n\nParameters:\n    force_magnitude (float): The magnitude of the force in Newtons (N).\n    velocity_magnitude (float): The magnitude of the velocity in meters per second (m/s).\n    angle_degrees (float): The angle between the force and velocity vectors in degrees.\n\nReturns:\n    float: The instantaneous power in Watts (W).",
+        "python_code": "import math\n\ndef calculate_instantaneous_power(force_magnitude: float, velocity_magnitude: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return force_magnitude * velocity_magnitude * math.cos(angle_radians)"
+      }
+    ]
+  }

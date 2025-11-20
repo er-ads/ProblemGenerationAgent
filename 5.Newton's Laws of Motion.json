@@ -1,0 +1,63 @@
+{"Newton's Laws of Motion": [
+      {
+        "formula_id": "5_A",
+        "function_name": "calculate_net_force",
+        "docstring": "Calculates the net force (in one dimension) acting on an object using Newton's Second Law (F = ma).\n\nParameters:\n    mass (float): Mass of the object in kilograms (kg).\n    acceleration (float): Acceleration of the object in meters per second squared (m/s^2).\n\nReturns:\n    float: The net force in Newtons (N).",
+        "python_code": "def calculate_net_force(mass: float, acceleration: float) -> float:\n    return mass * acceleration"
+      },
+      {
+        "formula_id": "5_B",
+        "function_name": "calculate_spring_force",
+        "docstring": "Calculates the restoring force exerted by an ideal spring according to Hooke's Law (F = -kx).\n\nParameters:\n    spring_constant (float): The spring constant (k) in Newtons per meter (N/m).\n    displacement (float): The displacement (x) of the free end from its natural length in meters (m).\n\nReturns:\n    float: The restoring force in Newtons (N). The negative sign indicates the force opposes the displacement.",
+        "python_code": "def calculate_spring_force(spring_constant: float, displacement: float) -> float:\n    return -spring_constant * displacement"
+      },
+      {
+        "formula_id": "5_C",
+        "function_name": "calculate_new_spring_constant_from_length",
+        "docstring": "Calculates the new spring constant (k2) when a spring of known constant (k1) and length (l1) is cut to a new length (l2). Assumes k*l = constant.\n\nParameters:\n    original_spring_constant (float): The original spring constant (k1) in N/m.\n    original_length (float): The original natural length (l1) of the spring in meters.\n    new_length (float): The new natural length (l2) of the cut spring in meters.\n\nReturns:\n    float: The new spring constant (k2) in N/m.",
+        "python_code": "def calculate_new_spring_constant_from_length(original_spring_constant: float, original_length: float, new_length: float) -> float:\n    if new_length == 0:\n        return float('inf')  # Or raise an error\n    return (original_spring_constant * original_length) / new_length"
+      },
+      {
+        "formula_id": "5_D",
+        "function_name": "calculate_springs_in_series",
+        "docstring": "Calculates the equivalent spring constant (k_eq) for a list of springs connected in series.\n\nParameters:\n    spring_constants (list[float]): A list of the spring constants (k1, k2, ...) in N/m.\n\nReturns:\n    float: The equivalent spring constant in N/m.",
+        "python_code": "def calculate_springs_in_series(spring_constants: list[float]) -> float:\n    if not spring_constants:\n        return 0.0\n    inverse_sum = sum(1 / k for k in spring_constants if k != 0)\n    if inverse_sum == 0:\n        return 0.0\n    return 1 / inverse_sum"
+      },
+      {
+        "formula_id": "5_E",
+        "function_name": "calculate_springs_in_parallel",
+        "docstring": "Calculates the equivalent spring constant (k_eq) for a list of springs connected in parallel.\n\nParameters:\n    spring_constants (list[float]): A list of the spring constants (k1, k2, ...) in N/m.\n\nReturns:\n    float: The equivalent spring constant in N/m.",
+        "python_code": "def calculate_springs_in_parallel(spring_constants: list[float]) -> float:\n    return sum(spring_constants)"
+      },
+      {
+        "formula_id": "5_F",
+        "function_name": "calculate_atwood_machine_acceleration",
+        "docstring": "Calculates the acceleration of a simple Atwood machine with two masses over a frictionless, massless pulley.\n\nParameters:\n    mass_1 (float): The first mass (m1) in kilograms (kg).\n    mass_2 (float): The second mass (m2) in kilograms (kg).\n    gravity (float, optional): The acceleration due to gravity (g) in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The acceleration (a) of the system in m/s^2. A positive value assumes m2 accelerates downward.",
+        "python_code": "def calculate_atwood_machine_acceleration(mass_1: float, mass_2: float, gravity: float = 9.81) -> float:\n    if mass_1 + mass_2 == 0:\n        return 0.0\n    return (mass_2 - mass_1) * gravity / (mass_1 + mass_2)"
+      },
+      {
+        "formula_id": "5_G",
+        "function_name": "calculate_atwood_machine_tension",
+        "docstring": "Calculates the tension in the string of a simple Atwood machine with two masses.\n\nParameters:\n    mass_1 (float): The first mass (m1) in kilograms (kg).\n    mass_2 (float): The second mass (m2) in kilograms (kg).\n    gravity (float, optional): The acceleration due to gravity (g) in m/s^2. Defaults to 9.81.\n\nReturns:\n    float: The tension (T) in the string in Newtons (N).",
+        "python_code": "def calculate_atwood_machine_tension(mass_1: float, mass_2: float, gravity: float = 9.81) -> float:\n    if mass_1 + mass_2 == 0:\n        return 0.0\n    return (2 * mass_1 * mass_2 * gravity) / (mass_1 + mass_2)"
+      },
+      {
+        "formula_id": "5_H",
+        "function_name": "calculate_pulley_velocity",
+        "docstring": "Calculates the velocity of a movable pulley (Vp) based on the velocities of the two masses (V1, V2) it supports.\n\nParameters:\n    velocity_1 (float): The velocity of the first mass (V1) in m/s.\n    velocity_2 (float): The velocity of the second mass (V2) in m/s.\n\nReturns:\n    float: The velocity of the pulley (Vp) in m/s.",
+        "python_code": "def calculate_pulley_velocity(velocity_1: float, velocity_2: float) -> float:\n    return (velocity_1 + velocity_2) / 2"
+      },
+      {
+        "formula_id": "5_I",
+        "function_name": "calculate_pulley_acceleration",
+        "docstring": "Calculates the acceleration of a movable pulley (ap) based on the accelerations of the two masses (a1, a2) it supports.\n\nParameters:\n    acceleration_1 (float): The acceleration of the first mass (a1) in m/s^2.\n    acceleration_2 (float): The acceleration of the second mass (a2) in m/s^2.\n\nReturns:\n    float: The acceleration of the pulley (ap) in m/s^2.",
+        "python_code": "def calculate_pulley_acceleration(acceleration_1: float, acceleration_2: float) -> float:\n    return (acceleration_1 + acceleration_2) / 2"
+      },
+      {
+        "formula_id": "5_J",
+        "function_name": "calculate_pseudo_force",
+        "docstring": "Calculates the pseudo force experienced by an object in a non-inertial (accelerating) frame of reference.\n\nParameters:\n    mass (float): The mass (m) of the object in kilograms (kg).\n    frame_acceleration (float): The acceleration of the reference frame (a_frame) in m/s^2.\n\nReturns:\n    float: The pseudo force in Newtons (N). The force acts in the direction opposite to the frame's acceleration.",
+        "python_code": "def calculate_pseudo_force(mass: float, frame_acceleration: float) -> float:\n    return -mass * frame_acceleration"
+      }
+    ]
+  }

@@ -1,0 +1,52 @@
+{
+  "Relative Motion": [
+      {
+        "formula_id": "4_A",
+        "function_name": "calculate_relative_velocity_1d",
+        "docstring": "Calculates the relative velocity of object A with respect to object B in one dimension.\n\nParameters:\n    velocity_A (float): The velocity of object A (v_A) in m/s.\n    velocity_B (float): The velocity of object B (v_B) in m/s.\n\nReturns:\n    float: The relative velocity of A with respect to B (v_AB) in m/s.",
+        "python_code": "def calculate_relative_velocity_1d(velocity_A: float, velocity_B: float) -> float:\n    return velocity_A - velocity_B"
+      },
+      {
+        "formula_id": "4_B",
+        "function_name": "calculate_relative_acceleration_1d",
+        "docstring": "Calculates the relative acceleration of object A with respect to object B in one dimension.\n\nParameters:\n    acceleration_A (float): The acceleration of object A (a_A) in m/s^2.\n    acceleration_B (float): The acceleration of object B (a_B) in m/s^2.\n\nReturns:\n    float: The relative acceleration of A with respect to B (a_AB) in m/s^2.",
+        "python_code": "def calculate_relative_acceleration_1d(acceleration_A: float, acceleration_B: float) -> float:\n    return acceleration_A - acceleration_B"
+      },
+      {
+        "formula_id": "4_C",
+        "function_name": "calculate_relative_position_1d",
+        "docstring": "Calculates the relative position of object B with respect to object A in one dimension.\n\nParameters:\n    position_B (float): The position of object B (x_B) in meters (m).\n    position_A (float): The position of object A (x_A) in meters (m).\n\nReturns:\n    float: The relative position of B with respect to A (x_BA) in meters (m).",
+        "python_code": "def calculate_relative_position_1d(position_B: float, position_A: float) -> float:\n    return position_B - position_A"
+      },
+      {
+        "formula_id": "4_D",
+        "function_name": "calculate_river_crossing_net_speed_shortest_time",
+        "docstring": "Calculates the net speed of a boat/swimmer (v_m) crossing a river for the shortest time. This assumes the swimmer swims perpendicular to the river flow (v_mR).\n\nParameters:\n    velocity_swimmer_relative_river (float): The speed of the swimmer relative to the river (v_mR) in m/s.\n    velocity_river (float): The speed of the river (v_R) in m/s.\n\nReturns:\n    float: The net speed of the swimmer (v_m) relative to the bank in m/s.",
+        "python_code": "import math\n\ndef calculate_river_crossing_net_speed_shortest_time(velocity_swimmer_relative_river: float, velocity_river: float) -> float:\n    return math.sqrt(velocity_swimmer_relative_river**2 + velocity_river**2)"
+      },
+      {
+        "formula_id": "4_E",
+        "function_name": "calculate_river_crossing_net_speed_shortest_path",
+        "docstring": "Calculates the net speed of a boat/swimmer (v_y) for the shortest path (straight across). Assumes v_mR > v_R.\n\nParameters:\n    velocity_swimmer_relative_river (float): The speed of the swimmer relative to the river (v_mR) in m/s.\n    velocity_river (float): The speed of the river (v_R) in m/s.\n\nReturns:\n    float: The net speed of the swimmer (v_y) perpendicular to the bank in m/s.",
+        "python_code": "import math\n\ndef calculate_river_crossing_net_speed_shortest_path(velocity_swimmer_relative_river: float, velocity_river: float) -> float:\n    if velocity_swimmer_relative_river < velocity_river:\n        return float('nan')  # Cannot travel straight across\n    return math.sqrt(velocity_swimmer_relative_river**2 - velocity_river**2)"
+      },
+      {
+        "formula_id": "4_F",
+        "function_name": "calculate_river_crossing_time_shortest_path",
+        "docstring": "Calculates the time taken for a boat/swimmer to cross a river along the shortest path (straight across). Assumes v_mR > v_R.\n\nParameters:\n    river_width (float): The width of the river (d) in meters (m).\n    velocity_swimmer_relative_river (float): The speed of the swimmer relative to the river (v_mR) in m/s.\n    velocity_river (float): The speed of the river (v_R) in m/s.\n\nReturns:\n    float: The time (t) to cross the river in seconds (s).",
+        "python_code": "import math\n\ndef calculate_river_crossing_time_shortest_path(river_width: float, velocity_swimmer_relative_river: float, velocity_river: float) -> float:\n    if velocity_swimmer_relative_river < velocity_river:\n        return float('inf')  # Cannot travel straight across\n    net_speed_across = math.sqrt(velocity_swimmer_relative_river**2 - velocity_river**2)\n    if net_speed_across == 0:\n        return float('inf')\n    return river_width / net_speed_across"
+      },
+      {
+        "formula_id": "4_G",
+        "function_name": "calculate_river_crossing_angle_shortest_path",
+        "docstring": "Calculates the angle (θ) upstream a boat/swimmer must aim to travel the shortest path (straight across). Assumes v_mR > v_R.\n\nParameters:\n    velocity_swimmer_relative_river (float): The speed of the swimmer relative to the river (v_mR) in m/s.\n    velocity_river (float): The speed of the river (v_R) in m/s.\n\nReturns:\n    float: The angle (θ) upstream from the perpendicular, in degrees.",
+        "python_code": "import math\n\ndef calculate_river_crossing_angle_shortest_path(velocity_swimmer_relative_river: float, velocity_river: float) -> float:\n    if velocity_swimmer_relative_river == 0 or velocity_swimmer_relative_river < velocity_river:\n        return float('nan')  # Cannot travel straight across\n    return math.degrees(math.asin(velocity_river / velocity_swimmer_relative_river))"
+      },
+      {
+        "formula_id": "4_H",
+        "function_name": "calculate_relative_speed_rain_problem_perpendicular",
+        "docstring": "Calculates the magnitude of the relative velocity of rain (v_Rm) w.r.t. a person (m). This formula assumes the rain (v_R) and person (v_m) are moving perpendicularly.\n\nParameters:\n    velocity_rain (float): The speed of the rain (v_R), typically vertical, in m/s.\n    velocity_man (float): The speed of the man (v_m), typically horizontal, in m/s.\n\nReturns:\n    float: The relative speed of the rain as perceived by the man (v_Rm) in m/s.",
+        "python_code": "import math\n\ndef calculate_relative_speed_rain_problem_perpendicular(velocity_rain: float, velocity_man: float) -> float:\n    return math.sqrt(velocity_rain**2 + velocity_man**2)"
+      }
+    ]
+  }

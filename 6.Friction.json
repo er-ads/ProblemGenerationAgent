@@ -1,0 +1,16 @@
+{
+  "Friction": [
+      {
+        "formula_id": "6_A",
+        "function_name": "calculate_kinetic_friction",
+        "docstring": "Calculates the force of kinetic friction (fk) acting between two surfaces in relative motion [cite: 242][cite_start].\n\nParameters:\n    coefficient_of_kinetic_friction (float): The coefficient of kinetic friction (μk) (unitless) [cite: 244][cite_start].\n    normal_force (float): The normal force (N) exerted between the surfaces in Newtons (N)[cite: 242].\n\nReturns:\n    float: The kinetic friction force (fk) in Newtons (N).",
+        "python_code": "def calculate_kinetic_friction(coefficient_of_kinetic_friction: float, normal_force: float) -> float:\n    return coefficient_of_kinetic_friction * normal_force"
+      },
+      {
+        "formula_id": "6_B",
+        "function_name": "calculate_max_static_friction",
+        "docstring": "Calculates the maximum (limiting) force of static friction (fs_max) that can exist between two surfaces before motion begins [cite: 248][cite_start].\n\nParameters:\n    coefficient_of_static_friction (float): The coefficient of static friction (μs) (unitless).\n    normal_force (float): The normal force (N) exerted between the surfaces in Newtons (N)[cite: 248].\n\nReturns:\n    float: The maximum static friction force (fs_max) in Newtons (N).",
+        "python_code": "def calculate_max_static_friction(coefficient_of_static_friction: float, normal_force: float) -> float:\n    return coefficient_of_static_friction * normal_force"
+      }
+    ]
+  }
