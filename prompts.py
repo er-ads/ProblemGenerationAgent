@@ -16,7 +16,10 @@ Analyze the question and solution, then provide:
    - A reasonable range of values [minimum, maximum]
    - The SI unit of measurement
 
-3. ALTERNATE SCENARIOS: Generate 3 different real-world scenarios that could be used to create similar physics problems using the same concepts. Each scenario should be 1-2 sentences.
+3. ALTERNATE SCENARIOS: 
+  - Generate 6 real-world scenarios that could be used to create physics problems using the same core concepts as the original question. 
+  - Only the physical setting should change, while the underlying ideas remain the same.  
+  - Each scenario should be 1-2 sentences and should only change the physical situation.
 
 OUTPUT FORMAT (JSON):
 {{
@@ -31,6 +34,8 @@ OUTPUT FORMAT (JSON):
     "scenario description 1",
     "scenario description 2",
     "scenario description 3"
+    ...
+    "scenario description 6"
   ]
 }}
 
@@ -75,14 +80,14 @@ You are a physics problem generator. Your task is to create a new physics word p
 
 INPUT:
 - Available Formulas: {available_formulas}
-- Alternate Scenarios: {alternate_scenarios}
+- Alternate Scenario: {alternate_scenarios}
 - Variables and Ranges: {variables}
 - Previous Problems (avoid duplicates): {previous_problems}
 
 TASK:
 Generate a NEW physics word problem following these rules:
 
-1.Pick one scenario from the alternate scenarios list.
+1.Pick the alternate scenario.
 2.Select 3-5 formulas from the available formulas (use their formula_ids).
 - The most important requirement is that the physical situation described in the word problem maps correctly to the selected formulas. 
 There must be no conceptual mismatch between the scenario and the equations used.
@@ -126,7 +131,7 @@ PREVIOUS ERROR: {error_message}
 
 INPUT:
 - Available Formulas: {available_formulas}
-- Alternate Scenarios: {alternate_scenarios}
+- Alternate Scenario: {alternate_scenarios}
 - Variables and Ranges: {variables}
 - Previous Problems (avoid duplicates): {previous_problems}
 
@@ -134,8 +139,8 @@ TASK:
 Generate a new physics word problem that corrects the previous mistake.
 
 Guidelines:
-1.Pick one scenario from the alternate scenarios list.
-2.Select 2-4 formulas from the available formulas (use their formula_ids).
+1.Pick the scenario.
+2.Select 3-5 formulas from the available formulas (use their formula_ids).
 - The selected formulas must logically match the chosen scenario 
 - there should be no mismatch between the physical situation and the equations used.
 3.Create a word problem fully based on the chosen formulas and scenario.

@@ -1,0 +1,682 @@
+[
+  {
+    "signature": "fids=[10_J,10_N,10_O]|unknown=angular_acceleration",
+    "formula_ids": [
+      "10_J",
+      "10_N",
+      "10_O"
+    ],
+    "unknown_var": "angular_acceleration",
+    "word_problem": "A uniform rectangular trapdoor, with a mass of 15.0 kg and a length of 2.5 m (measured perpendicular to the hinge axis), is hinged along one of its edges. The trapdoor is initially held in a perfectly horizontal position and then released. Assuming Earth's gravity is 9.81 m/s\u00b2 and neglecting any friction at the hinge, calculate the trapdoor's initial angular acceleration immediately after release.",
+    "variables": {
+      "mass": {
+        "value": 15.0,
+        "unit": "kg"
+      },
+      "length": {
+        "value": 2.5,
+        "unit": "m"
+      },
+      "gravity": {
+        "value": 9.81,
+        "unit": "m/s\u00b2"
+      },
+      "angle_degrees": {
+        "value": 90.0,
+        "unit": "degrees"
+      },
+      "angular_acceleration": {
+        "value": "NaN",
+        "unit": "rad/s\u00b2"
+      }
+    },
+    "code": "import math\n\ndef calculate_inertia_rod_end(mass: float, length: float) -> float:\n    return (1 / 3) * mass * length**2\n\ndef calculate_torque_magnitude(force_magnitude: float, lever_arm: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return lever_arm * force_magnitude * math.sin(angle_radians)\n\ndef calculate_angular_acceleration_from_torque(net_torque: float, moment_of_inertia: float) -> float:\n    if moment_of_inertia == 0:\n        return float('inf')\n    return net_torque / moment_of_inertia\n\ndef solve():\n    try:\n        # Define known variables\n        mass = 15.0\n        length = 2.5\n        gravity = 9.81\n        angle_degrees = 90.0 # Perfectly horizontal, gravity acts perpendicular to the lever arm initially\n\n        # Step 1: Calculate the moment of inertia of the trapdoor about the hinge.\n        # A uniform rectangular trapdoor hinged along one edge can be modeled as a uniform rod rotating about one end.\n        moment_of_inertia = calculate_inertia_rod_end(mass=mass, length=length)\n\n        # Step 2: Calculate the torque due to gravity.\n        # The force of gravity acts at the center of mass, which is at length/2 for a uniform trapdoor.\n        force_magnitude = mass * gravity\n        lever_arm = length / 2.0 # Distance from hinge to center of mass\n\n        net_torque = calculate_torque_magnitude(force_magnitude=force_magnitude, lever_arm=lever_arm, angle_degrees=angle_degrees)\n\n        # Step 3: Calculate the initial angular acceleration.\n        angular_acceleration = calculate_angular_acceleration_from_torque(net_torque=net_torque, moment_of_inertia=moment_of_inertia)\n\n        # Return the computed answer\n        return angular_acceleration\n    except Exception as e:\n        return None",
+    "result": 5.886,
+    "execution_result": {
+      "valid": true,
+      "result": 5.886
+    },
+    "validation_result": {
+      "valid": true,
+      "unknown_var": "angular_acceleration"
+    },
+    "created_at": "2025-11-21T05:46:11.816908"
+  },
+  {
+    "signature": "fids=[10_C,10_K,10_N,10_O]|unknown=alpha",
+    "formula_ids": [
+      "10_K",
+      "10_C",
+      "10_N",
+      "10_O"
+    ],
+    "unknown_var": "alpha",
+    "word_problem": "A uniform rectangular trapdoor, with a total mass of 20.0 kg and a length of 2.0 m perpendicular to its hinged side, is initially held in a horizontal position and then released. Assuming the gravitational acceleration is 9.81 m/s\u00b2, calculate the initial angular acceleration (\u03b1) of the trapdoor. The gravitational force acts at the center of mass, which is located at half the length (L/2) from the hinge. You should first determine the moment of inertia about its center, then apply the parallel axis theorem.",
+    "variables": {
+      "mass": {
+        "value": 20.0,
+        "unit": "kg"
+      },
+      "length": {
+        "value": 2.0,
+        "unit": "m"
+      },
+      "g": {
+        "value": 9.81,
+        "unit": "m/s\u00b2"
+      },
+      "alpha": {
+        "value": "NaN",
+        "unit": "rad/s\u00b2"
+      }
+    },
+    "code": "import math\n\ndef calculate_inertia_rod_center(mass: float, length: float) -> float:\n    return (1 / 12) * mass * length**2\n\ndef calculate_parallel_axis_inertia(inertia_cm: float, mass: float, distance: float) -> float:\n    return inertia_cm + (mass * distance**2)\n\ndef calculate_torque_magnitude(force_magnitude: float, lever_arm: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return lever_arm * force_magnitude * math.sin(angle_radians)\n\ndef calculate_angular_acceleration_from_torque(net_torque: float, moment_of_inertia: float) -> float:\n    if moment_of_inertia == 0:\n        return float('inf')\n    return net_torque / moment_of_inertia\n\ndef solve():\n    try:\n        # Define known variables\n        mass = 20.0\n        length = 2.0\n        g = 9.81\n        # alpha is the unknown\n\n        # Step 1: Determine the moment of inertia about its center of mass (I_cm)\n        # For a uniform rectangular trapdoor (like a rod) about an axis perpendicular to its length through its center\n        inertia_cm = calculate_inertia_rod_center(mass=mass, length=length)\n\n        # Step 2: Apply the parallel axis theorem to find the moment of inertia about the hinge (I_hinge)\n        # The center of mass is at L/2 from the hinge.\n        distance_to_hinge = length / 2\n        moment_of_inertia_hinge = calculate_parallel_axis_inertia(inertia_cm=inertia_cm, mass=mass, distance=distance_to_hinge)\n\n        # Step 3: Calculate the net torque about the hinge\n        # The gravitational force acts at the center of mass.\n        gravitational_force = mass * g\n        lever_arm = length / 2\n        # The trapdoor is initially horizontal, so the angle between the lever arm and gravitational force is 90 degrees.\n        angle_degrees = 90.0\n        net_torque = calculate_torque_magnitude(force_magnitude=gravitational_force, lever_arm=lever_arm, angle_degrees=angle_degrees)\n\n        # Step 4: Calculate the initial angular acceleration (alpha)\n        alpha = calculate_angular_acceleration_from_torque(net_torque=net_torque, moment_of_inertia=moment_of_inertia_hinge)\n\n        return alpha\n    except Exception as e:\n        return None",
+    "result": 7.357500000000002,
+    "execution_result": {
+      "valid": true,
+      "result": 7.357500000000002
+    },
+    "validation_result": {
+      "valid": true,
+      "unknown_var": "alpha"
+    },
+    "created_at": "2025-11-21T05:46:43.477996"
+  },
+  {
+    "signature": "fids=[10_J,10_N,10_O,8_D]|unknown=a_tip",
+    "formula_ids": [
+      "10_J",
+      "10_N",
+      "10_O",
+      "8_D"
+    ],
+    "unknown_var": "a_tip",
+    "word_problem": "A uniform thin rod, with a mass of 5.0 kg and a length of 1.5 m, is pivoted freely at one of its ends. The rod is initially held in a horizontal position and then released. Assuming the acceleration due to gravity is 9.81 m/s\u00b2, what is the initial linear acceleration of the free end of the rod immediately after it is released?",
+    "variables": {
+      "mass": {
+        "value": 5.0,
+        "unit": "kg"
+      },
+      "length": {
+        "value": 1.5,
+        "unit": "m"
+      },
+      "gravity": {
+        "value": 9.81,
+        "unit": "m/s\u00b2"
+      },
+      "a_tip": {
+        "value": "NaN",
+        "unit": "m/s\u00b2"
+      }
+    },
+    "code": "import math\n\ndef calculate_inertia_rod_end(mass: float, length: float) -> float:\n    return (1 / 3) * mass * length**2\n\ndef calculate_torque_magnitude(force_magnitude: float, lever_arm: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return lever_arm * force_magnitude * math.sin(angle_radians)\n\ndef calculate_angular_acceleration_from_torque(net_torque: float, moment_of_inertia: float) -> float:\n    if moment_of_inertia == 0:\n        return float('inf')\n    return net_torque / moment_of_inertia\n\ndef calculate_tangential_acceleration(radius: float, angular_acceleration: float) -> float:\n    return radius * angular_acceleration\n\ndef solve():\n    try:\n        # Define known variables\n        mass = 5.0\n        length = 1.5\n        gravity = 9.81\n\n        # Step 1: Calculate the moment of inertia (I) of the rod about the pivot (one end).\n        # The rod is uniform and pivoted at one of its ends.\n        moment_of_inertia = calculate_inertia_rod_end(mass=mass, length=length)\n\n        # Step 2: Calculate the initial torque (\u03c4) acting on the rod.\n        # The force due to gravity (weight) acts at the center of mass.\n        # For a uniform rod, the center of mass is at length / 2 from the pivot.\n        # The force is mass * gravity.\n        # The rod is initially horizontal, so the angle between the lever arm and force is 90 degrees.\n        force_gravity = mass * gravity\n        lever_arm_com = length / 2\n        initial_torque = calculate_torque_magnitude(force_magnitude=force_gravity, lever_arm=lever_arm_com, angle_degrees=90.0)\n\n        # Step 3: Calculate the initial angular acceleration (\u03b1)\n        angular_acceleration = calculate_angular_acceleration_from_torque(net_torque=initial_torque, moment_of_inertia=moment_of_inertia)\n\n        # Step 4: Calculate the initial linear acceleration of the free end.\n        # The free end is at a distance equal to the full length from the pivot.\n        radius_tip = length\n        a_tip = calculate_tangential_acceleration(radius=radius_tip, angular_acceleration=angular_acceleration)\n\n        # Return the computed answer\n        return a_tip\n    except Exception as e:\n        return None",
+    "result": 14.715000000000003,
+    "execution_result": {
+      "valid": true,
+      "result": 14.715000000000003
+    },
+    "validation_result": {
+      "valid": true,
+      "unknown_var": "a_tip"
+    },
+    "created_at": "2025-11-21T05:47:00.467032"
+  },
+  {
+    "signature": "fids=[10_C,10_K,10_N,10_O,8_D]|unknown=a_tip",
+    "formula_ids": [
+      "10_K",
+      "10_C",
+      "10_N",
+      "10_O",
+      "8_D"
+    ],
+    "unknown_var": "a_tip",
+    "word_problem": "A uniform thin rod, with a mass of 10.0 kg and a length of 3.0 m, is pivoted freely at one of its ends. The rod is initially held in a horizontal position and then released. Assuming the acceleration due to gravity is 9.81 m/s\u00b2, what is the magnitude of the initial linear acceleration of the free end of the rod immediately after release?",
+    "variables": {
+      "mass": {
+        "value": 10.0,
+        "unit": "kg"
+      },
+      "length": {
+        "value": 3.0,
+        "unit": "m"
+      },
+      "gravity": {
+        "value": 9.81,
+        "unit": "m/s\u00b2"
+      },
+      "a_tip": {
+        "value": "NaN",
+        "unit": "m/s\u00b2"
+      }
+    },
+    "code": "import math\n\ndef calculate_inertia_rod_center(mass: float, length: float) -> float:\n    return (1 / 12) * mass * length**2\n\ndef calculate_parallel_axis_inertia(inertia_cm: float, mass: float, distance: float) -> float:\n    return inertia_cm + (mass * distance**2)\n\ndef calculate_torque_magnitude(force_magnitude: float, lever_arm: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return lever_arm * force_magnitude * math.sin(angle_radians)\n\ndef calculate_angular_acceleration_from_torque(net_torque: float, moment_of_inertia: float) -> float:\n    if moment_of_inertia == 0:\n        return float('inf')\n    return net_torque / moment_of_inertia\n\ndef calculate_tangential_acceleration(radius: float, angular_acceleration: float) -> float:\n    return radius * angular_acceleration\n\ndef solve():\n    try:\n        # Define known variables\n        mass = 10.0\n        length = 3.0\n        gravity = 9.81\n\n        # Step 1: Calculate the moment of inertia of the rod about its center of mass\n        inertia_cm_rod = calculate_inertia_rod_center(mass, length)\n\n        # Step 2: Calculate the moment of inertia about the pivot (one end) using the Parallel Axis Theorem\n        # The distance from the center of mass to the end pivot is L/2\n        distance_cm_to_pivot = length / 2\n        inertia_pivot = calculate_parallel_axis_inertia(inertia_cm_rod, mass, distance_cm_to_pivot)\n\n        # Step 3: Calculate the torque due to gravity about the pivot\n        # The force of gravity acts at the center of mass (L/2 from the pivot)\n        # When the rod is horizontal, the force of gravity is perpendicular to the lever arm\n        force_gravity = mass * gravity\n        lever_arm_gravity = length / 2\n        angle_degrees = 90.0 # Force of gravity is perpendicular to the horizontal rod\n\n        net_torque = calculate_torque_magnitude(force_gravity, lever_arm_gravity, angle_degrees)\n\n        # Step 4: Calculate the initial angular acceleration\n        angular_acceleration = calculate_angular_acceleration_from_torque(net_torque, inertia_pivot)\n\n        # Step 5: Calculate the initial linear acceleration of the free end\n        # The free end is at a distance 'length' from the pivot\n        radius_free_end = length\n        a_tip = calculate_tangential_acceleration(radius_free_end, angular_acceleration)\n\n        # Return the computed answer\n        return a_tip\n    except Exception as e:\n        return None",
+    "result": 14.715,
+    "execution_result": {
+      "valid": true,
+      "result": 14.715
+    },
+    "validation_result": {
+      "valid": true,
+      "unknown_var": "a_tip"
+    },
+    "created_at": "2025-11-21T05:47:46.556166"
+  },
+  {
+    "signature": "fids=[10_J,10_N,10_O]|unknown=alpha",
+    "formula_ids": [
+      "10_J",
+      "10_N",
+      "10_O"
+    ],
+    "unknown_var": "alpha",
+    "word_problem": "A uniform rectangular signboard, with a mass of 30.0 kg and a length of 4.0 m (measured perpendicular to the hinge), is hinged along its top edge. The signboard is initially held perfectly horizontal and then released. Assuming it behaves as a thin rod, and taking the acceleration due to gravity as 9.81 m/s\u00b2, calculate its initial angular acceleration immediately after release.",
+    "variables": {
+      "M": {
+        "value": 30.0,
+        "unit": "kg"
+      },
+      "L": {
+        "value": 4.0,
+        "unit": "m"
+      },
+      "g": {
+        "value": 9.81,
+        "unit": "m/s\u00b2"
+      },
+      "alpha": {
+        "value": "NaN",
+        "unit": "rad/s\u00b2"
+      }
+    },
+    "code": "import math\n\ndef calculate_inertia_rod_end(mass: float, length: float) -> float:\n    return (1 / 3) * mass * length**2\n\ndef calculate_torque_magnitude(force_magnitude: float, lever_arm: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return lever_arm * force_magnitude * math.sin(angle_radians)\n\ndef calculate_angular_acceleration_from_torque(net_torque: float, moment_of_inertia: float) -> float:\n    if moment_of_inertia == 0:\n        return float('inf')\n    return net_torque / moment_of_inertia\n\ndef solve():\n    try:\n        # Define known variables\n        M = 30.0\n        L = 4.0\n        g = 9.81\n        # alpha is the unknown\n\n        # Step 1: Calculate the moment of inertia (I) of the signboard.\n        # The signboard behaves as a thin rod hinged at one end (its top edge).\n        # Using formula 10_J: I = (1/3) * M * L^2\n        moment_of_inertia = calculate_inertia_rod_end(mass=M, length=L)\n\n        # Step 2: Calculate the net torque (tau) acting on the signboard.\n        # The only force causing torque is gravity, acting at the center of mass.\n        # The center of mass for a uniform rod is at L/2 from the hinge.\n        # The signboard is initially horizontal, so the force of gravity (downwards)\n        # is perpendicular to the lever arm (horizontal).\n        force_magnitude = M * g\n        lever_arm = L / 2.0\n        angle_degrees = 90.0 # Force (gravity) is perpendicular to the lever arm\n\n        # Using formula 10_N: tau = r * F * sin(theta)\n        net_torque = calculate_torque_magnitude(force_magnitude=force_magnitude, lever_arm=lever_arm, angle_degrees=angle_degrees)\n\n        # Step 3: Calculate the initial angular acceleration (alpha).\n        # Using formula 10_O: alpha = tau / I\n        alpha = calculate_angular_acceleration_from_torque(net_torque=net_torque, moment_of_inertia=moment_of_inertia)\n        \n        return alpha\n    except Exception as e:\n        return None",
+    "result": 3.67875,
+    "execution_result": {
+      "valid": true,
+      "result": 3.67875
+    },
+    "validation_result": {
+      "valid": true,
+      "unknown_var": "alpha"
+    },
+    "created_at": "2025-11-21T05:48:23.421616"
+  },
+  {
+    "signature": "fids=[10_J,10_N,10_O]|unknown=L",
+    "formula_ids": [
+      "10_J",
+      "10_N",
+      "10_O"
+    ],
+    "unknown_var": "L",
+    "word_problem": "A uniform rectangular signboard, with a mass of 25.0 kg, is hinged along its top edge. It is initially held perfectly horizontal and then released. If the initial angular acceleration of the signboard is 4.905 rad/s\u00b2, what is the length of the signboard (measured perpendicular to the hinge)? Assume the acceleration due to gravity is 9.81 m/s\u00b2.",
+    "variables": {
+      "M": {
+        "value": 25.0,
+        "unit": "kg"
+      },
+      "alpha": {
+        "value": 4.905,
+        "unit": "rad/s\u00b2"
+      },
+      "g": {
+        "value": 9.81,
+        "unit": "m/s\u00b2"
+      },
+      "L": {
+        "value": "NaN",
+        "unit": "m"
+      }
+    },
+    "code": "import math\n\ndef calculate_inertia_rod_end(mass: float, length: float) -> float:\n    return (1 / 3) * mass * length**2\n\ndef calculate_torque_magnitude(force_magnitude: float, lever_arm: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return lever_arm * force_magnitude * math.sin(angle_radians)\n\ndef calculate_angular_acceleration_from_torque(net_torque: float, moment_of_inertia: float) -> float:\n    if moment_of_inertia == 0:\n        return float('inf')\n    return net_torque / moment_of_inertia\n\ndef solve():\n    try:\n        # Define known variables\n        M = 25.0  # mass in kg\n        alpha = 4.905  # angular acceleration in rad/s^2\n        g = 9.81  # acceleration due to gravity in m/s^2\n\n        # The signboard is a uniform rectangular plate hinged along its top edge.\n        # When released horizontally, it rotates about this hinge.\n        # We need to find its length (L) perpendicular to the hinge.\n\n        # 1. Moment of Inertia (I)\n        # For a uniform rod (or a thin rectangular plate hinged at one end)\n        # rotating about an axis perpendicular to its length and passing through one end,\n        # the moment of inertia is given by I = (1/3) * M * L^2.\n        # This corresponds to formula 10_J: calculate_inertia_rod_end(mass, length)\n        # So, I = calculate_inertia_rod_end(mass=M, length=L)  => I = (1/3) * M * L**2\n\n        # 2. Net Torque (tau)\n        # The torque is produced by gravity acting at the center of mass (CM).\n        # The force of gravity is F = M * g.\n        # When the signboard is held horizontally, the center of mass is at a distance L/2\n        # from the hinge (pivot point).\n        # The angle between the lever arm (L/2) and the force (Mg) is 90 degrees.\n        # Torque (tau) = r * F * sin(theta)\n        # This corresponds to formula 10_N: calculate_torque_magnitude(force_magnitude, lever_arm, angle_degrees)\n        # So, tau = calculate_torque_magnitude(force_magnitude=(M * g), lever_arm=(L / 2), angle_degrees=90)\n        # => tau = (L / 2) * (M * g) * math.sin(math.radians(90))\n        # => tau = (M * g * L) / 2\n\n        # 3. Relationship between Torque, Moment of Inertia, and Angular Acceleration\n        # Newton's second law for rotation states: tau = I * alpha\n        # This corresponds to formula 10_O: calculate_angular_acceleration_from_torque(net_torque, moment_of_inertia)\n        # => alpha = net_torque / moment_of_inertia\n        # Rearranging, net_torque = alpha * moment_of_inertia\n\n        # Substitute the expressions for net_torque and moment_of_inertia (from steps 1 and 2) into this equation:\n        # (M * g * L) / 2 = alpha * (1/3) * M * L**2\n\n        # Now, solve this equation for L:\n        # Divide both sides by M (since M is not zero):\n        # (g * L) / 2 = alpha * (1/3) * L**2\n\n        # Divide both sides by L (since L is not zero for a signboard):\n        # g / 2 = alpha * (1/3) * L\n\n        # Rearrange to find L:\n        # L = (g / 2) * (3 / alpha)\n        # L = (3 * g) / (2 * alpha)\n\n        # Calculate L using the known values:\n        L = (3 * g) / (2 * alpha)\n\n        return L\n    except Exception as e:\n        return None",
+    "result": 3.0,
+    "execution_result": {
+      "valid": true,
+      "result": 3.0
+    },
+    "validation_result": {
+      "valid": true,
+      "unknown_var": "L"
+    },
+    "created_at": "2025-11-21T05:49:22.811936"
+  },
+  {
+    "signature": "fids=[10_A,10_J,10_N,10_O]|unknown=alpha",
+    "formula_ids": [
+      "10_J",
+      "10_A",
+      "10_N",
+      "10_O"
+    ],
+    "unknown_var": "alpha",
+    "word_problem": "A uniform wooden plank of mass 10.0 kg and length 2.5 m is pivoted at one of its ends. A small block with a mass of 5.0 kg is placed precisely at the plank's free end, farthest from the pivot. The entire system (plank + block) is initially held in a horizontal position and then released. Assuming negligible friction at the pivot and using the acceleration due to gravity g = 9.81 m/s\u00b2, what is the initial angular acceleration of the system immediately after release?",
+    "variables": {
+      "M_plank": {
+        "value": 10.0,
+        "unit": "kg"
+      },
+      "M_block": {
+        "value": 5.0,
+        "unit": "kg"
+      },
+      "L": {
+        "value": 2.5,
+        "unit": "m"
+      },
+      "g": {
+        "value": 9.81,
+        "unit": "m/s\u00b2"
+      },
+      "alpha": {
+        "value": "NaN",
+        "unit": "rad/s\u00b2"
+      }
+    },
+    "code": "import math\n\ndef calculate_moment_of_inertia_discrete(masses: list[float], radii: list[float]) -> float:\n    if len(masses) != len(radii):\n        raise ValueError(\"Masses and radii lists must have the same length.\")\n    return sum(m * r**2 for m, r in zip(masses, radii))\n\ndef calculate_inertia_rod_end(mass: float, length: float) -> float:\n    return (1 / 3) * mass * length**2\n\ndef calculate_torque_magnitude(force_magnitude: float, lever_arm: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return lever_arm * force_magnitude * math.sin(angle_radians)\n\ndef calculate_angular_acceleration_from_torque(net_torque: float, moment_of_inertia: float) -> float:\n    if moment_of_inertia == 0:\n        return float('inf')\n    return net_torque / moment_of_inertia\n\ndef solve():\n    try:\n        # Define known variables\n        M_plank = 10.0\n        M_block = 5.0\n        L = 2.5\n        g = 9.81\n\n        # Step 1: Calculate the moment of inertia for the plank (rod pivoted at one end)\n        I_plank = calculate_inertia_rod_end(mass=M_plank, length=L)\n\n        # Step 2: Calculate the moment of inertia for the block (point mass at the free end)\n        # The block is at a distance L from the pivot.\n        I_block = calculate_moment_of_inertia_discrete(masses=[M_block], radii=[L])\n\n        # Step 3: Calculate the total moment of inertia of the system\n        I_total = I_plank + I_block\n\n        # Step 4: Calculate the torque due to the plank's weight\n        # The weight of the plank acts at its center of mass, which is at L/2 from the pivot.\n        force_plank = M_plank * g\n        lever_arm_plank = L / 2\n        # The plank is initially horizontal, so the angle between lever arm and force is 90 degrees.\n        tau_plank = calculate_torque_magnitude(force_magnitude=force_plank, lever_arm=lever_arm_plank, angle_degrees=90)\n\n        # Step 5: Calculate the torque due to the block's weight\n        # The weight of the block acts at L from the pivot.\n        force_block = M_block * g\n        lever_arm_block = L\n        # The plank is initially horizontal, so the angle between lever arm and force is 90 degrees.\n        tau_block = calculate_torque_magnitude(force_magnitude=force_block, lever_arm=lever_arm_block, angle_degrees=90)\n\n        # Step 6: Calculate the net torque (both torques cause rotation in the same direction)\n        net_torque = tau_plank + tau_block\n\n        # Step 7: Calculate the initial angular acceleration\n        alpha = calculate_angular_acceleration_from_torque(net_torque=net_torque, moment_of_inertia=I_total)\n\n        # Return the computed answer\n        return alpha\n    except Exception as e:\n        return None",
+    "result": 4.708800000000001,
+    "execution_result": {
+      "valid": true,
+      "result": 4.708800000000001
+    },
+    "validation_result": {
+      "valid": true,
+      "unknown_var": "alpha"
+    },
+    "created_at": "2025-11-21T05:49:49.865899"
+  },
+  {
+    "signature": "fids=[10_A,10_C,10_K,10_N,10_O]|unknown=alpha",
+    "formula_ids": [
+      "10_K",
+      "10_C",
+      "10_A",
+      "10_N",
+      "10_O"
+    ],
+    "unknown_var": "alpha",
+    "word_problem": "A uniform wooden plank of mass 25.0 kg and length 4.0 m is pivoted freely at one of its ends. A block with a mass of 10.0 kg is placed precisely at the other end of the plank. The plank-block system is initially held in a horizontal position and then released from rest. Assuming acceleration due to gravity is 9.81 m/s\u00b2, what is the initial angular acceleration of the system?",
+    "variables": {
+      "M_plank": {
+        "value": 25.0,
+        "unit": "kg"
+      },
+      "L": {
+        "value": 4.0,
+        "unit": "m"
+      },
+      "m_block": {
+        "value": 10.0,
+        "unit": "kg"
+      },
+      "g": {
+        "value": 9.81,
+        "unit": "m/s\u00b2"
+      },
+      "angle_degrees": {
+        "value": 90.0,
+        "unit": "degrees"
+      },
+      "alpha": {
+        "value": "NaN",
+        "unit": "rad/s\u00b2"
+      }
+    },
+    "code": "import math\n\ndef calculate_inertia_rod_center(mass: float, length: float) -> float:\n    return (1 / 12) * mass * length**2\n\ndef calculate_parallel_axis_inertia(inertia_cm: float, mass: float, distance: float) -> float:\n    return inertia_cm + (mass * distance**2)\n\ndef calculate_moment_of_inertia_discrete(masses: list[float], radii: list[float]) -> float:\n    if len(masses) != len(radii):\n        raise ValueError(\"Masses and radii lists must have the same length.\")\n    return sum(m * r**2 for m, r in zip(masses, radii))\n\ndef calculate_torque_magnitude(force_magnitude: float, lever_arm: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return lever_arm * force_magnitude * math.sin(angle_radians)\n\ndef calculate_angular_acceleration_from_torque(net_torque: float, moment_of_inertia: float) -> float:\n    if moment_of_inertia == 0:\n        return float('inf')\n    return net_torque / moment_of_inertia\n\ndef solve():\n    try:\n        # Define known variables\n        M_plank = 25.0\n        L = 4.0\n        m_block = 10.0\n        g = 9.81\n        angle_degrees = 90.0\n\n        # Step 1: Calculate the moment of inertia of the plank about the pivot (one end)\n        # First, calculate moment of inertia of the plank about its center\n        I_plank_cm = calculate_inertia_rod_center(mass=M_plank, length=L)\n        \n        # Then, use the parallel axis theorem to find the moment of inertia about the end\n        distance_plank_cm_to_pivot = L / 2\n        I_plank_pivot = calculate_parallel_axis_inertia(\n            inertia_cm=I_plank_cm,\n            mass=M_plank,\n            distance=distance_plank_cm_to_pivot\n        )\n\n        # Step 2: Calculate the moment of inertia of the block about the pivot\n        # The block is a point mass at the end of the plank\n        I_block_pivot = calculate_moment_of_inertia_discrete(masses=[m_block], radii=[L])\n\n        # Step 3: Calculate the total moment of inertia of the system\n        I_total = I_plank_pivot + I_block_pivot\n\n        # Step 4: Calculate the torque due to the plank's weight\n        force_plank = M_plank * g\n        lever_arm_plank = L / 2  # Weight acts at the center of the plank\n        torque_plank = calculate_torque_magnitude(\n            force_magnitude=force_plank,\n            lever_arm=lever_arm_plank,\n            angle_degrees=angle_degrees\n        )\n\n        # Step 5: Calculate the torque due to the block's weight\n        force_block = m_block * g\n        lever_arm_block = L  # Block is at the other end\n        torque_block = calculate_torque_magnitude(\n            force_magnitude=force_block,\n            lever_arm=lever_arm_block,\n            angle_degrees=angle_degrees\n        )\n\n        # Step 6: Calculate the net torque (both torques act in the same direction)\n        net_torque = torque_plank + torque_block\n\n        # Step 7: Calculate the initial angular acceleration\n        alpha = calculate_angular_acceleration_from_torque(\n            net_torque=net_torque,\n            moment_of_inertia=I_total\n        )\n        \n        # Return the computed answer\n        return alpha\n    except Exception as e:\n        return None",
+    "result": 3.009886363636364,
+    "execution_result": {
+      "valid": true,
+      "result": 3.009886363636364
+    },
+    "validation_result": {
+      "valid": true,
+      "unknown_var": "alpha"
+    },
+    "created_at": "2025-11-21T05:50:15.252677"
+  },
+  {
+    "signature": "fids=[10_A,10_K,10_N,10_O]|unknown=angular_acceleration",
+    "formula_ids": [
+      "10_K",
+      "10_A",
+      "10_N",
+      "10_O"
+    ],
+    "unknown_var": "angular_acceleration",
+    "word_problem": "A uniform horizontal bar of length 3.0 meters and mass 15.0 kg is freely pivoted at its exact center. A small, dense block with a mass of 5.0 kg is firmly attached to one end of the bar. The bar is initially held in a horizontal position and then released from rest. Assuming the acceleration due to gravity is 9.81 m/s\u00b2, what is the initial angular acceleration of the bar immediately after release?",
+    "variables": {
+      "length_bar": {
+        "value": 3.0,
+        "unit": "m"
+      },
+      "mass_bar": {
+        "value": 15.0,
+        "unit": "kg"
+      },
+      "mass_attached": {
+        "value": 5.0,
+        "unit": "kg"
+      },
+      "gravity": {
+        "value": 9.81,
+        "unit": "m/s\u00b2"
+      },
+      "angular_acceleration": {
+        "value": "NaN",
+        "unit": "rad/s\u00b2"
+      }
+    },
+    "code": "import math\n\ndef calculate_inertia_rod_center(mass: float, length: float) -> float:\n    return (1 / 12) * mass * length**2\n\ndef calculate_moment_of_inertia_discrete(masses: list[float], radii: list[float]) -> float:\n    if len(masses) != len(radii):\n        raise ValueError(\"Masses and radii lists must have the same length.\")\n    return sum(m * r**2 for m, r in zip(masses, radii))\n\ndef calculate_torque_magnitude(force_magnitude: float, lever_arm: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return lever_arm * force_magnitude * math.sin(angle_radians)\n\ndef calculate_angular_acceleration_from_torque(net_torque: float, moment_of_inertia: float) -> float:\n    if moment_of_inertia == 0:\n        return float('inf')\n    return net_torque / moment_of_inertia\n\ndef solve():\n    try:\n        # Define known variables\n        length_bar = 3.0\n        mass_bar = 15.0\n        mass_attached = 5.0\n        gravity = 9.81\n\n        # Step 1: Calculate the moment of inertia of the uniform bar about its center pivot.\n        inertia_bar = calculate_inertia_rod_center(mass=mass_bar, length=length_bar)\n\n        # Step 2: Calculate the moment of inertia of the attached block about the pivot.\n        # The pivot is at the exact center of the bar, so the distance to one end is half the bar's length.\n        radius_block = length_bar / 2\n        inertia_block = calculate_moment_of_inertia_discrete(masses=[mass_attached], radii=[radius_block])\n\n        # Step 3: Calculate the total moment of inertia of the system.\n        total_moment_of_inertia = inertia_bar + inertia_block\n\n        # Step 4: Calculate the torque due to the attached block's weight.\n        # The bar is initially horizontal, so the force of gravity (acting downwards) is perpendicular\n        # to the lever arm (distance from pivot to block).\n        force_block_gravity = mass_attached * gravity\n        lever_arm_block = length_bar / 2\n        # The angle between the lever arm vector and the force vector is 90 degrees.\n        torque_block = calculate_torque_magnitude(force_magnitude=force_block_gravity, lever_arm=lever_arm_block, angle_degrees=90.0)\n\n        # The weight of the uniform bar acts at its center of mass, which is at the pivot.\n        # Therefore, the torque produced by the bar's own weight about the pivot is zero.\n        net_torque = torque_block\n\n        # Step 5: Calculate the initial angular acceleration using the net torque and total moment of inertia.\n        angular_acceleration = calculate_angular_acceleration_from_torque(net_torque=net_torque, moment_of_inertia=total_moment_of_inertia)\n\n        # Return the computed answer\n        return angular_acceleration\n    except Exception as e:\n        return None",
+    "result": 3.27,
+    "execution_result": {
+      "valid": true,
+      "result": 3.27
+    },
+    "validation_result": {
+      "valid": true,
+      "unknown_var": "angular_acceleration"
+    },
+    "created_at": "2025-11-21T05:51:36.334068"
+  },
+  {
+    "signature": "fids=[10_J,10_N,10_O,8_D]|unknown=linear_acceleration_tip",
+    "formula_ids": [
+      "10_J",
+      "10_N",
+      "10_O",
+      "8_D"
+    ],
+    "unknown_var": "linear_acceleration_tip",
+    "word_problem": "A uniform steel beam, with a mass of 15.0 kg and a total length of 3.0 m, is initially held horizontally. One end of the beam is rigidly fixed to a wall, acting as a pivot, allowing the beam to rotate freely about this point. If the beam is suddenly released from rest, determine the initial linear acceleration of its free end immediately after release. Assume the acceleration due to gravity is 9.81 m/s\u00b2.",
+    "variables": {
+      "M": {
+        "value": 15.0,
+        "unit": "kg"
+      },
+      "L": {
+        "value": 3.0,
+        "unit": "m"
+      },
+      "g": {
+        "value": 9.81,
+        "unit": "m/s\u00b2"
+      },
+      "linear_acceleration_tip": {
+        "value": "NaN",
+        "unit": "m/s\u00b2"
+      }
+    },
+    "code": "import math\n\ndef calculate_inertia_rod_end(mass: float, length: float) -> float:\n    return (1 / 3) * mass * length**2\n\ndef calculate_torque_magnitude(force_magnitude: float, lever_arm: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return lever_arm * force_magnitude * math.sin(angle_radians)\n\ndef calculate_angular_acceleration_from_torque(net_torque: float, moment_of_inertia: float) -> float:\n    if moment_of_inertia == 0:\n        return float('inf')\n    return net_torque / moment_of_inertia\n\ndef calculate_tangential_acceleration(radius: float, angular_acceleration: float) -> float:\n    return radius * angular_acceleration\n\ndef solve():\n    try:\n        # Define known variables\n        M = 15.0\n        L = 3.0\n        g = 9.81\n\n        # Step 1: Calculate the moment of inertia (I) of the uniform rod about one end (the pivot).\n        # Formula ID: 10_J\n        moment_of_inertia = calculate_inertia_rod_end(mass=M, length=L)\n\n        # Step 2: Calculate the net torque (tau) acting on the beam immediately after release.\n        # The force causing torque is gravity, acting at the center of mass (L/2).\n        # The beam is held horizontally, so the angle between the lever arm and force is 90 degrees.\n        # Force magnitude = M * g\n        # Lever arm = L / 2 (distance from pivot to center of mass)\n        # Formula ID: 10_N\n        force_magnitude_gravity = M * g\n        lever_arm_cm = L / 2\n        initial_angle_degrees = 90.0 # Beam is held horizontally, so force (down) is perpendicular to lever arm\n        net_torque = calculate_torque_magnitude(force_magnitude=force_magnitude_gravity, lever_arm=lever_arm_cm, angle_degrees=initial_angle_degrees)\n\n        # Step 3: Calculate the initial angular acceleration (alpha) using the net torque and moment of inertia.\n        # Formula ID: 10_O\n        angular_acceleration = calculate_angular_acceleration_from_torque(net_torque=net_torque, moment_of_inertia=moment_of_inertia)\n\n        # Step 4: Calculate the initial linear acceleration of the free end.\n        # The free end is at a distance L from the pivot.\n        # Formula ID: 8_D\n        radius_free_end = L\n        linear_acceleration_tip = calculate_tangential_acceleration(radius=radius_free_end, angular_acceleration=angular_acceleration)\n\n        # Return the computed answer\n        return linear_acceleration_tip\n    except Exception as e:\n        return None",
+    "result": 14.715,
+    "execution_result": {
+      "valid": true,
+      "result": 14.715
+    },
+    "validation_result": {
+      "valid": true,
+      "unknown_var": "linear_acceleration_tip"
+    },
+    "created_at": "2025-11-21T06:27:08.301586"
+  },
+  {
+    "signature": "fids=[10_J,10_N,10_O]|unknown=length",
+    "formula_ids": [
+      "10_J",
+      "10_N",
+      "10_O"
+    ],
+    "unknown_var": "length",
+    "word_problem": "A uniform drawbridge, with a mass of 10.0 kg, is designed to pivot at one end for lifting. Due to a system malfunction, it is released from a perfectly horizontal position. If its initial angular acceleration upon release is 5.0 rad/s^2, what is the length of the drawbridge? (Assume acceleration due to gravity g = 9.81 m/s^2).",
+    "variables": {
+      "mass": {
+        "value": 10.0,
+        "unit": "kg"
+      },
+      "angular_acceleration": {
+        "value": 5.0,
+        "unit": "rad/s^2"
+      },
+      "g": {
+        "value": 9.81,
+        "unit": "m/s^2"
+      },
+      "length": {
+        "value": "NaN",
+        "unit": "m"
+      }
+    },
+    "code": "import math\n\ndef calculate_inertia_rod_end(mass: float, length: float) -> float:\n    return (1 / 3) * mass * length**2\n\ndef calculate_torque_magnitude(force_magnitude: float, lever_arm: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return lever_arm * force_magnitude * math.sin(angle_radians)\n\ndef calculate_angular_acceleration_from_torque(net_torque: float, moment_of_inertia: float) -> float:\n    if moment_of_inertia == 0:\n        return float('inf')\n    return net_torque / moment_of_inertia\n\ndef solve():\n    try:\n        # Define known variables\n        mass = 10.0  # kg\n        angular_acceleration = 5.0  # rad/s^2\n        g = 9.81  # m/s^2\n        # length is the unknown\n\n        # The drawbridge is a uniform rod pivoting at one end.\n        # When released from a perfectly horizontal position, the torque is due to gravity.\n        # The force of gravity acts at the center of mass.\n\n        # Force due to gravity: F = m*g\n        force_magnitude = mass * g\n\n        # For a uniform rod pivoting at one end, the center of mass is at L/2 from the pivot.\n        # The lever arm for the gravitational force is length / 2.\n        # Since the bridge is horizontal, the angle between the lever arm and the force is 90 degrees.\n        angle_degrees = 90.0\n\n        # From calculate_angular_acceleration_from_torque (10_O):\n        # angular_acceleration = net_torque / moment_of_inertia\n        # Rearranging, net_torque = angular_acceleration * moment_of_inertia\n\n        # From calculate_torque_magnitude (10_N):\n        # net_torque = (force_magnitude) * (length / 2) * math.sin(math.radians(angle_degrees))\n        # Since sin(90 degrees) = 1, this simplifies to:\n        # net_torque = (mass * g * length) / 2\n\n        # From calculate_inertia_rod_end (10_J):\n        # moment_of_inertia = (1 / 3) * mass * length**2\n\n        # Substitute these expressions back into the rearranged 10_O equation:\n        # (mass * g * length / 2) = angular_acceleration * (1 / 3) * mass * length**2\n\n        # Now, solve this algebraic equation for 'length'.\n        # Assuming mass > 0 and length > 0 (physical constraints):\n        # Divide both sides by 'mass':\n        # (g * length / 2) = angular_acceleration * (1 / 3) * length**2\n\n        # Divide both sides by 'length':\n        # g / 2 = angular_acceleration * (1 / 3) * length\n\n        # Rearrange to solve for 'length':\n        length = (3 * g) / (2 * angular_acceleration)\n\n        return length\n    except Exception as e:\n        return None",
+    "result": 2.943,
+    "execution_result": {
+      "valid": true,
+      "result": 2.943
+    },
+    "validation_result": {
+      "valid": true,
+      "unknown_var": "length"
+    },
+    "created_at": "2025-11-21T06:29:24.776897"
+  },
+  {
+    "signature": "fids=[10_C,10_K,10_N,10_O,8_D]|unknown=linear_acceleration_tip",
+    "formula_ids": [
+      "10_K",
+      "10_C",
+      "10_N",
+      "10_O",
+      "8_D"
+    ],
+    "unknown_var": "linear_acceleration_tip",
+    "word_problem": "A uniform drawbridge, with a total mass of 15.0 kg and a length of 3.0 m, is designed to pivot freely at one of its ends. If the lifting mechanism suddenly fails while the drawbridge is held perfectly horizontal and it is subsequently released, what is the initial linear acceleration of its free end immediately after release? Assume the acceleration due to gravity is 9.81 m/s^2.",
+    "variables": {
+      "mass": {
+        "value": 15.0,
+        "unit": "kg"
+      },
+      "length": {
+        "value": 3.0,
+        "unit": "m"
+      },
+      "gravity": {
+        "value": 9.81,
+        "unit": "m/s^2"
+      },
+      "linear_acceleration_tip": {
+        "value": "NaN",
+        "unit": "m/s^2"
+      }
+    },
+    "code": "import math\n\ndef calculate_inertia_rod_center(mass: float, length: float) -> float:\n    return (1 / 12) * mass * length**2\n\ndef calculate_parallel_axis_inertia(inertia_cm: float, mass: float, distance: float) -> float:\n    return inertia_cm + (mass * distance**2)\n\ndef calculate_torque_magnitude(force_magnitude: float, lever_arm: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return lever_arm * force_magnitude * math.sin(angle_radians)\n\ndef calculate_angular_acceleration_from_torque(net_torque: float, moment_of_inertia: float) -> float:\n    if moment_of_inertia == 0:\n        return float('inf')\n    return net_torque / moment_of_inertia\n\ndef calculate_tangential_acceleration(radius: float, angular_acceleration: float) -> float:\n    return radius * angular_acceleration\n\ndef solve():\n    try:\n        # Define known variables\n        mass = 15.0\n        length = 3.0\n        gravity = 9.81\n        # linear_acceleration_tip is the unknown\n\n        # Step 1: Calculate the moment of inertia about the center of mass (I_cm)\n        # The drawbridge is a uniform rod.\n        inertia_cm = calculate_inertia_rod_center(mass=mass, length=length)\n\n        # Step 2: Use the parallel axis theorem to find the moment of inertia about the pivot (one end)\n        # The distance from the center of mass to one end is L/2.\n        distance_cm_to_pivot = length / 2\n        moment_of_inertia_pivot = calculate_parallel_axis_inertia(\n            inertia_cm=inertia_cm,\n            mass=mass,\n            distance=distance_cm_to_pivot\n        )\n\n        # Step 3: Calculate the torque produced by gravity\n        # The force of gravity acts at the center of mass (L/2 from the pivot).\n        # When the bridge is horizontal, the lever arm (L/2) is perpendicular to the gravitational force.\n        force_magnitude = mass * gravity\n        lever_arm = length / 2\n        angle_degrees = 90.0 # Force (gravity) is perpendicular to the lever arm initially\n\n        net_torque = calculate_torque_magnitude(\n            force_magnitude=force_magnitude,\n            lever_arm=lever_arm,\n            angle_degrees=angle_degrees\n        )\n\n        # Step 4: Calculate the initial angular acceleration (alpha)\n        angular_acceleration = calculate_angular_acceleration_from_torque(\n            net_torque=net_torque,\n            moment_of_inertia=moment_of_inertia_pivot\n        )\n\n        # Step 5: Calculate the initial linear acceleration of the free end\n        # The free end is at a distance 'length' from the pivot.\n        radius_at_free_end = length\n        linear_acceleration_tip = calculate_tangential_acceleration(\n            radius=radius_at_free_end,\n            angular_acceleration=angular_acceleration\n        )\n\n        return linear_acceleration_tip\n    except Exception as e:\n        return None",
+    "result": 14.715,
+    "execution_result": {
+      "valid": true,
+      "result": 14.715
+    },
+    "validation_result": {
+      "valid": true,
+      "unknown_var": "linear_acceleration_tip"
+    },
+    "created_at": "2025-11-21T06:30:06.995302"
+  },
+  {
+    "signature": "fids=[10_J,10_N,10_O,8_D]|unknown=angular_acceleration",
+    "formula_ids": [
+      "10_J",
+      "10_N",
+      "10_O",
+      "8_D"
+    ],
+    "unknown_var": "angular_acceleration",
+    "word_problem": "A sturdy, uniform wooden gate, with a mass of 10.0 kg and a length of 3.0 m, is securely attached to a post by hinges at one of its ends. The gate is initially held in a perfectly horizontal position and then released from rest. Assuming negligible friction in the hinges and taking the acceleration due to gravity as 9.81 m/s\u00b2, what is the initial angular acceleration of the gate?",
+    "variables": {
+      "mass": {
+        "value": 10.0,
+        "unit": "kg"
+      },
+      "length": {
+        "value": 3.0,
+        "unit": "m"
+      },
+      "gravity": {
+        "value": 9.81,
+        "unit": "m/s\u00b2"
+      },
+      "angular_acceleration": {
+        "value": "NaN",
+        "unit": "rad/s\u00b2"
+      }
+    },
+    "code": "import math\n# import numpy as np  # only if needed\n\ndef calculate_inertia_rod_end(mass: float, length: float) -> float:\n    return (1 / 3) * mass * length**2\n\ndef calculate_torque_magnitude(force_magnitude: float, lever_arm: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return lever_arm * force_magnitude * math.sin(angle_radians)\n\ndef calculate_angular_acceleration_from_torque(net_torque: float, moment_of_inertia: float) -> float:\n    if moment_of_inertia == 0:\n        return float('inf')\n    return net_torque / moment_of_inertia\n\ndef calculate_tangential_acceleration(radius: float, angular_acceleration: float) -> float:\n    return radius * angular_acceleration\n\ndef solve():\n    try:\n        # Define known variables\n        mass = 10.0\n        length = 3.0\n        gravity = 9.81\n\n        # Step 1: Calculate the moment of inertia (I) of the gate.\n        # The gate is a uniform rod rotating about one end (the hinges).\n        moment_of_inertia = calculate_inertia_rod_end(mass=mass, length=length)\n\n        # Step 2: Calculate the net torque (tau) acting on the gate.\n        # The force of gravity acts at the center of mass of the uniform gate.\n        # For a uniform rod, the center of mass is at L/2 from the pivot.\n        # The initial position is horizontal, so the angle between the lever arm\n        # (from pivot to CM) and the force of gravity (downwards) is 90 degrees.\n        force_of_gravity = mass * gravity\n        lever_arm = length / 2\n        angle_degrees = 90.0 # Gate is horizontal, gravity acts perpendicular to the lever arm\n\n        net_torque = calculate_torque_magnitude(force_magnitude=force_of_gravity, lever_arm=lever_arm, angle_degrees=angle_degrees)\n\n        # Step 3: Calculate the initial angular acceleration (alpha).\n        # Using Newton's second law for rotation: tau = I * alpha\n        angular_acceleration = calculate_angular_acceleration_from_torque(net_torque=net_torque, moment_of_inertia=moment_of_inertia)\n\n        # Return the computed answer\n        return angular_acceleration\n    except Exception as e:\n        return None",
+    "result": 4.905000000000001,
+    "execution_result": {
+      "valid": true,
+      "result": 4.905000000000001
+    },
+    "validation_result": {
+      "valid": true,
+      "unknown_var": "angular_acceleration"
+    },
+    "created_at": "2025-11-21T06:31:37.603312"
+  },
+  {
+    "signature": "fids=[10_A,10_J,10_N,10_O,8_D]|unknown=linear_acceleration_tip",
+    "formula_ids": [
+      "10_J",
+      "10_A",
+      "10_N",
+      "10_O",
+      "8_D"
+    ],
+    "unknown_var": "linear_acceleration_tip",
+    "word_problem": "A robotic arm, modeled as a uniform rod of length 1.5 meters and a mass of 5.0 kg, is equipped with a compact gripper of mass 1.2 kg attached at its free end. The arm is designed to pivot freely about a fixed axis at its other end. If the arm is initially held perfectly horizontally and then released from rest, what is the initial linear acceleration of the gripper immediately after release? Assume the acceleration due to gravity is 9.81 m/s\u00b2.",
+    "variables": {
+      "L": {
+        "value": 1.5,
+        "unit": "m"
+      },
+      "M": {
+        "value": 5.0,
+        "unit": "kg"
+      },
+      "m_gripper": {
+        "value": 1.2,
+        "unit": "kg"
+      },
+      "g": {
+        "value": 9.81,
+        "unit": "m/s\u00b2"
+      },
+      "linear_acceleration_tip": {
+        "value": "NaN",
+        "unit": "m/s\u00b2"
+      }
+    },
+    "code": "import math\n\ndef calculate_moment_of_inertia_discrete(masses: list[float], radii: list[float]) -> float:\n    if len(masses) != len(radii):\n        raise ValueError(\"Masses and radii lists must have the same length.\")\n    return sum(m * r**2 for m, r in zip(masses, radii))\n\ndef calculate_inertia_rod_end(mass: float, length: float) -> float:\n    return (1 / 3) * mass * length**2\n\ndef calculate_torque_magnitude(force_magnitude: float, lever_arm: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return lever_arm * force_magnitude * math.sin(angle_radians)\n\ndef calculate_angular_acceleration_from_torque(net_torque: float, moment_of_inertia: float) -> float:\n    if moment_of_inertia == 0:\n        return float('inf')\n    return net_torque / moment_of_inertia\n\ndef calculate_tangential_acceleration(radius: float, angular_acceleration: float) -> float:\n    return radius * angular_acceleration\n\ndef solve():\n    try:\n        # Define known variables\n        L = 1.5\n        M = 5.0\n        m_gripper = 1.2\n        g = 9.81\n\n        # 1. Calculate the moment of inertia of the uniform rod about the pivot (one end).\n        # Formula ID: 10_J\n        inertia_rod = calculate_inertia_rod_end(mass=M, length=L)\n\n        # 2. Calculate the moment of inertia of the gripper (point mass) about the pivot.\n        # Formula ID: 10_A (using it for a single point mass)\n        inertia_gripper = calculate_moment_of_inertia_discrete(masses=[m_gripper], radii=[L])\n\n        # 3. Calculate the total moment of inertia of the robotic arm system.\n        total_inertia = inertia_rod + inertia_gripper\n\n        # 4. Calculate the torque due to the weight of the rod.\n        # The center of mass of a uniform rod is at L/2.\n        # The arm is horizontal, so the angle between lever arm and force is 90 degrees.\n        # Formula ID: 10_N\n        torque_rod = calculate_torque_magnitude(force_magnitude=(M * g), lever_arm=(L / 2), angle_degrees=90)\n\n        # 5. Calculate the torque due to the weight of the gripper.\n        # The gripper is at the end, so its lever arm is L.\n        # Formula ID: 10_N\n        torque_gripper = calculate_torque_magnitude(force_magnitude=(m_gripper * g), lever_arm=L, angle_degrees=90)\n\n        # 6. Calculate the net torque acting on the arm.\n        net_torque = torque_rod + torque_gripper\n\n        # 7. Calculate the initial angular acceleration of the arm.\n        # Formula ID: 10_O\n        angular_acceleration = calculate_angular_acceleration_from_torque(net_torque=net_torque, moment_of_inertia=total_inertia)\n\n        # 8. Calculate the initial linear acceleration of the gripper.\n        # The gripper is at the tip of the arm, so its radius is L.\n        # Since it's released from rest horizontally, the initial acceleration is purely tangential.\n        # Formula ID: 8_D\n        linear_acceleration_tip = calculate_tangential_acceleration(radius=L, angular_acceleration=angular_acceleration)\n\n        return linear_acceleration_tip\n    except Exception as e:\n        return None",
+    "result": 12.661744186046516,
+    "execution_result": {
+      "valid": true,
+      "result": 12.661744186046516
+    },
+    "validation_result": {
+      "valid": true,
+      "unknown_var": "linear_acceleration_tip"
+    },
+    "created_at": "2025-11-21T06:32:13.681558"
+  },
+  {
+    "signature": "fids=[10_C,10_K,10_N,10_O]|unknown=angular_acceleration",
+    "formula_ids": [
+      "10_K",
+      "10_C",
+      "10_N",
+      "10_O"
+    ],
+    "unknown_var": "angular_acceleration",
+    "word_problem": "A uniform gate of mass 12.0 kg and length 3.0 m is mounted on a pivot. The pivot is located 0.75 m from one end of the gate. Initially, the gate is held perfectly horizontal and then released. Assuming negligible friction at the pivot and ignoring air resistance, what is the initial angular acceleration of the gate?",
+    "variables": {
+      "mass": {
+        "value": 12.0,
+        "unit": "kg"
+      },
+      "length": {
+        "value": 3.0,
+        "unit": "m"
+      },
+      "distance": {
+        "value": 0.75,
+        "unit": "m"
+      },
+      "gravity": {
+        "value": 9.81,
+        "unit": "m/s\u00b2"
+      },
+      "angle_degrees": {
+        "value": 90.0,
+        "unit": "degrees"
+      },
+      "angular_acceleration": {
+        "value": "NaN",
+        "unit": "rad/s\u00b2"
+      }
+    },
+    "code": "import math\n\ndef calculate_inertia_rod_center(mass: float, length: float) -> float:\n    return (1 / 12) * mass * length**2\n\ndef calculate_parallel_axis_inertia(inertia_cm: float, mass: float, distance: float) -> float:\n    return inertia_cm + (mass * distance**2)\n\ndef calculate_torque_magnitude(force_magnitude: float, lever_arm: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return lever_arm * force_magnitude * math.sin(angle_radians)\n\ndef calculate_angular_acceleration_from_torque(net_torque: float, moment_of_inertia: float) -> float:\n    if moment_of_inertia == 0:\n        return float('inf')\n    return net_torque / moment_of_inertia\n\ndef solve():\n    try:\n        # Define known variables\n        mass = 12.0\n        length = 3.0\n        distance_pivot_from_end = 0.75  # distance from one end of the gate to the pivot\n        gravity = 9.81\n        angle_degrees = 90.0 # Gate is perfectly horizontal, gravity acts perpendicular to the lever arm\n\n        # Step 1: Calculate the moment of inertia about the center of mass (I_cm)\n        # For a uniform rod, the center of mass is at its geometric center (length/2).\n        inertia_cm = calculate_inertia_rod_center(mass=mass, length=length)\n\n        # Step 2: Determine the distance from the center of mass to the pivot axis.\n        # Center of mass is at length/2 from either end.\n        center_of_mass_position = length / 2\n        distance_cm_to_pivot = abs(center_of_mass_position - distance_pivot_from_end)\n\n        # Step 3: Calculate the moment of inertia about the pivot using the Parallel Axis Theorem.\n        inertia_pivot = calculate_parallel_axis_inertia(inertia_cm=inertia_cm, mass=mass, distance=distance_cm_to_pivot)\n\n        # Step 4: Calculate the force producing the torque (weight of the gate).\n        force_magnitude = mass * gravity\n\n        # Step 5: Calculate the torque due to gravity.\n        # The lever arm is the distance from the pivot to the center of mass.\n        # Since the gate is horizontal, gravity acts vertically, making the angle 90 degrees.\n        net_torque = calculate_torque_magnitude(force_magnitude=force_magnitude, lever_arm=distance_cm_to_pivot, angle_degrees=angle_degrees)\n\n        # Step 6: Calculate the initial angular acceleration.\n        angular_acceleration = calculate_angular_acceleration_from_torque(net_torque=net_torque, moment_of_inertia=inertia_pivot)\n\n        # Return the computed answer\n        return angular_acceleration\n    except Exception as e:\n        return None",
+    "result": 5.605714285714285,
+    "execution_result": {
+      "valid": true,
+      "result": 5.605714285714285
+    },
+    "validation_result": {
+      "valid": true,
+      "unknown_var": "angular_acceleration"
+    },
+    "created_at": "2025-11-21T06:36:50.630620"
+  },
+  {
+    "signature": "fids=[10_C,10_L,10_N,10_O]|unknown=angular_acceleration",
+    "formula_ids": [
+      "10_L",
+      "10_C",
+      "10_N",
+      "10_O"
+    ],
+    "unknown_var": "angular_acceleration",
+    "word_problem": "A uniform rectangular plate with a mass of 8.5 kg has dimensions of 1.2 m (length) by 0.8 m (width). It is hinged at one of its corners and held perfectly horizontal. When released from rest, what is its initial angular acceleration? Assume the acceleration due to gravity is 9.81 m/s\u00b2.",
+    "variables": {
+      "mass": {
+        "value": 8.5,
+        "unit": "kg"
+      },
+      "side_a": {
+        "value": 1.2,
+        "unit": "m"
+      },
+      "side_b": {
+        "value": 0.8,
+        "unit": "m"
+      },
+      "gravity": {
+        "value": 9.81,
+        "unit": "m/s\u00b2"
+      },
+      "angle_degrees": {
+        "value": 90.0,
+        "unit": "degrees"
+      },
+      "angular_acceleration": {
+        "value": "NaN",
+        "unit": "rad/s\u00b2"
+      }
+    },
+    "code": "import math\n\ndef calculate_parallel_axis_inertia(inertia_cm: float, mass: float, distance: float) -> float:\n    return inertia_cm + (mass * distance**2)\n\ndef calculate_inertia_rect_plate_perp_center(mass: float, side_a: float, side_b: float) -> float:\n    return (mass * (side_a**2 + side_b**2)) / 12\n\ndef calculate_torque_magnitude(force_magnitude: float, lever_arm: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return lever_arm * force_magnitude * math.sin(angle_radians)\n\ndef calculate_angular_acceleration_from_torque(net_torque: float, moment_of_inertia: float) -> float:\n    if moment_of_inertia == 0:\n        return float('inf')\n    return net_torque / moment_of_inertia\n\ndef solve():\n    try:\n        # Define known variables\n        mass = 8.5\n        side_a = 1.2\n        side_b = 0.8\n        gravity = 9.81\n        angle_degrees = 90.0 # Angle between lever arm (to COM) and gravitational force\n\n        # Step 1: Calculate the moment of inertia about the center of mass (COM)\n        # using the formula for a rectangular plate with an axis perpendicular to the plate through its center.\n        inertia_cm = calculate_inertia_rect_plate_perp_center(mass, side_a, side_b)\n\n        # Step 2: Calculate the distance from the hinged corner to the center of mass.\n        # The center of mass of a uniform rectangular plate is at its geometric center.\n        # The distance from a corner to the center is half the length of the diagonal.\n        distance_to_com = math.sqrt((side_a / 2)**2 + (side_b / 2)**2)\n\n        # Step 3: Use the Parallel Axis Theorem to find the moment of inertia about the hinged corner.\n        # I_hinge = I_cm + M * d^2\n        moment_of_inertia_hinge = calculate_parallel_axis_inertia(inertia_cm, mass, distance_to_com)\n\n        # Step 4: Calculate the magnitude of the gravitational force acting on the plate.\n        force_gravity = mass * gravity\n\n        # Step 5: Calculate the torque due to gravity.\n        # The plate is held perfectly horizontal, so the gravitational force acts perpendicularly\n        # to the lever arm (distance from the hinge to the COM).\n        torque = calculate_torque_magnitude(force_gravity, distance_to_com, angle_degrees)\n\n        # Step 6: Calculate the initial angular acceleration using the torque and moment of inertia.\n        # tau = I * alpha => alpha = tau / I\n        angular_acceleration = calculate_angular_acceleration_from_torque(torque, moment_of_inertia_hinge)\n\n        return angular_acceleration\n    except Exception as e:\n        return None",
+    "result": 10.203016734317808,
+    "execution_result": {
+      "valid": true,
+      "result": 10.203016734317808
+    },
+    "validation_result": {
+      "valid": true,
+      "unknown_var": "angular_acceleration"
+    },
+    "created_at": "2025-11-21T06:42:03.081022"
+  }
+]
