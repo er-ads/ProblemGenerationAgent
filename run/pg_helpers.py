@@ -9,7 +9,7 @@ def inner_load_json_from_file(filename):
     Load a JSON file and return its contents as a pretty JSON string.
     This is useful for passing structured data into LLM prompts.
     """
-    current_dir = os.path.dirname(os.path.abspath(__file__)) if '__file__' in locals() else os.getcwd()
+    current_dir = os.path.dirname(os.path.abspath(__file__))
     filepath = os.path.join(current_dir, filename)
     with open(filepath, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -231,3 +231,84 @@ def atomic_write_json(path, data):
     with open(tmp_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2)
     os.replace(tmp_path, path)
+
+
+def iterate_csv_pairs(csv_filename, required_columns=('question', 'solution'), encoding='utf-8', start_index=1):
+    """
+    Generator that yields rows from a CSV file as dictionaries with normalized (lowercase) keys.
+
+    Resolution logic for `csv_filename`:
+    - if `csv_filename` is absolute, use it
+    - else try the path as given relative to this file's directory
+    - else try ../seed_problems/<csv_filename> relative to this file's directory
+
+    Each yielded dict will contain at minimum the keys `question` and `solution` (trimmed strings),
+    and two derived fields if not provided: `Pair_Number` (int) and `source_problem_ID` (str).
+
+    Rows missing required fields are skipped with a printed warning.
+    """
+    import csv
+
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+
+    candidates = []
+    if os.path.isabs(csv_filename):
+        candidates.append(csv_filename)
+    else:
+        candidates.append(os.path.join(current_dir, csv_filename))
+        candidates.append(os.path.join(current_dir, '..', 'seed_problems', csv_filename))
+        candidates.append(os.path.join(current_dir, '..', csv_filename))
+
+    csv_path = None
+    for c in candidates:
+        if os.path.exists(c):
+            csv_path = c
+            break
+
+    if not csv_path:
+        raise FileNotFoundError(f"CSV file not found. Tried: {candidates}")
+
+    pair_counter = start_index
+    with open(csv_path, 'r', encoding=encoding, newline='') as fh:
+        reader = csv.DictReader(fh)
+        # normalize fieldnames to lowercase
+        if reader.fieldnames:
+            normalized_fieldnames = [fn.strip().lower() for fn in reader.fieldnames]
+            mapping = {orig: norm for orig, norm in zip(reader.fieldnames, normalized_fieldnames)}
+        else:
+            mapping = {}
+
+        for raw_row in reader:
+            # normalize keys
+            row = { (k.strip().lower() if k is not None else k): (v.strip() if isinstance(v, str) else v) for k, v in raw_row.items() }
+
+            # validate required columns
+            missing = [c for c in required_columns if not row.get(c)]
+            if missing:
+                print(f"Skipping CSV row {pair_counter}: missing required columns: {missing}")
+                pair_counter += 1
+                continue
+
+            # ensure Pair_Number
+            try:
+                if row.get('pair_number'):
+                    pn = int(row.get('pair_number'))
+                else:
+                    pn = pair_counter
+            except Exception:
+                pn = pair_counter
+
+            row['Pair_Number'] = pn
+
+            # ensure source_problem_ID
+            if not row.get('source_problem_id'):
+                chapter = row.get('chapter_name') or row.get('chapter') or ''
+                if chapter:
+                    row['source_problem_ID'] = f"{chapter}_R{pn}"
+                else:
+                    row['source_problem_ID'] = f"CSV_R{pn}"
+            else:
+                row['source_problem_ID'] = row.get('source_problem_id')
+
+            yield row
+            pair_counter += 1

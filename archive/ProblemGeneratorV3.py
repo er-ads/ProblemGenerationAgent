@@ -244,7 +244,7 @@ def execute_and_validate_in_repl(code, variables):
 # [[[LLM CALL 1]]] #
 
 print(" Start ---------------------------------------------------------------------------- \n ")
-chapters_json = load_json_from_file('codebase_main/chapter_manifest.json')
+chapters_json = load_json_from_file(os.path.join('..', 'chapterwise_formulas', 'chapter_manifest.json'))
 
 op_call1 = llm.generate_content(sys_call1.format(
     chapters_json = chapters_json,
@@ -263,7 +263,7 @@ identified_chapters = op_call1_data['relevant_chapters']
 # Trying to make "available_formulas" from identified_chapters
 available_formulas = {}
 for item in identified_chapters: 
-    temp_file = load_json_from_file('codebase_main/'+item+'.json')
+    temp_file = load_json_from_file(os.path.join('..', 'chapterwise_formulas', item + '.json'))
     temp_data = json.loads(temp_file)
     available_formulas.update(temp_data)
 
@@ -312,7 +312,7 @@ if op_call1a_data.get('status') == "NO":
         print(f"Added missing chapter: {missing_chapter} to identified chapters.")
 
         # Updating available_formulas after adding missing chapter
-        temp_file = load_json_from_file('codebase_main/'+missing_chapter+'.json')
+        temp_file = load_json_from_file(os.path.join('..', 'chapterwise_formulas', missing_chapter + '.json'))
         temp_data = json.loads(temp_file)
         available_formulas.update(temp_data)
 
