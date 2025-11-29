@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "total_problems_collected": 2,
+    "target_formula_count": 6,
+    "generated_at": "2025-11-29T21:01:01.922638",
+    "description": "Problems with exactly 6 formulas collected from chapter files",
+    "collection_criteria": "formula_count == 6",
+    "note": "Original chapter files remain unchanged"
+  },
+  "problems": [
+    {
+      "signature": "fids=[10_A,10_I,10_Q,10_R,8_C,9_K]|unknown=h",
+      "formula_ids": [
+        "10_I",
+        "10_A",
+        "10_Q",
+        "10_R",
+        "9_K",
+        "8_C"
+      ],
+      "unknown_var": "h",
+      "word_problem": "A dart with a mass of 0.015 kg is thrown horizontally at a stationary uniform wooden log. The log has a mass of 12 kg and a radius of 0.25 meters. The dart's initial speed is 40 m/s. If the dart sticks into the log upon impact, what is the required height of impact (measured from the log's central axis) for the combined dart-log system to instantly begin pure rolling?",
+      "variables": {
+        "m": {
+          "value": 0.015,
+          "unit": "kg"
+        },
+        "M": {
+          "value": 12.0,
+          "unit": "kg"
+        },
+        "R": {
+          "value": 0.25,
+          "unit": "m"
+        },
+        "v0": {
+          "value": 40.0,
+          "unit": "m/s"
+        },
+        "h": {
+          "value": "NaN",
+          "unit": "m"
+        }
+      },
+      "code": "import math\n\ndef calculate_inertia_solid_cylinder_axis(mass: float, radius: float) -> float:\n    return (1 / 2) * mass * radius**2\n\ndef calculate_moment_of_inertia_discrete(masses: list[float], radii: list[float]) -> float:\n    if len(masses) != len(radii):\n        raise ValueError(\"Masses and radii lists must have the same length.\")\n    return sum(m * r**2 for m, r in zip(masses, radii))\n\ndef calculate_angular_momentum_particle_magnitude(momentum: float, position_vector_magnitude: float, angle_degrees: float) -> float:\n    angle_radians = math.radians(angle_degrees)\n    return position_vector_magnitude * momentum * math.sin(angle_radians)\n\ndef calculate_angular_momentum_rigid_body(moment_of_inertia: float, angular_velocity: float) -> float:\n    return moment_of_inertia * angular_velocity\n\ndef calculate_com_velocity_1d(masses: list[float], velocities: list[float]) -> float:\n    if len(masses) != len(velocities):\n        raise ValueError(\"Masses and velocities lists must have the same length.\")\n    total_mass = sum(masses)\n    if total_mass == 0:\n        return 0.0\n    total_momentum = sum(m * v for m, v in zip(masses, velocities))\n    return total_momentum / total_mass\n\ndef calculate_linear_speed_from_angular_velocity(radius: float, angular_velocity: float) -> float:\n    return radius * angular_velocity\n\ndef solve():\n    try:\n        # Define known variables\n        m = 0.015  # Dart mass in kg\n        M = 12.0   # Log mass in kg\n        R = 0.25   # Log radius in meters\n        v0 = 40.0  # Dart's initial speed in m/s\n        # h is the unknown height of impact from the log's central axis in meters\n\n        # Step 1: Calculate the velocity of the center of mass (V_cm_system)\n        # of the combined dart-log system immediately after impact using conservation of linear momentum.\n        # The initial momentum is from the dart, log is stationary.\n        # The total mass is m + M.\n        # Using calculate_com_velocity_1d (9_K) for the combined system:\n        V_cm_system = calculate_com_velocity_1d(masses=[m, M], velocities=[v0, 0.0])\n\n        # Step 2: Express the angular velocity (omega) of the combined system\n        # required for pure rolling.\n        # Pure rolling condition: V_cm_system = R * omega\n        # From calculate_linear_speed_from_angular_velocity (8_C): V_cm = R * omega\n        # So, omega = V_cm_system / R\n\n        # Step 3: Calculate the moment of inertia of the log about its central axis (I_log_cm).\n        # The log is a uniform solid cylinder.\n        # Using calculate_inertia_solid_cylinder_axis (10_I):\n        I_log_cm = calculate_inertia_solid_cylinder_axis(M, R)\n\n        # Step 4: Set up the angular momentum conservation equation about the log's central axis.\n        # Initial angular momentum (dart only) = Final angular momentum (combined system)\n        # L_initial = L_final\n\n        # L_initial (of dart about log's center):\n        # The dart has linear momentum (m * v0). If it impacts at height 'h' from the center,\n        # 'h' is the perpendicular distance (lever arm) to the line of action of the dart's momentum.\n        # So, L_initial = m * v0 * h.\n        # Using calculate_angular_momentum_particle_magnitude (10_Q), where momentum = m*v0,\n        # position_vector_magnitude = h, and angle_degrees = 90 (for perpendicular impact):\n        # L_initial_expression = calculate_angular_momentum_particle_magnitude(m * v0, h, 90)\n        # This expression contains 'h', which is what we need to solve for.\n\n        # L_final (of combined system about log's center):\n        # I_system_O = I_log_cm + I_dart_cm\n        # I_dart_cm (point mass dart about log's center) = m * h**2\n        # Using calculate_moment_of_inertia_discrete (10_A) for the dart:\n        # I_dart_cm_expression = calculate_moment_of_inertia_discrete(masses=[m], radii=[h])\n        # So, I_system_O = I_log_cm + m * h**2\n\n        # L_final = I_system_O * omega\n        # Using calculate_angular_momentum_rigid_body (10_R):\n        # L_final_expression = calculate_angular_momentum_rigid_body((I_log_cm + m * h**2), omega)\n\n        # Now, equate L_initial and L_final:\n        # m * v0 * h = (I_log_cm + m * h**2) * (V_cm_system / R)\n\n        # This equation can be rearranged into a quadratic form a*h^2 + b*h + c = 0:\n        # m * v0 * h * R = I_log_cm * V_cm_system + m * V_cm_system * h**2\n        # m * V_cm_system * h**2 - (m * v0 * R) * h + (I_log_cm * V_cm_system) = 0\n\n        # Coefficients for the quadratic equation a*h^2 + b*h + c = 0:\n        a_coeff = m * V_cm_system\n        b_coeff = - (m * v0 * R)\n        c_coeff = I_log_cm * V_cm_system\n\n        # Alternatively, using algebraic simplification derived in thought process:\n        # After substituting V_cm_system and cancelling m*v0:\n        # h = ((1/2) * M * R**2 + m * h**2) / ((m + M) * R)\n        # h * (m + M) * R = (1/2) * M * R**2 + m * h**2\n        # m * h**2 - (m + M) * R * h + (1/2) * M * R**2 = 0\n        # Let's use these simpler coefficients:\n        a_coeff = m\n        b_coeff = - (m + M) * R\n        c_coeff = (1/2) * M * R**2\n\n\n        # Solve the quadratic equation for h\n        discriminant = b_coeff**2 - 4 * a_coeff * c_coeff\n\n        if discriminant < 0:\n            return float('nan')  # No real solution for h\n\n        h_sol1 = (-b_coeff + math.sqrt(discriminant)) / (2 * a_coeff)\n        h_sol2 = (-b_coeff - math.sqrt(discriminant)) / (2 * a_coeff)\n\n        # The impact height 'h' must be physically possible, i.e., within the radius of the log\n        # and positive (as \"height\" usually implies a magnitude).\n        # We choose the solution that is positive and less than or equal to R.\n        \n        # In this specific problem, h1 is much larger than R, so h2 is the physically meaningful answer.\n        if h_sol2 >= 0 and h_sol2 <= R + 1e-9: # Adding epsilon for float comparison safety\n            answer = h_sol2\n        elif h_sol1 >= 0 and h_sol1 <= R + 1e-9:\n            answer = h_sol1\n        else:\n            # If neither solution meets the typical physical expectation (e.g., impact outside R, or negative height for \"height\"),\n            # it implies there might be specific interpretations or assumptions needed.\n            # However, for this problem, h_sol2 is the correct physical answer.\n            answer = h_sol2 \n        \n        return answer\n\n    except Exception as e:\n        return None",
+      "result": 0.12492187503051848,
+      "execution_result": {
+        "valid": true,
+        "result": 0.12492187503051848
+      },
+      "validation_result": {
+        "valid": true,
+        "unknown_var": "h"
+      },
+      "created_at": "2025-11-26T20:55:03.514589",
+      "Pair_Number": 38,
+      "source_problem_ID": "Rigid Body Dynamics_R38",
+      "source_chapter": "10.Rigid Body Dynamics",
+      "collected_at": "2025-11-29T21:01:01.806379"
+    },
+    {
+      "signature": "fids=[2_A,2_B,2_C,2_D,2_E,2_H]|unknown=average_acceleration_magnitude_decel_phase",
+      "formula_ids": [
+        "2_A",
+        "2_B",
+        "2_C",
+        "2_D",
+        "2_E",
+        "2_H"
+      ],
+      "unknown_var": "average_acceleration_magnitude_decel_phase",
+      "word_problem": "A commuter train departs from Station A (initial position 0 m) and travels towards Station B, a total one-way distance of 350.0 meters. The outward journey (A to B) proceeds in three phases:\n1. It accelerates uniformly from rest at a rate of 0.5 m/s^2 for the first 20.0 seconds.\n2. It then maintains the maximum velocity achieved for an additional 20.0 seconds.\n3. Finally, it decelerates uniformly, coming to a complete stop precisely at Station B after an additional 10.0 seconds.\n\nImmediately upon arrival, the train starts its return journey from Station B back to Station A, also in phases:\n1. It accelerates uniformly from rest at 0.6 m/s^2 for 15.0 seconds.\n2. It then maintains this new maximum velocity for the remainder of the journey, arriving back at Station A.\n\nThe total time taken for the entire round trip (from leaving Station A, reaching Station B, and returning to Station A) is 96.39 seconds.\n\nCalculate the magnitude of the average acceleration (in m/s^2) during the deceleration phase of the outward journey (Phase 3).",
+      "variables": {
+        "total_distance_A_to_B": {
+          "value": 350.0,
+          "unit": "m"
+        },
+        "acceleration_outward_phase1": {
+          "value": 0.5,
+          "unit": "m/s^2"
+        },
+        "time_accelerating_outward_phase1": {
+          "value": 20.0,
+          "unit": "s"
+        },
+        "time_constant_velocity_outward_phase2": {
+          "value": 20.0,
+          "unit": "s"
+        },
+        "time_decelerating_outward_phase3": {
+          "value": 10.0,
+          "unit": "s"
+        },
+        "acceleration_return_phase1": {
+          "value": 0.6,
+          "unit": "m/s^2"
+        },
+        "time_accelerating_return_phase1": {
+          "value": 15.0,
+          "unit": "s"
+        },
+        "total_round_trip_time": {
+          "value": 96.39,
+          "unit": "s"
+        },
+        "average_acceleration_magnitude_decel_phase": {
+          "value": "NaN",
+          "unit": "m/s^2"
+        }
+      },
+      "code": "import math\n\ndef calculate_average_acceleration(final_velocity: float, initial_velocity: float, time_interval: float) -> float:\n    if time_interval == 0:\n        return float('inf')\n    return (final_velocity - initial_velocity) / time_interval\n\ndef calculate_final_velocity_from_time(initial_velocity: float, acceleration: float, time: float) -> float:\n    return initial_velocity + (acceleration * time)\n\ndef solve():\n    try:\n        # Define known variables\n        total_distance_A_to_B = 350.0\n        acceleration_outward_phase1 = 0.5\n        time_accelerating_outward_phase1 = 20.0\n        time_constant_velocity_outward_phase2 = 20.0\n        time_decelerating_outward_phase3 = 10.0\n        acceleration_return_phase1 = 0.6\n        time_accelerating_return_phase1 = 15.0\n        total_round_trip_time = 96.39\n        average_acceleration_magnitude_decel_phase = float('NaN') # Target variable\n\n        # Outward Journey - Phase 1: Accelerating from rest\n        # Initial velocity for Phase 1\n        initial_velocity_phase1 = 0.0 # m/s (from rest)\n\n        # Calculate final velocity at the end of Phase 1\n        # This velocity is also the initial velocity for Phase 2 (constant velocity phase)\n        # And it's also the initial velocity for Phase 3 (deceleration phase)\n        velocity_at_end_of_phase1 = calculate_final_velocity_from_time(\n            initial_velocity=initial_velocity_phase1,\n            acceleration=acceleration_outward_phase1,\n            time=time_accelerating_outward_phase1\n        )\n\n        # Outward Journey - Phase 2: Maintaining maximum velocity\n        # The velocity remains constant, so initial_velocity_phase3 is velocity_at_end_of_phase1\n        initial_velocity_phase3 = velocity_at_end_of_phase1\n\n        # Outward Journey - Phase 3: Decelerating to a stop\n        # Final velocity for Phase 3\n        final_velocity_phase3 = 0.0 # m/s (coming to a complete stop)\n\n        # Calculate the average acceleration during the deceleration phase (Phase 3)\n        average_acceleration_decel_phase = calculate_average_acceleration(\n            final_velocity=final_velocity_phase3,\n            initial_velocity=initial_velocity_phase3,\n            time_interval=time_decelerating_outward_phase3\n        )\n        \n        # The problem asks for the magnitude of the average acceleration\n        answer = abs(average_acceleration_decel_phase)\n\n        return answer\n    except Exception as e:\n        return None",
+      "result": 1.0,
+      "execution_result": {
+        "valid": true,
+        "result": 1.0
+      },
+      "validation_result": {
+        "valid": true,
+        "unknown_var": "average_acceleration_magnitude_decel_phase"
+      },
+      "created_at": "2025-11-28T19:28:52.627937",
+      "Pair_Number": 13,
+      "source_problem_ID": "Rectilinear Motion_R13",
+      "source_chapter": "2-4.Kinematics",
+      "collected_at": "2025-11-29T21:01:01.816466"
+    }
+  ]
+}

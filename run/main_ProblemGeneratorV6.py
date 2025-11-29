@@ -5,7 +5,7 @@ import google.generativeai as genai
 api_key = os.environ.get("GOOGLE_API_KEY")
 if not api_key:
     raise RuntimeError("Missing GOOGLE_API_KEY environment variable. Set it before running.")
-genai.configure(api_key=api_key)
+genai.configure(api_key="AIzaSyDcbDylHWHu7hYQOIe7pA_hgfrCNg40i3c")
 llm = genai.GenerativeModel('gemini-2.5-flash')
 
 from prompts import *
@@ -27,7 +27,6 @@ from pg_helpers import (
     iterate_csv_pairs,
 )
 
-# ProblemGeneratorV5: concise runner that preserves the same logic as V4
 # Phases: Call1 (analyze Q/S) -> Call1A (check formulas) -> build available_formulas ->
 # multi-iteration loop: round-robin over alternate_scenarios with two cycles per iteration ->
 # Call2 (word problem) + validation (retry once) -> Call3 (code) + exec (retry once) -> record -> merge write
@@ -41,7 +40,7 @@ chapters_json = load_json_from_file(os.path.join('..', 'chapterwise_formulas', '
 #     print("Usage: python main_ProblemGeneratorV5.py <csv_filename>\nExample: python main_ProblemGeneratorV5.py kinematics.csv")
 #     sys.exit(1)
 # csv_filename = sys.argv[1]
-csv_filename = "kinematics.csv"
+csv_filename = "5.Newton's Laws of Motion.csv"
 
 # Load existing successful records once and maintain for incremental writes
 existing_records = []
