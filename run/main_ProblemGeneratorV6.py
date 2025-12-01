@@ -5,7 +5,7 @@ import google.generativeai as genai
 api_key = os.environ.get("GOOGLE_API_KEY")
 if not api_key:
     raise RuntimeError("Missing GOOGLE_API_KEY environment variable. Set it before running.")
-genai.configure(api_key="AIzaSyDcbDylHWHu7hYQOIe7pA_hgfrCNg40i3c")
+genai.configure(api_key=api_key)
 llm = genai.GenerativeModel('gemini-2.5-flash')
 
 from prompts import *
