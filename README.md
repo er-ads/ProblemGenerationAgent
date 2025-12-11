@@ -1,130 +1,126 @@
 # ProblemGenerationAgent 🚀
 
-![Python](https://img.shields.io/badge/language-Python-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Status](https://img.shields.io/badge/status-active-success) ![AI](https://img.shields.io/badge/powered%20by-Gemini%202.5-purple)
+![Python](https://img.shields.io/badge/language-Python-blue) ![License](https://img.shields.io/badge/license-MIT-green) ![Status](https://img.shields.io/badge/status-active-success) ![AI](https://img.shields.io/badge/LLM-Gemini-orange)
 
-> **A multi-agent LLM system for automated generation of high-quality physics problems with verified solutions**
+A multi-agent LLM pipeline that generates diverse physics word problems from seed Q/S pairs, synthesizes solution code, executes numeric checks, and produces an interactive dataset evaluation report.
 
-This project demonstrates how large language models can be orchestrated to create diverse, validated physics problems across multiple difficulty levels—complete with step-by-step solutions and executable Python code.
-
----
-
-## 📊 Live Evaluation Report
-
-🔗 **[View Comprehensive Dataset Analysis](https://er-ads.github.io/ProblemGenerationAgent/Physics_Evaluation_Report.html)**
-
-Explore interactive visualizations, quality metrics, and chapter-wise breakdowns of the generated problem dataset.
+- Purpose: Automate large-scale generation of structured physics problems with programmatic solution verification and dataset-level quality analytics.
+- Approach: Analyze seed Q/S, propose alternate scenarios, generate new word problems, synthesize Python solutions, execute and validate results, and persist validated problems.
 
 ---
 
 ## 📋 Table of Contents
 
 - [Overview](#overview)
-- [Key Features](#key-features)
-- [Architecture](#architecture)
-- [Installation](#installation)
-- [Usage](#usage)
-- [File Structure](#file-structure)
-- [Dataset Evaluation](#dataset-evaluation)
-- [Utilities](#utilities)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [Features](#features)
+- [Live Evaluation Report](#-live-evaluation-report)
+- [Architecture](#-architecture)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Output Format](#-output-format)
+- [File Structure](#-file-structure)
+- [Utilities](#-utilities)
+- [Contributing](#-contributing)
+- [License & Contact](#-license--contact)
 
 ---
 
 ## 🎯 Overview
 
-**ProblemGenerationAgent** automates the creation of physics problems by:
+ProblemGenerationAgent orchestrates LLM calls to convert human-authored question/solution pairs into many alternative, machine-checkable physics problems. Each generated problem is paired with synthesized Python solution code that is executed to verify numeric outputs; records are then aggregated and analyzed with a visual HTML report.
 
-1. **Analyzing** seed problems to extract concepts and formulas
-2. **Generating** diverse alternate scenarios using LLMs
-3. **Validating** problems for correctness and uniqueness
-4. **Synthesizing** Python code to verify numerical solutions
-5. **Persisting** validated problems with comprehensive metadata
-
-The system covers 9 physics chapters from **Rectilinear Motion** to **Rigid Body Dynamics**, producing problems at JEE Mains+ difficulty level.
+Highlights:
+- Modular pipeline designed for incremental runs and dataset curation.
+- Uses prompt templates + helper utilities to parse, validate, and execute generated artifacts.
+- Produces an HTML evaluation report with per-chapter metrics and plots.
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
-- 🤖 **Multi-Agent Pipeline**: Orchestrated LLM calls with error handling and retry logic
-- 📐 **Formula-Driven Generation**: Uses 100+ physics formulas from structured JSON libraries
-- ✅ **Automated Validation**: Checks for logical consistency, uniqueness, and numerical correctness
-- 🔢 **Code Synthesis & Execution**: Generates and executes Python solutions for each problem
-- 📊 **Quality Metrics**: Built-in evaluation tools for diversity, difficulty, and balance
-- 🎨 **Rich Visualizations**: HTML reports with interactive chapter-wise analysis
-- 🔧 **Utility Scripts**: Filter, collect, and analyze problems by formula count or other criteria
+- 🤖 Multi-agent pipeline with retries and structured prompts
+- 📚 Formula libraries maintained as structured JSON (chapterwise)
+- 🧪 Code synthesis + execution for numeric verification
+- 📊 Dataset evaluation producing an interactive HTML report
+- 🔧 Utility scripts to filter or collect problems by formula counts
+- 📝 Incremental persistence to avoid reprocessing duplicates
+
+---
+
+## 📊 Live Evaluation Report
+
+🔗 View the generated interactive report:
+https://er-ads.github.io/ProblemGenerationAgent/Physics_Evaluation_Report.html
+
+Note: Running the local evaluator will produce a single-file HTML report (see `run/dataset_evaluator.py`).
 
 ---
 
 ## 🏗️ Architecture
-```
-User → Seed Problem (CSV) 
-       ↓
-[Call 1: Analyze Q&S] → Extract chapters, variables, scenarios
-       ↓
-[Call 1A: Verify Formulas] → Ensure formula completeness
-       ↓
-[Multi-Iteration Loop]
-   ├─ [Call 2: Generate Word Problem] → Create problem statement
-   ├─ [Validation] → Check formula IDs, uniqueness, ranges
-   ├─ [Call 3: Generate Python Code] → Synthesize solution code
-   ├─ [Execution] → Validate numerical result
-   └─ [Persist] → Save to JSON (incremental)
-       ↓
-Output → chapter_generated_problems.json
-```
 
-**Key Components:**
-- `main_ProblemGeneratorV6.py`: Main orchestrator
-- `prompts.py`: LLM prompt templates
-- `pg_helpers.py`: Validation, execution, and utility functions
-- `chapterwise_formulas/`: Physics formula library (JSON)
-- `seed_problems/`: Input CSV files with example problems
+User (seed CSV) → Analyze Q&S (Call 1) → Verify formula coverage (Call 1A) → Multi-iteration loop:
+- Generate word problem (Call 2)
+- Validate problem structure & uniqueness
+- Generate Python solution (Call 3)
+- Execute & verify numeric result
+- Persist validated problems (incremental)
+
+Output: per-CSV generated problems JSON + chapterwise aggregated datasets + HTML evaluation report.
 
 ---
 
 ## 🚀 Installation
 
-### Prerequisites
+Prerequisites
 - Python 3.8+
-- Google Generative AI API Key (Gemini 2.5 Flash)
+- (Optional, for generation) Google Generative AI API Key with access to Gemini models
 
-### Steps
+Steps
 ```bash
-# Clone the repository
 git clone https://github.com/er-ads/ProblemGenerationAgent.git
 cd ProblemGenerationAgent
 
-# Install dependencies
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
+```
 
-# Set up API key
+Set API key (required for the main generator):
+```bash
 export GOOGLE_API_KEY='your_api_key_here'
 ```
+
+Tip: For CI or shared environments, store the key in your secret manager rather than committing it.
 
 ---
 
 ## 💻 Usage
 
-### Basic Problem Generation
+1) Run the main generator (LLM required)
 ```bash
 cd run
 python main_ProblemGeneratorV6.py
 ```
+- The script reads a seed CSV (default filename is set inside the script). It writes incremental output to `<csv-basename>_generated_problems.json` (in the `run/` directory).
+- Environment variable: `GOOGLE_API_KEY` is read by the script. The code instantiates `genai.GenerativeModel('gemini-2.5-flash')`.
 
-By default, this processes `5.Newton's Laws of Motion.csv` and outputs to `5.Newton's Laws of Motion_generated_problems.json`.
+Callouts:
+- NOTE: The default CSV filename is set in the script; you may update it or run a patched/CLI-enabled version to pass a CSV at runtime.
+- WARNING: Executing the generation pipeline consumes LLM credits.
 
-**To process a different chapter:**
-```python
-# Edit main_ProblemGeneratorV6.py (line 36)
-csv_filename = "8.Circular Motion.csv"
+2) Generate dataset evaluation report (no LLM calls)
+```bash
+cd run
+python dataset_evaluator.py
 ```
+- Expects chapter JSON files in `chapterwise_generated_dataset/` (wildcard `*.json`).
+- Produces `Physics_Evaluation_Report.html` in the repository root (default).
 
-### Output Format
+---
 
-Each generated problem includes:
+## 🔢 Output Format
+
+Each generated problem record follows this general JSON shape (example):
 ```json
 {
   "signature": "fids=[5_A,5_B]|unknown=acceleration",
@@ -140,125 +136,77 @@ Each generated problem includes:
   "created_at": "2025-01-15T10:30:00Z"
 }
 ```
+- "code" stores the synthesized Python solution as text.
+- "result" stores the numeric output when code execution succeeded.
+- For unknown variables use a clear sentinel (e.g., "NaN" string) as shown above.
+
+Recommendation: Consumers of these JSONs should validate records against a JSON Schema (not included here) or run the dataset evaluator for consistency checks.
 
 ---
 
 ## 📁 File Structure
+
+Top-level (concise):
 ```
 ProblemGenerationAgent/
-├── README.md                          # This file
-├── requirements.txt                   # Python dependencies
-├── chapterwise_formulas/              # Physics formula library
-│   ├── chapter_manifest.json          # Chapter descriptions
-│   ├── 2.Rectilinear Motion.json
-│   ├── 5.Newton's Laws of Motion.json
-│   └── ...
-├── seed_problems/                     # Input CSV files
-│   ├── 2-4.Kinematics.csv
-│   ├── 5.Newton's Laws of Motion.csv
-│   └── ...
-├── run/                               # Main execution scripts
-│   ├── main_ProblemGeneratorV6.py     # Main generator
-│   ├── prompts.py                     # LLM prompts
-│   ├── pg_helpers.py                  # Helper functions
-│   ├── dataset_evaluator.py           # Quality metrics & HTML report
-│   ├── defective_problem_filter.py    # Filter low-formula problems
-│   ├── N_formula_collector.py         # Collect N-formula problems
-│   └── ...
-└── Physics_Evaluation_Report.html    # Generated analysis report
+├── README.md
+├── requirements.txt
+├── Physics_Evaluation_Report.html
+├── chapterwise_formulas/              # formula libraries (JSON)
+├── seed_problems/                     # CSV seed question/solution pairs
+├── chapterwise_generated_dataset/     # aggregated generated chapter JSONs
+├── run/                               # main scripts and utilities
+│   ├── main_ProblemGeneratorV6.py
+│   ├── prompts.py
+│   ├── pg_helpers.py
+│   ├── dataset_evaluator.py
+│   ├── defective_problem_filter.py
+│   ├── N_formula_collector.py
+│   └── two_formula_collector.py
+└── ...
 ```
-
----
-
-## 📈 Dataset Evaluation
-
-### Generate Quality Report
-```bash
-cd run
-python dataset_evaluator.py
-```
-
-**Output:** `Physics_Evaluation_Report.html` with:
-- 📊 Global metrics (uniqueness, diversity, difficulty)
-- 📉 Formula distribution & code complexity analysis
-- 🗂️ Chapter-wise breakdowns with visualizations
-- 🔍 Interactive plots (expandable sections)
-
-**Key Metrics Tracked:**
-- Text/Signature Uniqueness (%)
-- Type-Token Ratio (vocabulary diversity)
-- Avg Formulas per Problem
-- Numerical Validity & Outliers
-- Formula Count Distribution
+- The `run/` directory contains the main orchestrator, prompt templates, helper utilities, and dataset tools.
 
 ---
 
 ## 🛠️ Utilities
 
-### Filter Defective Problems
-```bash
-python defective_problem_filter.py
-```
-Removes problems with ≤1 formulas and saves them to `global_defective_problems.json`.
+- run/defective_problem_filter.py
+  - Removes problems with ≤1 formulas and consolidates them into `global_defective_problems.json`.
 
-### Collect N-Formula Problems
-```bash
-python N_formula_collector.py
-```
-Collects all problems with exactly N formulas (configurable) into `global_{N}_formula_count.json`.
+- run/N_formula_collector.py / run/two_formula_collector.py
+  - Collects problems with exactly N formulas into `global_{N}_formula_count.json`.
 
-**Configuration:**
-```python
-# In N_formula_collector.py
-TARGET_FORMULA_COUNT = 3  # Adjust as needed
-```
+- run/dataset_evaluator.py
+  - Produces a self-contained HTML report embedding plots (base64 PNGs) and per-chapter metrics.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! To contribute:
-
+Contributions are welcome. Suggested workflow:
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+2. Create a feature branch: git checkout -b feature/awesome
+3. Add tests for logic changes (especially helpers and validators)
+4. Commit and push, then open a PR
 
-**Areas for Improvement:**
-- Adding more physics chapters (Electromagnetism, Thermodynamics, etc.)
-- Improving formula verification logic
-- Multi-language problem generation
-- Integration with educational platforms
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
+Helpful additions:
+- CLI/argparse support for main_ProblemGeneratorV6.py
+- JSON Schema for produced problem objects
+- Unit tests for pg_helpers (signature, parser, execution checks)
+- CI workflow to run dataset_evaluator and basic linters
 
 ---
 
-## 🙏 Acknowledgments
+## 📄 License & Contact
 
-- **Google Generative AI** (Gemini 2.5 Flash) for powering the LLM pipeline
-- **Open-source physics formula databases** for structured domain knowledge
-- **Contributors** who provided seed problems and validation feedback
+This project is licensed under the MIT License — see the LICENSE file.
 
----
-
-## 📬 Contact
-
-**Project Maintainer:** [er-ads](https://github.com/er-ads)
-
-For questions, suggestions, or issues, please open an [Issue](https://github.com/er-ads/ProblemGenerationAgent/issues) or reach out via GitHub.
+Project Maintainer: er-ads — open issues or PRs at:
+https://github.com/er-ads/ProblemGenerationAgent/issues
 
 ---
 
 <div align="center">
-
 **⭐ Star this repository if you find it useful!**
-
-[View Live Report](https://er-ads.github.io/ProblemGenerationAgent/Physics_Evaluation_Report.html) • [Documentation](#) • [Issues](https://github.com/er-ads/ProblemGenerationAgent/issues)
-
 </div>
