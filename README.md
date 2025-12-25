@@ -25,6 +25,13 @@ A multi-agent LLM pipeline that generates diverse physics word problems from see
 
 ---
 
+> This project would not have been possible without the extensive collaboration of  
+> [Sriram Hebbale](https://github.com/sriram-17-17), and the guidance and support of  
+> [Prof. Dhruv Kumar](https://github.com/kudhru).
+
+---
+
+
 ## 🎯 Overview
 
 ProblemGenerationAgent orchestrates LLM calls to convert human-authored question/solution pairs into many alternative, machine-checkable physics problems. Each generated problem is paired with synthesized Python solution code that is executed to verify numeric outputs; records are then aggregated and analyzed with a visual HTML report.
