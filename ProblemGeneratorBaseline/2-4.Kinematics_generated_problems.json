@@ -1,0 +1,2402 @@
+[
+  {
+    "signature": "Rectilinear Motion_R1_1_v1",
+    "source_problem_ID": "Rectilinear Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 1,
+    "problem_text": "A communication satellite, while performing an orbital adjustment maneuver, travels along a perfect semi-circular arc around a small celestial body. If the radius of this semi-circular path is 15,000 km, calculate the distance covered by the satellite and its final displacement from the starting point.",
+    "numerical_answer": 47123889.8
+  },
+  {
+    "signature": "Rectilinear Motion_R1_1_v2",
+    "source_problem_ID": "Rectilinear Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 2,
+    "problem_text": "During a test run, a high-performance sports car navigates a semi-circular turn on a track with a constant radius of 150.0 m. If the car enters the turn at one end and exits at the diametrically opposite end, determine the total distance traveled by the car and its displacement.",
+    "numerical_answer": 471.24
+  },
+  {
+    "signature": "Rectilinear Motion_R1_1_v3",
+    "source_problem_ID": "Rectilinear Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 3,
+    "problem_text": "An ant crawls along the curved, semi-circular edge of a leaf from one tip to the other. If the radius of this semi-circular edge is 12.0 cm, what is the total distance covered by the ant and its displacement?",
+    "numerical_answer": 0.38
+  },
+  {
+    "signature": "Rectilinear Motion_R1_1_v4",
+    "source_problem_ID": "Rectilinear Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 4,
+    "problem_text": "A section of a new rollercoaster track features a smooth semi-circular curve in the horizontal plane. The rollercoaster cart enters this curve at one end and completes the semi-circle to exit at the other end, directly opposite its entry point. If the radius of this curve is 25.0 m, calculate the distance traveled by the cart and its displacement.",
+    "numerical_answer": 78.54
+  },
+  {
+    "signature": "Rectilinear Motion_R1_1_v5",
+    "source_problem_ID": "Rectilinear Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 5,
+    "problem_text": "A remote-controlled rover is programmed to explore a crater on Mars. It follows a pre-defined semi-circular path along the rim of the crater with a radius of 5.0 m, starting from one point and reaching the diametrically opposite point. What is the total distance covered by the rover and its displacement?",
+    "numerical_answer": 15.71
+  },
+  {
+    "signature": "Rectilinear Motion_R1_1_v6",
+    "source_problem_ID": "Rectilinear Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 6,
+    "problem_text": "An ant starts crawling from one end of a semi-circular groove on a surface and reaches the other end, which is diametrically opposite. If the radius of the semi-circular path is 15.0 cm, determine the total distance covered by the ant and its displacement.",
+    "numerical_answer": 0.3
+  },
+  {
+    "signature": "Rectilinear Motion_R1_1_v7",
+    "source_problem_ID": "Rectilinear Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 7,
+    "problem_text": "A race car completes a semi-circular turn on a track. The radius of this semi-circular path is 300.0 m. If the car enters the turn at one end and exits at the diametrically opposite end, calculate the distance traveled along the track and the magnitude of its displacement.",
+    "numerical_answer": 600.0
+  },
+  {
+    "signature": "Rectilinear Motion_R1_1_v8",
+    "source_problem_ID": "Rectilinear Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 8,
+    "problem_text": "A marble rolls along a semi-circular channel carved into a wooden block. The channel has a radius of 25.0 cm. If the marble begins at one opening and exits at the other end of the channel, diametrically opposite, what is the length of the path it covered and the magnitude of its net displacement?",
+    "numerical_answer": 0.5
+  },
+  {
+    "signature": "Rectilinear Motion_R1_1_v9",
+    "source_problem_ID": "Rectilinear Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 9,
+    "problem_text": "A swimmer crosses a semi-circular cove in a lake. Starting from one point on the shore, he swims along the curved edge of the cove to a point diametrically opposite. If the radius of the semi-circular path is 50.0 m, find the total distance he swam and the magnitude of his displacement.",
+    "numerical_answer": 100.0
+  },
+  {
+    "signature": "Rectilinear Motion_R1_1_v10",
+    "source_problem_ID": "Rectilinear Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 10,
+    "problem_text": "A small autonomous robot is programmed to traverse a semi-circular path on a testing platform. The radius of this path is 0.75 m. If the robot begins at one designated start point and finishes at the diametrically opposite end, determine the total path length covered by the robot and the magnitude of its final displacement.",
+    "numerical_answer": 1.5
+  },
+  {
+    "signature": "Rectilinear Motion_R2_2_v1",
+    "source_problem_ID": "Rectilinear Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 1,
+    "problem_text": "A newly designed experimental spacecraft starts from rest, and its displacement from the launchpad is described by the equation s = (0.8 m/s^2)t^2, where s is in meters and t is in seconds. Find (a) the average speed of the spacecraft during the first 10.0 seconds of its motion, and (b) its instantaneous speed at t = 10.0 s.",
+    "numerical_answer": 16.0
+  },
+  {
+    "signature": "Rectilinear Motion_R2_2_v2",
+    "source_problem_ID": "Rectilinear Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 2,
+    "problem_text": "A section of a roller coaster track is designed such that a car starting from rest at the top of an incline has its position described by s = (3.2 m/s^2)t^2, where s is the distance in meters along the track and t is the time in seconds. Determine (a) the average speed of the roller coaster car during the time interval from 0 to 4.0 s, and (b) its instantaneous speed at t = 4.0 s.",
+    "numerical_answer": 25.6
+  },
+  {
+    "signature": "Rectilinear Motion_R2_2_v3",
+    "source_problem_ID": "Rectilinear Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 3,
+    "problem_text": "A proton is accelerated from rest in a uniform electric field. Its displacement from its initial position is given by s = (1.5 x 10^11 m/s^2)t^2, where s is in meters and t is in seconds. Calculate (a) the average speed of the proton during the time 0 to 2.0 x 10^-8 s, and (b) its instantaneous speed at t = 2.0 x 10^-8 s.",
+    "numerical_answer": 6000.0
+  },
+  {
+    "signature": "Rectilinear Motion_R2_2_v4",
+    "source_problem_ID": "Rectilinear Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 4,
+    "problem_text": "A toy car is released from rest at the top of a smooth inclined ramp. The distance it travels down the ramp is given by s = (0.6 m/s^2)t^2, where s is in meters and t is in seconds. Determine (a) the average speed of the toy car between t = 0 and t = 7.5 s, and (b) its instantaneous speed at t = 7.5 s.",
+    "numerical_answer": 9.0
+  },
+  {
+    "signature": "Rectilinear Motion_R2_2_v5",
+    "source_problem_ID": "Rectilinear Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 5,
+    "problem_text": "An object is dropped from rest in a controlled environment, and its distance fallen is described by s = (4.9 m/s^2)t^2, where s is the distance in meters and t is the time in seconds. Calculate (a) the average speed of the object during the time interval from 0 to 3.0 s, and (b) its instantaneous speed at t = 3.0 s.",
+    "numerical_answer": 29.4
+  },
+  {
+    "signature": "Rectilinear Motion_R2_2_v6",
+    "source_problem_ID": "Rectilinear Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 6,
+    "problem_text": "A rock is dropped from a cliff. Assuming no air resistance, its distance fallen is given by s = (4.9 m/s^2)t^2. Find (a) its average speed during the first 3.0 s of fall, and (b) its instantaneous speed at t = 3.0 s.",
+    "numerical_answer": 14.7
+  },
+  {
+    "signature": "Rectilinear Motion_R2_2_v7",
+    "source_problem_ID": "Rectilinear Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 7,
+    "problem_text": "A high-speed train starts from rest and accelerates such that its position is described by x = (0.8 m/s^2)t^2, where x is in meters and t is in seconds. Determine (a) the average speed of the train during the first 10.0 seconds of its motion, and (b) its instantaneous speed at t = 10.0 s.",
+    "numerical_answer": 8.0
+  },
+  {
+    "signature": "Rectilinear Motion_R2_2_v8",
+    "source_problem_ID": "Rectilinear Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 8,
+    "problem_text": "An electron, initially at rest, is accelerated uniformly in an electric field. Its displacement from its starting point is given by x = (1.2 x 10^4 m/s^2)t^2, where x is in meters and t is in seconds. Calculate (a) the average speed of the electron during the first 2.0 milliseconds (ms) of its acceleration, and (b) its instantaneous speed at t = 2.0 ms.",
+    "numerical_answer": 24.0
+  },
+  {
+    "signature": "Rectilinear Motion_R2_2_v9",
+    "source_problem_ID": "Rectilinear Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 9,
+    "problem_text": "A section of a roller coaster track is designed such that a cart starting from rest has its position described by the equation s = (1.5 m/s^2)t^2, where s is the distance travelled along the track in meters and t is in seconds. Determine (a) the average speed of the roller coaster cart during the time interval from t = 0 to t = 7.0 s, and (b) its instantaneous speed at t = 7.0 s.",
+    "numerical_answer": 10.5
+  },
+  {
+    "signature": "Rectilinear Motion_R2_2_v10",
+    "source_problem_ID": "Rectilinear Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 10,
+    "problem_text": "A block slides down a frictionless inclined plane starting from rest. Its displacement along the incline is given by x = (1.0 m/s^2)t^2, where x is in meters and t is in seconds. Calculate (a) the average speed of the block during the first 4.5 seconds of its motion, and (b) its instantaneous speed at t = 4.5 s.",
+    "numerical_answer": 4.5
+  },
+  {
+    "signature": "Rectilinear Motion_R3_3_v1",
+    "source_problem_ID": "Rectilinear Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 1,
+    "problem_text": "A sports car starts from rest and accelerates uniformly at 3.0 m/s² for 5.0 seconds. Calculate the total distance covered by the car during this time.",
+    "numerical_answer": 37.5
+  },
+  {
+    "signature": "Rectilinear Motion_R3_3_v2",
+    "source_problem_ID": "Rectilinear Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 2,
+    "problem_text": "An experimental rocket launches vertically from rest. It achieves a speed of 80 m/s in the first 4.0 seconds of its flight, assuming uniform acceleration. Determine the altitude reached by the rocket at the end of these 4.0 seconds.",
+    "numerical_answer": 160.0
+  },
+  {
+    "signature": "Rectilinear Motion_R3_3_v3",
+    "source_problem_ID": "Rectilinear Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 3,
+    "problem_text": "An ice skater starts from rest and pushes off, achieving a uniform acceleration of 1.2 m/s². What distance does the skater cover in the first 6.0 seconds?",
+    "numerical_answer": 21.6
+  },
+  {
+    "signature": "Rectilinear Motion_R3_3_v4",
+    "source_problem_ID": "Rectilinear Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 4,
+    "problem_text": "A block is released from rest at the top of a frictionless inclined plane. It reaches a speed of 10.0 m/s after sliding for 2.5 seconds. How far down the incline did the block travel?",
+    "numerical_answer": 12.5
+  },
+  {
+    "signature": "Rectilinear Motion_R3_3_v5",
+    "source_problem_ID": "Rectilinear Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 5,
+    "problem_text": "An electron, initially at rest, is subjected to a uniform electric field, causing it to accelerate at a constant rate of 1.0 x 10^14 m/s². Determine the distance the electron travels in the first 2.0 x 10^-8 seconds.",
+    "numerical_answer": 0.02
+  },
+  {
+    "signature": "Rectilinear Motion_R3_3_v6",
+    "source_problem_ID": "Rectilinear Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 6,
+    "problem_text": "A high-performance electric car starts from rest and accelerates uniformly. It reaches a speed of 28 m/s in 7.0 seconds. Calculate the total distance covered by the car during this acceleration phase.",
+    "numerical_answer": 98.0
+  },
+  {
+    "signature": "Rectilinear Motion_R3_3_v7",
+    "source_problem_ID": "Rectilinear Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 7,
+    "problem_text": "During a test launch, a small model rocket ignites its engine at rest. It achieves an upward velocity of 75 m/s after exactly 5.0 seconds of constant acceleration. How high does the rocket travel from its launch point during these 5.0 seconds?",
+    "numerical_answer": 187.5
+  },
+  {
+    "signature": "Rectilinear Motion_R3_3_v8",
+    "source_problem_ID": "Rectilinear Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 8,
+    "problem_text": "A freight train begins to move from a standstill at a railway station and accelerates uniformly. If it reaches a speed of 36 m/s in 25 seconds, what is the distance covered by the train during this initial acceleration period?",
+    "numerical_answer": 450.0
+  },
+  {
+    "signature": "Rectilinear Motion_R3_3_v9",
+    "source_problem_ID": "Rectilinear Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 9,
+    "problem_text": "A skier pushes off from rest at the top of a gentle, uniform slope. After 6.0 seconds, her speed has increased uniformly to 12 m/s. What is the total distance she has moved down the slope in that time?",
+    "numerical_answer": 36.0
+  },
+  {
+    "signature": "Rectilinear Motion_R3_3_v10",
+    "source_problem_ID": "Rectilinear Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 10,
+    "problem_text": "An aircraft starts from rest at the beginning of a runway and accelerates uniformly for takeoff. If it reaches a takeoff speed of 60 m/s in 20.0 seconds, what is the minimum length of the runway required for this acceleration?",
+    "numerical_answer": 600.0
+  },
+  {
+    "signature": "Rectilinear Motion_R4_4_v1",
+    "source_problem_ID": "Rectilinear Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 1,
+    "problem_text": "A Ferris wheel has a radius of 20 meters and completes one full rotation every 3 minutes. A passenger boards at the very bottom (6 o'clock position) and rides for 1 minute and 30 seconds. Find the magnitude of the average velocity of the passenger during this time interval.",
+    "numerical_answer": 0.44
+  },
+  {
+    "signature": "Rectilinear Motion_R4_4_v2",
+    "source_problem_ID": "Rectilinear Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 2,
+    "problem_text": "A race car is on a perfectly circular track with a radius of 500 meters. The car starts from rest at the easternmost point of the track and drives to the westernmost point, taking 45 seconds. Calculate the magnitude of the average velocity of the car during this interval.",
+    "numerical_answer": 22.22
+  },
+  {
+    "signature": "Rectilinear Motion_R4_4_v3",
+    "source_problem_ID": "Rectilinear Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 3,
+    "problem_text": "A scientific probe is in a circular orbit around a celestial body. The orbital radius is 30,000 km. If the probe moves from a point directly above the body's north pole to a point directly above its south pole (passing over the center of the body's axis of rotation) in 3.5 hours, what is the magnitude of its average velocity?",
+    "numerical_answer": 4761.9
+  },
+  {
+    "signature": "Rectilinear Motion_R4_4_v4",
+    "source_problem_ID": "Rectilinear Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 4,
+    "problem_text": "A monumental clock has an hour hand that is 1.5 meters long. Calculate the magnitude of the average velocity of the tip of the hour hand between 12:00 p.m. (noon) and 6:00 p.m.",
+    "numerical_answer": 0.0
+  },
+  {
+    "signature": "Rectilinear Motion_R4_4_v5",
+    "source_problem_ID": "Rectilinear Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 5,
+    "problem_text": "A swimmer starts from the northernmost point of a perfectly circular pond with a diameter of 100 meters. The swimmer swims directly across the pond to the southernmost point, taking 2 minutes and 15 seconds. What is the magnitude of the swimmer's average velocity?",
+    "numerical_answer": 0.74
+  },
+  {
+    "signature": "Rectilinear Motion_R4_4_v6",
+    "source_problem_ID": "Rectilinear Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 6,
+    "problem_text": "A communication satellite is in a geostationary orbit, meaning its orbital radius from the center of the Earth is approximately 42,164 km. Calculate the magnitude of its average velocity as it moves from a position directly above the equator at 0° longitude to a diametrically opposite position above the equator at 180° longitude. Assume this takes exactly half of its orbital period.",
+    "numerical_answer": 1952.05
+  },
+  {
+    "signature": "Rectilinear Motion_R4_4_v7",
+    "source_problem_ID": "Rectilinear Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 7,
+    "problem_text": "An electron with a constant speed of 1.0 x 10^6 m/s moves in a uniform magnetic field, completing exactly half of a circular path with a radius of 5.0 cm. What is the magnitude of its average velocity during this motion?",
+    "numerical_answer": 636619.77
+  },
+  {
+    "signature": "Rectilinear Motion_R4_4_v8",
+    "source_problem_ID": "Rectilinear Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 8,
+    "problem_text": "The tip of a robotic arm, which is 1.5 meters long, pivots from a fixed base. If the arm's tip moves through an arc of 180 degrees in a horizontal plane in 4.0 seconds, find the magnitude of the average velocity of the tip during this interval.",
+    "numerical_answer": 0.75
+  },
+  {
+    "signature": "Rectilinear Motion_R4_4_v9",
+    "source_problem_ID": "Rectilinear Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 9,
+    "problem_text": "A child swings a ball attached to a string in a horizontal circle. The string is 0.8 meters long. If the ball completes exactly half a revolution in 1.2 seconds, what is the magnitude of the average velocity of the ball during this period?",
+    "numerical_answer": 1.33
+  },
+  {
+    "signature": "Rectilinear Motion_R4_4_v10",
+    "source_problem_ID": "Rectilinear Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 10,
+    "problem_text": "A research vessel, using its GPS, records its position as it sails around a research buoy. It starts at a point and sails in a perfect semi-circular arc with a radius of 2.0 km, arriving at a point diametrically opposite its starting position. If this maneuver takes 45 minutes, calculate the magnitude of the average velocity of the vessel.",
+    "numerical_answer": 1.48
+  },
+  {
+    "signature": "Rectilinear Motion_R5_5_v1",
+    "source_problem_ID": "Rectilinear Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 1,
+    "problem_text": "A high-speed train starts from an initial velocity of 40 m/s and accelerates uniformly at a rate of 1.2 m/s^2. Determine the distance travelled by the train in the first 5 seconds.",
+    "numerical_answer": 215.0
+  },
+  {
+    "signature": "Rectilinear Motion_R5_5_v2",
+    "source_problem_ID": "Rectilinear Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 2,
+    "problem_text": "A test rocket is launched vertically from rest and accelerates upwards uniformly at 25 m/s^2. How much time does it take for the rocket to achieve a velocity of 200 m/s?",
+    "numerical_answer": 8.0
+  },
+  {
+    "signature": "Rectilinear Motion_R5_5_v3",
+    "source_problem_ID": "Rectilinear Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 3,
+    "problem_text": "An electron enters a region with an initial velocity of 5.0 x 10^6 m/s and is accelerated uniformly by an electric field at 1.0 x 10^14 m/s^2. What distance will the electron cover to increase its velocity to 1.5 x 10^7 m/s?",
+    "numerical_answer": 8.75
+  },
+  {
+    "signature": "Rectilinear Motion_R5_5_v4",
+    "source_problem_ID": "Rectilinear Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 4,
+    "problem_text": "A cyclist coasts down a hill with an initial velocity of 8.0 m/s and maintains a constant acceleration of 0.75 m/s^2. Calculate the distance covered by the cyclist in the first 6 seconds of their descent.",
+    "numerical_answer": 61.5
+  },
+  {
+    "signature": "Rectilinear Motion_R5_5_v5",
+    "source_problem_ID": "Rectilinear Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 5,
+    "problem_text": "A stone is thrown downwards from a cliff with an initial velocity of 10.0 m/s. Assuming air resistance is negligible, and the acceleration due to gravity is 9.8 m/s^2, how far will the stone fall from its release point when its velocity reaches 25.0 m/s?",
+    "numerical_answer": 26.79
+  },
+  {
+    "signature": "Rectilinear Motion_R5_5_v6",
+    "source_problem_ID": "Rectilinear Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 6,
+    "problem_text": "A speedboat accelerates from an initial velocity of 8.0 m/s with a constant acceleration of 1.2 m/s^2. How far does it travel in the first 5.0 seconds?",
+    "numerical_answer": 55.0
+  },
+  {
+    "signature": "Rectilinear Motion_R5_5_v7",
+    "source_problem_ID": "Rectilinear Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 7,
+    "problem_text": "A ball is thrown vertically upwards with an initial velocity of 20 m/s. Assuming air resistance is negligible, how long does it take for the ball to reach its highest point? (Take acceleration due to gravity g = 9.8 m/s^2 downwards).",
+    "numerical_answer": 2.04
+  },
+  {
+    "signature": "Rectilinear Motion_R5_5_v8",
+    "source_problem_ID": "Rectilinear Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 8,
+    "problem_text": "An object starting from rest accelerates uniformly at a rate of 4.0 m/s^2. What total distance does it cover by the time its velocity reaches 16 m/s?",
+    "numerical_answer": 32.0
+  },
+  {
+    "signature": "Rectilinear Motion_R5_5_v9",
+    "source_problem_ID": "Rectilinear Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 9,
+    "problem_text": "A drone takes off vertically with a constant upward acceleration of 3.0 m/s^2. If its initial upward velocity is 1.0 m/s, what is its total displacement after 6.0 seconds?",
+    "numerical_answer": 60.0
+  },
+  {
+    "signature": "Rectilinear Motion_R5_5_v10",
+    "source_problem_ID": "Rectilinear Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 10,
+    "problem_text": "A train traveling at 40 m/s begins to apply its brakes, causing a uniform deceleration of 2.5 m/s^2. How much distance will the train travel before its speed is reduced to 15 m/s?",
+    "numerical_answer": 275.0
+  },
+  {
+    "signature": "Rectilinear Motion_R6_6_v1",
+    "source_problem_ID": "Rectilinear Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 1,
+    "problem_text": "A car starts with an initial velocity of 10 m/s and accelerates uniformly at 3 m/s^2 for a total duration of 8 seconds. Calculate the distance covered by the car during the last 1 second of its motion.",
+    "numerical_answer": 32.5
+  },
+  {
+    "signature": "Rectilinear Motion_R6_6_v2",
+    "source_problem_ID": "Rectilinear Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 2,
+    "problem_text": "A two-stage rocket, after separating its first stage, continues its ascent with an initial upward velocity of 50 m/s and experiences a constant upward acceleration of 15 m/s^2 for 20 seconds. What is the displacement of the rocket during the final 1 second of this 20-second interval?",
+    "numerical_answer": 342.5
+  },
+  {
+    "signature": "Rectilinear Motion_R6_6_v3",
+    "source_problem_ID": "Rectilinear Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 3,
+    "problem_text": "A proton is injected into a linear accelerator with an initial velocity of 5.0 x 10^4 m/s. It then undergoes a constant acceleration of 1.0 x 10^4 m/s^2 for a total of 12 seconds. Determine the displacement of the proton during the last 1 second of this acceleration phase.",
+    "numerical_answer": 165000.0
+  },
+  {
+    "signature": "Rectilinear Motion_R6_6_v4",
+    "source_problem_ID": "Rectilinear Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 4,
+    "problem_text": "A freight train is moving at an initial speed of 30 m/s when the brakes are applied, causing a constant deceleration of 2 m/s^2. Assuming the brakes are applied for 10 seconds, find the distance the train travels in the last 1 second of this 10-second braking period.",
+    "numerical_answer": 11.0
+  },
+  {
+    "signature": "Rectilinear Motion_R6_6_v5",
+    "source_problem_ID": "Rectilinear Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 5,
+    "problem_text": "An object is thrown vertically downwards from a tall building with an initial velocity of 8 m/s. If it falls under constant gravitational acceleration (g = 9.8 m/s^2) for a total duration of 6 seconds, what is the distance it covers during the final 1 second of its fall?",
+    "numerical_answer": 61.9
+  },
+  {
+    "signature": "Rectilinear Motion_R6_6_v6",
+    "source_problem_ID": "Rectilinear Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 6,
+    "problem_text": "A high-performance car starts with an initial velocity of 10 m/s and accelerates uniformly at 1.5 m/s^2 along a straight track. If the car maintains this acceleration for a total duration of 15 seconds, calculate the displacement covered by the car specifically during the last 1 second of its motion.",
+    "numerical_answer": 31.75
+  },
+  {
+    "signature": "Rectilinear Motion_R6_6_v7",
+    "source_problem_ID": "Rectilinear Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 7,
+    "problem_text": "A stone is thrown vertically downwards from the top of a tall building with an initial speed of 8 m/s. Assuming air resistance is negligible and the acceleration due to gravity is 9.8 m/s^2, what is the distance traveled by the stone during the last 1 second of its 7-second fall?",
+    "numerical_answer": 71.7
+  },
+  {
+    "signature": "Rectilinear Motion_R6_6_v8",
+    "source_problem_ID": "Rectilinear Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 8,
+    "problem_text": "A experimental rocket launches vertically upwards from rest with a constant upward acceleration of 20 m/s^2. Determine the vertical distance the rocket travels during the 1-second interval just before it completes its 50-second powered ascent.",
+    "numerical_answer": 990.0
+  },
+  {
+    "signature": "Rectilinear Motion_R6_6_v9",
+    "source_problem_ID": "Rectilinear Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 9,
+    "problem_text": "A skier descends a straight slope with an initial velocity of 3 m/s, experiencing a constant acceleration of 3.5 m/s^2 due to gravity and the slope. If the skier maintains this acceleration for 12 seconds, what is the displacement covered by the skier in the final 1 second of their descent?",
+    "numerical_answer": 43.25
+  },
+  {
+    "signature": "Rectilinear Motion_R6_6_v10",
+    "source_problem_ID": "Rectilinear Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 10,
+    "problem_text": "A cyclist begins a sprint with an initial velocity of 2 m/s and maintains a constant acceleration of 0.8 m/s^2 for a total period of 20 seconds. Calculate the precise distance the cyclist covers during the last 1 second of this acceleration phase.",
+    "numerical_answer": 17.6
+  },
+  {
+    "signature": "Rectilinear Motion_R7_7_v1",
+    "source_problem_ID": "Rectilinear Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 1,
+    "problem_text": "A car travelling at a speed of 15.0 m/s applies its brakes and undergoes a constant deceleration of 5.0 m/s^2. Calculate the stopping distance of the car.",
+    "numerical_answer": 22.5
+  },
+  {
+    "signature": "Rectilinear Motion_R7_7_v2",
+    "source_problem_ID": "Rectilinear Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 2,
+    "problem_text": "An astronaut on the Moon throws a rock vertically upwards with an initial speed of 8.0 m/s. If the acceleration due to gravity on the Moon is 1.6 m/s^2, what is the maximum height reached by the rock?",
+    "numerical_answer": 20.0
+  },
+  {
+    "signature": "Rectilinear Motion_R7_7_v3",
+    "source_problem_ID": "Rectilinear Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 3,
+    "problem_text": "A block is given an initial velocity of 6.0 m/s up a frictionless inclined plane that makes an angle of 30 degrees with the horizontal. How far does the block travel up the incline before momentarily coming to rest? Take g = 10 m/s^2.",
+    "numerical_answer": 3.6
+  },
+  {
+    "signature": "Rectilinear Motion_R7_7_v4",
+    "source_problem_ID": "Rectilinear Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 4,
+    "problem_text": "A small experimental rocket, after its engines shut down, is still moving upwards at a velocity of 120 m/s. How much additional height will the rocket gain before it momentarily stops at its apogee? Assume the acceleration due to gravity is 9.8 m/s^2.",
+    "numerical_answer": 734.69
+  },
+  {
+    "signature": "Rectilinear Motion_R7_7_v5",
+    "source_problem_ID": "Rectilinear Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 5,
+    "problem_text": "A piston in an engine moves with an initial velocity of 3.0 m/s. It experiences a constant deceleration of 150 m/s^2 as it approaches the end of its stroke. Determine the distance the piston travels before momentarily coming to rest.",
+    "numerical_answer": 0.03
+  },
+  {
+    "signature": "Rectilinear Motion_R7_7_v6",
+    "source_problem_ID": "Rectilinear Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 6,
+    "problem_text": "A car traveling at a speed of 20.0 m/s suddenly applies its brakes, causing it to decelerate uniformly at 5.0 m/s^2. Calculate the distance the car travels before coming to a complete stop.",
+    "numerical_answer": 40.0
+  },
+  {
+    "signature": "Rectilinear Motion_R7_7_v7",
+    "source_problem_ID": "Rectilinear Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 7,
+    "problem_text": "A small model rocket, after its engine burns out, is moving upwards at a velocity of 50.0 m/s. Assuming air resistance is negligible, determine the additional height the rocket will gain before momentarily stopping. Take g = 9.8 m/s^2.",
+    "numerical_answer": 127.55
+  },
+  {
+    "signature": "Rectilinear Motion_R7_7_v8",
+    "source_problem_ID": "Rectilinear Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 8,
+    "problem_text": "An electron traveling at an initial speed of 2.0 x 10^6 m/s enters a region with a uniform electric field that opposes its motion. The electron undergoes a constant deceleration of 5.0 x 10^14 m/s^2. What distance does the electron travel within the field before momentarily coming to rest?",
+    "numerical_answer": 0.0
+  },
+  {
+    "signature": "Rectilinear Motion_R7_7_v9",
+    "source_problem_ID": "Rectilinear Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 9,
+    "problem_text": "A crate is pushed across a rough horizontal floor with an initial velocity of 15.0 m/s. The kinetic friction between the crate and the floor causes a uniform deceleration of 2.5 m/s^2. Calculate the total distance the crate slides before it comes to a stop.",
+    "numerical_answer": 45.0
+  },
+  {
+    "signature": "Rectilinear Motion_R7_7_v10",
+    "source_problem_ID": "Rectilinear Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 10,
+    "problem_text": "A bullet with an initial speed of 300 m/s strikes a wooden block and penetrates it, experiencing a constant deceleration of 3.0 x 10^5 m/s^2. Determine the depth to which the bullet penetrates the block before coming to rest.",
+    "numerical_answer": 0.15
+  },
+  {
+    "signature": "Projectile Motion & Vector_R8_8_v1",
+    "source_problem_ID": "Projectile Motion & Vector_R8",
+    "Pair_Number": 8,
+    "variation_number": 1,
+    "problem_text": "An aircraft takes off from an airfield, which is considered the origin. Its initial velocity is 120 m/s at an angle of 30 degrees North of East. Due to a combination of engine thrust and wind, it experiences a constant acceleration of 0.5 m/s^2 in a direction 60 degrees North of East. What is the magnitude of the aircraft's displacement from the origin after 10 seconds?",
+    "numerical_answer": 1221.67
+  },
+  {
+    "signature": "Projectile Motion & Vector_R8_8_v2",
+    "source_problem_ID": "Projectile Motion & Vector_R8",
+    "Pair_Number": 8,
+    "variation_number": 2,
+    "problem_text": "A robotic rover begins its motion on a flat Martian surface from the origin. Its initial velocity is 5.0 m/s along the positive Y-axis. It is then subjected to a constant acceleration of 0.8 m/s^2 in a direction making an angle of 150 degrees with the positive X-axis. Determine the rover's speed (magnitude of its velocity) after 6.0 seconds.",
+    "numerical_answer": 8.49
+  },
+  {
+    "signature": "Projectile Motion & Vector_R8_8_v3",
+    "source_problem_ID": "Projectile Motion & Vector_R8",
+    "Pair_Number": 8,
+    "variation_number": 3,
+    "problem_text": "An electron enters a uniform electric field at the origin with an initial velocity of 3.0 x 10^5 m/s at an angle of 45 degrees with the positive X-axis. The electric field causes it to experience a constant acceleration of 1.0 x 10^4 m/s^2 directed along the negative Y-axis. What is the y-component of the electron's displacement from the origin after 2.0 seconds?",
+    "numerical_answer": 404264.07
+  },
+  {
+    "signature": "Projectile Motion & Vector_R8_8_v4",
+    "source_problem_ID": "Projectile Motion & Vector_R8",
+    "Pair_Number": 8,
+    "variation_number": 4,
+    "problem_text": "A submarine is navigating in an ocean current. At t = 0, it is at the origin and moves with an initial velocity of 10 m/s purely in the negative X direction. It then receives a constant thrust that, combined with the current, results in a net acceleration of 0.3 m/s^2 in a direction making an angle of 240 degrees with the positive X-axis. Calculate the submarine's speed at t = 20.0 seconds.",
+    "numerical_answer": 14.0
+  },
+  {
+    "signature": "Projectile Motion & Vector_R8_8_v5",
+    "source_problem_ID": "Projectile Motion & Vector_R8",
+    "Pair_Number": 8,
+    "variation_number": 5,
+    "problem_text": "A jet-powered projectile is launched vertically upwards from the ground (origin) with an initial velocity of 25 m/s. Due to its engine and air resistance, it experiences a constant acceleration of 3.0 m/s^2 in a direction making an angle of 300 degrees with the positive X-axis. Find the horizontal position (x-coordinate) of the projectile at t = 3.0 seconds.",
+    "numerical_answer": 6.75
+  },
+  {
+    "signature": "Projectile Motion & Vector_R8_8_v6",
+    "source_problem_ID": "Projectile Motion & Vector_R8",
+    "Pair_Number": 8,
+    "variation_number": 6,
+    "problem_text": "A small spacecraft is navigating through a region of space. At a certain moment (t=0), its position is tracked at (-100 km, 50 km) relative to a reference point, and it has an initial velocity of 200 m/s purely in the positive Y-direction. Its thrusters provide a constant acceleration of 0.2 m/s^2 in a direction 53 degrees below the negative X-axis. What is the magnitude of the spacecraft's velocity after 500 seconds?",
+    "numerical_answer": 134.37
+  },
+  {
+    "signature": "Projectile Motion & Vector_R8_8_v7",
+    "source_problem_ID": "Projectile Motion & Vector_R8",
+    "Pair_Number": 8,
+    "variation_number": 7,
+    "problem_text": "An automated robot on an industrial floor starts from the origin (0,0) with an initial velocity of 5.0 m/s at an angle of 30 degrees above the positive X-axis. Its internal programming then commands it to accelerate at a constant rate of 0.8 m/s^2 purely along the positive Y-axis. Calculate the magnitude of the robot's velocity after 7.0 seconds.",
+    "numerical_answer": 9.18
+  },
+  {
+    "signature": "Projectile Motion & Vector_R8_8_v8",
+    "source_problem_ID": "Projectile Motion & Vector_R8",
+    "Pair_Number": 8,
+    "variation_number": 8,
+    "problem_text": "A charged particle is injected into a uniform electric field. At t=0, it is located at (0.1 m, -0.05 m) and has an initial velocity of 5.0 x 10^5 m/s along the positive Y-axis. The electric field exerts a constant force on the particle, resulting in an acceleration of 1.0 x 10^4 m/s^2 in a direction 45 degrees below the positive X-axis. Determine the magnitude of the particle's velocity after 15 seconds.",
+    "numerical_answer": 407860.51
+  },
+  {
+    "signature": "Projectile Motion & Vector_R8_8_v9",
+    "source_problem_ID": "Projectile Motion & Vector_R8",
+    "Pair_Number": 8,
+    "variation_number": 9,
+    "problem_text": "A delivery drone lifts off from the origin (0,0) with an initial velocity of 12.0 m/s in the positive Y-direction. Due to a combination of its propellers and wind currents, it experiences a constant acceleration of 0.5 m/s^2 in a direction making an angle of 60 degrees above the negative X-axis. What will be the magnitude of the drone's velocity after 10.0 seconds?",
+    "numerical_answer": 16.52
+  },
+  {
+    "signature": "Projectile Motion & Vector_R8_8_v10",
+    "source_problem_ID": "Projectile Motion & Vector_R8",
+    "Pair_Number": 8,
+    "variation_number": 10,
+    "problem_text": "A submarine is navigating in deep ocean currents. At t=0, its sonar detects its position at (500 m, -200 m) relative to a fixed buoy, and its initial velocity is 15.0 m/s along the negative X-axis. The combined effect of its thrusters and ocean currents gives it a constant acceleration of 0.1 m/s^2 in a direction 20 degrees above the positive X-axis. Find the magnitude of the submarine's velocity after 60.0 seconds.",
+    "numerical_answer": 9.58
+  },
+  {
+    "signature": "Projectile Motion & Vector_R9_9_v1",
+    "source_problem_ID": "Projectile Motion & Vector_R9",
+    "Pair_Number": 9,
+    "variation_number": 1,
+    "problem_text": "A cannon fires a projectile from ground level with an initial velocity of 150 m/s at an angle of 30 degrees above the horizontal. Assuming negligible air resistance, what horizontal distance will the projectile travel before hitting the ground again? Take g = 9.81 m/s^2.",
+    "numerical_answer": 1986.3
+  },
+  {
+    "signature": "Projectile Motion & Vector_R9_9_v2",
+    "source_problem_ID": "Projectile Motion & Vector_R9",
+    "Pair_Number": 9,
+    "variation_number": 2,
+    "problem_text": "A ski jumper launches himself from a ramp with an initial speed of 28 m/s. If the ramp is angled at 20 degrees above the horizontal and the landing area is at the same vertical level as the launch point, how far horizontally does the skier travel? Use g = 9.81 m/s^2.",
+    "numerical_answer": 51.37
+  },
+  {
+    "signature": "Projectile Motion & Vector_R9_9_v3",
+    "source_problem_ID": "Projectile Motion & Vector_R9",
+    "Pair_Number": 9,
+    "variation_number": 3,
+    "problem_text": "A fire hose ejects water with an initial speed of 20 m/s. If the nozzle is aimed at an angle of 60 degrees above the horizontal, and the water lands at the same height from which it was launched, what is the horizontal range of the water stream? Assume g = 9.81 m/s^2.",
+    "numerical_answer": 35.31
+  },
+  {
+    "signature": "Projectile Motion & Vector_R9_9_v4",
+    "source_problem_ID": "Projectile Motion & Vector_R9",
+    "Pair_Number": 9,
+    "variation_number": 4,
+    "problem_text": "A golfer hits a ball with an initial velocity of 60 m/s at an angle of 25 degrees above the horizontal. How far will the golf ball travel horizontally before landing on the green, assuming the green is at the same elevation as the tee? Consider g = 9.81 m/s^2.",
+    "numerical_answer": 281.12
+  },
+  {
+    "signature": "Projectile Motion & Vector_R9_9_v5",
+    "source_problem_ID": "Projectile Motion & Vector_R9",
+    "Pair_Number": 9,
+    "variation_number": 5,
+    "problem_text": "An astronaut on the Moon throws a rock with an initial speed of 10 m/s at an angle of 45 degrees with the horizontal. Given that the acceleration due to gravity on the Moon is approximately 1.62 m/s^2, what horizontal distance will the rock cover before landing on the lunar surface?",
+    "numerical_answer": 61.73
+  },
+  {
+    "signature": "Projectile Motion & Vector_R9_9_v6",
+    "source_problem_ID": "Projectile Motion & Vector_R9",
+    "Pair_Number": 9,
+    "variation_number": 6,
+    "problem_text": "A historic cannon fires a cannonball with an initial velocity of 60.0 m/s at an angle of 30 degrees above the horizontal. Assuming the cannonball lands on level ground, what is the horizontal distance it travels? Take g = 9.8 m/s^2.",
+    "numerical_answer": 318.12
+  },
+  {
+    "signature": "Projectile Motion & Vector_R9_9_v7",
+    "source_problem_ID": "Projectile Motion & Vector_R9",
+    "Pair_Number": 9,
+    "variation_number": 7,
+    "problem_text": "A high-pressure firefighter's hose ejects water at a speed of 25.0 m/s. If the nozzle is angled at 55 degrees above the horizontal, how far horizontally will the water jet reach before hitting the ground again? Assume g = 10.0 m/s^2.",
+    "numerical_answer": 58.73
+  },
+  {
+    "signature": "Projectile Motion & Vector_R9_9_v8",
+    "source_problem_ID": "Projectile Motion & Vector_R9",
+    "Pair_Number": 9,
+    "variation_number": 8,
+    "problem_text": "During an athletic competition, a javelin is thrown with an initial speed of 30.0 m/s at an angle of 40 degrees to the horizontal. Calculate the horizontal range of the javelin, assuming it lands at the same elevation from which it was thrown. Use g = 9.8 m/s^2.",
+    "numerical_answer": 90.44
+  },
+  {
+    "signature": "Projectile Motion & Vector_R9_9_v9",
+    "source_problem_ID": "Projectile Motion & Vector_R9",
+    "Pair_Number": 9,
+    "variation_number": 9,
+    "problem_text": "A professional golfer hits a golf ball with an initial velocity of 70.0 m/s at a launch angle of 25 degrees from the horizontal. What is the maximum horizontal distance the golf ball will travel before returning to the ground? Assume g = 9.8 m/s^2.",
+    "numerical_answer": 383.0
+  },
+  {
+    "signature": "Projectile Motion & Vector_R9_9_v10",
+    "source_problem_ID": "Projectile Motion & Vector_R9",
+    "Pair_Number": 9,
+    "variation_number": 10,
+    "problem_text": "An emergency flare is launched from a boat with an initial speed of 40.0 m/s at an angle of 60 degrees with the horizontal. How far horizontally from the boat will the flare land on the water's surface? Use g = 10.0 m/s^2.",
+    "numerical_answer": 138.56
+  },
+  {
+    "signature": "Projectile Motion & Vector_R10_10_v1",
+    "source_problem_ID": "Projectile Motion & Vector_R10",
+    "Pair_Number": 10,
+    "variation_number": 1,
+    "problem_text": "An aircraft has an airspeed of 300 km/h. It encounters a crosswind blowing at 80 km/h, perpendicular to the aircraft's intended heading relative to the air. What is the speed of the aircraft with respect to the ground?",
+    "numerical_answer": 310.48
+  },
+  {
+    "signature": "Projectile Motion & Vector_R10_10_v2",
+    "source_problem_ID": "Projectile Motion & Vector_R10",
+    "Pair_Number": 10,
+    "variation_number": 2,
+    "problem_text": "A ball is thrown horizontally from the top of a cliff with an initial speed of 20 m/s. After 1.5 seconds, what is the magnitude of its velocity (speed)? Assume acceleration due to gravity is 9.8 m/s² and neglect air resistance.",
+    "numerical_answer": 24.82
+  },
+  {
+    "signature": "Projectile Motion & Vector_R10_10_v3",
+    "source_problem_ID": "Projectile Motion & Vector_R10",
+    "Pair_Number": 10,
+    "variation_number": 3,
+    "problem_text": "Two forces act on a small object. One force of 50 N acts eastward, and another force of 70 N acts northward. What is the magnitude of the net force acting on the object?",
+    "numerical_answer": 86.02
+  },
+  {
+    "signature": "Projectile Motion & Vector_R10_10_v4",
+    "source_problem_ID": "Projectile Motion & Vector_R10",
+    "Pair_Number": 10,
+    "variation_number": 4,
+    "problem_text": "Car A is traveling eastward at 60 km/h. At the same instant, Car B is traveling northward at 80 km/h. What is the speed of Car B relative to Car A?",
+    "numerical_answer": 100.0
+  },
+  {
+    "signature": "Projectile Motion & Vector_R10_10_v5",
+    "source_problem_ID": "Projectile Motion & Vector_R10",
+    "Pair_Number": 10,
+    "variation_number": 5,
+    "problem_text": "A hiker walks 15 meters due east from their camp. Then, they turn and walk 20 meters due north. What is the magnitude of the hiker's total displacement from the camp?",
+    "numerical_answer": 25.0
+  },
+  {
+    "signature": "Projectile Motion & Vector_R10_10_v6",
+    "source_problem_ID": "Projectile Motion & Vector_R10",
+    "Pair_Number": 10,
+    "variation_number": 6,
+    "problem_text": "An airplane has an airspeed of 500 km/h. If it encounters a crosswind blowing at 120 km/h perpendicular to its intended direction of flight, what is the magnitude of the airplane's velocity with respect to the ground?",
+    "numerical_answer": 514.2
+  },
+  {
+    "signature": "Projectile Motion & Vector_R10_10_v7",
+    "source_problem_ID": "Projectile Motion & Vector_R10",
+    "Pair_Number": 10,
+    "variation_number": 7,
+    "problem_text": "An object is subjected to two perpendicular forces: one force of 60 N acting horizontally to the East and another force of 80 N acting vertically upwards. Determine the magnitude of the net force acting on the object.",
+    "numerical_answer": 100.0
+  },
+  {
+    "signature": "Projectile Motion & Vector_R10_10_v8",
+    "source_problem_ID": "Projectile Motion & Vector_R10",
+    "Pair_Number": 10,
+    "variation_number": 8,
+    "problem_text": "At a certain point in space, two electric fields exist: an electric field E1 of magnitude 300 N/C directed along the positive x-axis, and another electric field E2 of magnitude 400 N/C directed along the positive y-axis. Calculate the magnitude of the resultant electric field at that point.",
+    "numerical_answer": 500.0
+  },
+  {
+    "signature": "Projectile Motion & Vector_R10_10_v9",
+    "source_problem_ID": "Projectile Motion & Vector_R10",
+    "Pair_Number": 10,
+    "variation_number": 9,
+    "problem_text": "A motorboat can travel at a speed of 8.0 m/s relative to the water. It attempts to cross a river that flows at a uniform speed of 6.0 m/s. If the boat's operator keeps the boat pointed directly perpendicular to the river current, what is the magnitude of the boat's velocity relative to the riverbank?",
+    "numerical_answer": 10.0
+  },
+  {
+    "signature": "Projectile Motion & Vector_R10_10_v10",
+    "source_problem_ID": "Projectile Motion & Vector_R10",
+    "Pair_Number": 10,
+    "variation_number": 10,
+    "problem_text": "A robot makes two consecutive displacements. First, it moves 15 meters due North, and then it turns and moves 20 meters due East. What is the magnitude of the robot's total displacement from its starting position?",
+    "numerical_answer": 25.0
+  },
+  {
+    "signature": "Projectile Motion & Vector_R11_11_v1",
+    "source_problem_ID": "Projectile Motion & Vector_R11",
+    "Pair_Number": 11,
+    "variation_number": 1,
+    "problem_text": "A boat aims directly across a river (perpendicular to the banks) with a speed relative to the water of 8.0 m/s. The river current flows downstream at 6.0 m/s. What is the magnitude of the boat's velocity relative to the river bank?",
+    "numerical_answer": 10.0
+  },
+  {
+    "signature": "Projectile Motion & Vector_R11_11_v2",
+    "source_problem_ID": "Projectile Motion & Vector_R11",
+    "Pair_Number": 11,
+    "variation_number": 2,
+    "problem_text": "An airplane is flying due north at an airspeed of 480 km/h. A strong crosswind is blowing from the west at 100 km/h. What is the magnitude of the airplane's velocity with respect to the ground?",
+    "numerical_answer": 490.31
+  },
+  {
+    "signature": "Projectile Motion & Vector_R11_11_v3",
+    "source_problem_ID": "Projectile Motion & Vector_R11",
+    "Pair_Number": 11,
+    "variation_number": 3,
+    "problem_text": "A ball is rolled off a horizontal table with an initial horizontal velocity of 2.5 m/s. After 0.4 seconds, what is the magnitude of the ball's instantaneous velocity? (Assume g = 9.8 m/s^2, and air resistance is negligible).",
+    "numerical_answer": 4.65
+  },
+  {
+    "signature": "Projectile Motion & Vector_R11_11_v4",
+    "source_problem_ID": "Projectile Motion & Vector_R11",
+    "Pair_Number": 11,
+    "variation_number": 4,
+    "problem_text": "A proton (charge = 1.60 x 10^-19 C, mass = 1.67 x 10^-27 kg) enters a region with a uniform electric field of 500 N/C directed vertically downwards. The proton's initial velocity upon entering is purely horizontal at 3.0 x 10^5 m/s. After 2.0 x 10^-7 seconds, what is the magnitude of the proton's velocity?",
+    "numerical_answer": 300152.95
+  },
+  {
+    "signature": "Projectile Motion & Vector_R11_11_v5",
+    "source_problem_ID": "Projectile Motion & Vector_R11",
+    "Pair_Number": 11,
+    "variation_number": 5,
+    "problem_text": "A small package is placed on a conveyor belt moving eastward at 1.5 m/s. An automatic arm then pushes the package northward relative to the belt at a speed of 2.0 m/s. What is the magnitude of the package's velocity relative to the ground?",
+    "numerical_answer": 2.5
+  },
+  {
+    "signature": "Projectile Motion & Vector_R11_11_v6",
+    "source_problem_ID": "Projectile Motion & Vector_R11",
+    "Pair_Number": 11,
+    "variation_number": 6,
+    "problem_text": "A river current flows eastward at a speed of 2.0 m/s relative to the riverbank. A motorboat is traveling northward at a speed of 5.0 m/s relative to the riverbank. Determine the magnitude of the velocity of the river current with respect to the motorboat.",
+    "numerical_answer": 5.39
+  },
+  {
+    "signature": "Projectile Motion & Vector_R11_11_v7",
+    "source_problem_ID": "Projectile Motion & Vector_R11",
+    "Pair_Number": 11,
+    "variation_number": 7,
+    "problem_text": "An airplane is flying due north at an airspeed of 400 km/h relative to the ground. Simultaneously, there is a crosswind blowing due east at a speed of 80 km/h relative to the ground. Calculate the magnitude of the velocity of the wind with respect to the airplane.",
+    "numerical_answer": 407.92
+  },
+  {
+    "signature": "Projectile Motion & Vector_R11_11_v8",
+    "source_problem_ID": "Projectile Motion & Vector_R11",
+    "Pair_Number": 11,
+    "variation_number": 8,
+    "problem_text": "In a vacuum chamber, electron A moves with a velocity of 1.0 x 10^6 m/s along the positive x-axis. Electron B moves with a velocity of 2.0 x 10^6 m/s along the positive y-axis. Find the magnitude of the velocity of electron A as observed by electron B.",
+    "numerical_answer": 2236067.98
+  },
+  {
+    "signature": "Projectile Motion & Vector_R11_11_v9",
+    "source_problem_ID": "Projectile Motion & Vector_R11",
+    "Pair_Number": 11,
+    "variation_number": 9,
+    "problem_text": "A parcel is dropped from a great height and reaches a constant terminal velocity of 10.0 m/s directly downwards. At the exact moment it passes a certain point, a car is moving horizontally past that same point at a speed of 24.0 m/s. What is the magnitude of the velocity of the parcel with respect to the car?",
+    "numerical_answer": 26.0
+  },
+  {
+    "signature": "Projectile Motion & Vector_R11_11_v10",
+    "source_problem_ID": "Projectile Motion & Vector_R11",
+    "Pair_Number": 11,
+    "variation_number": 10,
+    "problem_text": "A comet is observed to be moving radially inward towards the Sun at a speed of 50.0 km/s relative to the Sun. At the same instant, a planet in a circular orbit is moving tangentially at 30.0 km/s relative to the Sun, in a direction perpendicular to the comet's motion. Determine the magnitude of the velocity of the comet with respect to the planet.",
+    "numerical_answer": 58.31
+  },
+  {
+    "signature": "Rectilinear Motion_R12_12_v1",
+    "source_problem_ID": "Rectilinear Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 1,
+    "problem_text": "A car travels the first 150 km of its journey at an average speed of 75 km/hr. It then covers the next 150 km at an average speed of 90 km/hr. What is the average speed of the car for the entire 300 km journey?",
+    "numerical_answer": 81.82
+  },
+  {
+    "signature": "Rectilinear Motion_R12_12_v2",
+    "source_problem_ID": "Rectilinear Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 2,
+    "problem_text": "During a training session, a runner covers the first 5 km of a track at a pace that averages 12 km/hr. For the subsequent 5 km, due to fatigue, his average pace drops to 10 km/hr. What is the runner's average speed for the full 10 km run?",
+    "numerical_answer": 10.91
+  },
+  {
+    "signature": "Rectilinear Motion_R12_12_v3",
+    "source_problem_ID": "Rectilinear Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 3,
+    "problem_text": "A small boat travels 12 km downstream in a river, where its speed relative to the bank is 20 km/hr. It then turns around and travels 12 km upstream, encountering a current that reduces its speed relative to the bank to 15 km/hr. Calculate the average speed of the boat for the entire 24 km round trip.",
+    "numerical_answer": 17.14
+  },
+  {
+    "signature": "Rectilinear Motion_R12_12_v4",
+    "source_problem_ID": "Rectilinear Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 4,
+    "problem_text": "A drone is dispatched to inspect a 2 km stretch of pipeline, flying at a constant speed of 30 km/hr. On its return journey along the same 2 km path, it faces a headwind, reducing its effective speed to 20 km/hr. What is the drone's average speed for the complete 4 km flight?",
+    "numerical_answer": 24.0
+  },
+  {
+    "signature": "Rectilinear Motion_R12_12_v5",
+    "source_problem_ID": "Rectilinear Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 5,
+    "problem_text": "A train covers the initial 100 km segment of its route at an average speed of 80 km/hr. Due to scheduled maintenance work ahead, it reduces its speed and travels the next 100 km at an average speed of 60 km/hr. What is the average speed of the train for the total 200 km distance?",
+    "numerical_answer": 96.0
+  },
+  {
+    "signature": "Rectilinear Motion_R12_12_v6",
+    "source_problem_ID": "Rectilinear Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 6,
+    "problem_text": "A car completes a journey in two equal distance segments. For the first 150 km, it travels at an average speed of 90 km/hr. For the subsequent 150 km, it increases its average speed to 110 km/hr. What is the car's average speed for the entire 300 km journey?",
+    "numerical_answer": 99.0
+  },
+  {
+    "signature": "Rectilinear Motion_R12_12_v7",
+    "source_problem_ID": "Rectilinear Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 7,
+    "problem_text": "A sprinter performs a practice run consisting of two laps around a track. Each lap measures 400 meters. The sprinter completes the first lap at an average speed of 8 m/s and the second lap at an average speed of 7 m/s. Calculate the sprinter's average speed for the entire 800-meter run.",
+    "numerical_answer": 7.47
+  },
+  {
+    "signature": "Rectilinear Motion_R12_12_v8",
+    "source_problem_ID": "Rectilinear Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 8,
+    "problem_text": "Sound waves propagate through two different materials. It travels 50 cm through Material A, where its speed is 330 m/s. Subsequently, it travels another 50 cm through Material B, where its speed is 1500 m/s. What is the average speed of the sound wave over the total distance of 100 cm?",
+    "numerical_answer": 541.09
+  },
+  {
+    "signature": "Rectilinear Motion_R12_12_v9",
+    "source_problem_ID": "Rectilinear Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 9,
+    "problem_text": "A large digital file of 200 MB is being downloaded over a network. The first 100 MB of the file downloads at an average rate of 10 MB/s. Due to network congestion, the remaining 100 MB downloads at a slower average rate of 4 MB/s. What is the average download rate for the entire 200 MB file?",
+    "numerical_answer": 5.71
+  },
+  {
+    "signature": "Rectilinear Motion_R12_12_v10",
+    "source_problem_ID": "Rectilinear Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 10,
+    "problem_text": "A cyclist embarks on a route that includes two segments of equal length. They cycle 5 km uphill at an average speed of 10 km/hr. After reaching the peak, they cycle another 5 km downhill at an average speed of 20 km/hr. Determine the average speed of the cyclist for the entire 10 km journey.",
+    "numerical_answer": 13.33
+  },
+  {
+    "signature": "Rectilinear Motion_R13_13_v1",
+    "source_problem_ID": "Rectilinear Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 1,
+    "problem_text": "An athlete runs on a circular track with a circumference of 400 meters. Starting from the designated start line, the athlete completes 5 full laps and stops exactly at the start line. If the entire run took 20 minutes, calculate the athlete's average speed during this period. (Also compute average velocity, but provide average speed as the numerical answer.)",
+    "numerical_answer": 1.67
+  },
+  {
+    "signature": "Rectilinear Motion_R13_13_v2",
+    "source_problem_ID": "Rectilinear Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 2,
+    "problem_text": "A robotic vacuum cleaner is programmed to clean a 15-meter long corridor. It starts from one end, moves to the other, and then returns to its starting point. It completes 8 such full back-and-forth cycles. If the total cleaning time was 35 minutes, determine the average speed of the robot. (Also compute average velocity, but provide average speed as the numerical answer.)",
+    "numerical_answer": 0.11
+  },
+  {
+    "signature": "Rectilinear Motion_R13_13_v3",
+    "source_problem_ID": "Rectilinear Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 3,
+    "problem_text": "A delivery truck makes regular trips between a main depot and a client's facility located 25 km away. The truck starts from the depot, delivers goods to the client, and returns to the depot. It completes 3 such full round trips. If the total time for these deliveries was 3 hours, what was the truck's average speed? (Also compute average velocity, but provide average speed as the numerical answer.)",
+    "numerical_answer": 50.0
+  },
+  {
+    "signature": "Rectilinear Motion_R13_13_v4",
+    "source_problem_ID": "Rectilinear Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 4,
+    "problem_text": "A goldfish swims along the length of a rectangular aquarium that is 60 cm long. It starts from one end, swims to the opposite end, and immediately turns back to its starting end. This behavior is observed for 20 complete back-and-forth movements. If the total time taken for these movements was 10 minutes, calculate the average speed of the goldfish. (Also compute average velocity, but provide average speed as the numerical answer.)",
+    "numerical_answer": 4.0
+  },
+  {
+    "signature": "Rectilinear Motion_R13_13_v5",
+    "source_problem_ID": "Rectilinear Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 5,
+    "problem_text": "An elevator travels between the ground floor and the 10th floor of a building. The vertical distance between the ground floor and the 10th floor is 30 meters. The elevator starts at the ground floor, goes up to the 10th floor, and then returns to the ground floor. It performs 6 such complete up-and-down cycles. If the total time elapsed for these cycles was 15 minutes, what is the average speed of the elevator? (Also compute average velocity, but provide average speed as the numerical answer.)",
+    "numerical_answer": 0.4
+  },
+  {
+    "signature": "Rectilinear Motion_R13_13_v6",
+    "source_problem_ID": "Rectilinear Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 6,
+    "problem_text": "An athlete is training on a 100-meter straight track. They start at the designated start line, sprint to the 100m finish line, and immediately turn around to run back to the start line. This 'out and back' cycle is repeated 5 times. The total time recorded for all 5 cycles is 12 minutes and 30 seconds. Calculate the athlete's average speed and average velocity during this training session.",
+    "numerical_answer": 1.33
+  },
+  {
+    "signature": "Rectilinear Motion_R13_13_v7",
+    "source_problem_ID": "Rectilinear Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 7,
+    "problem_text": "An Automated Guided Vehicle (AGV) in a factory operates between two charging stations, A and B, which are 75 meters apart. The AGV starts at Station A, travels to Station B, and then returns to Station A, completing one full round trip. It performs this round trip 8 times consecutively. The entire operation, including any brief pauses at the stations, takes exactly 1 hour. Determine the AGV's average speed and average velocity for this period.",
+    "numerical_answer": 0.33
+  },
+  {
+    "signature": "Rectilinear Motion_R13_13_v8",
+    "source_problem_ID": "Rectilinear Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 8,
+    "problem_text": "A pigeon flies between two specific trees in a park that are 250 meters apart. The pigeon starts from Tree 1, flies directly to Tree 2, and then flies directly back to Tree 1. This entire back-and-forth journey is repeated 3 times. If the total time taken for these 3 complete cycles of flight is 15 minutes, what are the pigeon's average speed and average velocity?",
+    "numerical_answer": 1.67
+  },
+  {
+    "signature": "Rectilinear Motion_R13_13_v9",
+    "source_problem_ID": "Rectilinear Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 9,
+    "problem_text": "A commuter train shuttles between two suburban stations, P and Q, which are 5 km apart. The train makes 4 complete round trips, starting its first trip from Station P and ending its last trip back at Station P. The total time for these 4 round trips, including stops at stations, is 2 hours and 40 minutes. Compute the average speed and average velocity of the train.",
+    "numerical_answer": 0.25
+  },
+  {
+    "signature": "Rectilinear Motion_R13_13_v10",
+    "source_problem_ID": "Rectilinear Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 10,
+    "problem_text": "A remote-controlled car is being tested on a straight track that is 20 meters long. The car is driven from one end of the track to the other, and then immediately driven back to its starting point. This 'out and back' sequence is performed 7 times without stopping between sequences. If the total time for all 7 sequences is exactly 7 minutes, calculate the car's average speed and average velocity.",
+    "numerical_answer": 0.67
+  },
+  {
+    "signature": "Rectilinear Motion_R14_14_v1",
+    "source_problem_ID": "Rectilinear Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 1,
+    "problem_text": "A tiny space probe moves along a straight line in deep space. Its position `x` (in meters) as a function of time `t` (in seconds) is given by the equation `x(t) = At^3 + Bt^2 + Ct + D`, where A=0.5, B=3, C=10, and D=0. Calculate the average acceleration of the probe during the time interval from t=0 s to t=5 s.",
+    "numerical_answer": 13.5
+  },
+  {
+    "signature": "Rectilinear Motion_R14_14_v2",
+    "source_problem_ID": "Rectilinear Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 2,
+    "problem_text": "The end-effector of a robotic arm is programmed to move along a linear path. Its position `x` (in centimeters) is described by `x(t) = At^3 + Bt^2 + Ct + D`, with A=0.8, B=-2, C=5, and D=0. Here, `t` is in seconds. Determine the average acceleration of the end-effector from t=0 s to t=3 s.",
+    "numerical_answer": 3.2
+  },
+  {
+    "signature": "Rectilinear Motion_R14_14_v3",
+    "source_problem_ID": "Rectilinear Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 3,
+    "problem_text": "A charged particle is accelerated along a linear path inside a device. Its position `x` (in meters) relative to an origin is modeled by the equation `x(t) = At^3 + Bt^2 + Ct + D`, where `t` is in seconds, A=0.2, B=-1.5, C=4, and D=0. Find the average acceleration of the particle during the time interval from t=0 s to t=2 s.",
+    "numerical_answer": -1.8
+  },
+  {
+    "signature": "Rectilinear Motion_R14_14_v4",
+    "source_problem_ID": "Rectilinear Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 4,
+    "problem_text": "A remote-controlled toy car moves on a straight track. Its position `x` (in meters) as a function of time `t` (in seconds) is given by `x(t) = At^3 + Bt^2 + Ct + D`, where A=-0.4, B=3, C=-5, and D=2. What is the average acceleration of the toy car between t=0 s and t=3 s?",
+    "numerical_answer": 2.4
+  },
+  {
+    "signature": "Rectilinear Motion_R14_14_v5",
+    "source_problem_ID": "Rectilinear Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 5,
+    "problem_text": "An experimental projectile is launched and its horizontal displacement `x` (in meters) over time `t` (in seconds) is tracked by `x(t) = At^3 + Bt^2 + Ct + D`. Given the constants A=0.1, B=-0.8, C=2, and D=0, calculate the average acceleration of the projectile during the first 4 seconds of its motion (from t=0 s to t=4 s).",
+    "numerical_answer": -0.4
+  },
+  {
+    "signature": "Rectilinear Motion_R14_14_v6",
+    "source_problem_ID": "Rectilinear Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 6,
+    "problem_text": "The position of a spacecraft, relative to a docking port, is described by the equation x(t) = At^3 + Bt^2 + Ct + D, where x is in meters and t is in seconds. Given A = 0.5 m/s^3, B = -2 m/s^2, C = 10 m/s, and D = 1000 m, determine the instantaneous acceleration of the spacecraft at t = 5 s.",
+    "numerical_answer": 11.0
+  },
+  {
+    "signature": "Rectilinear Motion_R14_14_v7",
+    "source_problem_ID": "Rectilinear Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 7,
+    "problem_text": "A high-performance car is tested on a straight track. Its position from the starting line is given by x(t) = At^3 + Bt^2 + Ct, where x is in meters and t is in seconds. If A = 0.2 m/s^3, B = 3 m/s^2, and C = 1 m/s, calculate the average velocity of the car between t = 0 s and t = 10 s.",
+    "numerical_answer": 51.0
+  },
+  {
+    "signature": "Rectilinear Motion_R14_14_v8",
+    "source_problem_ID": "Rectilinear Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 8,
+    "problem_text": "An electron moving along a uniform electric field line has its position described by x(t) = At^3 + Bt^2 + Ct, where x is in meters and t is in seconds. If A = 1.0 x 10^-3 m/s^3, B = -2.0 x 10^-2 m/s^2, and C = 5.0 x 10^-1 m/s, find the instantaneous velocity of the electron at t = 2 s.",
+    "numerical_answer": 0.43
+  },
+  {
+    "signature": "Rectilinear Motion_R14_14_v9",
+    "source_problem_ID": "Rectilinear Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 9,
+    "problem_text": "The tip of a robotic arm moves along a linear path. Its position from a reference point is modeled by x(t) = At^3 + Bt^2 + Ct + D, where x is in meters and t is in seconds. Given A = -0.1 m/s^3, B = 0.5 m/s^2, C = -0.2 m/s, and D = 1.0 m, calculate the average acceleration of the robot arm's tip between t = 0 s and t = 3 s.",
+    "numerical_answer": 0.1
+  },
+  {
+    "signature": "Rectilinear Motion_R14_14_v10",
+    "source_problem_ID": "Rectilinear Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 10,
+    "problem_text": "In a controlled experiment, the horizontal position of a small projectile subject to varying forces is given by x(t) = At^3 + Bt^2 + Ct, where x is in meters and t is in seconds. If A = -0.05 m/s^3, B = 2 m/s^2, and C = 5 m/s, determine the instantaneous horizontal velocity of the projectile at t = 6 s.",
+    "numerical_answer": 23.6
+  },
+  {
+    "signature": "Rectilinear Motion_R15_15_v1",
+    "source_problem_ID": "Rectilinear Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 1,
+    "problem_text": "A specialized space shuttle is performing a complex maneuvering test in deep space. In the first phase (0-10s), starting from rest, its forward velocity increases linearly, reaching 150 m/s. After this phase, in a separate thruster test (from t=10s to t=20s), it again starts from rest and its reverse velocity increases linearly, reaching a magnitude of 150 m/s (i.e., velocity becomes -150 m/s relative to the initial forward direction). Calculate the total displacement of the shuttle from its initial position after 20 seconds.",
+    "numerical_answer": 0.0
+  },
+  {
+    "signature": "Rectilinear Motion_R15_15_v2",
+    "source_problem_ID": "Rectilinear Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 2,
+    "problem_text": "An autonomous underwater robot undergoes a two-part diagnostic test. For the first 5 seconds, starting from a stationary position, it accelerates upwards such that its vertical velocity increases linearly to 0.8 m/s. Immediately following this, for the next 5 seconds (from t=5s to t=10s), it again starts from rest at the same depth and accelerates downwards, linearly reaching a vertical velocity of -0.8 m/s. Determine the total displacement of the robot from its starting point after 10 seconds.",
+    "numerical_answer": 0.0
+  },
+  {
+    "signature": "Rectilinear Motion_R15_15_v3",
+    "source_problem_ID": "Rectilinear Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 3,
+    "problem_text": "A hockey puck is placed on a frictionless ice surface and subjected to two quick impulses. In the first 1.5 seconds, starting from rest, its velocity in one direction linearly increases to 20 m/s. Then, from t=1.5s to t=3.0s, starting from rest again (e.g., after being caught and re-released), it's given an impulse in the opposite direction, causing its velocity to linearly increase to -20 m/s. What is the net displacement of the puck over the entire 3.0-second interval?",
+    "numerical_answer": 0.0
+  },
+  {
+    "signature": "Rectilinear Motion_R15_15_v4",
+    "source_problem_ID": "Rectilinear Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 4,
+    "problem_text": "An experimental elevator is programmed for two sequential movements. During the first 4 seconds, starting from rest on the ground floor, it accelerates upwards, with its velocity reaching 3 m/s linearly. Then, from t=4s to t=8s, after momentarily stopping at the peak of its first movement, it accelerates downwards, linearly reaching a velocity of -3 m/s. Find the total displacement of the elevator from the ground floor after 8 seconds.",
+    "numerical_answer": 0.0
+  },
+  {
+    "signature": "Rectilinear Motion_R15_15_v5",
+    "source_problem_ID": "Rectilinear Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 5,
+    "problem_text": "An experimental glider undergoes two test phases on a perfectly level track. In the first 3 seconds, it starts from rest and accelerates to a forward velocity of 40 m/s linearly. In the subsequent 3 seconds (from t=3s to t=6s), it restarts from rest at the same point and accelerates backward, reaching a velocity of -40 m/s linearly. Calculate the net displacement of the glider from its starting point after 6 seconds.",
+    "numerical_answer": 0.0
+  },
+  {
+    "signature": "Rectilinear Motion_R15_15_v6",
+    "source_problem_ID": "Rectilinear Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 6,
+    "problem_text": "A scientific research drone executes a vertical maneuver. It starts from rest, accelerates uniformly upwards to a peak velocity of 8 m/s, then uniformly decelerates back to rest, completing this upward cycle in 3 seconds. Immediately after stopping, it performs an identical downward cycle, reaching a peak velocity of -8 m/s (downwards) and returning to rest, also in 3 seconds. Assuming its motion can be represented by two symmetric triangular velocity-time segments, calculate the total vertical displacement of the drone after 6 seconds.",
+    "numerical_answer": 0.0
+  },
+  {
+    "signature": "Rectilinear Motion_R15_15_v7",
+    "source_problem_ID": "Rectilinear Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 7,
+    "problem_text": "A specialized underwater submarine starts from rest and travels forward, linearly increasing its speed to a maximum of 15 km/h, then linearly decreasing it back to rest. This entire forward journey takes 5 minutes. Without any delay, it reverses direction, accelerating linearly to a maximum backward speed of 15 km/h, then decelerating linearly back to rest over another 5 minutes. What is the total distance traveled by the submarine over the entire 10-minute period?",
+    "numerical_answer": 1250.01
+  },
+  {
+    "signature": "Rectilinear Motion_R15_15_v8",
+    "source_problem_ID": "Rectilinear Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 8,
+    "problem_text": "Consider a piston in a highly simplified model of an engine. From a momentary stop, it accelerates to a peak speed of 6 m/s, then decelerates back to a stop, completing a single stroke in 0.05 seconds. It immediately performs an identical return stroke, accelerating to -6 m/s (opposite direction) and then decelerating back to rest, also in 0.05 seconds. What is the net displacement of the piston after one complete oscillation (comprising both strokes)?",
+    "numerical_answer": 0.0
+  },
+  {
+    "signature": "Rectilinear Motion_R15_15_v9",
+    "source_problem_ID": "Rectilinear Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 9,
+    "problem_text": "A remote-controlled toy car is pushed from rest, accelerating uniformly to a speed of 2.5 m/s, and then decelerating uniformly back to rest. This forward motion lasts for 4 seconds. Immediately, it's pulled backward along the same path, accelerating uniformly to 2.5 m/s in the reverse direction, then decelerating uniformly back to rest, taking another 4 seconds. Based on this motion, what is the total distance covered by the toy car during its entire 8-second journey?",
+    "numerical_answer": 10.0
+  },
+  {
+    "signature": "Rectilinear Motion_R15_15_v10",
+    "source_problem_ID": "Rectilinear Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 10,
+    "problem_text": "A fish swims in a straight line inside an aquarium. Starting from rest, it accelerates to a maximum speed of 0.8 m/s, then slows down to a stop. This entire segment of motion takes 10 seconds. It then immediately turns around and performs the exact same motion in the opposite direction, accelerating to -0.8 m/s and then stopping, which also takes 10 seconds. Calculate the overall displacement of the fish after 20 seconds of its motion.",
+    "numerical_answer": 0.0
+  },
+  {
+    "signature": "Rectilinear Motion_R16_16_v1",
+    "source_problem_ID": "Rectilinear Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 1,
+    "problem_text": "A car accelerates uniformly on a straight highway. At a certain instant, its speed is 20 m/s. After 0.5 seconds, its speed becomes 30 m/s. Assuming it started from rest, find the distance the car travels during that 0.5-second interval.",
+    "numerical_answer": 12.5
+  },
+  {
+    "signature": "Rectilinear Motion_R16_16_v2",
+    "source_problem_ID": "Rectilinear Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 2,
+    "problem_text": "A small rocket launching vertically from rest undergoes constant acceleration. At a particular moment, its upward velocity is 500 m/s. Two seconds later, its velocity has increased to 650 m/s. Determine the vertical distance covered by the rocket during those two seconds.",
+    "numerical_answer": 1150.0
+  },
+  {
+    "signature": "Rectilinear Motion_R16_16_v3",
+    "source_problem_ID": "Rectilinear Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 3,
+    "problem_text": "An electron, initially at rest, is accelerated uniformly through a potential difference in a vacuum. At a specific point in time, its velocity is measured to be 2.0 x 10^5 m/s. Precisely 1 microsecond (10^-6 s) later, its velocity reaches 3.5 x 10^5 m/s. Calculate the distance traversed by the electron during this 1-microsecond interval.",
+    "numerical_answer": 0.28
+  },
+  {
+    "signature": "Rectilinear Motion_R16_16_v4",
+    "source_problem_ID": "Rectilinear Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 4,
+    "problem_text": "A freight train, starting from rest, moves with constant acceleration along a straight track. At one signal post, its speed is 15 m/s. Four seconds subsequent to passing that post, its speed is recorded as 20 m/s. What is the distance the train travels between these two points in time?",
+    "numerical_answer": 70.0
+  },
+  {
+    "signature": "Rectilinear Motion_R16_16_v5",
+    "source_problem_ID": "Rectilinear Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 5,
+    "problem_text": "A figure skater pushes off from rest and glides with constant acceleration across a smooth ice rink. At a certain point, her speed is 8 m/s. Exactly 2.5 seconds later, her speed is 10 m/s. How far does the skater travel during this 2.5-second period?",
+    "numerical_answer": 22.5
+  },
+  {
+    "signature": "Rectilinear Motion_R16_16_v6",
+    "source_problem_ID": "Rectilinear Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 6,
+    "problem_text": "A car is accelerating uniformly on a straight highway. At a certain instant, its speed is 25 m/s. Exactly one second later, its speed has increased to 32 m/s. Calculate (a) the car's acceleration, and (b) the distance covered by the car during that one-second interval.",
+    "numerical_answer": 28.5
+  },
+  {
+    "signature": "Rectilinear Motion_R16_16_v7",
+    "source_problem_ID": "Rectilinear Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 7,
+    "problem_text": "A multi-stage rocket, after separating an expended stage, ignites its next engine. At a particular moment, its speed is 1200 m/s. Exactly one second later, with the engine burning, its speed reaches 1275 m/s. Assuming constant acceleration during this brief interval, determine (a) the rocket's acceleration, and (b) the distance it covered during that specific one-second period.",
+    "numerical_answer": 1237.5
+  },
+  {
+    "signature": "Rectilinear Motion_R16_16_v8",
+    "source_problem_ID": "Rectilinear Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 8,
+    "problem_text": "An electron is moving through a uniform electric field within a linear accelerator. At an arbitrary instant, its speed is measured to be 1.0 x 10^4 m/s. Precisely one second later, due to the constant accelerating field, its speed becomes 1.2 x 10^4 m/s. Find (a) the magnitude of the electron's acceleration, and (b) the total distance traveled by the electron during this one-second interval.",
+    "numerical_answer": 11000.0
+  },
+  {
+    "signature": "Rectilinear Motion_R16_16_v9",
+    "source_problem_ID": "Rectilinear Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 9,
+    "problem_text": "A block is sliding down a long inclined plane with constant acceleration. At a specific point in time, its velocity is 3 m/s. Exactly one second later, its velocity has increased to 7 m/s. Calculate (a) the acceleration of the block, and (b) the distance the block travels during that one-second period.",
+    "numerical_answer": 5.0
+  },
+  {
+    "signature": "Rectilinear Motion_R16_16_v10",
+    "source_problem_ID": "Rectilinear Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 10,
+    "problem_text": "An autonomous delivery drone is undergoing a programmed acceleration phase. At a certain point along its trajectory, its speed is 8 m/s. One second later, after maintaining a constant acceleration, its speed is measured to be 10.5 m/s. Determine (a) the acceleration of the drone, and (b) the distance the drone covered in that particular one-second interval.",
+    "numerical_answer": 9.25
+  },
+  {
+    "signature": "Rectilinear Motion_R17_17_v1",
+    "source_problem_ID": "Rectilinear Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 1,
+    "problem_text": "A high-performance sports car starts from rest and reaches a speed of 90 km/h over a distance of 80 meters. Assuming constant acceleration, what is the magnitude of this acceleration?",
+    "numerical_answer": 3.91
+  },
+  {
+    "signature": "Rectilinear Motion_R17_17_v2",
+    "source_problem_ID": "Rectilinear Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 2,
+    "problem_text": "An express elevator starts from rest on the ground floor and reaches a speed of 4.5 m/s after traveling a vertical distance of 3.5 meters. Assuming constant acceleration, determine the acceleration of the elevator.",
+    "numerical_answer": 2.9
+  },
+  {
+    "signature": "Rectilinear Motion_R17_17_v3",
+    "source_problem_ID": "Rectilinear Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 3,
+    "problem_text": "An electron, initially at rest, is accelerated through a uniform electric field over a distance of 5.0 cm. It emerges with a final speed of 2.0 x 10^6 m/s. Calculate the constant acceleration experienced by the electron.",
+    "numerical_answer": 40000000000000.0
+  },
+  {
+    "signature": "Rectilinear Motion_R17_17_v4",
+    "source_problem_ID": "Rectilinear Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 4,
+    "problem_text": "A test rocket on a launchpad accelerates uniformly from rest along a short rail section of 15 meters, reaching a speed of 20 m/s just before liftoff. What is the constant acceleration of the rocket during this phase?",
+    "numerical_answer": 13.33
+  },
+  {
+    "signature": "Rectilinear Motion_R17_17_v5",
+    "source_problem_ID": "Rectilinear Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 5,
+    "problem_text": "A box slides down an inclined plane starting from rest. After traveling 1.2 meters, its speed is measured to be 3.0 m/s. Assuming constant acceleration, find the acceleration of the box along the incline.",
+    "numerical_answer": 3.75
+  },
+  {
+    "signature": "Rectilinear Motion_R17_17_v6",
+    "source_problem_ID": "Rectilinear Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 6,
+    "problem_text": "A high-performance sports car accelerates from a standstill, reaching a speed of 45 km/h over a distance of 60 meters. Assuming constant acceleration, calculate the magnitude of this acceleration.",
+    "numerical_answer": 1.3
+  },
+  {
+    "signature": "Rectilinear Motion_R17_17_v7",
+    "source_problem_ID": "Rectilinear Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 7,
+    "problem_text": "An electron, starting from rest, is accelerated through an electric field. After traversing a distance of 2.0 cm, its speed is measured to be 5.0 x 10^6 m/s. Assuming uniform acceleration, determine the acceleration experienced by the electron.",
+    "numerical_answer": 625000000000000.0
+  },
+  {
+    "signature": "Rectilinear Motion_R17_17_v8",
+    "source_problem_ID": "Rectilinear Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 8,
+    "problem_text": "During its initial launch phase, a rocket accelerates uniformly from rest. It reaches a speed of 100 m/s after ascending 500 meters vertically. What is the constant acceleration of the rocket during this phase?",
+    "numerical_answer": 10.0
+  },
+  {
+    "signature": "Rectilinear Motion_R17_17_v9",
+    "source_problem_ID": "Rectilinear Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 9,
+    "problem_text": "A ski jumper starts from rest at the top of a ramp and accelerates uniformly down the 75-meter-long ramp. If the jumper's speed at the take-off point is 25 m/s, what is the magnitude of their acceleration along the ramp?",
+    "numerical_answer": 4.17
+  },
+  {
+    "signature": "Rectilinear Motion_R17_17_v10",
+    "source_problem_ID": "Rectilinear Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 10,
+    "problem_text": "A bullet is fired from a rifle. It accelerates uniformly from rest within the 70 cm long barrel, exiting with a muzzle velocity of 800 m/s. Calculate the constant acceleration of the bullet inside the barrel.",
+    "numerical_answer": 457142.86
+  },
+  {
+    "signature": "Rectilinear Motion_R18_18_v1",
+    "source_problem_ID": "Rectilinear Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 1,
+    "problem_text": "A student is running at a constant speed `v` towards a bus stop. A bus is initially at rest at the stop, 30 meters ahead of the student. The bus starts accelerating with a constant acceleration of 1.0 m/s². What is the minimum speed `v` (in m/s) the student must maintain to catch the bus?",
+    "numerical_answer": 7.75
+  },
+  {
+    "signature": "Rectilinear Motion_R18_18_v2",
+    "source_problem_ID": "Rectilinear Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 2,
+    "problem_text": "An electron is released from rest in a uniform electric field of strength 100 N/C. A proton, moving with a constant velocity `v` towards the electron's initial position, is 0.05 meters away when the electron starts moving. Assuming the proton's path is not affected by the electron, what is the minimum velocity `v` (in m/s) the proton must have to intercept the electron? (Mass of electron = 9.109 × 10⁻³¹ kg, charge of electron = 1.602 × 10⁻¹⁹ C)",
+    "numerical_answer": 1326186.08
+  },
+  {
+    "signature": "Rectilinear Motion_R18_18_v3",
+    "source_problem_ID": "Rectilinear Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 3,
+    "problem_text": "A passenger train is traveling at a constant speed `v`. It passes a signal post. Exactly 250 meters ahead of the signal post, a freight train is just starting from rest with a constant acceleration of 0.2 m/s². What minimum speed `v` (in m/s) must the passenger train maintain to catch up to the freight train?",
+    "numerical_answer": 10.0
+  },
+  {
+    "signature": "Rectilinear Motion_R18_18_v4",
+    "source_problem_ID": "Rectilinear Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 4,
+    "problem_text": "A positively charged particle (charge 2e, mass 4m_p, where e is elementary charge and m_p is proton mass) is released from rest in a uniform electric field of 500 N/C. Another uncharged particle moves with a constant velocity `v` directly towards the charged particle's initial position, starting from a distance of 0.01 meters away. What is the minimum velocity `v` (in m/s) the uncharged particle must have to collide with the charged particle? (e = 1.602 × 10⁻¹⁹ C, m_p = 1.672 × 10⁻²⁷ kg)",
+    "numerical_answer": 21886.93
+  },
+  {
+    "signature": "Rectilinear Motion_R18_18_v5",
+    "source_problem_ID": "Rectilinear Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 5,
+    "problem_text": "A small motorboat travels at a constant speed `v` relative to the water. It passes a fixed buoy. Exactly 100 meters downstream from the buoy, a log is released from rest and begins to accelerate uniformly downstream with an acceleration of 0.1 m/s² relative to the water. What is the minimum speed `v` (in m/s) the motorboat must maintain to catch up to the log?",
+    "numerical_answer": 4.47
+  },
+  {
+    "signature": "Rectilinear Motion_R18_18_v6",
+    "source_problem_ID": "Rectilinear Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 6,
+    "problem_text": "A high-performance sports car (the chaser) is driving on a straight highway at a constant speed `v`. Ahead of it, at a distance of 150 meters, a new prototype electric vehicle (the chased) begins to accelerate from rest with a constant acceleration of 2.5 m/s². What is the minimum constant speed `v` the sports car must maintain to eventually catch the electric vehicle?",
+    "numerical_answer": 27.39
+  },
+  {
+    "signature": "Rectilinear Motion_R18_18_v7",
+    "source_problem_ID": "Rectilinear Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 7,
+    "problem_text": "A deep-sea submersible is navigating at a constant velocity `v` through a trench. It spots a newly launched underwater drone 600 meters ahead, which has just activated its propulsion system and begins to accelerate from rest at 0.4 m/s². Determine the minimum constant speed `v` the submersible needs to maintain to intercept the drone.",
+    "numerical_answer": 21.91
+  },
+  {
+    "signature": "Rectilinear Motion_R18_18_v8",
+    "source_problem_ID": "Rectilinear Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 8,
+    "problem_text": "In a particle accelerator, a beam of protons travels at a constant velocity `v`. 0.05 meters ahead, a cluster of free electrons is released from rest and accelerates uniformly under an electric field at 5.0 x 10^9 m/s². What is the minimum constant velocity `v` required for the proton beam to catch up to the electron cluster?",
+    "numerical_answer": 22360.68
+  },
+  {
+    "signature": "Rectilinear Motion_R18_18_v9",
+    "source_problem_ID": "Rectilinear Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 9,
+    "problem_text": "A space probe is traversing an asteroid field at a constant velocity `v`. 12 kilometers ahead, a rogue asteroid, initially at rest relative to the probe's starting frame, is gravitationally tugged by a nearby gas giant, causing it to accelerate at a constant rate of 0.02 m/s². Calculate the minimum constant velocity `v` the space probe must have to reach the rogue asteroid.",
+    "numerical_answer": 21.91
+  },
+  {
+    "signature": "Rectilinear Motion_R18_18_v10",
+    "source_problem_ID": "Rectilinear Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 10,
+    "problem_text": "During a cycling marathon, a lead cyclist maintains a constant speed `v`. 80 meters behind, another cyclist, who had stopped for a mechanical issue, starts from rest and accelerates uniformly at 1.8 m/s². For the lead cyclist to maintain their position relative to the starting point and prevent the accelerating cyclist from ever catching up (i.e., the initial gap must be maintained or increased), what is the maximum constant speed `v` the lead cyclist could have such that the accelerating cyclist *just barely* catches up to them if they were ahead by 80m?",
+    "numerical_answer": 17.0
+  },
+  {
+    "signature": "Rectilinear Motion_R19_19_v1",
+    "source_problem_ID": "Rectilinear Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 1,
+    "problem_text": "A train is moving towards a bridge 30 km away at a constant speed of 60 km/h. A bird starts flying from the front of the train towards the bridge at 90 km/h. As soon as it reaches the bridge, it turns back and flies towards the train, and so on. What is the total distance the bird travels before the train reaches the bridge?",
+    "numerical_answer": 45.0
+  },
+  {
+    "signature": "Rectilinear Motion_R19_19_v2",
+    "source_problem_ID": "Rectilinear Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 2,
+    "problem_text": "A deep-space probe is approaching a research station located 500,000 km away, moving at a steady speed of 20,000 km/h. A messenger drone is dispatched from the probe towards the station at 100,000 km/h. It transmits data and immediately returns to the probe, repeating this cycle. Calculate the total distance covered by the drone before the probe reaches the research station.",
+    "numerical_answer": 2500000.0
+  },
+  {
+    "signature": "Rectilinear Motion_R19_19_v3",
+    "source_problem_ID": "Rectilinear Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 3,
+    "problem_text": "A snail is slowly crawling along a 10 cm long leaf at a speed of 0.05 cm/s, starting from one end. An ant starts running from the same end towards the other end of the leaf at 2 cm/s. Upon reaching the end, the ant immediately turns around and runs back towards the snail, repeating this motion. What total distance does the ant cover until the snail reaches the opposite end of the leaf?",
+    "numerical_answer": 400.0
+  },
+  {
+    "signature": "Rectilinear Motion_R19_19_v4",
+    "source_problem_ID": "Rectilinear Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 4,
+    "problem_text": "A boat departs from a dock, heading towards a buoy 10 km away at a constant speed of 27.78 km/h (approximately 15 knots). A small reconnaissance drone is launched from the boat, flying towards the buoy at 50 km/h. Upon reaching the buoy, the drone immediately turns back towards the boat, repeating the process. What is the total distance the drone travels before the boat reaches the buoy?",
+    "numerical_answer": 18.0
+  },
+  {
+    "signature": "Rectilinear Motion_R19_19_v5",
+    "source_problem_ID": "Rectilinear Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 5,
+    "problem_text": "A car enters a straight tunnel 1.5 km long, traveling at a constant speed of 80 km/h. As it enters, a short sound pulse is emitted from the entrance towards the car. The sound reflects off the car and travels back to the entrance, then reflects off the car again, continuing this bouncing. Given the speed of sound in air is 343 m/s, calculate the total distance the sound travels from the moment the car enters until it exits the tunnel.",
+    "numerical_answer": 23152.5
+  },
+  {
+    "signature": "Rectilinear Motion_R19_19_v6",
+    "source_problem_ID": "Rectilinear Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 6,
+    "problem_text": "A space probe is on a collision course with a dwarf planet, initially 1,000,000 km away, moving at a constant speed of 20,000 km/h. A nearby data relay satellite, observing the probe, continuously transmits telemetry data back to Earth at a rate of 500 GB/h. What is the total amount of data transmitted by the satellite before the probe impacts the dwarf planet?",
+    "numerical_answer": 25000.0
+  },
+  {
+    "signature": "Rectilinear Motion_R19_19_v7",
+    "source_problem_ID": "Rectilinear Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 7,
+    "problem_text": "A phagocyte is tracking a bacterium, initially 50 micrometers away, moving directly towards it at a constant speed of 2.5 micrometers per minute. Simultaneously, a signaling enzyme is released from a stationary point, diffusing through the fluid at an average speed of 15 micrometers per minute. What total distance does the signaling enzyme diffuse before the phagocyte engulfs the bacterium?",
+    "numerical_answer": 300.0
+  },
+  {
+    "signature": "Rectilinear Motion_R19_19_v8",
+    "source_problem_ID": "Rectilinear Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 8,
+    "problem_text": "In an automated assembly line, a robotic arm moves a component directly towards a fixed workstation at a constant speed of 0.3 m/s. The initial distance between the component and the workstation is 1.5 meters. At the same time, a conveyor belt, located parallel to the robotic arm's path, continuously transports small parts at a speed of 0.8 m/s. What total distance do the parts on the conveyor belt travel before the robotic arm's component reaches the workstation?",
+    "numerical_answer": 4.0
+  },
+  {
+    "signature": "Rectilinear Motion_R19_19_v9",
+    "source_problem_ID": "Rectilinear Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 9,
+    "problem_text": "An electron is accelerated towards a positively charged plate, initially 2 cm away, reaching a constant velocity of 5 x 10^6 m/s directly towards the plate. Simultaneously, a different electron is traveling along a circular conductor at a constant tangential speed of 8 x 10^6 m/s. What total linear distance does the second electron travel along its path before the first electron strikes the plate?",
+    "numerical_answer": 0.03
+  },
+  {
+    "signature": "Rectilinear Motion_R19_19_v10",
+    "source_problem_ID": "Rectilinear Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 10,
+    "problem_text": "A runner is sprinting towards a finish line, initially 400 meters away, maintaining a constant speed of 5 m/s. A small camera drone is flying overhead, continuously recording the runner's progress by moving back and forth along the track at an average speed of 25 m/s. What total distance does the drone cover before the runner crosses the finish line?",
+    "numerical_answer": 2000.0
+  },
+  {
+    "signature": "Rectilinear Motion_R20_20_v1",
+    "source_problem_ID": "Rectilinear Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 1,
+    "problem_text": "A stone is dropped from the top of a cliff. If the cliff is 44.1 meters high, how long does it take for the stone to reach the ground? (Assume acceleration due to gravity g = 9.8 m/s²).",
+    "numerical_answer": 3.0
+  },
+  {
+    "signature": "Rectilinear Motion_R20_20_v2",
+    "source_problem_ID": "Rectilinear Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 2,
+    "problem_text": "A construction worker accidentally drops a hammer from the top of a skyscraper that is 122.5 meters tall. What is the speed of the hammer just before it hits the ground? (Assume acceleration due to gravity g = 9.8 m/s²).",
+    "numerical_answer": 49.0
+  },
+  {
+    "signature": "Rectilinear Motion_R20_20_v3",
+    "source_problem_ID": "Rectilinear Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 3,
+    "problem_text": "A superball is dropped from a height of 39.2 meters. Assuming a perfectly elastic collision with the ground (i.e., it rebounds to the same height), what is the total time from the moment it is dropped until it momentarily stops at its maximum rebound height? (Assume acceleration due to gravity g = 9.8 m/s²).",
+    "numerical_answer": 5.66
+  },
+  {
+    "signature": "Rectilinear Motion_R20_20_v4",
+    "source_problem_ID": "Rectilinear Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 4,
+    "problem_text": "A rock is dropped into a deep well. If it hits the water with a speed of 29.4 m/s, what is the depth of the well? (Assume acceleration due to gravity g = 9.8 m/s²).",
+    "numerical_answer": 44.1
+  },
+  {
+    "signature": "Rectilinear Motion_R20_20_v5",
+    "source_problem_ID": "Rectilinear Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 5,
+    "problem_text": "A projectile, after undergoing a perfectly elastic collision with a hard surface, takes 3.5 seconds to reach its maximum height from the moment it leaves the surface. What was the speed of the projectile immediately after the collision? (Assume acceleration due to gravity g = 9.8 m/s²).",
+    "numerical_answer": 34.3
+  },
+  {
+    "signature": "Rectilinear Motion_R20_20_v6",
+    "source_problem_ID": "Rectilinear Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 6,
+    "problem_text": "A stone is dropped into a deep well from rest. If it takes 3 seconds for the stone to hit the water surface, what is the depth of the well? (Assume acceleration due to gravity g = 9.8 m/s^2 and neglect air resistance.)",
+    "numerical_answer": 44.1
+  },
+  {
+    "signature": "Rectilinear Motion_R20_20_v7",
+    "source_problem_ID": "Rectilinear Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 7,
+    "problem_text": "A superball is dropped from a certain height. It takes 3 seconds to reach the ground. Assuming the collision with the ground is perfectly elastic and there is no air resistance, calculate the total time elapsed from the moment it is dropped until it returns to its initial drop height for the first time.",
+    "numerical_answer": 6.0
+  },
+  {
+    "signature": "Rectilinear Motion_R20_20_v8",
+    "source_problem_ID": "Rectilinear Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 8,
+    "problem_text": "A charged particle, starting from rest, experiences a constant acceleration of 5 m/s^2 in a uniform electric field. What is the velocity of the particle after 4 seconds?",
+    "numerical_answer": 20.0
+  },
+  {
+    "signature": "Rectilinear Motion_R20_20_v9",
+    "source_problem_ID": "Rectilinear Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 9,
+    "problem_text": "An object is thrown vertically upwards from the ground with an initial velocity of 29.4 m/s. Assuming acceleration due to gravity g = 9.8 m/s^2 and neglecting air resistance, how long does it take for the object to reach its maximum height?",
+    "numerical_answer": 3.0
+  },
+  {
+    "signature": "Rectilinear Motion_R20_20_v10",
+    "source_problem_ID": "Rectilinear Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 10,
+    "problem_text": "A specialized tennis ball is dropped from a specific height. It undergoes a perfectly elastic bounce upon hitting the ground, returning to its original height. If the total time for one complete cycle (fall and rise back to the initial height) is 5 seconds, what was the speed of the ball just before it impacted the ground? (Assume acceleration due to gravity g = 9.8 m/s^2 and neglect air resistance.)",
+    "numerical_answer": 24.5
+  },
+  {
+    "signature": "Rectilinear Motion_R21_21_v1",
+    "source_problem_ID": "Rectilinear Motion_R21",
+    "Pair_Number": 21,
+    "variation_number": 1,
+    "problem_text": "An elevator is ascending at a constant velocity of 3.0 m/s. At a moment when the floor of the elevator is 80 m above the ground, a ball is accidentally dropped from the floor. Assuming g = 9.8 m/s^2, what is the height of the elevator's floor above the ground when the ball hits the ground?",
+    "numerical_answer": 93.07
+  },
+  {
+    "signature": "Rectilinear Motion_R21_21_v2",
+    "source_problem_ID": "Rectilinear Motion_R21",
+    "Pair_Number": 21,
+    "variation_number": 2,
+    "problem_text": "A delivery drone is descending steadily at a speed of 2.0 m/s. When the drone is at an altitude of 60 m, it releases a package. Assuming g = 9.8 m/s^2, what is the altitude of the drone when the package reaches the ground?",
+    "numerical_answer": 53.4
+  },
+  {
+    "signature": "Rectilinear Motion_R21_21_v3",
+    "source_problem_ID": "Rectilinear Motion_R21",
+    "Pair_Number": 21,
+    "variation_number": 3,
+    "problem_text": "A hot air balloon is rising vertically with a constant speed of 4.0 m/s. A sandbag is released from the balloon when it is 75 m above the ground. Taking g = 10.0 m/s^2, determine the altitude of the balloon when the sandbag strikes the ground.",
+    "numerical_answer": 92.17
+  },
+  {
+    "signature": "Rectilinear Motion_R21_21_v4",
+    "source_problem_ID": "Rectilinear Motion_R21",
+    "Pair_Number": 21,
+    "variation_number": 4,
+    "problem_text": "A small scientific probe is detached from a research rocket that is ascending vertically at a constant velocity of 15.0 m/s. The detachment occurs when the rocket's base is 100 m above the launch pad. Assuming g = 9.8 m/s^2, what will be the altitude of the rocket's base when the probe impacts the ground?",
+    "numerical_answer": 194.51
+  },
+  {
+    "signature": "Rectilinear Motion_R21_21_v5",
+    "source_problem_ID": "Rectilinear Motion_R21",
+    "Pair_Number": 21,
+    "variation_number": 5,
+    "problem_text": "A construction crane's hook, carrying a heavy bucket of tools, is lowering at a constant speed of 1.5 m/s. At a height of 40 m above the ground, the bucket is accidentally dislodged. If g = 9.8 m/s^2, what is the height of the crane's hook when the bucket hits the ground?",
+    "numerical_answer": 35.94
+  },
+  {
+    "signature": "Rectilinear Motion_R21_21_v6",
+    "source_problem_ID": "Rectilinear Motion_R21",
+    "Pair_Number": 21,
+    "variation_number": 6,
+    "problem_text": "A drone ascending at a constant velocity of 10.0 m/s releases a package when it is at an altitude of 100.0 m above the ground. Assuming acceleration due to gravity is 9.8 m/s^2, find the height of the drone above the ground at the instant the package strikes the ground.",
+    "numerical_answer": 156.52
+  },
+  {
+    "signature": "Rectilinear Motion_R21_21_v7",
+    "source_problem_ID": "Rectilinear Motion_R21",
+    "Pair_Number": 21,
+    "variation_number": 7,
+    "problem_text": "An elevator is descending at a steady speed of 3.0 m/s. A maintenance worker inside accidentally drops a wrench from a height of 80.0 m above the ground (measured from the point of release). Taking acceleration due to gravity as 10.0 m/s^2, determine the height of the elevator above the ground when the wrench makes impact.",
+    "numerical_answer": 68.87
+  },
+  {
+    "signature": "Rectilinear Motion_R21_21_v8",
+    "source_problem_ID": "Rectilinear Motion_R21",
+    "Pair_Number": 21,
+    "variation_number": 8,
+    "problem_text": "A submarine is ascending towards the surface at a constant speed of 2.0 m/s. It releases a ballast weight when it is 200.0 m above the ocean floor. If the acceleration due to gravity is 9.8 m/s^2, what will be the height of the submarine above the ocean floor at the moment the ballast weight reaches the ocean floor?",
+    "numerical_answer": 213.19
+  },
+  {
+    "signature": "Rectilinear Motion_R21_21_v9",
+    "source_problem_ID": "Rectilinear Motion_R21",
+    "Pair_Number": 21,
+    "variation_number": 9,
+    "problem_text": "A crane's hook is being raised at a constant upward velocity of 2.5 m/s. A heavy object suspended from the hook accidentally detaches when the hook is 75.0 m above the ground. Using g = 10.0 m/s^2 for acceleration due to gravity, calculate the height of the crane's hook from the ground at the exact moment the object hits the ground.",
+    "numerical_answer": 85.33
+  },
+  {
+    "signature": "Rectilinear Motion_R21_21_v10",
+    "source_problem_ID": "Rectilinear Motion_R21",
+    "Pair_Number": 21,
+    "variation_number": 10,
+    "problem_text": "A research rocket is descending at a constant velocity of 6.0 m/s. It releases a small probe when the rocket is at an altitude of 120.0 m above the launch pad. Assuming acceleration due to gravity is 9.8 m/s^2, find the altitude of the rocket above the launch pad when the probe impacts the ground.",
+    "numerical_answer": 93.75
+  },
+  {
+    "signature": "Projectile Motion & Vector_R22_22_v1",
+    "source_problem_ID": "Projectile Motion & Vector_R22",
+    "Pair_Number": 22,
+    "variation_number": 1,
+    "problem_text": "A vintage cannon fires a cannonball with an initial velocity of 150 m/s at an angle of 30 degrees above the horizontal. Assuming negligible air resistance and g = 10 m/s², calculate the maximum height reached by the cannonball.",
+    "numerical_answer": 281.25
+  },
+  {
+    "signature": "Projectile Motion & Vector_R22_22_v2",
+    "source_problem_ID": "Projectile Motion & Vector_R22",
+    "Pair_Number": 22,
+    "variation_number": 2,
+    "problem_text": "A high-pressure fire hose ejects water with an initial speed of 30 m/s at an angle of 60 degrees to the ground. If the water lands at the same horizontal level as it was ejected, what is the total time the water jet remains in the air? Assume g = 10 m/s².",
+    "numerical_answer": 5.2
+  },
+  {
+    "signature": "Projectile Motion & Vector_R22_22_v3",
+    "source_problem_ID": "Projectile Motion & Vector_R22",
+    "Pair_Number": 22,
+    "variation_number": 3,
+    "problem_text": "A medieval catapult launches a large rock with an initial speed of 40 m/s. The launch angle is 50 degrees above the horizontal. Ignoring air resistance and taking g = 10 m/s², determine the horizontal distance covered by the rock before it hits the ground at the same level as its launch point.",
+    "numerical_answer": 157.57
+  },
+  {
+    "signature": "Projectile Motion & Vector_R22_22_v4",
+    "source_problem_ID": "Projectile Motion & Vector_R22",
+    "Pair_Number": 22,
+    "variation_number": 4,
+    "problem_text": "An athlete throws a javelin with an initial velocity of 35 m/s. If the javelin remains in the air for a total of 4.5 seconds before landing at the same height from which it was thrown, what was its angle of projection with respect to the horizontal? Assume g = 10 m/s².",
+    "numerical_answer": 40.0
+  },
+  {
+    "signature": "Projectile Motion & Vector_R22_22_v5",
+    "source_problem_ID": "Projectile Motion & Vector_R22",
+    "Pair_Number": 22,
+    "variation_number": 5,
+    "problem_text": "A small pebble is launched from the ground with an initial speed of 25 m/s. If it achieves a horizontal range of 50 meters, what is the angle of projection above the horizontal? Assume g = 10 m/s² and that it lands at the same level it was launched.",
+    "numerical_answer": 26.57
+  },
+  {
+    "signature": "Projectile Motion & Vector_R22_22_v6",
+    "source_problem_ID": "Projectile Motion & Vector_R22",
+    "Pair_Number": 22,
+    "variation_number": 6,
+    "problem_text": "A military cannon fires a projectile with an initial velocity of 150 m/s at an angle of 30 degrees above the horizontal. Assuming the projectile lands on level ground and neglecting air resistance, what is the horizontal range of the projectile? (Use g = 10 m/s^2)",
+    "numerical_answer": 1948.56
+  },
+  {
+    "signature": "Projectile Motion & Vector_R22_22_v7",
+    "source_problem_ID": "Projectile Motion & Vector_R22",
+    "Pair_Number": 22,
+    "variation_number": 7,
+    "problem_text": "A decorative fountain shoots a jet of water with an initial speed of 12 m/s. If the water leaves the nozzle at an angle of 60 degrees with respect to the horizontal and lands on the same horizontal level, what is the horizontal distance covered by the water jet? (Use g = 10 m/s^2)",
+    "numerical_answer": 12.47
+  },
+  {
+    "signature": "Projectile Motion & Vector_R22_22_v8",
+    "source_problem_ID": "Projectile Motion & Vector_R22",
+    "Pair_Number": 22,
+    "variation_number": 8,
+    "problem_text": "A stunt motorcyclist attempts to jump over a series of cars. He leaves the ramp with a speed of 30 m/s at an angle of 25 degrees above the horizontal. Assuming he lands on a landing ramp at the same height as the takeoff ramp, what is the horizontal distance he travels? (Neglect air resistance and use g = 10 m/s^2)",
+    "numerical_answer": 68.94
+  },
+  {
+    "signature": "Projectile Motion & Vector_R22_22_v9",
+    "source_problem_ID": "Projectile Motion & Vector_R22",
+    "Pair_Number": 22,
+    "variation_number": 9,
+    "problem_text": "During a javelin throw competition, an athlete launches a javelin with an initial velocity of 25 m/s at an angle of 40 degrees to the horizontal. If the javelin lands on level ground, what is its maximum horizontal range? (Assume g = 10 m/s^2 and ignore air resistance)",
+    "numerical_answer": 61.55
+  },
+  {
+    "signature": "Projectile Motion & Vector_R22_22_v10",
+    "source_problem_ID": "Projectile Motion & Vector_R22",
+    "Pair_Number": 22,
+    "variation_number": 10,
+    "problem_text": "A volcanic eruption ejects a pyroclastic bomb with an initial velocity of 80 m/s at an angle of 35 degrees above the horizontal. Ignoring air resistance and assuming the bomb lands at the same elevation from which it was launched, calculate the horizontal distance it travels. (Take g = 10 m/s^2)",
+    "numerical_answer": 601.4
+  },
+  {
+    "signature": "Projectile Motion & Vector_R23_23_v1",
+    "source_problem_ID": "Projectile Motion & Vector_R23",
+    "Pair_Number": 23,
+    "variation_number": 1,
+    "problem_text": "An unmanned cargo plane is flying horizontally at an altitude of 3000 meters with a constant speed of 200 m/s. It releases a humanitarian aid package. Assuming air resistance is negligible, what is the straight-line distance from the point of release (in the air) to the point where the package lands on the ground? Use g = 9.81 m/s².",
+    "numerical_answer": 5784.88
+  },
+  {
+    "signature": "Projectile Motion & Vector_R23_23_v2",
+    "source_problem_ID": "Projectile Motion & Vector_R23",
+    "Pair_Number": 23,
+    "variation_number": 2,
+    "problem_text": "A professional ski jumper leaves the end of a horizontal ramp with an initial horizontal velocity of 28 m/s. The edge of the ramp is 90 meters above the landing zone. Neglecting air resistance, calculate the total displacement from the exact point where the jumper left the ramp to their landing point. Use g = 9.81 m/s².",
+    "numerical_answer": 149.95
+  },
+  {
+    "signature": "Projectile Motion & Vector_R23_23_v3",
+    "source_problem_ID": "Projectile Motion & Vector_R23",
+    "Pair_Number": 23,
+    "variation_number": 3,
+    "problem_text": "A high-powered rifle is fired horizontally from the top of a 150-meter-tall cliff. The bullet leaves the barrel with a speed of 350 m/s. Assuming no air friction, what is the magnitude of the displacement vector from the rifle's muzzle (the firing point) to the point where the bullet strikes the ground below? Use g = 9.81 m/s².",
+    "numerical_answer": 1941.36
+  },
+  {
+    "signature": "Projectile Motion & Vector_R23_23_v4",
+    "source_problem_ID": "Projectile Motion & Vector_R23",
+    "Pair_Number": 23,
+    "variation_number": 4,
+    "problem_text": "A package is inadvertently pushed off the side of a high-speed train traveling horizontally at 100 km/h. At the moment it falls, the train is passing over a gap in a bridge, and the package begins its freefall from a height of 25 meters above the ground. Ignoring air resistance, determine the straight-line distance between the point where the package left the train and its eventual landing spot on the ground. Use g = 9.81 m/s².",
+    "numerical_answer": 67.51
+  },
+  {
+    "signature": "Projectile Motion & Vector_R23_23_v5",
+    "source_problem_ID": "Projectile Motion & Vector_R23",
+    "Pair_Number": 23,
+    "variation_number": 5,
+    "problem_text": "An experimental sub-orbital space capsule is moving horizontally at an altitude of 50 km with a speed of 7.5 km/s relative to the Earth's surface. An astronaut inside discards a small trash bag through an airlock, giving it the same initial horizontal velocity as the capsule. Assuming uniform gravity (g = 9.81 m/s²) and neglecting atmospheric drag and Earth's curvature, calculate the total displacement from the point where the trash bag was released to its impact point on the ground.",
+    "numerical_answer": 758877.2
+  },
+  {
+    "signature": "Projectile Motion & Vector_R23_23_v6",
+    "source_problem_ID": "Projectile Motion & Vector_R23",
+    "Pair_Number": 23,
+    "variation_number": 6,
+    "problem_text": "An airplane is flying horizontally at an altitude of 3000 m with a constant speed of 250 m/s. It drops a humanitarian aid parcel. Ignoring air resistance, what is the straight-line distance from the point in space where the parcel was released to the point on the ground where it lands? Use g = 9.81 m/s².",
+    "numerical_answer": 6872.12
+  },
+  {
+    "signature": "Projectile Motion & Vector_R23_23_v7",
+    "source_problem_ID": "Projectile Motion & Vector_R23",
+    "Pair_Number": 23,
+    "variation_number": 7,
+    "problem_text": "An archer stands on a cliff 75 m high and fires an arrow perfectly horizontally with an initial speed of 60 m/s. Assuming no air resistance, calculate the total displacement (straight-line distance) from the point where the arrow was released to the point where it strikes the ground below. Use g = 9.81 m/s².",
+    "numerical_answer": 246.31
+  },
+  {
+    "signature": "Projectile Motion & Vector_R23_23_v8",
+    "source_problem_ID": "Projectile Motion & Vector_R23",
+    "Pair_Number": 23,
+    "variation_number": 8,
+    "problem_text": "A small ball rolls off the edge of a horizontal table that is 1.2 m high. The ball's speed as it leaves the table is 3.5 m/s. What is the total straight-line distance from the point where the ball left the table to the point where it hits the floor? Ignore air resistance and use g = 9.81 m/s².",
+    "numerical_answer": 2.11
+  },
+  {
+    "signature": "Projectile Motion & Vector_R23_23_v9",
+    "source_problem_ID": "Projectile Motion & Vector_R23",
+    "Pair_Number": 23,
+    "variation_number": 9,
+    "problem_text": "A ski jumper launches horizontally from the end of a ramp with a speed of 28 m/s. The vertical drop from the launch point to the landing zone is 25 m. Neglecting air resistance, what is the straight-line distance from the launch point to the landing point? Use g = 9.81 m/s².",
+    "numerical_answer": 67.98
+  },
+  {
+    "signature": "Projectile Motion & Vector_R23_23_v10",
+    "source_problem_ID": "Projectile Motion & Vector_R23",
+    "Pair_Number": 23,
+    "variation_number": 10,
+    "problem_text": "A delivery drone is flying horizontally at a constant altitude of 120 m with a speed of 18 m/s. It releases a package. Assuming negligible air resistance, determine the straight-line distance between the drone's position at the moment of release and the package's impact point on the ground. Use g = 9.81 m/s².",
+    "numerical_answer": 149.42
+  },
+  {
+    "signature": "Projectile Motion & Vector_R24_24_v1",
+    "source_problem_ID": "Projectile Motion & Vector_R24",
+    "Pair_Number": 24,
+    "variation_number": 1,
+    "problem_text": "A stunt motorcyclist attempts to jump a horizontal gap. They launch off a horizontal ramp with a speed of 30 m/s. The landing zone is an inclined plane angled at 25 degrees below the horizontal. Assuming negligible air resistance, how far along the inclined landing zone does the motorcycle land?",
+    "numerical_answer": 94.39
+  },
+  {
+    "signature": "Projectile Motion & Vector_R24_24_v2",
+    "source_problem_ID": "Projectile Motion & Vector_R24",
+    "Pair_Number": 24,
+    "variation_number": 2,
+    "problem_text": "During a ski jump competition, a skier leaves the end of a horizontal takeoff ramp with an initial horizontal velocity of 20 m/s. The landing slope immediately below the ramp is inclined at an angle of 35 degrees to the horizontal. Calculate the distance along this inclined slope from the takeoff point where the skier first makes contact with the snow.",
+    "numerical_answer": 69.7
+  },
+  {
+    "signature": "Projectile Motion & Vector_R24_24_v3",
+    "source_problem_ID": "Projectile Motion & Vector_R24",
+    "Pair_Number": 24,
+    "variation_number": 3,
+    "problem_text": "A small toy car rolls off the edge of a horizontal table with a speed of 3 m/s. The floor below the table is not flat but rather slopes downwards at an angle of 20 degrees with respect to the horizontal. How far from the base of the table, measured along the inclined floor, does the toy car land?",
+    "numerical_answer": 0.71
+  },
+  {
+    "signature": "Projectile Motion & Vector_R24_24_v4",
+    "source_problem_ID": "Projectile Motion & Vector_R24",
+    "Pair_Number": 24,
+    "variation_number": 4,
+    "problem_text": "Water is ejected horizontally from a nozzle with a speed of 15 m/s. It strikes a large inclined wall positioned such that its surface makes an angle of 40 degrees with the horizontal. Determine the distance along the inclined wall from the nozzle's horizontal projection where the water jet hits.",
+    "numerical_answer": 50.25
+  },
+  {
+    "signature": "Projectile Motion & Vector_R24_24_v5",
+    "source_problem_ID": "Projectile Motion & Vector_R24",
+    "Pair_Number": 24,
+    "variation_number": 5,
+    "problem_text": "A drone is flying horizontally at a constant speed of 10 m/s when it releases a package. The package is intended to land on an inclined platform that makes an angle of 30 degrees with the horizontal. Ignoring air resistance, what is the distance along the inclined platform from the drop point's vertical projection where the package lands?",
+    "numerical_answer": 13.59
+  },
+  {
+    "signature": "Projectile Motion & Vector_R24_24_v6",
+    "source_problem_ID": "Projectile Motion & Vector_R24",
+    "Pair_Number": 24,
+    "variation_number": 6,
+    "problem_text": "A stone is thrown horizontally with an initial speed of 30 m/s from the top of a cliff. The cliff face makes an angle of 30 degrees with the horizontal, sloping downwards. How far along the inclined cliff face does the stone hit?",
+    "numerical_answer": 122.45
+  },
+  {
+    "signature": "Projectile Motion & Vector_R24_24_v7",
+    "source_problem_ID": "Projectile Motion & Vector_R24",
+    "Pair_Number": 24,
+    "variation_number": 7,
+    "problem_text": "An electron is projected horizontally with a speed of 2 x 10^6 m/s into a uniform electric field. The electric field strength is 500 N/C, directed vertically downwards. A detection screen is placed at an angle of 45 degrees below the horizontal, starting from the point of projection. Assuming the electron starts from rest in the vertical direction and ignoring gravity, calculate the distance along the detection screen where the electron strikes it. (Mass of electron = 9.11 x 10^-31 kg, elementary charge = 1.602 x 10^-19 C).",
+    "numerical_answer": 0.13
+  },
+  {
+    "signature": "Projectile Motion & Vector_R24_24_v8",
+    "source_problem_ID": "Projectile Motion & Vector_R24",
+    "Pair_Number": 24,
+    "variation_number": 8,
+    "problem_text": "An astronaut on the Moon throws a scientific instrument horizontally from a lunar rover at a speed of 15 m/s. The instrument lands on a surface that slopes downwards at an angle of 20 degrees with respect to the horizontal. Given that the acceleration due to gravity on the Moon is 1.62 m/s^2, what is the distance along the sloped surface that the instrument travels before hitting it?",
+    "numerical_answer": 107.62
+  },
+  {
+    "signature": "Projectile Motion & Vector_R24_24_v9",
+    "source_problem_ID": "Projectile Motion & Vector_R24",
+    "Pair_Number": 24,
+    "variation_number": 9,
+    "problem_text": "A high-pressure water jet exits a nozzle horizontally at a speed of 10 m/s. It is aimed at a sloped platform that makes an angle of 60 degrees with the horizontal, descending from the nozzle's exit point. Ignoring air resistance, how far along the sloped platform does the water jet travel before striking it? (Acceleration due to gravity = 9.8 m/s^2).",
+    "numerical_answer": 70.7
+  },
+  {
+    "signature": "Projectile Motion & Vector_R24_24_v10",
+    "source_problem_ID": "Projectile Motion & Vector_R24",
+    "Pair_Number": 24,
+    "variation_number": 10,
+    "problem_text": "A ski jumper leaves the end of a horizontal ramp with an initial speed of 25 m/s. The landing area below the ramp is sloped downwards at an angle of 35 degrees relative to the horizontal, starting directly below the end of the ramp. Assuming no air resistance, calculate the distance along the sloped landing area where the ski jumper lands. (Acceleration due to gravity = 9.8 m/s^2).",
+    "numerical_answer": 109.02
+  },
+  {
+    "signature": "Projectile Motion & Vector_R25_25_v1",
+    "source_problem_ID": "Projectile Motion & Vector_R25",
+    "Pair_Number": 25,
+    "variation_number": 1,
+    "problem_text": "A military cannon fires a shell with an initial velocity of 150 m/s at an angle of 60 degrees above the horizontal. Assuming negligible air resistance, what is the speed of the shell when its trajectory makes an angle of 30 degrees with the horizontal?",
+    "numerical_answer": 86.6
+  },
+  {
+    "signature": "Projectile Motion & Vector_R25_25_v2",
+    "source_problem_ID": "Projectile Motion & Vector_R25",
+    "Pair_Number": 25,
+    "variation_number": 2,
+    "problem_text": "Water jets from a decorative fountain at an initial speed of 20 m/s, making an angle of 53 degrees with the horizontal. Ignoring air friction, determine the speed of the water stream when its direction of motion makes an angle of 20 degrees with the horizontal.",
+    "numerical_answer": 12.81
+  },
+  {
+    "signature": "Projectile Motion & Vector_R25_25_v3",
+    "source_problem_ID": "Projectile Motion & Vector_R25",
+    "Pair_Number": 25,
+    "variation_number": 3,
+    "problem_text": "A professional skier launches off a jump with an initial velocity of 30 m/s at an angle of 35 degrees above the horizontal. Neglecting air resistance and lift, what is the skier's speed when their flight path makes an angle of 15 degrees below the horizontal?",
+    "numerical_answer": 25.44
+  },
+  {
+    "signature": "Projectile Motion & Vector_R25_25_v4",
+    "source_problem_ID": "Projectile Motion & Vector_R25",
+    "Pair_Number": 25,
+    "variation_number": 4,
+    "problem_text": "A golfer hits a golf ball off the tee with an initial speed of 60 m/s at an angle of 45 degrees to the horizontal. If air resistance is ignored, what is the speed of the golf ball when its velocity vector is at an angle of 25 degrees with the horizontal?",
+    "numerical_answer": 46.81
+  },
+  {
+    "signature": "Projectile Motion & Vector_R25_25_v5",
+    "source_problem_ID": "Projectile Motion & Vector_R25",
+    "Pair_Number": 25,
+    "variation_number": 5,
+    "problem_text": "A stone is launched from a medieval catapult with an initial velocity of 40 m/s at an angle of 70 degrees above the ground. Disregarding air effects, calculate the speed of the stone when its trajectory makes an angle of 40 degrees with the horizontal.",
+    "numerical_answer": 17.86
+  },
+  {
+    "signature": "Projectile Motion & Vector_R25_25_v6",
+    "source_problem_ID": "Projectile Motion & Vector_R25",
+    "Pair_Number": 25,
+    "variation_number": 6,
+    "problem_text": "A siege cannon fires a projectile with an initial speed of 120 m/s at an angle of 55 degrees above the horizontal. Neglecting air resistance, what is the speed of the projectile when its velocity vector makes an angle of 35 degrees with the horizontal?",
+    "numerical_answer": 84.02
+  },
+  {
+    "signature": "Projectile Motion & Vector_R25_25_v7",
+    "source_problem_ID": "Projectile Motion & Vector_R25",
+    "Pair_Number": 25,
+    "variation_number": 7,
+    "problem_text": "During a track and field event, a javelin is launched with an initial speed of 28 m/s at an angle of 40 degrees above the ground. Ignoring air resistance, calculate the speed of the javelin at the moment its trajectory makes an angle of 20 degrees with the horizontal.",
+    "numerical_answer": 22.83
+  },
+  {
+    "signature": "Projectile Motion & Vector_R25_25_v8",
+    "source_problem_ID": "Projectile Motion & Vector_R25",
+    "Pair_Number": 25,
+    "variation_number": 8,
+    "problem_text": "An electron enters a region of uniform electric field, which exerts a constant downward force on it, with an initial speed of 5.0 x 10^6 m/s at an angle of 60 degrees above the horizontal. Assuming no other forces, determine the electron's speed when its instantaneous direction of motion is 30 degrees above the horizontal.",
+    "numerical_answer": 2886751.34
+  },
+  {
+    "signature": "Projectile Motion & Vector_R25_25_v9",
+    "source_problem_ID": "Projectile Motion & Vector_R25",
+    "Pair_Number": 25,
+    "variation_number": 9,
+    "problem_text": "A volcanic eruption ejects a lava bomb with an initial speed of 80 m/s at an angle of 70 degrees from the horizontal. If air resistance is negligible, what is the speed of the lava bomb when its path makes an angle of 45 degrees with the horizontal?",
+    "numerical_answer": 38.7
+  },
+  {
+    "signature": "Projectile Motion & Vector_R25_25_v10",
+    "source_problem_ID": "Projectile Motion & Vector_R25",
+    "Pair_Number": 25,
+    "variation_number": 10,
+    "problem_text": "A fire hose directs a powerful jet of water into the air. The water leaves the nozzle with a speed of 30 m/s at an angle of 48 degrees above the horizontal. Assuming the water jet behaves as a projectile (neglecting air resistance), find the speed of the water stream when its direction makes an angle of 28 degrees with the horizontal.",
+    "numerical_answer": 22.73
+  },
+  {
+    "signature": "Projectile Motion & Vector_R26_26_v1",
+    "source_problem_ID": "Projectile Motion & Vector_R26",
+    "Pair_Number": 26,
+    "variation_number": 1,
+    "problem_text": "An airplane has a maximum speed of 600 km/h relative to the air. It needs to fly directly north to a destination 1000 km away. If there is a steady crosswind blowing from the west at 150 km/h, how long will the flight take?",
+    "numerical_answer": 1.72
+  },
+  {
+    "signature": "Projectile Motion & Vector_R26_26_v2",
+    "source_problem_ID": "Projectile Motion & Vector_R26",
+    "Pair_Number": 26,
+    "variation_number": 2,
+    "problem_text": "A research vessel with a maximum speed of 15 m/s relative to the water needs to reach an observation point located 10 km due east. If there is a constant ocean current flowing south at 5 m/s, what is the minimum time required for the vessel to reach its destination by aiming appropriately?",
+    "numerical_answer": 707.03
+  },
+  {
+    "signature": "Projectile Motion & Vector_R26_26_v3",
+    "source_problem_ID": "Projectile Motion & Vector_R26",
+    "Pair_Number": 26,
+    "variation_number": 3,
+    "problem_text": "A delivery drone is programmed to carry a package directly across a 3 km path. Its maximum speed in still air is 25 m/s. However, it encounters a uniform crosswind blowing perpendicularly to its desired path at 10 m/s. How much time will the drone take to complete the delivery?",
+    "numerical_answer": 130.95
+  },
+  {
+    "signature": "Projectile Motion & Vector_R26_26_v4",
+    "source_problem_ID": "Projectile Motion & Vector_R26",
+    "Pair_Number": 26,
+    "variation_number": 4,
+    "problem_text": "A robotic submersible is designed to explore a specific underwater trench. It can travel at a maximum speed of 5 m/s relative to the surrounding water. If it needs to move 1.5 km directly forward to its target, but encounters a constant ocean current of 2 m/s perpendicular to its intended direction, calculate the time it will take to reach the target.",
+    "numerical_answer": 327.31
+  },
+  {
+    "signature": "Projectile Motion & Vector_R26_26_v5",
+    "source_problem_ID": "Projectile Motion & Vector_R26",
+    "Pair_Number": 26,
+    "variation_number": 5,
+    "problem_text": "An Automated Guided Vehicle (AGV) in a large factory floor has a maximum speed of 1.5 m/s relative to the floor. It must transport components along a straight path of 50 meters. However, a strong side air draft exerts a constant 'push' equivalent to a sideways velocity of 0.8 m/s. If the AGV adjusts its orientation to counteract the draft and maintain a perfectly straight course, how long will it take to cover the 50-meter distance?",
+    "numerical_answer": 39.41
+  },
+  {
+    "signature": "Projectile Motion & Vector_R26_26_v6",
+    "source_problem_ID": "Projectile Motion & Vector_R26",
+    "Pair_Number": 26,
+    "variation_number": 6,
+    "problem_text": "An airplane has an airspeed of 300 km/h. There is a steady crosswind blowing from the West at 100 km/h. If the pilot wants to fly the plane directly North to a destination 500 km away, what angle (relative to North, towards West) must the pilot orient the plane, and what will be the total flight time?",
+    "numerical_answer": 1.77
+  },
+  {
+    "signature": "Projectile Motion & Vector_R26_26_v7",
+    "source_problem_ID": "Projectile Motion & Vector_R26",
+    "Pair_Number": 26,
+    "variation_number": 7,
+    "problem_text": "A robot can move at a maximum speed of 1.5 m/s relative to the conveyor belt it is on. The conveyor belt itself moves at 0.8 m/s. To reach a sensor located exactly 5 meters perpendicular to the belt's direction of motion, what angle (relative to the perpendicular path) must the robot orient itself, and how long will it take to reach the sensor?",
+    "numerical_answer": 3.94
+  },
+  {
+    "signature": "Projectile Motion & Vector_R26_26_v8",
+    "source_problem_ID": "Projectile Motion & Vector_R26",
+    "Pair_Number": 26,
+    "variation_number": 8,
+    "problem_text": "A cannon is mounted on a flatcar moving horizontally at 15 m/s. The cannon fires projectiles with a muzzle velocity of 50 m/s relative to the flatcar. If the cannon operator wants to hit a stationary target located 200 meters directly perpendicular to the track (and the flatcar's motion), at what angle (relative to the perpendicular path) must the cannon be aimed, and how long will the projectile take to reach the target? (Neglect air resistance and gravity's vertical effect for simplicity in horizontal motion calculations).",
+    "numerical_answer": 4.19
+  },
+  {
+    "signature": "Projectile Motion & Vector_R26_26_v9",
+    "source_problem_ID": "Projectile Motion & Vector_R26",
+    "Pair_Number": 26,
+    "variation_number": 9,
+    "problem_text": "A rescue boat has a maximum speed of 10 km/h in still water. It needs to cross a 200 meter wide canal directly perpendicular to the banks. The canal has a uniform current of 4 km/h parallel to its banks. At what angle (relative to the perpendicular path) must the boat be steered, and how much time will it take to cross the canal?",
+    "numerical_answer": 1.31
+  },
+  {
+    "signature": "Projectile Motion & Vector_R26_26_v10",
+    "source_problem_ID": "Projectile Motion & Vector_R26",
+    "Pair_Number": 26,
+    "variation_number": 10,
+    "problem_text": "A car is driving on a massive ice floe that is drifting East at 1.2 m/s relative to the ground. The car can achieve a maximum speed of 5.0 m/s relative to the ice floe. If the driver wants to travel 150 meters directly North relative to the ground, what angle (relative to North, towards East) must the car be steered, and what will be the total travel time?",
+    "numerical_answer": 30.9
+  },
+  {
+    "signature": "Projectile Motion & Vector_R27_27_v1",
+    "source_problem_ID": "Projectile Motion & Vector_R27",
+    "Pair_Number": 27,
+    "variation_number": 1,
+    "problem_text": "An airplane has an airspeed of 450 km/h. It needs to fly across a 300 km wide storm front. The storm wind is blowing at 80 km/h. The pilot sets a course such that the plane's nose is angled 105 degrees with respect to the direction of the wind (meaning it's slightly crabbing into the wind). How far off course (drift, in meters) will the plane be when it exits the storm on the other side?",
+    "numerical_answer": 25179.8
+  },
+  {
+    "signature": "Projectile Motion & Vector_R27_27_v2",
+    "source_problem_ID": "Projectile Motion & Vector_R27",
+    "Pair_Number": 27,
+    "variation_number": 2,
+    "problem_text": "A service robot on a large moving platform needs to travel 15 meters across its width. The robot's speed relative to the platform is 1.2 m/s. The platform itself is moving at 0.5 m/s in a straight line. If the robot maintains a heading that is 135 degrees relative to the platform's direction of motion, what is its lateral displacement (drift, in meters) from its starting point along the platform's motion when it reaches the other side?",
+    "numerical_answer": 6.16
+  },
+  {
+    "signature": "Projectile Motion & Vector_R27_27_v3",
+    "source_problem_ID": "Projectile Motion & Vector_R27",
+    "Pair_Number": 27,
+    "variation_number": 3,
+    "problem_text": "A mini-submarine is attempting to cross a 2 km wide strait. Its maximum speed relative to the water is 15 km/h. There's an ocean current flowing at 5 km/h across the strait. The submarine captain directs the vessel at an angle of 110 degrees relative to the current's direction. How far downstream (drift, in meters) will the submarine be carried by the current by the time it reaches the other side of the strait?",
+    "numerical_answer": 18.48
+  },
+  {
+    "signature": "Projectile Motion & Vector_R27_27_v4",
+    "source_problem_ID": "Projectile Motion & Vector_R27",
+    "Pair_Number": 27,
+    "variation_number": 4,
+    "problem_text": "A polar bear wishes to cross a 50-meter wide section of an ice floe. The bear can walk at 2 m/s relative to the ice. The ice floe itself is drifting at 0.8 m/s. If the bear maintains a direction 145 degrees relative to the drift direction of the ice floe, what is its total displacement parallel to the ice floe's drift (in meters) when it reaches the other side?",
+    "numerical_answer": 36.53
+  },
+  {
+    "signature": "Projectile Motion & Vector_R27_27_v5",
+    "source_problem_ID": "Projectile Motion & Vector_R27",
+    "Pair_Number": 27,
+    "variation_number": 5,
+    "problem_text": "An airport has a 10-meter wide section with a moving walkway. A person needs to walk directly across this section (perpendicular to the walkway's motion). The walkway moves at 0.7 m/s. The person's speed relative to the walkway is 1.8 m/s. If the person's body is oriented at an angle of 100 degrees with respect to the walkway's direction of motion, what is the total sideways displacement (drift, in meters) from their intended perpendicular path by the time they cross the 10-meter width?",
+    "numerical_answer": 2.19
+  },
+  {
+    "signature": "Projectile Motion & Vector_R27_27_v6",
+    "source_problem_ID": "Projectile Motion & Vector_R27",
+    "Pair_Number": 27,
+    "variation_number": 6,
+    "problem_text": "A motorboat has a speed of 5 m/s relative to the water. It needs to cross a river that is 200 m wide and flows at 2 m/s downstream. The boat sets a course at an angle of 135 degrees with respect to the downstream direction of the river flow. Assuming the boat maintains this heading, how far upstream or downstream from its starting point does it land on the opposite bank?",
+    "numerical_answer": 86.84
+  },
+  {
+    "signature": "Projectile Motion & Vector_R27_27_v7",
+    "source_problem_ID": "Projectile Motion & Vector_R27",
+    "Pair_Number": 27,
+    "variation_number": 7,
+    "problem_text": "An aircraft can fly at a speed of 600 km/h relative to the air. It intends to fly due north to a destination 800 km away. There is a steady wind blowing from the west at 100 km/h. If the pilot aims the plane at an angle of 105 degrees north of east relative to the ground, what is the net eastward or westward displacement of the plane from its intended northern target point when it reaches the latitude of its destination?",
+    "numerical_answer": 76.27
+  },
+  {
+    "signature": "Projectile Motion & Vector_R27_27_v8",
+    "source_problem_ID": "Projectile Motion & Vector_R27",
+    "Pair_Number": 27,
+    "variation_number": 8,
+    "problem_text": "A wide moving platform, part of an industrial facility, moves at a constant speed of 0.5 m/s relative to the ground in the +X direction. A technician needs to cross from one edge of the platform to another, a perpendicular distance of 10 m (along the +Y direction). The technician walks at 1.5 m/s relative to the platform, setting their course such that their velocity relative to the platform makes an angle of 150 degrees with the platform's direction of motion (+X). Calculate the total displacement of the technician parallel to the platform's motion when they reach the opposite edge.",
+    "numerical_answer": 10.65
+  },
+  {
+    "signature": "Projectile Motion & Vector_R27_27_v9",
+    "source_problem_ID": "Projectile Motion & Vector_R27",
+    "Pair_Number": 27,
+    "variation_number": 9,
+    "problem_text": "A submarine can travel at 15 knots relative to the ocean water. It needs to travel eastward for a distance of 100 km. The ocean current is flowing steadily southward at 5 knots. The submarine's captain sets its heading at an angle of 120 degrees counter-clockwise from the south direction (the direction of the current). Determine the total northward or southward displacement experienced by the submarine when it completes its eastward journey.",
+    "numerical_answer": 19.25
+  },
+  {
+    "signature": "Projectile Motion & Vector_R27_27_v10",
+    "source_problem_ID": "Projectile Motion & Vector_R27",
+    "Pair_Number": 27,
+    "variation_number": 10,
+    "problem_text": "A robotic rover is moving across a Martian plain at a constant velocity of 0.2 m/s in a straight line. A small reconnaissance drone is launched from the rover's side. The drone is programmed to fly at a speed of 0.8 m/s relative to the rover, and it is aimed at 150 degrees relative to the rover's direction of motion. The drone needs to reach a sensor array located 50 m away, perpendicular to the rover's path. What is the total displacement of the drone parallel to the rover's path when it reaches the sensor array?",
+    "numerical_answer": 61.6
+  },
+  {
+    "signature": "Projectile Motion & Vector_R28_28_v1",
+    "source_problem_ID": "Projectile Motion & Vector_R28",
+    "Pair_Number": 28,
+    "variation_number": 1,
+    "problem_text": "A boat needs to cross a river flowing at 3.0 m/s. If the boatman wants to reach a point directly opposite his starting point on the other bank, he must steer his boat at an angle of 30 degrees upstream with respect to the line perpendicular to the river flow. Calculate the speed of the boat relative to the still water.",
+    "numerical_answer": 6.0
+  },
+  {
+    "signature": "Projectile Motion & Vector_R28_28_v2",
+    "source_problem_ID": "Projectile Motion & Vector_R28",
+    "Pair_Number": 28,
+    "variation_number": 2,
+    "problem_text": "A force of 50 N is required to prevent a block from sliding down a frictionless inclined plane. If the inclined plane makes an angle of 45 degrees with the horizontal, what is the weight of the block?",
+    "numerical_answer": 70.71
+  },
+  {
+    "signature": "Projectile Motion & Vector_R28_28_v3",
+    "source_problem_ID": "Projectile Motion & Vector_R28",
+    "Pair_Number": 28,
+    "variation_number": 3,
+    "problem_text": "A drone is flying with an intended horizontal velocity component. A strong crosswind is blowing perpendicular to the drone's intended path at 15 m/s. An observer on the ground, standing directly below the drone's initial position, notices that the drone's actual velocity makes an angle of 60 degrees with its intended horizontal path. What is the actual speed of the drone relative to the ground?",
+    "numerical_answer": 17.32
+  },
+  {
+    "signature": "Projectile Motion & Vector_R28_28_v4",
+    "source_problem_ID": "Projectile Motion & Vector_R28",
+    "Pair_Number": 28,
+    "variation_number": 4,
+    "problem_text": "A heavy painting is hung by a wire attached to two points on a wall. The wire sags in the middle. The angle that one half of the wire makes with the horizontal is 25 degrees. If the vertical component of the tension in that half of the wire is 40 N, what is the total tension in that half of the wire?",
+    "numerical_answer": 94.65
+  },
+  {
+    "signature": "Projectile Motion & Vector_R28_28_v5",
+    "source_problem_ID": "Projectile Motion & Vector_R28",
+    "Pair_Number": 28,
+    "variation_number": 5,
+    "problem_text": "An electron beam is fired into a region where it experiences a constant electric force. The direction of the electron's actual velocity makes an angle of 50 degrees with the direction of the electric force. If the component of the electron's velocity perpendicular to the electric force direction is measured to be 2.5 x 10^6 m/s, what is the electron's actual speed?",
+    "numerical_answer": 3263526.0
+  },
+  {
+    "signature": "Projectile Motion & Vector_R28_28_v6",
+    "source_problem_ID": "Projectile Motion & Vector_R28",
+    "Pair_Number": 28,
+    "variation_number": 6,
+    "problem_text": "A pilot is navigating an aircraft through a crosswind. To maintain a straight ground track, the pilot must point the aircraft's nose 15 degrees into the wind from the desired ground track. If the crosswind component perpendicular to the desired ground track is 50 km/h, what is the aircraft's true airspeed (speed relative to the air)?",
+    "numerical_answer": 193.2
+  },
+  {
+    "signature": "Projectile Motion & Vector_R28_28_v7",
+    "source_problem_ID": "Projectile Motion & Vector_R28",
+    "Pair_Number": 28,
+    "variation_number": 7,
+    "problem_text": "A boat needs to cross a river directly to a point on the opposite bank. The river current speed is 3 km/h. To achieve its target, the boat must steer at an angle of 20 degrees upstream from the line perpendicular to the river banks. What is the speed of the boat relative to the water?",
+    "numerical_answer": 8.77
+  },
+  {
+    "signature": "Projectile Motion & Vector_R28_28_v8",
+    "source_problem_ID": "Projectile Motion & Vector_R28",
+    "Pair_Number": 28,
+    "variation_number": 8,
+    "problem_text": "A 10 kg block is pulled across a rough horizontal surface by a rope. The rope makes an angle of 25 degrees with the vertical. If the effective horizontal component of the pulling force, used to overcome friction, is 70 N, what is the magnitude of the tension in the rope?",
+    "numerical_answer": 165.66
+  },
+  {
+    "signature": "Projectile Motion & Vector_R28_28_v9",
+    "source_problem_ID": "Projectile Motion & Vector_R28",
+    "Pair_Number": 28,
+    "variation_number": 9,
+    "problem_text": "An electron (charge 1.602 x 10^-19 C) moves with a speed of 5.0 x 10^6 m/s in a uniform magnetic field. The magnetic field makes an angle of 60 degrees with the electron's velocity vector. If the magnitude of the magnetic force experienced by the electron is 4.0 x 10^-13 N, what is the strength of the magnetic field?",
+    "numerical_answer": 0.58
+  },
+  {
+    "signature": "Projectile Motion & Vector_R28_28_v10",
+    "source_problem_ID": "Projectile Motion & Vector_R28",
+    "Pair_Number": 28,
+    "variation_number": 10,
+    "problem_text": "A drone is flying at a constant velocity. An observer on the ground, who is running horizontally at 15 km/h, notes that the drone appears to be moving directly upwards. If a stationary observer on the ground measures the drone's actual velocity (relative to the ground) to make an angle of 60 degrees with the horizontal, what is the actual speed of the drone relative to the ground?",
+    "numerical_answer": 30.0
+  },
+  {
+    "signature": "Projectile Motion & Vector_R29_29_v1",
+    "source_problem_ID": "Projectile Motion & Vector_R29",
+    "Pair_Number": 29,
+    "variation_number": 1,
+    "problem_text": "A motorboat is navigating a wide river. When the boat travels downstream relative to the bank at a speed of 10 km/h, a floating log appears to drift purely perpendicularly to the river banks. However, when the boat increases its speed relative to the bank to 15 km/h (still downstream), the log now appears to drift at an angle of 45 degrees relative to the river bank (with a component moving upstream relative to the boat). Calculate the actual speed of the river current relative to the bank.",
+    "numerical_answer": 11.18
+  },
+  {
+    "signature": "Projectile Motion & Vector_R29_29_v2",
+    "source_problem_ID": "Projectile Motion & Vector_R29",
+    "Pair_Number": 29,
+    "variation_number": 2,
+    "problem_text": "An aircraft is flying horizontally. Air traffic control reports that when its ground speed is 200 km/h due East, the wind appears to be blowing purely from the North. If the aircraft's ground speed is increased to 300 km/h due East, the pilot observes the wind appears to be blowing from 60 degrees North of West (meaning the apparent wind vector makes an angle of 60 degrees with the West direction, towards the North). Determine the actual speed of the wind relative to the ground.",
+    "numerical_answer": 264.58
+  },
+  {
+    "signature": "Projectile Motion & Vector_R29_29_v3",
+    "source_problem_ID": "Projectile Motion & Vector_R29",
+    "Pair_Number": 29,
+    "variation_number": 3,
+    "problem_text": "A long-range probe is traversing interstellar space. From its perspective, an asteroid appears to cross its path purely perpendicularly when the probe is moving at 15 km/s relative to a fixed galactic coordinate system. When the probe's speed is adjusted to 25 km/s (along the same path), the asteroid now appears to move at an angle of 60 degrees relative to the probe's flight path (with a component moving against the probe's direction). What is the actual speed of the asteroid relative to the galactic coordinate system?",
+    "numerical_answer": 22.91
+  },
+  {
+    "signature": "Projectile Motion & Vector_R29_29_v4",
+    "source_problem_ID": "Projectile Motion & Vector_R29",
+    "Pair_Number": 29,
+    "variation_number": 4,
+    "problem_text": "A specialized sensor is deployed to measure fluid flow in a large industrial pipeline. When the sensor is moved through the pipeline at a constant speed of 0.5 m/s, the fluid particles are observed to flow purely perpendicularly to the sensor's direction of motion. If the sensor's speed is increased to 0.8 m/s (in the same direction), the fluid particles appear to be flowing at an angle of 45 degrees relative to the sensor's direction of motion (with a component moving opposite to the sensor's travel). Determine the actual speed of the fluid flow within the pipeline.",
+    "numerical_answer": 0.58
+  },
+  {
+    "signature": "Projectile Motion & Vector_R29_29_v5",
+    "source_problem_ID": "Projectile Motion & Vector_R29",
+    "Pair_Number": 29,
+    "variation_number": 5,
+    "problem_text": "A drone-mounted camera system is tracking a robotic target on a dynamic testing range. When the camera system moves horizontally at 10 m/s, the target appears to move purely in a direction perpendicular to the camera's motion. If the camera system increases its speed to 18 m/s (maintaining the same direction), the target now appears to be moving at an angle of 30 degrees relative to the camera's path (with an apparent component moving opposite to the camera's direction). What is the actual speed of the robotic target?",
+    "numerical_answer": 11.02
+  },
+  {
+    "signature": "Projectile Motion & Vector_R29_29_v6",
+    "source_problem_ID": "Projectile Motion & Vector_R29",
+    "Pair_Number": 29,
+    "variation_number": 6,
+    "problem_text": "A car travels along a straight road. When its speed is 40 km/h, the snowflakes falling appear to be moving purely vertically downwards. When the car's speed increases to 60 km/h, the snowflakes appear to be falling at an angle of 60 degrees to the vertical. Assuming the car moves horizontally and the actual snowfall velocity relative to the ground is constant, determine the magnitude of the actual velocity of the snowflakes relative to the ground.",
+    "numerical_answer": 41.63
+  },
+  {
+    "signature": "Projectile Motion & Vector_R29_29_v7",
+    "source_problem_ID": "Projectile Motion & Vector_R29",
+    "Pair_Number": 29,
+    "variation_number": 7,
+    "problem_text": "A camera mounted on a flatcar moving on a straight track observes a distant projectile. When the flatcar is moving at 10 m/s, the projectile's apparent motion is purely vertical. When the flatcar accelerates to 20 m/s, the projectile appears to be moving at an angle of 30 degrees to the vertical. Calculate the magnitude of the actual velocity of the projectile relative to the ground.",
+    "numerical_answer": 20.0
+  },
+  {
+    "signature": "Projectile Motion & Vector_R29_29_v8",
+    "source_problem_ID": "Projectile Motion & Vector_R29",
+    "Pair_Number": 29,
+    "variation_number": 8,
+    "problem_text": "A person driving a car observes a bird flying. When the car is moving east at 30 km/h, the bird appears to be flying directly north (i.e., its apparent horizontal velocity component relative to the car is zero in the east-west direction). When the car's speed increases to 50 km/h east, the bird appears to be flying at an angle of 45 degrees to the north-south line (vertical axis in this context). Assuming the bird's actual velocity relative to the ground is constant, find the magnitude of the bird's actual velocity.",
+    "numerical_answer": 36.06
+  },
+  {
+    "signature": "Projectile Motion & Vector_R29_29_v9",
+    "source_problem_ID": "Projectile Motion & Vector_R29",
+    "Pair_Number": 29,
+    "variation_number": 9,
+    "problem_text": "A boat navigates a river, and an observer on board tracks the movement of a smoke plume from a distant industrial chimney. When the boat travels downstream at 5 m/s, the smoke plume appears to be rising purely vertically. However, when the boat's speed increases to 15 m/s downstream, the smoke plume appears to be moving at an angle of 60 degrees to the vertical. Calculate the magnitude of the actual velocity of the smoke plume relative to the river bank.",
+    "numerical_answer": 7.64
+  },
+  {
+    "signature": "Projectile Motion & Vector_R29_29_v10",
+    "source_problem_ID": "Projectile Motion & Vector_R29",
+    "Pair_Number": 29,
+    "variation_number": 10,
+    "problem_text": "A drone (Drone A) is flying at a constant velocity relative to the ground. A second drone (Drone B) is used to observe Drone A. When Drone B flies horizontally at 15 m/s, Drone A appears to be moving purely vertically. When Drone B increases its horizontal speed to 25 m/s, Drone A appears to be moving at an angle of 45 degrees to the vertical. Determine the magnitude of Drone A's actual velocity relative to the ground.",
+    "numerical_answer": 18.03
+  },
+  {
+    "signature": "Rectilinear Motion_R30_30_v1",
+    "source_problem_ID": "Rectilinear Motion_R30",
+    "Pair_Number": 30,
+    "variation_number": 1,
+    "problem_text": "Three identical autonomous delivery robots are initially positioned at the vertices of an equilateral triangle on a vast factory floor. The side length of the triangle is 6.0 meters. Each robot is programmed to move directly towards the robot at the next vertex in a clockwise direction (Robot A towards B, B towards C, C towards A) with a constant speed of 0.50 m/s. Assuming they maintain their relative orientation and move along continuously curving paths, how long will it take for all three robots to meet at the center of their initial configuration?",
+    "numerical_answer": 8.0
+  },
+  {
+    "signature": "Rectilinear Motion_R30_30_v2",
+    "source_problem_ID": "Rectilinear Motion_R30",
+    "Pair_Number": 30,
+    "variation_number": 2,
+    "problem_text": "In an air traffic control simulation, three advanced reconnaissance drones are flying at the same altitude. At a particular instant, they form an equilateral triangle with a side length of 1.2 kilometers. Drone 1 is programmed to fly directly towards Drone 2, Drone 2 towards Drone 3, and Drone 3 towards Drone 1. All drones maintain a constant speed of 72 km/h. Assuming they continuously adjust their headings to target the next drone, how much time, in seconds, will pass until all three drones converge at a single point?",
+    "numerical_answer": 40.0
+  },
+  {
+    "signature": "Rectilinear Motion_R30_30_v3",
+    "source_problem_ID": "Rectilinear Motion_R30",
+    "Pair_Number": 30,
+    "variation_number": 3,
+    "problem_text": "During a naval exercise, three identical miniature submarines are deployed in a deep ocean trench. They are initially arranged at the vertices of an equilateral triangle, with a separation distance of 5.0 kilometers between any two submarines. Each submarine is tasked to maintain a constant speed of 15 m/s and constantly adjust its course to move directly towards the next submarine in a counter-clockwise sequence. Calculate the time, in seconds, required for all three submarines to converge at a central meeting point.",
+    "numerical_answer": 222.22
+  },
+  {
+    "signature": "Rectilinear Motion_R30_30_v4",
+    "source_problem_ID": "Rectilinear Motion_R30",
+    "Pair_Number": 30,
+    "variation_number": 4,
+    "problem_text": "A scientific experiment involves observing the behavior of three genetically identical ants placed on a perfectly flat, equilateral triangular leaf. The initial side length of the triangle formed by the ants is 3.0 cm. Each ant is stimulated to walk directly towards the ant at the next vertex with a constant speed of 0.50 cm/s. Assuming they continuously reorient themselves, how many seconds will it take for the three ants to meet at the exact center of the leaf?",
+    "numerical_answer": 4.0
+  },
+  {
+    "signature": "Rectilinear Motion_R30_30_v5",
+    "source_problem_ID": "Rectilinear Motion_R30",
+    "Pair_Number": 30,
+    "variation_number": 5,
+    "problem_text": "Three interstellar probes, each equipped with identical propulsion systems, are initially positioned at the vertices of a vast equilateral triangle in deep space, far from significant gravitational influences. The distance between any two probes is 300 kilometers. Each probe is programmed to fire its thrusters to move directly towards the next probe in a sequential manner (e.g., Probe X towards Y, Y towards Z, Z towards X) at a constant speed of 100 m/s. How long, in seconds, will it take for all three probes to meet at a single point in space?",
+    "numerical_answer": 2000.0
+  },
+  {
+    "signature": "Rectilinear Motion_R30_30_v6",
+    "source_problem_ID": "Rectilinear Motion_R30",
+    "Pair_Number": 30,
+    "variation_number": 6,
+    "problem_text": "Three autonomous ground robots, A, B, and C, are initially positioned at the vertices of an equilateral triangle with a side length of 20.0 meters. Robot A moves towards Robot B, B towards C, and C towards A, all with a constant speed of 0.5 m/s. Assuming they continuously adjust their direction to point towards their respective targets as the triangle shrinks, how long will it take for the robots to meet at a single point?",
+    "numerical_answer": 26.67
+  },
+  {
+    "signature": "Rectilinear Motion_R30_30_v7",
+    "source_problem_ID": "Rectilinear Motion_R30",
+    "Pair_Number": 30,
+    "variation_number": 7,
+    "problem_text": "In a microscopic biological experiment, three specially engineered bacteria, P1, P2, and P3, are placed on a petri dish. They initially form an equilateral triangle with a side length of 150 micrometers. Each bacterium is programmed to swim directly towards the next one in sequence (P1 to P2, P2 to P3, P3 to P1) with a constant speed of 10.0 micrometers/second. Calculate the time it takes for all three bacteria to converge at a single point.",
+    "numerical_answer": 10.0
+  },
+  {
+    "signature": "Rectilinear Motion_R30_30_v8",
+    "source_problem_ID": "Rectilinear Motion_R30",
+    "Pair_Number": 30,
+    "variation_number": 8,
+    "problem_text": "Consider a hypothetical scenario in deep space where three identical, super-advanced spacecraft, S1, S2, and S3, are positioned at the vertices of an equilateral triangle with an initial side length of 1.2 x 10^9 kilometers. Each spacecraft is programmed to maintain a constant speed of 50.0 km/s and continuously adjusts its direction to point towards the next spacecraft in the sequence (S1 towards S2, S2 towards S3, S3 towards S1). How much time (in years) will it take for them to meet?",
+    "numerical_answer": 0.51
+  },
+  {
+    "signature": "Rectilinear Motion_R30_30_v9",
+    "source_problem_ID": "Rectilinear Motion_R30",
+    "Pair_Number": 30,
+    "variation_number": 9,
+    "problem_text": "Three ants, Red, Green, and Blue, are placed on a perfectly flat surface, forming an equilateral triangle with sides of 50.0 cm. The Red ant walks directly towards the Green ant, the Green ant towards the Blue ant, and the Blue ant towards the Red ant. Each ant walks at a constant speed of 2.0 cm/s. Assuming they continuously adjust their direction, how many seconds will it take for all three ants to converge at the center?",
+    "numerical_answer": 16.67
+  },
+  {
+    "signature": "Rectilinear Motion_R30_30_v10",
+    "source_problem_ID": "Rectilinear Motion_R30",
+    "Pair_Number": 30,
+    "variation_number": 10,
+    "problem_text": "Imagine three identically charged particles, Q1, Q2, and Q3, confined to a 2D plane by an external field. They are initially arranged at the vertices of an equilateral triangle with a side length of 10.0 nanometers. Due to the influence of the field, each particle is made to move directly towards the next in a cyclic order (Q1 towards Q2, Q2 towards Q3, Q3 towards Q1) with a constant speed of 0.01 nanometers per picosecond. Calculate the time, in picoseconds, until all three particles collide at a single point.",
+    "numerical_answer": 666.67
+  }
+]

@@ -1,0 +1,1282 @@
+[
+  {
+    "signature": "Newton's Laws of Motion_R1_1_v1",
+    "source_problem_ID": "Newton's Laws of Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 1,
+    "problem_text": "A sturdy wooden crate with a mass of 75.0 kg is placed on a flat, horizontal warehouse floor. Assuming the floor is perfectly level and the crate is at rest, calculate the magnitude of the normal force exerted by the floor on the crate. Take g = 9.8 m/s^2.",
+    "numerical_answer": 735.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R1_1_v2",
+    "source_problem_ID": "Newton's Laws of Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 2,
+    "problem_text": "An expert climber is descending a vertical rock face and decides to pause for a moment. He hangs stationary from his safety rope, which is anchored above. If the climber's mass is 82.0 kg, determine the tension in the rope supporting him while he is at rest. Take g = 9.8 m/s^2.",
+    "numerical_answer": 803.6
+  },
+  {
+    "signature": "Newton's Laws of Motion_R1_1_v3",
+    "source_problem_ID": "Newton's Laws of Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 3,
+    "problem_text": "A perfectly spherical buoy of mass 12.5 kg is floating completely submerged in a calm lake, indicating it has neutral buoyancy. If the buoy is perfectly still, what is the magnitude of the buoyant force exerted by the water on the buoy? Take g = 9.8 m/s^2.",
+    "numerical_answer": 122.5
+  },
+  {
+    "signature": "Newton's Laws of Motion_R1_1_v4",
+    "source_problem_ID": "Newton's Laws of Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 4,
+    "problem_text": "A precision spring scale is used to measure the weight of an object. When an unknown mass is hung from the spring, it comes to rest, stretching the spring. If the spring scale indicates the object's mass as 3.2 kg, what is the upward force exerted by the spring on the mass when it is in equilibrium? Take g = 9.8 m/s^2.",
+    "numerical_answer": 31.36
+  },
+  {
+    "signature": "Newton's Laws of Motion_R1_1_v5",
+    "source_problem_ID": "Newton's Laws of Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 5,
+    "problem_text": "During a laboratory experiment, a student gently places a small, rare earth magnet (mass 0.080 kg) on a custom-built magnetic levitation platform. The magnet remains perfectly suspended in mid-air, at rest, due to an upward magnetic force. What is the magnitude of this upward magnetic force exerted by the platform on the magnet? Take g = 9.8 m/s^2.",
+    "numerical_answer": 0.78
+  },
+  {
+    "signature": "Newton's Laws of Motion_R1_1_v6",
+    "source_problem_ID": "Newton's Laws of Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 6,
+    "problem_text": "A physics textbook with a mass of 1.75 kg is lying flat on a horizontal desk. Calculate the magnitude of the normal force exerted by the desk on the textbook. Take g = 9.8 m/s^2.",
+    "numerical_answer": 17.15
+  },
+  {
+    "signature": "Newton's Laws of Motion_R1_1_v7",
+    "source_problem_ID": "Newton's Laws of Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 7,
+    "problem_text": "A decorative chandelier weighing 25.0 kg is suspended motionless from a ceiling by a single chain. Determine the tension in the chain supporting the chandelier. Assume g = 9.8 m/s^2.",
+    "numerical_answer": 245.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R1_1_v8",
+    "source_problem_ID": "Newton's Laws of Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 8,
+    "problem_text": "An industrial crane is holding a precast concrete slab of mass 1200 kg stationary in mid-air. What is the upward force exerted by the crane's cable on the concrete slab? Use g = 9.8 m/s^2.",
+    "numerical_answer": 11760.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R1_1_v9",
+    "source_problem_ID": "Newton's Laws of Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 9,
+    "problem_text": "A person with a mass of 65 kg stands still on a bathroom scale. What reading (in Newtons) will the scale display? (The scale measures the normal force exerted by the scale on the person). Take g = 9.8 m/s^2.",
+    "numerical_answer": 637.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R1_1_v10",
+    "source_problem_ID": "Newton's Laws of Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 10,
+    "problem_text": "A small, stationary drone has a mass of 0.85 kg. To hover in place, the drone's propellers must generate an upward thrust force to counteract gravity. Calculate the magnitude of this thrust force. Use g = 9.8 m/s^2.",
+    "numerical_answer": 8.33
+  },
+  {
+    "signature": "Newton's Laws of Motion_R2_2_v1",
+    "source_problem_ID": "Newton's Laws of Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 1,
+    "problem_text": "A 50 kg crate rests on a smooth, horizontal warehouse floor. A worker pulls the crate using a rope that makes an angle of 30 degrees with the horizontal. If the crate accelerates at 1.5 m/s², calculate the tension in the rope.",
+    "numerical_answer": 86.6
+  },
+  {
+    "signature": "Newton's Laws of Motion_R2_2_v2",
+    "source_problem_ID": "Newton's Laws of Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 2,
+    "problem_text": "A 20 kg sled (including its contents) is pulled across a perfectly smooth, horizontal ice rink. The pulling force is applied via a rope held at an angle of 45 degrees above the horizontal. If the sled accelerates at 0.8 m/s², determine the magnitude of the normal force exerted by the ice on the sled. (Take g = 9.8 m/s²)",
+    "numerical_answer": 180.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R2_2_v3",
+    "source_problem_ID": "Newton's Laws of Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 3,
+    "problem_text": "An airplane with a mass of 30,000 kg is being towed across a perfectly level runway by a tow bar connected at an angle of 15 degrees above the horizontal. If the airplane experiences a horizontal acceleration of 0.5 m/s² and friction is negligible, what is the magnitude of the normal force exerted by the runway on the airplane? (Take g = 9.8 m/s²)",
+    "numerical_answer": 289980.77
+  },
+  {
+    "signature": "Newton's Laws of Motion_R2_2_v4",
+    "source_problem_ID": "Newton's Laws of Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 4,
+    "problem_text": "A large industrial container of mass 1200 kg rests on an ultra-smooth, horizontal conveyor belt assembly. A robotic arm pulls the container with a rigid rod that makes an angle of 60 degrees with the horizontal. If the container moves with a constant horizontal acceleration of 0.2 m/s², find the force exerted by the robotic arm through the rod.",
+    "numerical_answer": 480.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R2_2_v5",
+    "source_problem_ID": "Newton's Laws of Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 5,
+    "problem_text": "A child pulls a 1.5 kg toy cart across a polished wooden floor. The string makes an angle of 20 degrees with the horizontal. If the cart experiences a horizontal acceleration of 0.6 m/s² and friction is negligible, what is the tension in the string?",
+    "numerical_answer": 0.96
+  },
+  {
+    "signature": "Newton's Laws of Motion_R2_2_v6",
+    "source_problem_ID": "Newton's Laws of Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 6,
+    "problem_text": "A child pulls a 20 kg sled across a perfectly smooth, icy patch of snow. The rope makes an angle of 30 degrees with the horizontal. If the sled accelerates at 1.5 m/s² horizontally, what is the tension in the rope?",
+    "numerical_answer": 34.64
+  },
+  {
+    "signature": "Newton's Laws of Motion_R2_2_v7",
+    "source_problem_ID": "Newton's Laws of Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 7,
+    "problem_text": "An airline passenger pulls a 15 kg wheeled suitcase across a frictionless airport floor. The telescopic handle is angled at 45 degrees above the horizontal. If the suitcase accelerates horizontally at 0.8 m/s², calculate the magnitude of the normal force exerted by the floor on the suitcase.",
+    "numerical_answer": 135.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R2_2_v8",
+    "source_problem_ID": "Newton's Laws of Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 8,
+    "problem_text": "A laboratory technician pulls a 50 kg cart, containing sensitive equipment, across a frictionless floor using a rope. The rope makes an angle of 20 degrees with the horizontal. If the cart's acceleration is 0.5 m/s² horizontally, determine the tension in the rope.",
+    "numerical_answer": 26.61
+  },
+  {
+    "signature": "Newton's Laws of Motion_R2_2_v9",
+    "source_problem_ID": "Newton's Laws of Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 9,
+    "problem_text": "A worker pulls a 100 kg crate with a rope across a perfectly smooth factory floor. The rope exerts a force of 40 N at an angle of 15 degrees above the horizontal. Assuming no friction, what is the horizontal acceleration of the crate?",
+    "numerical_answer": 0.39
+  },
+  {
+    "signature": "Newton's Laws of Motion_R2_2_v10",
+    "source_problem_ID": "Newton's Laws of Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 10,
+    "problem_text": "A 0.5 kg remote-controlled toy car is pulled by a string on a frictionless tabletop, causing it to accelerate horizontally at 3.0 m/s². If the string applies a constant force of 2.0 N, what angle does the string make with the horizontal?",
+    "numerical_answer": 41.41
+  },
+  {
+    "signature": "Newton's Laws of Motion_R3_3_v1",
+    "source_problem_ID": "Newton's Laws of Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 1,
+    "problem_text": "An elevator car of mass 800 kg is suspended by a massive steel cable. A 10-meter section of this cable, directly above the car, has a total mass of 50 kg. Assuming the elevator is stationary, calculate the tension in the cable at a point 10 meters above the car's attachment point (i.e., at the top of the 50 kg cable section). Use g = 10 m/s².",
+    "numerical_answer": 8500.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R3_3_v2",
+    "source_problem_ID": "Newton's Laws of Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 2,
+    "problem_text": "A construction crane is lowering a massive steel beam, which has a mass of 2500 kg, at a constant velocity. The heavy-duty steel cable supporting the beam has a uniform mass per unit length. If a 20-meter section of this cable immediately above the beam has a total mass of 100 kg, what is the tension in the cable at a point 20 meters above the beam's attachment point? Use g = 9.81 m/s².",
+    "numerical_answer": 25506.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R3_3_v3",
+    "source_problem_ID": "Newton's Laws of Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 3,
+    "problem_text": "A grand chandelier, with a mass of 150 kg, is suspended from a high ceiling by a sturdy decorative chain. The chain itself is quite massive; a 2-meter segment of the chain, starting from the chandelier's attachment point, has a total mass of 10 kg. If the chandelier is perfectly stationary, calculate the tension in the chain at the point where it attaches to the ceiling bracket (i.e., 2 meters above the chandelier). Use g = 9.81 m/s².",
+    "numerical_answer": 1569.6
+  },
+  {
+    "signature": "Newton's Laws of Motion_R3_3_v4",
+    "source_problem_ID": "Newton's Laws of Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 4,
+    "problem_text": "A rock climber, weighing 75 kg, is suspended motionless by a heavy static rope during a rest stop. The rope has a mass per unit length of 1.0 kg/m. If there are 15 meters of rope between the climber's harness and the primary anchor point above them, what is the tension in the rope at the anchor point? Use g = 10 m/s².",
+    "numerical_answer": 900.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R3_3_v5",
+    "source_problem_ID": "Newton's Laws of Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 5,
+    "problem_text": "A sensitive scientific instrument, with a mass of 500 kg, is carefully suspended at a fixed depth in a deep mine shaft. It is held by a long, heavy suspension cable that has a uniform mass per unit length of 1.5 kg/m. If the instrument is positioned 200 meters below the point where the cable is anchored at the surface, what is the tension in the cable at the anchor point? Assume the instrument is stationary and use g = 9.81 m/s².",
+    "numerical_answer": 7848.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R3_3_v6",
+    "source_problem_ID": "Newton's Laws of Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 6,
+    "problem_text": "An elevator car, with a mass of 800 kg, is suspended by a steel cable. A 120 kg section of this cable extends from the top of the car to the hoisting mechanism on the roof. Assuming the elevator is stationary, calculate the tension in the cable immediately above the car and the tension in the cable where it attaches to the hoisting mechanism.",
+    "numerical_answer": 9016.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R3_3_v7",
+    "source_problem_ID": "Newton's Laws of Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 7,
+    "problem_text": "A construction crane is holding a pre-cast concrete slab of mass 2500 kg in static equilibrium. The slab is attached to a heavy steel chain, and the 150 kg section of the chain between the slab and the crane's hook supports the slab. Determine the tension in the chain at the point where it connects to the concrete slab and the tension in the chain at the crane's hook.",
+    "numerical_answer": 25970.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R3_3_v8",
+    "source_problem_ID": "Newton's Laws of Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 8,
+    "problem_text": "A remotely operated underwater vehicle (ROV) with a mass of 500 kg is deployed from a research vessel and held stationary at a certain depth. It is connected to the vessel by a specialized tether. The 80 kg mass of the tether extends from the ROV up to a point 'A' on the ship's winch system. Find the tension in the tether at the ROV attachment point and the tension in the tether at point 'A'. (Assume the effects of buoyancy on the tether and ROV are negligible for this calculation; use g = 9.8 m/s²).",
+    "numerical_answer": 5684.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R3_3_v9",
+    "source_problem_ID": "Newton's Laws of Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 9,
+    "problem_text": "A grand crystal chandelier, having a mass of 150 kg, is suspended from the high ceiling of a museum by a long, ornate metal chain. The portion of the chain supporting the chandelier, from the chandelier itself up to the ceiling anchor point, has a mass of 20 kg. Assuming the chandelier is perfectly still, what is the tension in the chain where it connects to the chandelier and what is the total tension exerted on the ceiling anchor?",
+    "numerical_answer": 1666.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R3_3_v10",
+    "source_problem_ID": "Newton's Laws of Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 10,
+    "problem_text": "A rock climber, with a mass of 75 kg, is hanging motionless on a vertical rock face, supported by a climbing rope. The segment of the rope from the climber's harness up to the belay point (a carabiner securely fixed to the rock 10 meters above the climber) has a mass of 5 kg. Calculate the tension in the rope just above the climber's harness and the tension in the rope at the belay point.",
+    "numerical_answer": 784.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R4_4_v1",
+    "source_problem_ID": "Newton's Laws of Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 1,
+    "problem_text": "An elevator car, along with its occupants, has a total mass of 800 kg. It is supported by a steel cable. The elevator is descending with a constant acceleration of 1.5 m/s². If the mass of the cable segment extending from the point of attachment at the ceiling to a specific point A just above the car is 50 kg, calculate the tension in the cable at point A. (Assume g = 9.8 m/s²).",
+    "numerical_answer": 7055.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R4_4_v2",
+    "source_problem_ID": "Newton's Laws of Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 2,
+    "problem_text": "A construction crane is lifting a heavy anchor of mass 20 kg using a uniform steel chain. The anchor is accelerating upwards at 0.5 m/s². If the mass of the chain segment extending from the anchor to a specific point A is 2 kg, determine the tension in the chain at point A. (Assume g = 9.8 m/s²).",
+    "numerical_answer": 226.6
+  },
+  {
+    "signature": "Newton's Laws of Motion_R4_4_v3",
+    "source_problem_ID": "Newton's Laws of Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 3,
+    "problem_text": "A tow truck is pulling a broken-down car of mass 1500 kg horizontally along a flat road. The car is accelerating at 1.2 m/s². The tow rope connecting the truck to the car has a uniform mass distribution. If the mass of the rope segment extending from the car to a point A on the rope is 0.8 kg, what is the tension in the rope at point A? (Assume negligible friction and g = 9.8 m/s²).",
+    "numerical_answer": 1800.96
+  },
+  {
+    "signature": "Newton's Laws of Motion_R4_4_v4",
+    "source_problem_ID": "Newton's Laws of Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 4,
+    "problem_text": "A fisherman reels in a 3 kg fish, pulling it upwards through the water. The fish and the segment of the fishing line directly below a point A (closer to the reel) are accelerating upwards at 0.2 m/s². If the mass of the fishing line segment between point A and the fish is 0.05 kg, calculate the tension in the fishing line at point A. (Assume g = 9.8 m/s² and neglect water resistance for simplicity).",
+    "numerical_answer": 30.5
+  },
+  {
+    "signature": "Newton's Laws of Motion_R4_4_v5",
+    "source_problem_ID": "Newton's Laws of Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 5,
+    "problem_text": "An industrial operation involves lowering a long, heavy pipe into a deep vertical trench. The section of the pipe already below a certain point P has a mass of 100 kg. A worker is holding the pipe at a point A above P, and the pipe is descending with an acceleration of 0.8 m/s². If the mass of the pipe segment between point A and point P is 10 kg, what is the tension in the pipe at point A? (Assume g = 9.8 m/s²).",
+    "numerical_answer": 990.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R4_4_v6",
+    "source_problem_ID": "Newton's Laws of Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 6,
+    "problem_text": "An elevator car, with a mass of 800 kg, is descending. It is connected to a steel cable. A specific segment of the cable directly above the car, extending up to point A, has a mass of 50 kg. If the elevator system is accelerating downwards at 1.5 m/s², calculate the tension in the cable at point A. Assume g = 9.81 m/s².",
+    "numerical_answer": 7063.5
+  },
+  {
+    "signature": "Newton's Laws of Motion_R4_4_v7",
+    "source_problem_ID": "Newton's Laws of Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 7,
+    "problem_text": "A worker is pulling a bucket of water from a deep well using a chain. The bucket has a mass of 15 kg. The chain itself has a mass per unit length of 2 kg/m. If the worker pulls the bucket and chain upwards with an acceleration of 0.5 m/s², what is the tension in the chain at a point A, which is 10 meters above the bucket? Assume g = 9.81 m/s².",
+    "numerical_answer": 360.85
+  },
+  {
+    "signature": "Newton's Laws of Motion_R4_4_v8",
+    "source_problem_ID": "Newton's Laws of Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 8,
+    "problem_text": "During launch, a multi-stage rocket accelerates vertically upwards. Consider the lowest engine section (mass M = 75,000 kg) and the fuel tank segment directly above it (mass m = 120,000 kg), up to a connection point A. If the entire rocket assembly is accelerating upwards at 20 m/s², determine the internal force (thrust transfer) acting as tension at the connection point A, supporting the engine and fuel tank below it. Assume g = 9.81 m/s².",
+    "numerical_answer": 5812950.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R4_4_v9",
+    "source_problem_ID": "Newton's Laws of Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 9,
+    "problem_text": "A deep-sea submersible, with a mass of 15,000 kg, is being lowered into the ocean using a heavy-duty tether. The tether segment extending from the submersible up to a monitoring point A has a mass of 2,000 kg. If the submersible and tether system is accelerating downwards at 0.2 m/s², what is the tension in the tether at point A? Assume g = 9.81 m/s².",
+    "numerical_answer": 163370.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R4_4_v10",
+    "source_problem_ID": "Newton's Laws of Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 10,
+    "problem_text": "A crane is lifting a stack of I-beams. The lowest beam has a mass of 800 kg. There are three identical I-beams stacked directly above it, each also with a mass of 800 kg. The lifting cable connects to the topmost beam in this stack. If the crane accelerates the entire stack upwards at 0.1 m/s², calculate the tension in the lifting cable at point A, which is connected to the top of this stack of four beams. Assume g = 9.81 m/s².",
+    "numerical_answer": 31712.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R5_5_v1",
+    "source_problem_ID": "Newton's Laws of Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 1,
+    "problem_text": "A simple pendulum is suspended from the ceiling of a train compartment. The train accelerates horizontally at a constant rate of 2.5 m/s² on a straight track. Assuming g = 9.81 m/s², what is the angle (in degrees) that the pendulum string makes with the vertical?",
+    "numerical_answer": 14.3
+  },
+  {
+    "signature": "Newton's Laws of Motion_R5_5_v2",
+    "source_problem_ID": "Newton's Laws of Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 2,
+    "problem_text": "A small charged particle of mass 0.1 kg and charge +100 µC is suspended by a light, inextensible string in a uniform horizontal electric field of 2000 N/C. If the system is in equilibrium, what angle (in degrees) does the string make with the vertical? (Take g = 9.81 m/s²).",
+    "numerical_answer": 11.53
+  },
+  {
+    "signature": "Newton's Laws of Motion_R5_5_v3",
+    "source_problem_ID": "Newton's Laws of Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 3,
+    "problem_text": "During takeoff, an airplane accelerates uniformly along the runway. A small keychain hanging from a hook inside the cabin makes an angle with the vertical. If the airplane's acceleration is 3.2 m/s², find this angle (in degrees). Use g = 9.81 m/s².",
+    "numerical_answer": 18.06
+  },
+  {
+    "signature": "Newton's Laws of Motion_R5_5_v4",
+    "source_problem_ID": "Newton's Laws of Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 4,
+    "problem_text": "A rectangular tank, open at the top, is filled with water and is accelerating horizontally at 1.8 m/s². Determine the angle (in degrees) that the free surface of the water makes with the horizontal. (Take g = 9.81 m/s²).",
+    "numerical_answer": 10.39
+  },
+  {
+    "signature": "Newton's Laws of Motion_R5_5_v5",
+    "source_problem_ID": "Newton's Laws of Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 5,
+    "problem_text": "A small object of mass 'm' is placed on a frictionless horizontal turntable at a distance of 0.5 m from its center. The object is connected to a vertical axis at the center by a light string. If the turntable rotates at a constant frequency of 30 revolutions per minute, find the angle (in degrees) that the string makes with the vertical. (Assume g = 9.81 m/s²).",
+    "numerical_answer": 26.71
+  },
+  {
+    "signature": "Newton's Laws of Motion_R5_5_v6",
+    "source_problem_ID": "Newton's Laws of Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 6,
+    "problem_text": "A passenger train is moving at a constant speed of 72 km/h around a circular track with a radius of 150 meters. A decorative lamp is suspended by a string from the ceiling inside one of the train carriages. What angle, in degrees, does the string of the lamp make with the vertical due to the train's motion? Assume g = 9.81 m/s².",
+    "numerical_answer": 15.2
+  },
+  {
+    "signature": "Newton's Laws of Motion_R5_5_v7",
+    "source_problem_ID": "Newton's Laws of Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 7,
+    "problem_text": "During takeoff, an airplane accelerates uniformly at 4.0 m/s² along the runway. A small plush toy hangs by a thread from an overhead bin. Calculate the angle, in degrees, that the thread holding the toy makes with the vertical during this acceleration. Assume g = 9.81 m/s².",
+    "numerical_answer": 22.18
+  },
+  {
+    "signature": "Newton's Laws of Motion_R5_5_v8",
+    "source_problem_ID": "Newton's Laws of Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 8,
+    "problem_text": "In a physics experiment, a cart of mass 4.0 kg rests on a frictionless horizontal table. A string is attached to the cart, passes over a massless, frictionless pulley, and is connected to a hanging mass of 0.8 kg. A tiny pendulum bob is suspended inside the cart. What is the angle, in degrees, that the pendulum string makes with the vertical while the cart is accelerating? Assume g = 9.81 m/s².",
+    "numerical_answer": 9.47
+  },
+  {
+    "signature": "Newton's Laws of Motion_R5_5_v9",
+    "source_problem_ID": "Newton's Laws of Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 9,
+    "problem_text": "A speedboat is accelerating uniformly at 3.0 m/s² from rest across a calm lake. A fishing lure is tied to a short line and hung from the boat's canopy structure. Determine the angle, in degrees, that the fishing line makes with the vertical while the boat is accelerating. Assume g = 9.81 m/s².",
+    "numerical_answer": 17.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R5_5_v10",
+    "source_problem_ID": "Newton's Laws of Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 10,
+    "problem_text": "A flatbed truck is traveling on a straight, horizontal road and undergoes a constant acceleration of 2.5 m/s². A plumb bob is suspended by a string from the roof of a cargo container securely fastened to the truck bed. Find the angle, in degrees, that the string of the plumb bob makes with the vertical.",
+    "numerical_answer": 14.3
+  },
+  {
+    "signature": "Newton's Laws of Motion_R6_6_v1",
+    "source_problem_ID": "Newton's Laws of Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 1,
+    "problem_text": "A traffic light system with a mass of 15 kg is suspended from two cables attached to a horizontal support beam. The left cable makes an angle of 70 degrees with the horizontal, and the right cable makes an angle of 60 degrees with the horizontal. Assuming the system is in static equilibrium, calculate the tension in the left cable. (Use g = 9.81 m/s^2)",
+    "numerical_answer": 96.05
+  },
+  {
+    "signature": "Newton's Laws of Motion_R6_6_v2",
+    "source_problem_ID": "Newton's Laws of Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 2,
+    "problem_text": "A large promotional banner, weighing 20 kg, is stretched across a street. It is supported by two ropes attached to poles on either side. The left rope makes an angle of 55 degrees with the horizontal street level, and the right rope makes an angle of 45 degrees with the horizontal street level. Determine the tension in the right rope, assuming the banner is in equilibrium. (Use g = 9.81 m/s^2)",
+    "numerical_answer": 114.29
+  },
+  {
+    "signature": "Newton's Laws of Motion_R6_6_v3",
+    "source_problem_ID": "Newton's Laws of Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 3,
+    "problem_text": "A hot air balloon with a total mass of 200 kg is tethered to the ground by two ropes. The balloon generates an upward buoyant force of 3000 N. The left tethering rope makes an angle of 40 degrees with the horizontal ground, and the right rope makes an angle of 30 degrees with the horizontal ground. If the balloon is held stationary in equilibrium, what is the tension in the right tethering rope? (Use g = 9.81 m/s^2)",
+    "numerical_answer": 846.77
+  },
+  {
+    "signature": "Newton's Laws of Motion_R6_6_v4",
+    "source_problem_ID": "Newton's Laws of Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 4,
+    "problem_text": "A heavy chandelier, with a mass of 50 kg, is suspended from a high ceiling by two decorative chains. The left chain makes an angle of 75 degrees with the horizontal ceiling, and the right chain makes an angle of 65 degrees with the horizontal ceiling. Find the tension in the left chain when the chandelier is in equilibrium. (Use g = 9.81 m/s^2)",
+    "numerical_answer": 322.38
+  },
+  {
+    "signature": "Newton's Laws of Motion_R6_6_v5",
+    "source_problem_ID": "Newton's Laws of Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 5,
+    "problem_text": "A rock climber, weighing 70 kg, is resting on a small ledge and is secured by two ropes attached to separate anchor points above him. The left rope makes an angle of 60 degrees with the horizontal plane of the ledge, and the right rope makes an angle of 50 degrees with the horizontal plane. Assuming the climber is in static equilibrium, calculate the tension in the right rope. (Use g = 9.81 m/s^2)",
+    "numerical_answer": 365.38
+  },
+  {
+    "signature": "Newton's Laws of Motion_R6_6_v6",
+    "source_problem_ID": "Newton's Laws of Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 6,
+    "problem_text": "A new traffic light weighing 15 kg is suspended at an intersection. It is supported by two cables. The left cable makes an angle of 30 degrees with the horizontal, while the right cable makes an angle of 45 degrees with the horizontal. Calculate the tension in the left cable. (Assume g = 9.81 m/s²)",
+    "numerical_answer": 107.72
+  },
+  {
+    "signature": "Newton's Laws of Motion_R6_6_v7",
+    "source_problem_ID": "Newton's Laws of Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 7,
+    "problem_text": "An ornate chandelier with a mass of 8 kg is hung from a ceiling using two chains. Both chains are adjusted to make an angle of 60 degrees with the horizontal ceiling. Determine the tension in the right chain, assuming the system is in equilibrium. (Assume g = 9.81 m/s²)",
+    "numerical_answer": 45.31
+  },
+  {
+    "signature": "Newton's Laws of Motion_R6_6_v8",
+    "source_problem_ID": "Newton's Laws of Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 8,
+    "problem_text": "An abstract art sculpture, weighing 25 kg, is displayed by suspending it with two high-strength wires. The first wire makes an angle of 20 degrees with the vertical, and the second wire makes an angle of 50 degrees with the horizontal. Find the tension in the first wire. (Assume g = 9.81 m/s²)",
+    "numerical_answer": 182.04
+  },
+  {
+    "signature": "Newton's Laws of Motion_R6_6_v9",
+    "source_problem_ID": "Newton's Laws of Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 9,
+    "problem_text": "A person of mass 70 kg relaxes in a hammock suspended between two trees. The rope connecting to the left tree makes an angle of 25 degrees with the horizontal, and the rope connecting to the right tree makes an angle of 35 degrees with the horizontal. What is the tension in the left rope supporting the person? (Assume g = 9.81 m/s²)",
+    "numerical_answer": 649.64
+  },
+  {
+    "signature": "Newton's Laws of Motion_R6_6_v10",
+    "source_problem_ID": "Newton's Laws of Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 10,
+    "problem_text": "A heavy, wet blanket, approximated as a point mass of 4 kg, is hung on a clothesline, causing it to sag significantly. The left segment of the clothesline makes an angle of 10 degrees with the horizontal, and the right segment makes an angle of 12 degrees with the horizontal. Calculate the tension in the right segment of the clothesline. (Assume g = 9.81 m/s²)",
+    "numerical_answer": 103.18
+  },
+  {
+    "signature": "Newton's Laws of Motion_R7_7_v1",
+    "source_problem_ID": "Newton's Laws of Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 1,
+    "problem_text": "A 150 kg crate rests on a frictionless ramp at a construction site. It is connected by a light string over a smooth pulley to a 75 kg counterweight hanging vertically. If the system is in equilibrium, what is the angle of inclination of the ramp with respect to the horizontal?",
+    "numerical_answer": 30.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R7_7_v2",
+    "source_problem_ID": "Newton's Laws of Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 2,
+    "problem_text": "In the design of a specialized tensioning system, a 500 kg structural block rests on a frictionless beam inclined at 20 degrees to the horizontal. This block is connected via a cable over a frictionless pulley to a hanging counterweight, ensuring the system remains in static equilibrium. Determine the magnitude of the normal force exerted by the inclined beam on the 500 kg block. (Assume g = 9.81 m/s^2)",
+    "numerical_answer": 4608.23
+  },
+  {
+    "signature": "Newton's Laws of Motion_R7_7_v3",
+    "source_problem_ID": "Newton's Laws of Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 3,
+    "problem_text": "A 2500 kg mining cart is positioned on a frictionless track inclined at an angle of 15 degrees to the horizontal. To keep the cart stationary, it is attached by a light cable passing over a smooth pulley to a vertically hanging counterweight. Calculate the minimum mass of the counterweight required to hold the cart in equilibrium.",
+    "numerical_answer": 647.05
+  },
+  {
+    "signature": "Newton's Laws of Motion_R7_7_v4",
+    "source_problem_ID": "Newton's Laws of Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 4,
+    "problem_text": "A physics student sets up an experiment with a 2 kg block resting on a smooth, frictionless inclined plane. The block is connected by a string over a light pulley to a 0.8 kg mass hanging vertically. If the system is perfectly balanced and at rest, what is the magnitude of the normal force exerted by the inclined plane on the 2 kg block? (Assume g = 9.81 m/s^2)",
+    "numerical_answer": 17.98
+  },
+  {
+    "signature": "Newton's Laws of Motion_R7_7_v5",
+    "source_problem_ID": "Newton's Laws of Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 5,
+    "problem_text": "For an art installation, a 50 kg display panel is designed to rest on a frictionless sloped support. A decorative 25 kg counterweight is attached to the panel by a cable over a smooth pulley, keeping the panel perfectly still. Determine the normal force exerted by the sloped support on the 50 kg display panel. (Assume g = 9.81 m/s^2)",
+    "numerical_answer": 424.78
+  },
+  {
+    "signature": "Newton's Laws of Motion_R7_7_v6",
+    "source_problem_ID": "Newton's Laws of Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 6,
+    "problem_text": "A heavy crate of mass 50 kg is placed on a smooth inclined ramp. It is connected by a light string passing over a frictionless pulley at the top of the ramp to a hanging counterweight of mass 25 kg. If the system is in static equilibrium, what is the magnitude of the normal force exerted by the ramp on the crate? (Use g = 9.81 m/s^2)",
+    "numerical_answer": 424.77
+  },
+  {
+    "signature": "Newton's Laws of Motion_R7_7_v7",
+    "source_problem_ID": "Newton's Laws of Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 7,
+    "problem_text": "A ski lift chair, including passengers, has a total mass of 150 kg. It is designed to stop and remain in static equilibrium on a slope with an angle of 25 degrees relative to the horizontal. A counterweight system, connected by a light cable over a frictionless pulley, is used to hold the chair in place. Assuming the cable is parallel to the slope, what mass should the counterweight have to keep the chair at rest? (Assume a frictionless slope and use g = 9.81 m/s^2)",
+    "numerical_answer": 63.39
+  },
+  {
+    "signature": "Newton's Laws of Motion_R7_7_v8",
+    "source_problem_ID": "Newton's Laws of Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 8,
+    "problem_text": "A small roller coaster car with a mass of 800 kg is temporarily stopped on a section of track that forms an incline. A safety tether connects the car over a frictionless pulley to a suspended mass of 300 kg, ensuring the car remains stationary. Assuming the track is smooth and the tether is parallel to the track, what is the angle of inclination of this section of the roller coaster track with respect to the horizontal? (Report your answer in degrees.)",
+    "numerical_answer": 22.02
+  },
+  {
+    "signature": "Newton's Laws of Motion_R7_7_v9",
+    "source_problem_ID": "Newton's Laws of Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 9,
+    "problem_text": "A piece of construction equipment with a mass of 2000 kg is parked on a smooth ramp inclined at 15 degrees to the horizontal. To prevent it from sliding down, a safety cable is attached to the equipment and runs over a frictionless pulley at the top of the ramp, connecting to a concrete block hanging vertically. What mass must this concrete block have to ensure the equipment remains in static equilibrium on the ramp? (Use g = 9.81 m/s^2)",
+    "numerical_answer": 517.64
+  },
+  {
+    "signature": "Newton's Laws of Motion_R7_7_v10",
+    "source_problem_ID": "Newton's Laws of Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 10,
+    "problem_text": "A large theatrical prop, with a mass of 350 kg, is positioned on a smooth ramp backstage. It is secured by a light rope running over a frictionless pulley at the top of the ramp, connected to a hanging sandbag. If the normal force exerted by the ramp on the prop is measured to be 2850 N, what is the mass of the sandbag required to maintain the prop in static equilibrium? (Use g = 9.81 m/s^2)",
+    "numerical_answer": 195.27
+  },
+  {
+    "signature": "Newton's Laws of Motion_R8_8_v1",
+    "source_problem_ID": "Newton's Laws of Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 1,
+    "problem_text": "A car of mass 1200 kg is traveling at 25 m/s when the driver applies the brakes. It comes to a complete stop after covering a distance of 45 meters. Assuming uniform deceleration, what is the magnitude of the average braking force?",
+    "numerical_answer": 8333.33
+  },
+  {
+    "signature": "Newton's Laws of Motion_R8_8_v2",
+    "source_problem_ID": "Newton's Laws of Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 2,
+    "problem_text": "A small experimental rocket, with a mass of 500 kg, is launched vertically. It reaches a speed of 150 m/s after covering a vertical distance of 750 meters from rest. Assuming uniform acceleration, what is the average thrust force generated by the engine during this phase? (Neglect air resistance and gravity for simplicity in finding the thrust force based on this acceleration).",
+    "numerical_answer": 7500.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R8_8_v3",
+    "source_problem_ID": "Newton's Laws of Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 3,
+    "problem_text": "A hockey puck with a mass of 165 g is shot towards a practice pad at a speed of 40 m/s. It penetrates the pad by 2.5 cm before coming to rest. Assuming a uniform resistive force from the pad, calculate its magnitude.",
+    "numerical_answer": 5280.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R8_8_v4",
+    "source_problem_ID": "Newton's Laws of Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 4,
+    "problem_text": "An F/A-18 Super Hornet jet, with a mass of 22,000 kg, lands on an aircraft carrier at a speed of 65 m/s. It is brought to a complete stop by the arrestor cables over a distance of 90 meters. Assuming a constant deceleration, what is the magnitude of the average retarding force exerted by the cables?",
+    "numerical_answer": 516388.89
+  },
+  {
+    "signature": "Newton's Laws of Motion_R8_8_v5",
+    "source_problem_ID": "Newton's Laws of Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 5,
+    "problem_text": "A 7.5 kg artillery shell strikes a reinforced concrete wall at 600 m/s and penetrates 1.2 meters before coming to a stop. Assuming a uniform resistive force, determine the average force exerted by the concrete on the shell.",
+    "numerical_answer": 1125000.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R8_8_v6",
+    "source_problem_ID": "Newton's Laws of Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 6,
+    "problem_text": "A car of mass 1500 kg is traveling at 100 km/h. The driver applies the brakes, bringing the car to a complete stop over a distance of 50 meters. Assuming the braking force is uniform, calculate its magnitude.",
+    "numerical_answer": 11574.07
+  },
+  {
+    "signature": "Newton's Laws of Motion_R8_8_v7",
+    "source_problem_ID": "Newton's Laws of Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 7,
+    "problem_text": "A rocket with a total mass of 20,000 kg is launched vertically from rest. It reaches a velocity of 500 m/s after traveling a vertical distance of 1000 meters. Assuming the average net force causing this acceleration is uniform and neglecting air resistance, determine its magnitude.",
+    "numerical_answer": 2500000.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R8_8_v8",
+    "source_problem_ID": "Newton's Laws of Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 8,
+    "problem_text": "A small plastic sphere with a mass of 5 grams is propelled from rest through a 2-meter long pneumatic tube. It exits the tube with a speed of 80 m/s. Assuming the average force exerted by the compressed air is uniform, calculate its magnitude.",
+    "numerical_answer": 8.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R8_8_v9",
+    "source_problem_ID": "Newton's Laws of Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 9,
+    "problem_text": "A carpenter strikes a nail with a hammer. The hammer head has a mass of 0.75 kg and hits the nail at 6 m/s. The nail penetrates 8 mm into the wood before coming to rest. Calculate the average resistive force exerted by the wood on the nail.",
+    "numerical_answer": 1687.5
+  },
+  {
+    "signature": "Newton's Laws of Motion_R8_8_v10",
+    "source_problem_ID": "Newton's Laws of Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 10,
+    "problem_text": "A baseball pitcher throws a fastball with a speed of 45 m/s. A catcher uses their mitt to stop the 0.145 kg ball, bringing it to rest over a distance of 12 cm as their hand moves backward. What is the magnitude of the average force exerted by the mitt on the ball?",
+    "numerical_answer": 1223.44
+  },
+  {
+    "signature": "Newton's Laws of Motion_R9_9_v1",
+    "source_problem_ID": "Newton's Laws of Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 1,
+    "problem_text": "An electron (mass = 9.109 x 10^-31 kg, charge = -1.602 x 10^-19 C) starts from rest in a uniform electric field. The electric field vector is E = (5.0 x 10^5 i + 2.5 x 10^5 j) N/C. What is the magnitude of the electron's displacement from its starting point after 10 nanoseconds?",
+    "numerical_answer": 0.05
+  },
+  {
+    "signature": "Newton's Laws of Motion_R9_9_v2",
+    "source_problem_ID": "Newton's Laws of Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 2,
+    "problem_text": "A small 50 kg satellite, initially at rest in deep space, activates its thrusters. The thrusters provide a constant force of (500i + 200j) N. Assuming no external forces like gravity, what is the distance of the satellite from its initial position after 10 seconds?",
+    "numerical_answer": 538.52
+  },
+  {
+    "signature": "Newton's Laws of Motion_R9_9_v3",
+    "source_problem_ID": "Newton's Laws of Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 3,
+    "problem_text": "A miniature rocket sled of mass 0.5 kg is placed on a frictionless two-dimensional air track. It starts from rest and is propelled by a constant force of (20i + 15j) N. Calculate the total distance the sled has traveled from its starting point after 3 seconds.",
+    "numerical_answer": 225.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R9_9_v4",
+    "source_problem_ID": "Newton's Laws of Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 4,
+    "problem_text": "A charged oil drop with a mass of 1.0 x 10^-14 kg and a positive charge of 3.2 x 10^-19 C is introduced into a uniform horizontal electric field. If the electric field is given by E = (2.0 x 10^5 i + 1.0 x 10^5 j) N/C, and the drop starts from rest, find its distance from the origin after 0.1 seconds.",
+    "numerical_answer": 0.04
+  },
+  {
+    "signature": "Newton's Laws of Motion_R9_9_v5",
+    "source_problem_ID": "Newton's Laws of Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 5,
+    "problem_text": "A remote-controlled hovercraft, with a mass of 2.0 kg, is initially at rest on a perfectly smooth, level surface. Its propellers generate a constant thrust force of (8.0i + 6.0j) N. Determine the total displacement magnitude (distance from the starting point) of the hovercraft after 2.5 seconds.",
+    "numerical_answer": 15.63
+  },
+  {
+    "signature": "Newton's Laws of Motion_R9_9_v6",
+    "source_problem_ID": "Newton's Laws of Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 6,
+    "problem_text": "A small unmanned space probe, with a mass of 200 kg, is initially at rest in deep space. Its thrusters exert a constant net force given by (50i + 75j) N. What is the magnitude of the probe's displacement from its starting point after 10 seconds?",
+    "numerical_answer": 22.53
+  },
+  {
+    "signature": "Newton's Laws of Motion_R9_9_v7",
+    "source_problem_ID": "Newton's Laws of Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 7,
+    "problem_text": "An electron (mass = 9.109 x 10^-31 kg) is released from rest in a uniform electric field. The field exerts a constant force of (1.6i - 3.2j) x 10^-16 N on the electron. What is the distance the electron has traveled from its initial position after 2 microseconds (2 x 10^-6 s)?",
+    "numerical_answer": 785.4
+  },
+  {
+    "signature": "Newton's Laws of Motion_R9_9_v8",
+    "source_problem_ID": "Newton's Laws of Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 8,
+    "problem_text": "A 50 kg robotic rover on a perfectly frictionless, horizontal surface starts from rest. Its propulsion system applies a constant force of (15i - 10j) N. Calculate the total distance the rover has moved from its origin after 8 seconds.",
+    "numerical_answer": 11.54
+  },
+  {
+    "signature": "Newton's Laws of Motion_R9_9_v9",
+    "source_problem_ID": "Newton's Laws of Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 9,
+    "problem_text": "A drone with a mass of 5 kg is hovering motionless. At time t=0, its propellers and a steady wind combine to produce a constant net force of (25i + 15j) N on it. Assuming negligible air resistance beyond this net force, what is the straight-line distance from its initial position after 6 seconds?",
+    "numerical_answer": 104.96
+  },
+  {
+    "signature": "Newton's Laws of Motion_R9_9_v10",
+    "source_problem_ID": "Newton's Laws of Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 10,
+    "problem_text": "In a zero-gravity research facility, a 0.5 kg experimental projectile is released from rest. A miniature thruster on the projectile fires, providing a constant force of (8i + 4j) N. What is the magnitude of the projectile's position vector from its launch point at time t = 3.5 s?",
+    "numerical_answer": 109.57
+  },
+  {
+    "signature": "Newton's Laws of Motion_R10_10_v1",
+    "source_problem_ID": "Newton's Laws of Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 1,
+    "problem_text": "A 60 kg person stands on a weighing scale in a lift. If the lift accelerates upwards at a constant rate, and the scale reads 738.75 N, what is the acceleration of the lift? (Take g = 9.81 m/s^2)",
+    "numerical_answer": 2.5
+  },
+  {
+    "signature": "Newton's Laws of Motion_R10_10_v2",
+    "source_problem_ID": "Newton's Laws of Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 2,
+    "problem_text": "An astronaut of mass 75 kg is seated in a rocket launching vertically upwards. During a specific phase of launch, the force exerted by the astronaut on their seat is measured to be 919.65 N. What is the acceleration of the rocket during this phase? (Take g = 9.81 m/s^2)",
+    "numerical_answer": 2.45
+  },
+  {
+    "signature": "Newton's Laws of Motion_R10_10_v3",
+    "source_problem_ID": "Newton's Laws of Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 3,
+    "problem_text": "A cylindrical tank, partially filled with water, is being lowered into a trench. If the downward acceleration of the tank causes the total force exerted by the water on the bottom of the tank to be 75% of the force exerted when the tank is stationary, what is the magnitude of the tank's acceleration? (Take g = 9.81 m/s^2)",
+    "numerical_answer": 2.45
+  },
+  {
+    "signature": "Newton's Laws of Motion_R10_10_v4",
+    "source_problem_ID": "Newton's Laws of Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 4,
+    "problem_text": "A scientist of mass 65 kg stands on a scientific weighing scale inside a hot air balloon. As the balloon descends, the scale reads 560.0 N. Calculate the magnitude of the downward acceleration of the hot air balloon. (Take g = 9.81 m/s^2)",
+    "numerical_answer": 1.19
+  },
+  {
+    "signature": "Newton's Laws of Motion_R10_10_v5",
+    "source_problem_ID": "Newton's Laws of Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 5,
+    "problem_text": "During a specific segment of a rollercoaster ride, a passenger feels an apparent weight that is 1/6th of their normal body weight. If this sensation occurs while the carriage is accelerating vertically downwards, what is the magnitude of this downward acceleration? (Take g = 9.81 m/s^2)",
+    "numerical_answer": 8.18
+  },
+  {
+    "signature": "Newton's Laws of Motion_R10_10_v6",
+    "source_problem_ID": "Newton's Laws of Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 6,
+    "problem_text": "An object of mass M rests on a weighing scale inside an elevator. If the scale reads 1.25 times the object's actual weight (Mg), with what magnitude of acceleration 'a' is the elevator moving? Assume the elevator is accelerating upward.",
+    "numerical_answer": 2.45
+  },
+  {
+    "signature": "Newton's Laws of Motion_R10_10_v7",
+    "source_problem_ID": "Newton's Laws of Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 7,
+    "problem_text": "During the launch phase, an astronaut of mass M inside a rocket experiences an apparent weight that is 2.5 times their normal weight on Earth. Calculate the upward acceleration 'a' of the rocket.",
+    "numerical_answer": 14.72
+  },
+  {
+    "signature": "Newton's Laws of Motion_R10_10_v8",
+    "source_problem_ID": "Newton's Laws of Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 8,
+    "problem_text": "A heavy crate of mass M is placed on a platform inside a container being lowered by a crane. If the platform indicates that the crate's apparent weight is 0.6 times its actual weight, what is the downward acceleration 'a' of the container?",
+    "numerical_answer": 3.92
+  },
+  {
+    "signature": "Newton's Laws of Motion_R10_10_v9",
+    "source_problem_ID": "Newton's Laws of Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 9,
+    "problem_text": "A deep-sea submersible is making an emergency ascent. A scientific instrument of mass M inside the submersible registers an effective weight of 1.15 times its weight on the surface. Determine the upward acceleration 'a' of the submersible.",
+    "numerical_answer": 1.47
+  },
+  {
+    "signature": "Newton's Laws of Motion_R10_10_v10",
+    "source_problem_ID": "Newton's Laws of Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 10,
+    "problem_text": "A skydiver of mass M is equipped with a device that measures the normal force exerted on their feet by the floor of the airplane. Just before jumping, as the plane makes a steep dive, the device reads a normal force of 0.7 times the skydiver's actual weight. What is the downward acceleration 'a' of the airplane?",
+    "numerical_answer": 2.94
+  },
+  {
+    "signature": "Newton's Laws of Motion_R11_11_v1",
+    "source_problem_ID": "Newton's Laws of Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 1,
+    "problem_text": "An industrial technician needs to move a heavy crate of mass 30 kg across a smooth, horizontal factory floor. They use a system where one end of a rope is tied to a fixed anchor point on a wall. The rope then passes around a massless, frictionless pulley, which is attached to a handle the technician pulls. The other end of the rope is attached to the crate. If the technician applies a horizontal force of 150 N directly to the pulley's handle, what is the acceleration of the crate?",
+    "numerical_answer": 2.5
+  },
+  {
+    "signature": "Newton's Laws of Motion_R11_11_v2",
+    "source_problem_ID": "Newton's Laws of Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 2,
+    "problem_text": "For a theatrical stage setup, a decorative prop with a mass of 10 kg needs to be accelerated horizontally. A designer devises a system where a string is fixed to a point on the stage wall, goes around a light, frictionless pulley attached to a moving carriage, and then ties to the prop. A motor applies a constant horizontal force of 80 N to the carriage (which holds the pulley). Calculate the acceleration of the pulley's carriage.",
+    "numerical_answer": 2.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R11_11_v3",
+    "source_problem_ID": "Newton's Laws of Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 3,
+    "problem_text": "A heavy machine part, weighing 50 kg, needs to be dragged across a rough factory floor. The coefficient of kinetic friction between the part and the floor is 0.2. A worker uses a rope system: one end is secured to a stationary pillar, it then loops around a massless, frictionless pulley to which the worker applies a force, and finally connects to the machine part. If the worker applies a horizontal force of 200 N to the pulley, what is the acceleration of the machine part?",
+    "numerical_answer": 0.04
+  },
+  {
+    "signature": "Newton's Laws of Motion_R11_11_v4",
+    "source_problem_ID": "Newton's Laws of Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 4,
+    "problem_text": "In a construction site, a rigid beam with a mass of 25 kg needs to be lifted vertically. A winch system is set up such that a cable is attached to a fixed point on an overhead support, passes around a massless, frictionless pulley (to which the winch applies force), and then the other end of the cable is attached to the beam. If the winch exerts an upward force of 600 N directly on the pulley, what is the upward acceleration of the beam? (Assume g = 9.8 m/s²).",
+    "numerical_answer": 2.2
+  },
+  {
+    "signature": "Newton's Laws of Motion_R11_11_v5",
+    "source_problem_ID": "Newton's Laws of Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 5,
+    "problem_text": "An engineer is designing a conveyor system to horizontally accelerate a payload of mass 15 kg on a frictionless track. The system uses a fixed anchor point, a massless, frictionless movable pulley, and a cable connecting the anchor, around the pulley, and to the payload. If the design requires the payload to accelerate at 0.5 m/s², what horizontal force must be applied to the movable pulley?",
+    "numerical_answer": 15.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R11_11_v6",
+    "source_problem_ID": "Newton's Laws of Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 6,
+    "problem_text": "In an automated warehouse, a uniform cart of mass 50 kg rests on a smooth, horizontal track. A cable system is used to move it. One end of a light, inextensible cable is fixed to a wall. The cable then passes around a small, massless, smooth pulley attached to a motor, and its other end is connected to the cart. If the motor applies a horizontal force of 300 N to pull the pulley, what is the acceleration of the motor (and thus the pulley)?",
+    "numerical_answer": 1.5
+  },
+  {
+    "signature": "Newton's Laws of Motion_R11_11_v7",
+    "source_problem_ID": "Newton's Laws of Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 7,
+    "problem_text": "During a rescue operation on a frozen lake, an 80 kg sled carrying supplies needs to be accelerated across a frictionless ice surface at 2.0 m/s². A rescuer uses a pulley system: one end of a light rope is anchored to a stationary ice screw, the rope passes around a lightweight, frictionless pulley, and its other end is attached to the sled. The rescuer applies a horizontal force to the pulley. What force must the rescuer apply to the pulley to achieve the desired acceleration of the sled?",
+    "numerical_answer": 320.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R11_11_v8",
+    "source_problem_ID": "Newton's Laws of Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 8,
+    "problem_text": "A research submarine is deploying a scientific payload across a smooth, flat seabed. A remotely operated vehicle (ROV) applies a constant horizontal thrust of 400 N to a small, massless, frictionless pulley. A light cable runs from a fixed point on the submarine, around this pulley, and attaches to the payload. If the payload is observed to accelerate at 1.6 m/s² horizontally, what is the mass of the scientific payload? (Assume water resistance is negligible during initial acceleration).",
+    "numerical_answer": 125.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R11_11_v9",
+    "source_problem_ID": "Newton's Laws of Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 9,
+    "problem_text": "On a frictionless high-speed test track, a movable safety barrier system is being designed. A heavy impact absorber of mass 10 kg is connected via a light cable to a fixed point on the track. The cable then passes around a small, massless, smooth pulley which is part of the movable barrier. The other end of the cable is attached to the impact absorber. If the system's actuator applies a horizontal force of 250 N to propel the barrier, what is the acceleration of the movable barrier?",
+    "numerical_answer": 6.25
+  },
+  {
+    "signature": "Newton's Laws of Motion_R11_11_v10",
+    "source_problem_ID": "Newton's Laws of Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 10,
+    "problem_text": "In the vacuum of space, a small 20 kg scientific submodule needs to be propelled away from a larger space station. A specialized propulsion unit, consisting of a massless, frictionless pulley and a light cable, is used. One end of the cable is anchored to the space station. The cable then wraps around the pulley of the propulsion unit, and its other end is attached to the submodule. If the propulsion unit's engine applies a force to the pulley such that the pulley accelerates at 0.5 m/s², what is the magnitude of the force applied by the engine? (Assume no external forces other than the engine's thrust and string tension).",
+    "numerical_answer": 40.0
+  },
+  {
+    "signature": "Newton's Laws of Motion_R12_12_v1",
+    "source_problem_ID": "Newton's Laws of Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 1,
+    "problem_text": "At a construction site, a heavy girder of mass 1500 kg is being slid horizontally along a smooth track. It is connected by a cable to a wrecking ball of mass 800 kg, which serves as a counterweight and lowers vertically into a pit. The cable passes over a fixed, frictionless pulley mounted on a crane structure. At the instant the cable segment from the girder to the pulley makes an angle of 60 degrees with the horizontal track, with what initial acceleration will the girder start moving if the system is released from rest?",
+    "numerical_answer": 2.31
+  },
+  {
+    "signature": "Newton's Laws of Motion_R12_12_v2",
+    "source_problem_ID": "Newton's Laws of Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 2,
+    "problem_text": "In a physics laboratory experiment, a low-friction air track glider of mass 0.5 kg is connected by a string to a calibrated hanging mass of 0.2 kg. The string passes over a fixed, frictionless pulley located at the end of the air track, slightly below its surface. When the system is released from rest, the string segment between the glider and the pulley makes an angle of 25 degrees with the horizontal air track. What is the initial acceleration of the glider?",
+    "numerical_answer": 2.68
+  },
+  {
+    "signature": "Newton's Laws of Motion_R12_12_v3",
+    "source_problem_ID": "Newton's Laws of Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 3,
+    "problem_text": "On Mars, a robotic rover of mass 300 kg is tasked with pulling a sample collection container of effective mass 50 kg down into a deep crater. The container is suspended by a cable that runs over a fixed, frictionless pulley on a portable mast erected at the crater's edge. Assuming the Martian surface is smooth (frictionless) and the system starts from rest, what is the initial acceleration of the rover when the cable segment from the rover to the pulley forms an angle of 35 degrees with the horizontal Martian surface? (Take acceleration due to gravity on Mars as 3.71 m/s^2)",
+    "numerical_answer": 0.46
+  },
+  {
+    "signature": "Newton's Laws of Motion_R12_12_v4",
+    "source_problem_ID": "Newton's Laws of Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 4,
+    "problem_text": "A small research vessel of mass 1000 kg floats on a calm lake surface. It is connected by a rope to a submerged anchor, which has an effective mass of 200 kg (accounting for buoyancy) and is initially held just above a submerged ledge. The rope passes over a fixed, frictionless pulley attached to a buoy. If the anchor is released and begins to descend, what is the initial acceleration of the research vessel when the rope segment from the vessel to the pulley makes an angle of 50 degrees with the horizontal water surface?",
+    "numerical_answer": 1.16
+  },
+  {
+    "signature": "Newton's Laws of Motion_R12_12_v5",
+    "source_problem_ID": "Newton's Laws of Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 5,
+    "problem_text": "In an automated manufacturing plant, a workpiece carrier of mass 80 kg slides on a frictionless horizontal conveyor rail. It is linked by a cable to a stock material dispenser of mass 40 kg, which descends vertically to feed material. The cable passes over a fixed, frictionless pulley integrated into the manufacturing rig. At an instant when the cable segment between the carrier and the pulley forms an angle of 40 degrees with the horizontal rail, what is the initial acceleration of the workpiece carrier if the system is released from rest?",
+    "numerical_answer": 2.91
+  },
+  {
+    "signature": "Newton's Laws of Motion_R12_12_v6",
+    "source_problem_ID": "Newton's Laws of Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 6,
+    "problem_text": "A mining cart of mass 500 kg runs on a smooth horizontal track. A cable is tied to the cart, passes over a fixed pulley located 10 meters away from the track's center, and then connects to a descending bucket of ore with a mass of 1000 kg. If the system is released from rest when the cable makes an angle of 45 degrees with the horizontal track, what is the initial acceleration of the mining cart?",
+    "numerical_answer": 6.94
+  },
+  {
+    "signature": "Newton's Laws of Motion_R12_12_v7",
+    "source_problem_ID": "Newton's Laws of Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 7,
+    "problem_text": "A specialized gantry crane is designed to move a large freight container (mass 10,000 kg) horizontally along its smooth beam. A counterweight system is employed, where a cable from the container passes over a fixed pulley and attaches to a vertically descending counterweight of mass 8,000 kg. If the system is released from rest when the cable forms an angle of 60 degrees with the horizontal beam, calculate the initial acceleration of the freight container.",
+    "numerical_answer": 3.27
+  },
+  {
+    "signature": "Newton's Laws of Motion_R12_12_v8",
+    "source_problem_ID": "Newton's Laws of Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 8,
+    "problem_text": "In a physics laboratory experiment, a frictionless glider of mass 0.5 kg is placed on a horizontal air track. A string is attached to the glider, passes over a small, frictionless pulley at the end of the track, and connects to a hanging mass of 0.3 kg. If the string between the glider and the pulley makes an angle of 25 degrees with the air track when the system is released from rest, determine the initial acceleration of the glider.",
+    "numerical_answer": 3.57
+  },
+  {
+    "signature": "Newton's Laws of Motion_R12_12_v9",
+    "source_problem_ID": "Newton's Laws of Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 9,
+    "problem_text": "A robotic arm component, specifically a gripper unit with a mass of 8 kg, slides along a smooth horizontal rail. A tension cable, designed to assist its movement, passes over a fixed pulley and connects to a vertically descending counterweight of 12 kg. If the system is initiated from rest when the cable segment between the gripper and the pulley makes an angle of 50 degrees with the rail, what is the initial acceleration of the robotic gripper unit?",
+    "numerical_answer": 5.84
+  },
+  {
+    "signature": "Newton's Laws of Motion_R12_12_v10",
+    "source_problem_ID": "Newton's Laws of Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 10,
+    "problem_text": "A barrier gate for a ski lift, with a mass of 25 kg, is designed to slide horizontally on a frictionless track. A mechanism involves a cable connected to the gate, passing over a fixed overhead pulley, and then down to a balancing weight of 15 kg. If the system is released from rest when the cable makes an angle of 35 degrees with the horizontal track, calculate the initial acceleration of the barrier gate.",
+    "numerical_answer": 3.44
+  },
+  {
+    "signature": "Newton's Laws of Motion_R13_13_v1",
+    "source_problem_ID": "Newton's Laws of Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 1,
+    "problem_text": "A construction crane is lifting a heavy safe of mass 150 kg. The main lifting cable passes over a large pulley, which is supported by an anchor point on the crane's boom. This anchor point can safely withstand a maximum vertical force component of 1200 N before risking structural failure. The part of the cable leading from the winch to the pulley makes an angle of 45 degrees with the ground (i.e., its vertical component relative to the anchor is what matters). The part of the cable going down to the safe is vertical. What is the maximum upward acceleration with which the safe can be lifted safely? Neglect the mass of the cable and pulley. Take g = 10 m/s^2.",
+    "numerical_answer": 1.31
+  },
+  {
+    "signature": "Newton's Laws of Motion_R13_13_v2",
+    "source_problem_ID": "Newton's Laws of Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 2,
+    "problem_text": "A large industrial container, with a mass of 100 kg, needs to be lifted vertically using a specialized hoist. The hoisting cable runs from a motor over a redirection pulley mounted on a sturdy frame. The support frame for this pulley is designed to withstand a maximum horizontal force of 2000 N before it begins to deform. The section of the cable leading from the motor to the pulley makes an angle of 53 degrees with the vertical, while the section leading from the pulley to the container is perfectly vertical. Determine the maximum upward acceleration the container can achieve without exceeding the horizontal force limit on the pulley's support frame. Neglect friction in the pulley and the mass of the cable. Take g = 10 m/s^2.",
+    "numerical_answer": 15.04
+  },
+  {
+    "signature": "Newton's Laws of Motion_R13_13_v3",
+    "source_problem_ID": "Newton's Laws of Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 3,
+    "problem_text": "During an extravehicular activity (EVA), an astronaut is attempting to move a large, free-floating equipment module (mass 300 kg) towards a docking port. The astronaut pulls the module using a tether, which is attached to a temporary clamp on the module's surface. This clamp is rated to withstand a maximum force component perpendicular to the module's surface of 1500 N before it detaches. If the astronaut pulls the tether such that it makes an angle of 60 degrees with the module's surface, what is the maximum acceleration with which the module can be pulled safely? Assume the module is in a zero-gravity environment and ignore any other external forces.",
+    "numerical_answer": 5.77
+  },
+  {
+    "signature": "Newton's Laws of Motion_R13_13_v4",
+    "source_problem_ID": "Newton's Laws of Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 4,
+    "problem_text": "A heavy industrial component of mass 400 kg is being pulled horizontally along a frictionless conveyor belt by a cable. The cable is wound onto a motor-driven reel. The mounting bolts securing the motor to the factory floor have a specific weakness: they can withstand a maximum vertical upward force of 2500 N before shearing. The cable leaves the motor at an angle of 30 degrees above the horizontal. Find the maximum horizontal acceleration with which the component can be pulled safely without damaging the motor's mounting. Take g = 10 m/s^2.",
+    "numerical_answer": 10.83
+  },
+  {
+    "signature": "Newton's Laws of Motion_R13_13_v5",
+    "source_problem_ID": "Newton's Laws of Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 5,
+    "problem_text": "An experimental rocket, with a total mass of 200 kg, is undergoing a vertical launch test. Its main engine's gimbal mechanism, which allows the engine to vector its thrust, has a structural limitation. It can only withstand a maximum sideways (perpendicular to the rocket's main vertical axis) force component of 1200 N from the engine's thrust. If the engine's thrust is inadvertently misaligned by 15 degrees from the rocket's main vertical axis during launch, what is the maximum upward acceleration the rocket can safely achieve? Ignore air resistance. Take g = 10 m/s^2.",
+    "numerical_answer": 12.39
+  },
+  {
+    "signature": "Newton's Laws of Motion_R13_13_v6",
+    "source_problem_ID": "Newton's Laws of Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 6,
+    "problem_text": "An industrial hoist system uses a cable to lift heavy machinery. The cable runs over a fixed pulley and anchors to a specialized wall mount. This wall mount is rated to withstand a maximum vertical upward force of 8000 N. The segment of the cable from the wall mount to the pulley makes an angle of 45 degrees with the horizontal wall. If a piece of machinery with a mass of 500 kg is being lifted, what is the maximum upward acceleration that can be achieved without the wall mount failing? Neglect friction in the pulley system. Take g = 10 m/s^2.",
+    "numerical_answer": 12.63
+  },
+  {
+    "signature": "Newton's Laws of Motion_R13_13_v7",
+    "source_problem_ID": "Newton's Laws of Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 7,
+    "problem_text": "A rescue team is pulling an injured climber (mass 80 kg) vertically up a cliff face. The rope passes over a sturdy rock outcropping at the cliff's edge and is anchored into the ground some distance away. The ground anchor can withstand a maximum upward force of 600 N. The rope segment from the anchor to the rock outcropping makes an angle of 20 degrees with the horizontal ground. Assuming negligible friction at the rock outcropping, find the maximum upward acceleration the climber can experience without dislodging the anchor. Take g = 10 m/s^2.",
+    "numerical_answer": 11.93
+  },
+  {
+    "signature": "Newton's Laws of Motion_R13_13_v8",
+    "source_problem_ID": "Newton's Laws of Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 8,
+    "problem_text": "At a construction site, a worker uses a pulley system to lift a cement bag (mass 50 kg) to a higher floor. The rope passes over a fixed pulley attached to the top of the building structure and then down to an anchor point on the ground. This ground anchor can withstand a maximum upward force of 450 N. The rope segment from the ground anchor to the pulley makes an angle of 35 degrees with the ground. Assuming negligible friction in the pulley, what is the maximum upward acceleration with which the cement bag can be lifted safely? Take g = 10 m/s^2.",
+    "numerical_answer": 5.69
+  },
+  {
+    "signature": "Newton's Laws of Motion_R13_13_v9",
+    "source_problem_ID": "Newton's Laws of Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 9,
+    "problem_text": "Sailors are raising the mast (mass 150 kg) of their sailboat using a temporary pulley system. A rope passes over a block near the mast base and then attaches to a temporary ground anchor point. This anchor is designed to hold a maximum upward force of 2000 N. The rope segment from the anchor to the block makes an angle of 40 degrees with the ground. Find the maximum upward acceleration with which the mast can be raised safely, assuming negligible friction at the block. Take g = 10 m/s^2.",
+    "numerical_answer": 10.74
+  },
+  {
+    "signature": "Newton's Laws of Motion_R13_13_v10",
+    "source_problem_ID": "Newton's Laws of Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 10,
+    "problem_text": "For bridge maintenance, a heavy tool bag (mass 40 kg) needs to be lifted to a worker on a platform above. A rope is used, passing over a temporary pulley system attached to a bridge girder. The rope then runs down to an anchor point on the ground. This ground anchor has a limit and can only withstand an upward force not exceeding 300 N. The rope segment from the ground anchor to the pulley makes an angle of 48 degrees with the ground. Assuming negligible friction in the pulley system, what is the maximum upward acceleration with which the tool bag can be lifted safely? Take g = 10 m/s^2.",
+    "numerical_answer": 0.09
+  },
+  {
+    "signature": "Newton's Laws of Motion_R14_14_v1",
+    "source_problem_ID": "Newton's Laws of Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 1,
+    "problem_text": "In an industrial hoist system, a heavy counterweight (m1 = 50 kg) is designed to slide on a frictionless horizontal guide track. It is connected by a light, inextensible cable over a fixed pulley to a complex lifting mechanism. This mechanism involves a movable pulley (let's call it Pulley B) from which two different loads (m2 = 25 kg and m3 = 35 kg) are suspended by another light, inextensible cable. Assuming all surfaces are frictionless, and all strings and pulleys are light, find the acceleration of the counterweight m1.",
+    "numerical_answer": 5.28
+  },
+  {
+    "signature": "Newton's Laws of Motion_R14_14_v2",
+    "source_problem_ID": "Newton's Laws of Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 2,
+    "problem_text": "A physics research lab is conducting an experiment on coupled mechanical systems. A cart (m1 = 2.0 kg) moves on an air track (effectively frictionless horizontal surface). A light string connects this cart over a fixed pulley to a movable pulley (Pulley B). From Pulley B, two experimental masses (m2 = 0.5 kg and m3 = 0.8 kg) are suspended by a second light string. Calculate the acceleration of the cart m1, assuming ideal conditions (light strings, light pulleys, frictionless surfaces).",
+    "numerical_answer": 3.74
+  },
+  {
+    "signature": "Newton's Laws of Motion_R14_14_v3",
+    "source_problem_ID": "Newton's Laws of Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 3,
+    "problem_text": "On a future lunar mining operation, a prototype lunar rover chassis (m1 = 100 kg) is being tested on a perfectly level, frictionless regolith surface to simulate moving large equipment. It is attached via a lightweight tether over a stationary pulley to a movable deployment unit (Pulley B). From this unit, two instrument packages (m2 = 20 kg and m3 = 30 kg) are being lowered into a shallow crater. Given the acceleration due to gravity on the Moon is 1.62 m/s^2, and assuming frictionless surfaces and light components, determine the acceleration of the lunar rover chassis.",
+    "numerical_answer": 0.53
+  },
+  {
+    "signature": "Newton's Laws of Motion_R14_14_v4",
+    "source_problem_ID": "Newton's Laws of Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 4,
+    "problem_text": "Consider a large-scale construction site where a specialized crane system is in use. A heavy counterbalance module (m1 = 1200 kg) slides on a frictionless horizontal rail. A high-strength cable runs from this module over a fixed support pulley to a movable pulley (Pulley B), which is part of a complex lifting rig. Two massive building components (m2 = 400 kg and m3 = 600 kg) are suspended from Pulley B by another cable. Assuming all cables and pulleys are massless and the rail is frictionless, what is the acceleration of the counterbalance module m1?",
+    "numerical_answer": 4.36
+  },
+  {
+    "signature": "Newton's Laws of Motion_R14_14_v5",
+    "source_problem_ID": "Newton's Laws of Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 5,
+    "problem_text": "In a deep-earth mining facility, an automated ore cart (m1 = 800 kg) is designed to move horizontally on a frictionless track. It is connected by a robust, light cable over a fixed pulley to a hoist assembly featuring a movable pulley (Pulley B). From Pulley B, two different containers of extracted minerals (m2 = 150 kg and m3 = 200 kg) are being lowered into a vertical shaft by another light cable. Assuming ideal conditions (frictionless track, light cables and pulleys), find the acceleration of the ore cart m1.",
+    "numerical_answer": 2.94
+  },
+  {
+    "signature": "Newton's Laws of Motion_R14_14_v6",
+    "source_problem_ID": "Newton's Laws of Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 6,
+    "problem_text": "In an industrial material handling system, a heavy trolley of mass 20 kg (m1) is designed to move horizontally on frictionless rails. It is connected by a light, inextensible cable over a fixed, frictionless overhead pulley to a movable hoist block. Two different cargo containers, one with a mass of 8 kg (m2) and another with a mass of 12 kg (m3), are suspended from this movable hoist block by another light, inextensible cable passing over it. Assuming all pulleys are light and frictionless, and the cables are ideal, what is the acceleration of the 20 kg trolley?",
+    "numerical_answer": 4.81
+  },
+  {
+    "signature": "Newton's Laws of Motion_R14_14_v7",
+    "source_problem_ID": "Newton's Laws of Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 7,
+    "problem_text": "A physics researcher sets up an experiment on a frictionless optical bench. An experimental cart of mass 5 kg (m1) is placed on the bench and connected via a light string over a fixed, frictionless laboratory pulley to a movable pulley assembly. Two precision calibration weights, each of mass 2 kg (m2 and m3), are suspended from this movable pulley by a second light string. All components are ideal (massless strings/pulleys, frictionless surfaces/pulleys). Calculate the acceleration of the experimental cart.",
+    "numerical_answer": 4.36
+  },
+  {
+    "signature": "Newton's Laws of Motion_R14_14_v8",
+    "source_problem_ID": "Newton's Laws of Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 8,
+    "problem_text": "On a construction site, a 15 kg (m1) counterweight block slides on a horizontal, frictionless beam. This counterweight is attached by a light cable passing over a fixed overhead structural pulley to a movable lifting tackle. From this movable tackle, two batches of building materials, one weighing 6 kg (m2) and the other 4 kg (m3), are suspended by another light cable. Assuming all pulleys and cables are massless and frictionless, determine the acceleration of the counterweight block.",
+    "numerical_answer": 3.82
+  },
+  {
+    "signature": "Newton's Laws of Motion_R14_14_v9",
+    "source_problem_ID": "Newton's Laws of Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 9,
+    "problem_text": "An automated storage and retrieval system features a robotic shuttle of mass 12 kg (m1) moving on a frictionless horizontal rail. A light control cable connects the shuttle over a fixed guide pulley to a dynamic lifting mechanism. Two different product containers, with masses of 7 kg (m2) and 9 kg (m3) respectively, are suspended from this movable lifting mechanism by a second light cable. Considering all strings and pulleys to be ideal (light and frictionless), what is the acceleration of the robotic shuttle?",
+    "numerical_answer": 5.56
+  },
+  {
+    "signature": "Newton's Laws of Motion_R14_14_v10",
+    "source_problem_ID": "Newton's Laws of Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 10,
+    "problem_text": "For a theatrical stage production, a rolling stage prop of mass 8 kg (m1) is designed to move across a perfectly smooth, horizontal stage. It is connected by a light rigging wire over a fixed overhead pulley to a movable block-and-tackle system. From this movable block-and-tackle, two counterweights, one of mass 3 kg (m2) and another of mass 5 kg (m3), are suspended by another light wire. Assuming all wires and pulleys are light and frictionless, calculate the acceleration of the stage prop.",
+    "numerical_answer": 4.74
+  },
+  {
+    "signature": "Newton's Laws of Motion_R15_15_v1",
+    "source_problem_ID": "Newton's Laws of Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 1,
+    "problem_text": "A specialized cargo crate is released from rest onto a smooth internal ramp inside a vertically launching rocket. The rocket accelerates uniformly upwards at 3.0 m/s^2. The ramp has an elevation angle of 30 degrees with respect to the rocket's floor, and its horizontal base measures 5.0 meters. Assuming standard Earth gravity (9.81 m/s^2), calculate the time it takes for the crate to reach the bottom of the ramp.",
+    "numerical_answer": 1.34
+  },
+  {
+    "signature": "Newton's Laws of Motion_R15_15_v2",
+    "source_problem_ID": "Newton's Laws of Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 2,
+    "problem_text": "A sensitive scientific instrument package is placed on a smooth, inclined surface within a deep-sea research submersible. The submersible begins its descent, accelerating uniformly downwards at 2.0 m/s^2. The ramp makes an angle of 30 degrees with the horizontal, and its base has a length of 5.0 meters. If the instrument package starts from rest, what is the time required for it to slide to the bottom of the ramp? Use g = 9.81 m/s^2.",
+    "numerical_answer": 1.72
+  },
+  {
+    "signature": "Newton's Laws of Motion_R15_15_v3",
+    "source_problem_ID": "Newton's Laws of Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 3,
+    "problem_text": "A tiny particle, with mass 1.0 milligram (1.0 x 10^-3 kg) and charge -5.0 microcoulombs (-5.0 x 10^-6 C), is placed at rest on a smooth, insulating inclined plane. A uniform electric field of 100 N/C is present, directed vertically downwards. The incline has an elevation angle of 30 degrees and a horizontal base length of 5.0 meters. Determine the time taken for the particle to slide down to the bottom of the incline. Use g = 9.81 m/s^2.",
+    "numerical_answer": 1.57
+  },
+  {
+    "signature": "Newton's Laws of Motion_R15_15_v4",
+    "source_problem_ID": "Newton's Laws of Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 4,
+    "problem_text": "Consider a positively charged bead, with a mass of 1.0 milligram (1.0 x 10^-3 kg) and a charge of +5.0 microcoulombs (+5.0 x 10^-6 C), starting from rest on a smooth, non-conducting ramp. A uniform electric field of 100 N/C acts vertically downwards across the entire setup. The ramp's angle of inclination is 30 degrees, and its horizontal extent is 5.0 meters. Calculate the time it takes for the bead to travel from the top to the bottom of the ramp. Use g = 9.81 m/s^2.",
+    "numerical_answer": 1.5
+  },
+  {
+    "signature": "Newton's Laws of Motion_R15_15_v5",
+    "source_problem_ID": "Newton's Laws of Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 5,
+    "problem_text": "A small autonomous robotic probe, with a mass of 2.0 kg, is deployed onto a smooth, inclined landing platform. The probe's micro-thrusters provide a constant upward force of 5.0 N to maintain stability. The platform is inclined at 30 degrees to the horizontal, and its horizontal base length is 5.0 meters. If the probe is initially at rest, find the time it takes to slide down to the end of the platform. Use g = 9.81 m/s^2.",
+    "numerical_answer": 1.78
+  },
+  {
+    "signature": "Newton's Laws of Motion_R15_15_v6",
+    "source_problem_ID": "Newton's Laws of Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 6,
+    "problem_text": "A package is released from rest at the top of a smooth conveyor belt inside a large delivery drone. The drone is ascending vertically with a constant acceleration of 3.0 m/s^2. The conveyor belt is inclined at an angle of 30 degrees with respect to the horizontal, and its horizontal base length is 5.0 meters. Assuming the package slides without friction, calculate the time it takes for the package to reach the bottom of the belt.",
+    "numerical_answer": 1.34
+  },
+  {
+    "signature": "Newton's Laws of Motion_R15_15_v7",
+    "source_problem_ID": "Newton's Laws of Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 7,
+    "problem_text": "A child embarks on a frictionless water slide within a futuristic floating theme park. The entire theme park structure is being propelled vertically upwards by thrusters, experiencing a constant acceleration of 1.5 m/s^2. The water slide makes an angle of 45 degrees with the horizontal, and its horizontal projection on the deck is 10.0 meters. Determine the time taken for the child to complete the slide from rest.",
+    "numerical_answer": 1.88
+  },
+  {
+    "signature": "Newton's Laws of Motion_R15_15_v8",
+    "source_problem_ID": "Newton's Laws of Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 8,
+    "problem_text": "In an experimental habitat on a newly discovered exoplanet, a small spherical probe is released from rest at the top of a smooth, frictionless channel. The exoplanet's gravitational acceleration is 5.0 m/s^2. The entire habitat is simultaneously launching vertically upwards from the planet's surface with an acceleration of 2.0 m/s^2. The channel is inclined at 60 degrees to the habitat's floor, and its horizontal base measures 2.5 meters. Calculate the time required for the probe to travel to the bottom of the channel.",
+    "numerical_answer": 1.28
+  },
+  {
+    "signature": "Newton's Laws of Motion_R15_15_v9",
+    "source_problem_ID": "Newton's Laws of Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 9,
+    "problem_text": "A small, dense, frictionless sphere is situated at the edge of an internal ramp inside a fluid tank. The tank is rigidly mounted on a powerful rocket that is accelerating vertically upwards at 15.0 m/s^2. The ramp is inclined at a gentle angle of 15 degrees to the horizontal, and its horizontal base length is 8.0 meters. If the sphere is released from rest, find the time it takes to reach the bottom of the ramp.",
+    "numerical_answer": 1.61
+  },
+  {
+    "signature": "Newton's Laws of Motion_R15_15_v10",
+    "source_problem_ID": "Newton's Laws of Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 10,
+    "problem_text": "A specialized robotic cleaner, treated as a point mass, is placed at the top of a frictionless ramp within an enclosed cargo container. The container is being lifted vertically by a construction crane, experiencing a constant upward acceleration of 2.5 m/s^2. The ramp inside the container is inclined at an angle of 50 degrees to the horizontal, and its horizontal base length is 3.0 meters. Determine the time taken for the robotic cleaner to slide from rest to the bottom of the ramp.",
+    "numerical_answer": 0.99
+  },
+  {
+    "signature": "Newton's Laws of Motion_R16_16_v1",
+    "source_problem_ID": "Newton's Laws of Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 1,
+    "problem_text": "A frictionless wedge of mass 10 kg rests on a smooth horizontal surface. A small block of mass 2 kg is placed on the inclined face of the wedge. The angle of inclination of the wedge is 30 degrees with the horizontal. If the system is released from rest, find the acceleration of the small block with respect to the wedge.",
+    "numerical_answer": 5.61
+  },
+  {
+    "signature": "Newton's Laws of Motion_R16_16_v2",
+    "source_problem_ID": "Newton's Laws of Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 2,
+    "problem_text": "An empty freight platform of mass 25 kg, designed to carry goods down an incline, is placed on a smooth, horizontal factory floor. A small robotic cart of mass 5 kg, carrying a delicate sensor, is set on the platform's inclined surface. The platform's surface makes an angle of 45 degrees with the horizontal. Assuming all surfaces are frictionless, what is the acceleration of the robotic cart relative to the freight platform?",
+    "numerical_answer": 7.57
+  },
+  {
+    "signature": "Newton's Laws of Motion_R16_16_v3",
+    "source_problem_ID": "Newton's Laws of Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 3,
+    "problem_text": "In a laboratory experiment, a specially designed inclined ramp of mass 1.5 kg is free to slide without friction on a horizontal table. A small glider of mass 0.3 kg is released from rest on the inclined ramp. The ramp makes an angle of 20 degrees with the horizontal. Calculate the acceleration of the glider relative to the inclined ramp, assuming no friction anywhere.",
+    "numerical_answer": 3.93
+  },
+  {
+    "signature": "Newton's Laws of Motion_R16_16_v4",
+    "source_problem_ID": "Newton's Laws of Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 4,
+    "problem_text": "An industrial sorting machine utilizes a large inclined chute system of total mass 100 kg, which is mounted on frictionless bearings allowing it to move horizontally. Small manufacturing components, each of mass 10 kg, are fed onto the chute. The angle of inclination of the chute is 35 degrees. If a component is released from rest on the chute, and all surfaces are perfectly smooth, determine the acceleration of the component with respect to the chute system.",
+    "numerical_answer": 5.99
+  },
+  {
+    "signature": "Newton's Laws of Motion_R16_16_v5",
+    "source_problem_ID": "Newton's Laws of Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 5,
+    "problem_text": "During an emergency, a special heavy-duty recovery vehicle (tow truck) of mass 5000 kg has its bed tilted at an angle of 15 degrees to retrieve a smaller damaged vehicle of mass 1500 kg. The recovery vehicle is on a frictionless icy road, and the damaged vehicle is released from rest onto the tilted bed. If the bed itself is also considered frictionless, calculate the acceleration of the damaged vehicle relative to the recovery vehicle's tilted bed.",
+    "numerical_answer": 3.23
+  },
+  {
+    "signature": "Newton's Laws of Motion_R16_16_v6",
+    "source_problem_ID": "Newton's Laws of Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 6,
+    "problem_text": "A block of mass m = 10 kg is placed on a large frictionless wedge of mass M = 40 kg. The wedge itself rests on a frictionless horizontal surface. If the inclined surface of the wedge makes an angle of 30 degrees with the horizontal, find the acceleration of the smaller block with respect to the wedge as it slides down.",
+    "numerical_answer": 5.77
+  },
+  {
+    "signature": "Newton's Laws of Motion_R16_16_v7",
+    "source_problem_ID": "Newton's Laws of Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 7,
+    "problem_text": "An automated cargo container of mass 150 kg is released from rest on a frictionless loading ramp. The ramp is part of a movable cart system with a total mass of 600 kg, which can slide freely on a horizontal, frictionless track. If the ramp is inclined at 45 degrees to the horizontal, what is the acceleration of the cargo container relative to the cart as it descends?",
+    "numerical_answer": 7.69
+  },
+  {
+    "signature": "Newton's Laws of Motion_R16_16_v8",
+    "source_problem_ID": "Newton's Laws of Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 8,
+    "problem_text": "In an experimental amusement park ride, a test dummy of mass 70 kg slides down a frictionless inclined track. This track is built on a larger platform of mass 200 kg, which is free to move horizontally on frictionless rollers. If the track is set at an angle of 60 degrees to the ground, calculate the acceleration of the test dummy relative to the movable platform.",
+    "numerical_answer": 9.1
+  },
+  {
+    "signature": "Newton's Laws of Motion_R16_16_v9",
+    "source_problem_ID": "Newton's Laws of Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 9,
+    "problem_text": "A small research drone, with a mass of 5 kg, is attempting to deploy from a larger Martian lander module of mass 25 kg. The deployment involves sliding down an inclined frictionless surface on the lander. If the surface is inclined at 20 degrees to the local horizontal and the acceleration due to gravity on Mars is 3.71 m/s^2, determine the acceleration of the drone relative to the lander module.",
+    "numerical_answer": 1.49
+  },
+  {
+    "signature": "Newton's Laws of Motion_R16_16_v10",
+    "source_problem_ID": "Newton's Laws of Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 10,
+    "problem_text": "A 1.5 kg physics textbook is placed on a smooth, frictionless board which is tilted at an angle of 35 degrees. This board is securely mounted on a skateboard with a combined mass of 5 kg (board + skateboard), resting on a perfectly smooth, level floor. Assuming all surfaces are frictionless, what is the acceleration of the textbook with respect to the skateboard?",
+    "numerical_answer": 6.66
+  }
+]

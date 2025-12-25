@@ -1,0 +1,1602 @@
+[
+  {
+    "signature": "Circular Motion_R1_1_v1",
+    "source_problem_ID": "Circular Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 1,
+    "problem_text": "A cylindrical workpiece on a lathe is being machined. If its radius is 8 cm and the cutting tool observes a linear speed of 24 m/s on its surface, calculate the angular velocity of the workpiece.",
+    "numerical_answer": 300.0
+  },
+  {
+    "signature": "Circular Motion_R1_1_v2",
+    "source_problem_ID": "Circular Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 2,
+    "problem_text": "A large Ferris wheel has a radius of 30 meters. If a cabin on its rim moves with a constant linear speed of 1.5 m/s, what is the angular velocity of the Ferris wheel?",
+    "numerical_answer": 0.05
+  },
+  {
+    "signature": "Circular Motion_R1_1_v3",
+    "source_problem_ID": "Circular Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 3,
+    "problem_text": "The tip of a blender blade is 5 cm from the center of rotation. When blending, the tip moves at a linear speed of 12 m/s. Determine the angular velocity of the blade.",
+    "numerical_answer": 240.0
+  },
+  {
+    "signature": "Circular Motion_R1_1_v4",
+    "source_problem_ID": "Circular Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 4,
+    "problem_text": "An athlete spins a discus (considering the center of the discus's path as 0.8 meters from the athlete's shoulder) at a linear speed of 20 m/s just before release. What is the angular velocity of the discus during this spin?",
+    "numerical_answer": 25.0
+  },
+  {
+    "signature": "Circular Motion_R1_1_v5",
+    "source_problem_ID": "Circular Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 5,
+    "problem_text": "A rapidly spinning neutron star has an equatorial radius of 15 km. If a particle on its surface at the equator travels at a linear speed of 0.2c (where c is the speed of light, approximately 3.0 x 10^8 m/s), what is its angular velocity?",
+    "numerical_answer": 4000.0
+  },
+  {
+    "signature": "Circular Motion_R1_1_v6",
+    "source_problem_ID": "Circular Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 6,
+    "problem_text": "An industrial fan has blades of length 1.5 meters. If the tip of a blade moves with a tangential speed of 30 m/s, what is the angular velocity of the fan?",
+    "numerical_answer": 20.0
+  },
+  {
+    "signature": "Circular Motion_R1_1_v7",
+    "source_problem_ID": "Circular Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 7,
+    "problem_text": "A rapidly spinning neutron star has an equatorial radius of 10 km. If a point on its equator is moving with a tangential speed of 6.283 x 10^6 m/s, what is the angular velocity of the star in rad/s?",
+    "numerical_answer": 628.3
+  },
+  {
+    "signature": "Circular Motion_R1_1_v8",
+    "source_problem_ID": "Circular Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 8,
+    "problem_text": "A proton is accelerated in a cyclotron, moving in a circular path with a radius of 0.5 meters. If its linear speed is maintained at 1.5 x 10^7 m/s, what is the angular velocity of the proton?",
+    "numerical_answer": 30000000.0
+  },
+  {
+    "signature": "Circular Motion_R1_1_v9",
+    "source_problem_ID": "Circular Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 9,
+    "problem_text": "A racing car is negotiating a circular turn with a radius of 75 meters. If the car maintains a constant speed of 108 km/h, what is its angular velocity in rad/s?",
+    "numerical_answer": 0.4
+  },
+  {
+    "signature": "Circular Motion_R1_1_v10",
+    "source_problem_ID": "Circular Motion_R1",
+    "Pair_Number": 1,
+    "variation_number": 10,
+    "problem_text": "A laboratory centrifuge rotates a sample at a radius of 12 cm from the center. If the tangential speed of the sample is 60 m/s, calculate the angular velocity of the centrifuge.",
+    "numerical_answer": 500.0
+  },
+  {
+    "signature": "Circular Motion_R2_2_v1",
+    "source_problem_ID": "Circular Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 1,
+    "problem_text": "An industrial pulley with a radius of 50 cm is used to drive a conveyor belt. If the tangential speed of the belt on the pulley's rim increases uniformly from 2.0 m/s to 3.5 m/s over a period of 3.0 seconds, what is the angular acceleration of the pulley?",
+    "numerical_answer": 1.0
+  },
+  {
+    "signature": "Circular Motion_R2_2_v2",
+    "source_problem_ID": "Circular Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 2,
+    "problem_text": "A vintage record player's platter has a radius of 15 cm. As it spins up, the tangential speed of a point on its outer edge uniformly changes from 0.2 m/s to 0.5 m/s in 0.5 seconds. Determine the angular acceleration of the platter.",
+    "numerical_answer": 4.0
+  },
+  {
+    "signature": "Circular Motion_R2_2_v3",
+    "source_problem_ID": "Circular Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 3,
+    "problem_text": "A car's tire, with a radius of 30 cm, is accelerating. If the tangential speed of a point on the tire's tread increases from 10.0 m/s to 12.0 m/s in 2.5 seconds, calculate the angular acceleration of the tire.",
+    "numerical_answer": 2.67
+  },
+  {
+    "signature": "Circular Motion_R2_2_v4",
+    "source_problem_ID": "Circular Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 4,
+    "problem_text": "A laboratory centrifuge has a drum with an effective radius of 25 cm. It accelerates such that the tangential speed of a sample at its outer edge uniformly increases from 15.0 m/s to 20.0 m/s in 1.5 seconds. What is the angular acceleration of the centrifuge drum?",
+    "numerical_answer": 13.33
+  },
+  {
+    "signature": "Circular Motion_R2_2_v5",
+    "source_problem_ID": "Circular Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 5,
+    "problem_text": "A compact disc with a radius of 6 cm is speeding up in a drive. If the tangential speed of a point on its outer rim increases uniformly from 2.0 m/s to 4.0 m/s over 0.8 seconds, determine the angular acceleration of the disc.",
+    "numerical_answer": 41.67
+  },
+  {
+    "signature": "Circular Motion_R2_2_v6",
+    "source_problem_ID": "Circular Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 6,
+    "problem_text": "A race car speeds up on a circular track of radius 75 meters. Its speed increases uniformly from 10.0 m/s to 18.0 m/s over a period of 4.0 seconds. Calculate the angular acceleration of the car.",
+    "numerical_answer": 0.03
+  },
+  {
+    "signature": "Circular Motion_R2_2_v7",
+    "source_problem_ID": "Circular Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 7,
+    "problem_text": "A sample is placed at the end of a centrifuge arm, 15 cm from the center of rotation. If its tangential speed changes uniformly from 0.8 m/s to 2.3 m/s in 3.0 seconds, determine the angular acceleration of the centrifuge arm.",
+    "numerical_answer": 3.33
+  },
+  {
+    "signature": "Circular Motion_R2_2_v8",
+    "source_problem_ID": "Circular Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 8,
+    "problem_text": "The tip of a large industrial fan blade, located 1.2 meters from the central hub, experiences a uniform increase in speed. Its tangential speed goes from 3.0 m/s to 5.5 m/s in 1.5 seconds. What is the angular acceleration of the fan blade?",
+    "numerical_answer": 1.39
+  },
+  {
+    "signature": "Circular Motion_R2_2_v9",
+    "source_problem_ID": "Circular Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 9,
+    "problem_text": "A child is riding on a merry-go-round at a distance of 2.5 meters from its center. If the merry-go-round accelerates uniformly, causing the child's tangential speed to increase from 0.5 m/s to 2.0 m/s over 5.0 seconds, find the angular acceleration.",
+    "numerical_answer": 0.12
+  },
+  {
+    "signature": "Circular Motion_R2_2_v10",
+    "source_problem_ID": "Circular Motion_R2",
+    "Pair_Number": 2,
+    "variation_number": 10,
+    "problem_text": "A compact disc is spinning in a drive. A point on its outer edge, 6.0 cm from the center, has its speed uniformly increase from 1.0 m/s to 1.6 m/s in 0.5 seconds. What is the angular acceleration of the CD?",
+    "numerical_answer": 20.0
+  },
+  {
+    "signature": "Circular Motion_R3_3_v1",
+    "source_problem_ID": "Circular Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 1,
+    "problem_text": "A car is driven at a uniform speed around a circular test track with a radius of 50 meters. If the car completes one full lap in 20 seconds, what is the magnitude of its centripetal acceleration?",
+    "numerical_answer": 4.93
+  },
+  {
+    "signature": "Circular Motion_R3_3_v2",
+    "source_problem_ID": "Circular Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 2,
+    "problem_text": "During the spin cycle, the drum of a washing machine rotates uniformly. A small piece of lint stuck to the inner wall of the drum, at a radius of 25 cm, completes one rotation in 0.5 seconds. Determine the magnitude of the centripetal acceleration experienced by the lint.",
+    "numerical_answer": 39.48
+  },
+  {
+    "signature": "Circular Motion_R3_3_v3",
+    "source_problem_ID": "Circular Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 3,
+    "problem_text": "A hypothetical communication satellite maintains a perfectly circular orbit around an experimental space station at an orbital radius of 500 km. If it completes one orbit in 90 minutes, calculate the magnitude of its centripetal acceleration.",
+    "numerical_answer": 0.68
+  },
+  {
+    "signature": "Circular Motion_R3_3_v4",
+    "source_problem_ID": "Circular Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 4,
+    "problem_text": "A passenger on a Ferris wheel experiences uniform circular motion. The gondola she is in has a radius of 15 meters from the center of rotation and completes one full revolution in 30 seconds. What is the magnitude of her acceleration?",
+    "numerical_answer": 0.66
+  },
+  {
+    "signature": "Circular Motion_R3_3_v5",
+    "source_problem_ID": "Circular Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 5,
+    "problem_text": "A child swings a stone in a horizontal circle using a sling of length 75 cm. If the stone completes 2 revolutions every second, what is the magnitude of the centripetal acceleration of the stone?",
+    "numerical_answer": 118.44
+  },
+  {
+    "signature": "Circular Motion_R3_3_v6",
+    "source_problem_ID": "Circular Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 6,
+    "problem_text": "During the spin cycle, a small piece of clothing inside a washing machine drum is moving in a circular path. If the drum has a radius of 25 cm and completes 1200 revolutions per minute, find the magnitude of the linear acceleration experienced by the clothing.",
+    "numerical_answer": 3947.84
+  },
+  {
+    "signature": "Circular Motion_R3_3_v7",
+    "source_problem_ID": "Circular Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 7,
+    "problem_text": "A low-Earth orbit satellite circles the Earth at an approximate altitude of 329 km above the surface. Assuming the Earth's radius is 6371 km and the satellite completes one orbit in 90 minutes, calculate the magnitude of the centripetal acceleration of the satellite.",
+    "numerical_answer": 9.08
+  },
+  {
+    "signature": "Circular Motion_R3_3_v8",
+    "source_problem_ID": "Circular Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 8,
+    "problem_text": "A race car maintains a uniform speed of 180 km/h as it navigates a perfectly circular track with a radius of 150 m. Determine the magnitude of the linear acceleration of the car.",
+    "numerical_answer": 16.67
+  },
+  {
+    "signature": "Circular Motion_R3_3_v9",
+    "source_problem_ID": "Circular Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 9,
+    "problem_text": "An electron in a simplified model of a particle accelerator moves in a circular path of radius 5 cm at a constant speed of 2 × 10^6 m/s. What is the magnitude of its linear acceleration?",
+    "numerical_answer": 80000000000000.0
+  },
+  {
+    "signature": "Circular Motion_R3_3_v10",
+    "source_problem_ID": "Circular Motion_R3",
+    "Pair_Number": 3,
+    "variation_number": 10,
+    "problem_text": "A child is sitting 2 meters from the center of a merry-go-round that is rotating uniformly. If the merry-go-round makes 15 complete revolutions in one minute, what is the magnitude of the child's linear acceleration?",
+    "numerical_answer": 4.93
+  },
+  {
+    "signature": "Circular Motion_R4_4_v1",
+    "source_problem_ID": "Circular Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 1,
+    "problem_text": "A car accelerates uniformly from rest around a circular exit ramp with a radius of 60 meters. Its tangential speed is given by v = 1.2t, where v is in m/s and t is in seconds. Calculate the magnitude of the car's total acceleration at t = 5 s.",
+    "numerical_answer": 1.34
+  },
+  {
+    "signature": "Circular Motion_R4_4_v2",
+    "source_problem_ID": "Circular Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 2,
+    "problem_text": "During the spin cycle, a point on the inner drum of a washing machine rotates in a circle of radius 25 cm. The tangential speed of this point increases according to v = 8t, where v is in m/s and t in seconds. Determine the magnitude of the total acceleration experienced by this point at t = 1.5 s.",
+    "numerical_answer": 576.06
+  },
+  {
+    "signature": "Circular Motion_R4_4_v3",
+    "source_problem_ID": "Circular Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 3,
+    "problem_text": "A roller coaster cart enters a simplified circular loop with a radius of 10 meters. Its speed, starting from rest, is described by v = 2.5t, where v is in m/s and t is in seconds. Calculate the radial acceleration of the cart at t = 4 s.",
+    "numerical_answer": 10.0
+  },
+  {
+    "signature": "Circular Motion_R4_4_v4",
+    "source_problem_ID": "Circular Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 4,
+    "problem_text": "A child is sitting on a merry-go-round at a distance of 2.5 meters from its center. The merry-go-round starts from rest, and the child's tangential speed increases uniformly as v = 0.6t, where v is in m/s and t in seconds. What is the magnitude of the child's total acceleration at t = 6 s?",
+    "numerical_answer": 5.22
+  },
+  {
+    "signature": "Circular Motion_R4_4_v5",
+    "source_problem_ID": "Circular Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 5,
+    "problem_text": "The tip of an airplane propeller, with a blade length (radius of rotation) of 1.5 meters, starts from rest and spins up. The tangential speed of the tip follows the relation v = 50t, where v is in m/s and t is in seconds. Find the tangential acceleration of the propeller tip at t = 0.8 s.",
+    "numerical_answer": 50.0
+  },
+  {
+    "signature": "Circular Motion_R4_4_v6",
+    "source_problem_ID": "Circular Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 6,
+    "problem_text": "A car accelerates on a circular test track of radius 80 m. Its linear speed is described by the equation v = (0.2t^2 + 5) m/s, where t is in seconds. Determine the magnitude of the total acceleration of the car at t = 5 s.",
+    "numerical_answer": 2.36
+  },
+  {
+    "signature": "Circular Motion_R4_4_v7",
+    "source_problem_ID": "Circular Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 7,
+    "problem_text": "A drone flies in a horizontal circular path with a constant radius of 15 m. Its speed is given by v = (3t - 0.1t^2) m/s. Calculate the magnitude of the total acceleration of the drone at t = 8 s.",
+    "numerical_answer": 20.7
+  },
+  {
+    "signature": "Circular Motion_R4_4_v8",
+    "source_problem_ID": "Circular Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 8,
+    "problem_text": "A small ball is swung in a horizontal circle at the end of a string of length 1.2 m. The ball's linear speed varies with time according to v = (4 - 0.5t) m/s. What is the magnitude of the total acceleration of the ball at t = 3 s?",
+    "numerical_answer": 5.23
+  },
+  {
+    "signature": "Circular Motion_R4_4_v9",
+    "source_problem_ID": "Circular Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 9,
+    "problem_text": "A point on the rim of a rotating gear, with a radius of 30 cm, has a linear speed given by v = (0.8t + 0.05t^2) m/s, where t is in seconds. Find the magnitude of the total acceleration of this point at t = 4 s.",
+    "numerical_answer": 53.35
+  },
+  {
+    "signature": "Circular Motion_R4_4_v10",
+    "source_problem_ID": "Circular Motion_R4",
+    "Pair_Number": 4,
+    "variation_number": 10,
+    "problem_text": "A rollercoaster car moves along a circular loop section with a radius of 10 m. Its instantaneous linear speed is described by v = (6 - 0.2t^2) m/s. Calculate the magnitude of the total acceleration experienced by the car at t = 2 s.",
+    "numerical_answer": 2.82
+  },
+  {
+    "signature": "Circular Motion_R5_5_v1",
+    "source_problem_ID": "Circular Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 1,
+    "problem_text": "A low Earth orbit satellite of mass 500 kg circles the Earth at an average altitude of 400 km. If the Earth's radius is approximately 6370 km and the satellite completes one orbit in 90 minutes, calculate the magnitude of the gravitational force acting on the satellite.",
+    "numerical_answer": 4519.38
+  },
+  {
+    "signature": "Circular Motion_R5_5_v2",
+    "source_problem_ID": "Circular Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 2,
+    "problem_text": "A child is whirling a 0.5 kg stone attached to a 1.2 m long string in a horizontal circle just above the ground. If the stone completes one full revolution in 0.8 seconds, what is the tension in the string?",
+    "numerical_answer": 37.01
+  },
+  {
+    "signature": "Circular Motion_R5_5_v3",
+    "source_problem_ID": "Circular Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 3,
+    "problem_text": "In an amusement park 'Rotor' ride, a person of mass 60 kg stands against the vertical wall of a cylindrical chamber of radius 4.0 m. If the chamber rotates, completing one revolution every 3.5 seconds, what is the normal contact force exerted by the wall on the person?",
+    "numerical_answer": 773.45
+  },
+  {
+    "signature": "Circular Motion_R5_5_v4",
+    "source_problem_ID": "Circular Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 4,
+    "problem_text": "A car of mass 1200 kg is negotiating a flat circular turn. If the radius of the turn is 20 m and the car hypothetically completes one full circle in 10 seconds at a constant speed, what is the minimum static friction force required from the road to keep the car on its path?",
+    "numerical_answer": 9474.82
+  },
+  {
+    "signature": "Circular Motion_R5_5_v5",
+    "source_problem_ID": "Circular Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 5,
+    "problem_text": "A laboratory centrifuge spins a test tube containing a sample of mass 15 g. The center of the sample is located 10 cm from the axis of rotation. If the centrifuge operates at 3000 revolutions per minute (RPM), determine the centripetal force exerted on the sample by the outer wall of the test tube.",
+    "numerical_answer": 148.04
+  },
+  {
+    "signature": "Circular Motion_R5_5_v6",
+    "source_problem_ID": "Circular Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 6,
+    "problem_text": "A small research satellite of mass 500 kg is in a circular orbit around Earth at an average altitude such that its orbital radius from the center of Earth is 7000 km. If the satellite completes one full orbit in 90 minutes, calculate the magnitude of the centripetal force required to keep it in orbit.",
+    "numerical_answer": 4738.49
+  },
+  {
+    "signature": "Circular Motion_R5_5_v7",
+    "source_problem_ID": "Circular Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 7,
+    "problem_text": "A child of mass 25 kg sits on a merry-go-round at a distance of 2.0 m from its center. The merry-go-round makes one complete revolution every 8.0 seconds. Determine the minimum static friction force required between the child and the merry-go-round to prevent the child from sliding outwards.",
+    "numerical_answer": 30.84
+  },
+  {
+    "signature": "Circular Motion_R5_5_v8",
+    "source_problem_ID": "Circular Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 8,
+    "problem_text": "In an amusement park ride called 'The Rotor', people stand against the inner wall of a cylindrical chamber of radius 3.5 m. The chamber then begins to rotate. If a person of mass 60 kg experiences one full rotation every 4.5 seconds, find the normal contact force exerted by the vertical wall of the rotor on the person.",
+    "numerical_answer": 409.41
+  },
+  {
+    "signature": "Circular Motion_R5_5_v9",
+    "source_problem_ID": "Circular Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 9,
+    "problem_text": "A small coin of mass 5.0 g is placed on a rotating turntable at a distance of 10 cm from the center. If the turntable completes one revolution in 0.50 seconds, what is the minimum static friction force required to keep the coin from sliding off the turntable?",
+    "numerical_answer": 0.79
+  },
+  {
+    "signature": "Circular Motion_R5_5_v10",
+    "source_problem_ID": "Circular Motion_R5",
+    "Pair_Number": 5,
+    "variation_number": 10,
+    "problem_text": "A person is whirling a stone of mass 150 g attached to a string of length 90 cm in a horizontal circle, assuming the motion occurs on a frictionless surface. If the stone completes one revolution in 1.5 seconds, calculate the tension in the string.",
+    "numerical_answer": 2.37
+  },
+  {
+    "signature": "Circular Motion_R6_6_v1",
+    "source_problem_ID": "Circular Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 1,
+    "problem_text": "A small ball of mass 0.2 kg is attached to a string of length 1.2 meters. The ball is set into motion in a horizontal circle such that the string makes an angle of 18 degrees with the vertical. Calculate the speed of the ball.",
+    "numerical_answer": 1.08
+  },
+  {
+    "signature": "Circular Motion_R6_6_v2",
+    "source_problem_ID": "Circular Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 2,
+    "problem_text": "An airplane, flying at a constant altitude, executes a horizontal turn with a radius of 600 meters. If the wings are banked at an angle of 22 degrees, what is the speed of the airplane? Assume the lift force provides the necessary centripetal force and balances gravity.",
+    "numerical_answer": 48.74
+  },
+  {
+    "signature": "Circular Motion_R6_6_v3",
+    "source_problem_ID": "Circular Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 3,
+    "problem_text": "A smooth conical funnel is rotating about its vertical axis with a constant angular speed. A small block is placed on its inner surface at a radius of 0.6 meters from the axis of rotation, maintaining a stable height. If the angle of inclination of the funnel wall with the horizontal is 35 degrees, what is the speed of the block?",
+    "numerical_answer": 2.03
+  },
+  {
+    "signature": "Circular Motion_R6_6_v4",
+    "source_problem_ID": "Circular Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 4,
+    "problem_text": "A car is negotiating an unbanked circular turn of radius 12 meters. The coefficient of static friction between the tires and the road is 0.55. Calculate the maximum speed at which the car can make the turn without skidding.",
+    "numerical_answer": 8.04
+  },
+  {
+    "signature": "Circular Motion_R6_6_v5",
+    "source_problem_ID": "Circular Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 5,
+    "problem_text": "A cylindrical container filled with an incompressible liquid is rotated about its vertical axis with a constant angular speed. Due to rotation, the free surface of the liquid forms a paraboloid of revolution. If at a radial distance of 7 cm from the axis, the tangent to the liquid surface makes an angle of 12 degrees with the horizontal, what is the tangential speed of the liquid particles at that radial distance?",
+    "numerical_answer": 0.38
+  },
+  {
+    "signature": "Circular Motion_R6_6_v6",
+    "source_problem_ID": "Circular Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 6,
+    "problem_text": "A race car approaches a circular turn on a track with a radius of 40 m. To allow for higher speeds, the track is banked at an angle of 15 degrees. Determine the ideal speed at which the car should navigate this turn so that the normal contact force provides the necessary centripetal force without relying on friction.",
+    "numerical_answer": 10.25
+  },
+  {
+    "signature": "Circular Motion_R6_6_v7",
+    "source_problem_ID": "Circular Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 7,
+    "problem_text": "An airplane is executing a horizontal turn with a radius of 250 m. To maintain its altitude and perform the turn correctly, the plane must bank at a specific angle. If the pilot banks the plane at 30 degrees to the horizontal, what speed should the airplane maintain during the turn?",
+    "numerical_answer": 37.61
+  },
+  {
+    "signature": "Circular Motion_R6_6_v8",
+    "source_problem_ID": "Circular Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 8,
+    "problem_text": "A conical pendulum consists of a 2 kg bob attached to a 1.5 m long string, swinging in a horizontal circle. If the string makes an angle of 20 degrees with the vertical, what is the speed of the bob?",
+    "numerical_answer": 1.35
+  },
+  {
+    "signature": "Circular Motion_R6_6_v9",
+    "source_problem_ID": "Circular Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 9,
+    "problem_text": "On an amusement park ride, chairs are suspended by chains 8 m long. When the ride is in full operation, the chairs and chains swing outwards, forming a conical path where the chains make an angle of 35 degrees with the vertical. Calculate the tangential speed of a rider in one of these chairs.",
+    "numerical_answer": 5.61
+  },
+  {
+    "signature": "Circular Motion_R6_6_v10",
+    "source_problem_ID": "Circular Motion_R6",
+    "Pair_Number": 6,
+    "variation_number": 10,
+    "problem_text": "A small block is placed inside a smooth, frictionless conical bowl which is rotating about its vertical axis. The angle of the cone's wall with the vertical is 45 degrees. If the block remains at a constant height, moving in a horizontal circle with a radius of 0.5 m, what is its speed?",
+    "numerical_answer": 2.21
+  },
+  {
+    "signature": "Circular Motion_R7_7_v1",
+    "source_problem_ID": "Circular Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 1,
+    "problem_text": "An astronaut lands on a newly discovered spherical planet. At the planet's north pole, a spring scale records their weight as 150 N. The planet has a radius of 5000 km and completes one full rotation every 18 hours. What will the spring scale read if the astronaut moves to the planet's equator? Assume the gravitational acceleration at the poles is 12 m/s^2.",
+    "numerical_answer": 149.41
+  },
+  {
+    "signature": "Circular Motion_R7_7_v2",
+    "source_problem_ID": "Circular Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 2,
+    "problem_text": "A person stands on a spring scale inside an elevator. When the elevator is stationary, the scale reads 700 N. If the elevator begins to accelerate downwards at 2.5 m/s^2, what will the spring scale read? Use g = 9.8 m/s^2.",
+    "numerical_answer": 521.43
+  },
+  {
+    "signature": "Circular Motion_R7_7_v3",
+    "source_problem_ID": "Circular Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 3,
+    "problem_text": "A scientific instrument with a mass of 10 kg is initially measured at the North Pole, where its weight is 98 N. If the instrument is then moved to the top of a very tall tower at the Earth's equator, which is 10 km high, what would its weight be as recorded on the same spring balance? Use g = GM/R^2 = 9.8 m/s^2 at the Earth's surface, the radius of the Earth R = 6400 km, and the angular speed of Earth's rotation ω = 7.27 × 10^-5 rad/s.",
+    "numerical_answer": 97.36
+  },
+  {
+    "signature": "Circular Motion_R7_7_v4",
+    "source_problem_ID": "Circular Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 4,
+    "problem_text": "An explorer measures their weight on a spring scale inside an elevator on a distant exoplanet. When the elevator is stationary, the scale reads 850 N. When the elevator accelerates upwards at 1.5 m/s^2, the scale reads 975 N. What will the scale read if the elevator accelerates downwards at 3.0 m/s^2?",
+    "numerical_answer": 600.0
+  },
+  {
+    "signature": "Circular Motion_R7_7_v5",
+    "source_problem_ID": "Circular Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 5,
+    "problem_text": "A 2 kg rock is placed on a spring scale on a small, rapidly rotating spherical asteroid. The gravitational acceleration at the asteroid's surface is 10 m/s^2. If the asteroid has a radius of 500 meters and completes one rotation every 10 minutes, what would be the apparent weight of the rock on the spring scale if it were placed at the asteroid's 'equator'?",
+    "numerical_answer": 19.89
+  },
+  {
+    "signature": "Circular Motion_R7_7_v6",
+    "source_problem_ID": "Circular Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 6,
+    "problem_text": "A specialized probe of mass 0.5 kg is magnetically levitated inside a large, horizontal rotating ring. An internal electromagnet within the probe applies a constant force of 100 N, pulling it radially towards the center of the ring. If the ring has a radius of 3 m and rotates at an angular speed of 5 rad/s, what is the net inward force experienced by the probe, as if measured by a sensor within the probe itself?",
+    "numerical_answer": 62.5
+  },
+  {
+    "signature": "Circular Motion_R7_7_v7",
+    "source_problem_ID": "Circular Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 7,
+    "problem_text": "A research station of mass 500 kg is deployed on a newly discovered exoplanet, 'Krypton-7'. At the planet's north pole, a high-precision scale records the station's weight as 4900 N. If Krypton-7 has a radius of 12,000 km and completes one rotation every 18 hours, what would be the apparent weight recorded by the same scale if the research station were moved to the planet's equator?",
+    "numerical_answer": 4843.58
+  },
+  {
+    "signature": "Circular Motion_R7_7_v8",
+    "source_problem_ID": "Circular Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 8,
+    "problem_text": "A test object with a mass of 0.5 kg is placed on a horizontal, rapidly rotating disk. An electromagnet is positioned at the center of the disk, pulling the object radially inwards with a constant force of 15 N. If the object is located 1.2 m from the center of rotation and the disk spins at an angular speed of 4 rad/s, what is the net inward force experienced by the object?",
+    "numerical_answer": 5.4
+  },
+  {
+    "signature": "Circular Motion_R7_7_v9",
+    "source_problem_ID": "Circular Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 9,
+    "problem_text": "An experimental setup for testing material strength involves a 5 kg mass attached to a high-strength cable. The cable passes through a central pivot and pulls the mass radially inward along a horizontal, circular test track of radius 400 m. When the system is stationary, the cable exerts an inward tension of 30 N on the mass. If the entire track system, along with the cable and mass, is made to rotate at an angular speed of 0.01 rad/s around the central pivot, what would be the apparent tension recorded by a load cell on the cable, measuring the inward pull on the mass?",
+    "numerical_answer": 29.8
+  },
+  {
+    "signature": "Circular Motion_R7_7_v10",
+    "source_problem_ID": "Circular Motion_R7",
+    "Pair_Number": 7,
+    "variation_number": 10,
+    "problem_text": "A sensor package with a mass of 0.3 kg is mounted on a robotic arm inside an industrial centrifuge. The arm extends 0.6 m from the centrifuge's axis of rotation. A spring, connected from the center of rotation to the sensor package, exerts an inward radial force of 50 N on the package when the centrifuge is idle. If the centrifuge is operating at an angular speed of 10 rad/s, what is the net inward force exerted by the spring on the sensor package?",
+    "numerical_answer": 32.0
+  },
+  {
+    "signature": "Circular Motion_R8_8_v1",
+    "source_problem_ID": "Circular Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 1,
+    "problem_text": "A small coin is placed on a horizontal turntable rotating at a constant speed. The coefficient of static friction between the coin and the turntable surface is 0.8. If the coin is placed at a distance of 20 cm from the center of rotation, what is the maximum linear speed the coin can have without slipping off? (Take g = 9.8 m/s^2)",
+    "numerical_answer": 1.25
+  },
+  {
+    "signature": "Circular Motion_R8_8_v2",
+    "source_problem_ID": "Circular Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 2,
+    "problem_text": "A high-performance racing car takes a turn with a radius of 60 meters. If the car maintains a speed of 90 km/hr throughout the turn, what is the minimum coefficient of static friction required between the tires and the road to prevent the car from skidding? (Take g = 10 m/s^2)",
+    "numerical_answer": 1.04
+  },
+  {
+    "signature": "Circular Motion_R8_8_v3",
+    "source_problem_ID": "Circular Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 3,
+    "problem_text": "A stunt motorcyclist performs a 'Wall of Death' act inside a cylindrical well of radius 8 meters. If the coefficient of static friction between the tires and the vertical wall is 0.75, what is the minimum speed the motorcyclist must maintain to avoid slipping down the wall? (Take g = 9.8 m/s^2)",
+    "numerical_answer": 10.22
+  },
+  {
+    "signature": "Circular Motion_R8_8_v4",
+    "source_problem_ID": "Circular Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 4,
+    "problem_text": "A child is sitting on a merry-go-round at a distance of 2.5 meters from its central axis. The coefficient of static friction between the child and the seat is 0.6. Calculate the maximum angular speed (in rad/s) the merry-go-round can have before the child starts to slide outwards. (Take g = 10 m/s^2)",
+    "numerical_answer": 1.55
+  },
+  {
+    "signature": "Circular Motion_R8_8_v5",
+    "source_problem_ID": "Circular Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 5,
+    "problem_text": "A roller coaster car is designed to safely complete a vertical circular loop-the-loop. If the radius of the loop is 15 meters, what is the minimum speed the car must have at the very top of the loop to ensure it stays on the track and does not fall? (Take g = 9.8 m/s^2)",
+    "numerical_answer": 12.12
+  },
+  {
+    "signature": "Circular Motion_R8_8_v6",
+    "source_problem_ID": "Circular Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 6,
+    "problem_text": "A small coin is placed on a horizontal turntable. The coefficient of static friction between the coin and the turntable is 0.65. If the coin is placed at a distance of 25 cm from the center of the turntable, what is the maximum linear speed (in m/s) the coin can have without sliding off? Use g = 9.81 m/s^2.",
+    "numerical_answer": 1.26
+  },
+  {
+    "signature": "Circular Motion_R8_8_v7",
+    "source_problem_ID": "Circular Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 7,
+    "problem_text": "A stunt performer is swinging a 0.8 kg mass attached to a string in a horizontal circle with a radius of 1.5 m. If the string can withstand a maximum tension of 75 N before breaking, what is the maximum speed (in m/s) the mass can attain without breaking the string?",
+    "numerical_answer": 11.86
+  },
+  {
+    "signature": "Circular Motion_R8_8_v8",
+    "source_problem_ID": "Circular Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 8,
+    "problem_text": "A section of a roller coaster track forms a vertical loop. At the very bottom of the loop, the track can safely withstand a maximum normal force of 15000 N. If a roller coaster car and its passengers have a combined mass of 500 kg and the loop has a radius of 12 m, what is the maximum speed (in m/s) the car can have at the bottom of the loop without exceeding the track's safety limit? Use g = 9.81 m/s^2.",
+    "numerical_answer": 15.57
+  },
+  {
+    "signature": "Circular Motion_R8_8_v9",
+    "source_problem_ID": "Circular Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 9,
+    "problem_text": "An electron (charge q = 1.602 x 10^-19 C, mass m = 9.109 x 10^-31 kg) is injected into a uniform magnetic field of 0.008 T, perpendicular to its velocity. If the electron must complete a circular path within a detection chamber of maximum radius 0.03 m, what is the maximum speed (in m/s) the electron can have?",
+    "numerical_answer": 42208800.0
+  },
+  {
+    "signature": "Circular Motion_R8_8_v10",
+    "source_problem_ID": "Circular Motion_R8",
+    "Pair_Number": 8,
+    "variation_number": 10,
+    "problem_text": "A conical pendulum consists of a 1.2 kg bob attached to a string. The bob moves in a horizontal circle with a radius of 0.7 m. If the string has a maximum tensile strength of 25 N, what is the maximum speed (in m/s) the bob can have in its circular path without the string breaking? Use g = 9.81 m/s^2.",
+    "numerical_answer": 3.59
+  },
+  {
+    "signature": "Circular Motion_R9_9_v1",
+    "source_problem_ID": "Circular Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 1,
+    "problem_text": "A high-speed train is designed to navigate a circular curve with a radius of 800 m. If the train is expected to maintain an average speed of 100 km/hr around this curve, what should be the ideal angle of banking for the railway track to ensure safe passage without reliance on friction? (Assume g = 10 m/s^2)",
+    "numerical_answer": 5.5
+  },
+  {
+    "signature": "Circular Motion_R9_9_v2",
+    "source_problem_ID": "Circular Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 2,
+    "problem_text": "An airplane is executing a horizontal turn at a speed of 900 km/hr. If the radius of its turning path is 2500 m, what is the angle of bank (roll angle) the plane must maintain for the turn to be frictionless (i.e., lift force perpendicular to the wings provides all necessary centripetal force)? (Assume g = 10 m/s^2)",
+    "numerical_answer": 68.2
+  },
+  {
+    "signature": "Circular Motion_R9_9_v3",
+    "source_problem_ID": "Circular Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 3,
+    "problem_text": "A mass is attached to a string of length 1.2 m and set into motion as a conical pendulum. If the string makes an angle of 30 degrees with the vertical, what is the speed of the mass in its horizontal circular path? (Assume g = 10 m/s^2)",
+    "numerical_answer": 1.86
+  },
+  {
+    "signature": "Circular Motion_R9_9_v4",
+    "source_problem_ID": "Circular Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 4,
+    "problem_text": "A Mars rover is traversing a circular path on a Martian crater, designed to have an ideal banking angle for a specific speed. If the radius of the banked curve is 50 m and the rover's design speed for this curve is 30 km/hr, what should be the banking angle of the track? (Acceleration due to gravity on Mars is 3.71 m/s^2)",
+    "numerical_answer": 20.54
+  },
+  {
+    "signature": "Circular Motion_R9_9_v5",
+    "source_problem_ID": "Circular Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 5,
+    "problem_text": "A highway exit ramp is to be designed as a circular curve banked at an angle of 15 degrees. If the recommended safe speed for vehicles on this ramp is 60 km/hr, what should be the minimum radius of the curve for cars to negotiate it safely without relying on static friction? (Assume g = 10 m/s^2)",
+    "numerical_answer": 103.66
+  },
+  {
+    "signature": "Circular Motion_R9_9_v6",
+    "source_problem_ID": "Circular Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 6,
+    "problem_text": "A high-performance race car is designed to take a banked curve of radius 400 m. If the track is banked at an angle of 15 degrees, what is the maximum speed (in m/s) the car can maintain around this curve without any reliance on friction? (Assume g = 10 m/s^2)",
+    "numerical_answer": 32.75
+  },
+  {
+    "signature": "Circular Motion_R9_9_v7",
+    "source_problem_ID": "Circular Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 7,
+    "problem_text": "An airplane is executing a circular turn with a radius of 3000 m while flying at a constant speed of 600 km/hr. To achieve this turn, the plane must bank at a certain angle. What is this banking angle in degrees? (Assume g = 10 m/s^2)",
+    "numerical_answer": 42.81
+  },
+  {
+    "signature": "Circular Motion_R9_9_v8",
+    "source_problem_ID": "Circular Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 8,
+    "problem_text": "A conical pendulum consists of a small bob of mass 'm' attached to a string of length 1.5 m. The bob moves in a horizontal circle at an angular speed of 3 rad/s. What is the angle (in degrees) that the string makes with the vertical? (Assume g = 10 m/s^2)",
+    "numerical_answer": 42.2
+  },
+  {
+    "signature": "Circular Motion_R9_9_v9",
+    "source_problem_ID": "Circular Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 9,
+    "problem_text": "A section of railway track is designed for trains to navigate a curve safely at a speed of 120 km/hr. If the outer rail is elevated to create a banking angle (cant) of 8 degrees, what should be the radius of curvature (in meters) of this track for the design speed, assuming no lateral thrust on the wheels? (Assume g = 10 m/s^2)",
+    "numerical_answer": 790.67
+  },
+  {
+    "signature": "Circular Motion_R9_9_v10",
+    "source_problem_ID": "Circular Motion_R9",
+    "Pair_Number": 9,
+    "variation_number": 10,
+    "problem_text": "A skateboarder is riding in a frictionless hemispherical bowl of radius 5 m. If the skateboarder maintains a constant speed while moving in a horizontal circle such that their path makes an angle of 30 degrees with the vertical (measured from the center of the bowl), what is the speed (in m/s) of the skateboarder? (Assume g = 10 m/s^2)",
+    "numerical_answer": 3.8
+  },
+  {
+    "signature": "Circular Motion_R10_10_v1",
+    "source_problem_ID": "Circular Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 1,
+    "problem_text": "A child of mass 30 kg is on a swing set. When pushed, the child moves in a horizontal circle. If the chains of the swing are 3.5 meters long and the radius of the child's circular path is 1.2 meters, what is the speed of the child?",
+    "numerical_answer": 2.07
+  },
+  {
+    "signature": "Circular Motion_R10_10_v2",
+    "source_problem_ID": "Circular Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 2,
+    "problem_text": "A racing car of mass 1200 kg is designed to negotiate a frictionless banked turn at a speed of 30 m/s. If the radius of curvature of the turn is 200 meters, what is the required angle of banking (in degrees) with respect to the horizontal?",
+    "numerical_answer": 24.63
+  },
+  {
+    "signature": "Circular Motion_R10_10_v3",
+    "source_problem_ID": "Circular Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 3,
+    "problem_text": "A small ball of mass 0.5 kg rolls uniformly in a horizontal circle inside a smooth conical bowl. The semi-vertical angle of the cone (the angle the slant side makes with the vertical axis) is 35 degrees. If the radius of the circular path taken by the ball is 0.4 meters, what is the speed of the ball?",
+    "numerical_answer": 1.66
+  },
+  {
+    "signature": "Circular Motion_R10_10_v4",
+    "source_problem_ID": "Circular Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 4,
+    "problem_text": "An aircraft of mass 7500 kg is making a level turn with a bank angle of 40 degrees. If the speed of the aircraft is 150 m/s, what is the radius of the turn in meters?",
+    "numerical_answer": 2730.41
+  },
+  {
+    "signature": "Circular Motion_R10_10_v5",
+    "source_problem_ID": "Circular Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 5,
+    "problem_text": "A small spherical mass of 2 kg is attached to the end of a rigid, massless rod of length 0.8 meters. The other end of the rod is pivoted to a vertical shaft. The shaft rotates at a constant angular speed, causing the mass to move in a horizontal circle such that the rod makes an angle of 30 degrees with the vertical shaft. Calculate the magnitude of the force (tension) in the rigid rod.",
+    "numerical_answer": 22.66
+  },
+  {
+    "signature": "Circular Motion_R10_10_v6",
+    "source_problem_ID": "Circular Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 6,
+    "problem_text": "A small block of mass 0.5 kg is attached to a string of length 1.2 m. The block is set into motion, causing it to move in a horizontal circle of radius 0.8 m. Assuming g = 9.81 m/s², calculate the period of the circular motion.",
+    "numerical_answer": 1.9
+  },
+  {
+    "signature": "Circular Motion_R10_10_v7",
+    "source_problem_ID": "Circular Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 7,
+    "problem_text": "In an amusement park ride, a seat carrying a person (total mass 80 kg) is suspended from a central rotating structure by a chain of length 5 m. When the ride is operating, the chain makes an angle of 30 degrees with the vertical. Assuming g = 9.81 m/s², determine the speed of the seat.",
+    "numerical_answer": 3.76
+  },
+  {
+    "signature": "Circular Motion_R10_10_v8",
+    "source_problem_ID": "Circular Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 8,
+    "problem_text": "A smooth conical funnel is fixed with its axis vertical. A small sphere of mass 2 kg slides without friction in a horizontal circle of radius 0.3 m along the inner surface of the cone. If the wall of the cone makes an angle of 60 degrees with the vertical, what is the magnitude of the normal force exerted by the cone on the sphere? Use g = 9.81 m/s².",
+    "numerical_answer": 39.24
+  },
+  {
+    "signature": "Circular Motion_R10_10_v9",
+    "source_problem_ID": "Circular Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 9,
+    "problem_text": "An aircraft of mass 15000 kg executes a horizontal turn at a constant speed of 180 m/s. During the turn, the aircraft banks at an angle of 45 degrees with the horizontal. Assuming the lift force acts perpendicular to the wings and g = 9.81 m/s², what is the radius of the turn?",
+    "numerical_answer": 3302.75
+  },
+  {
+    "signature": "Circular Motion_R10_10_v10",
+    "source_problem_ID": "Circular Motion_R10",
+    "Pair_Number": 10,
+    "variation_number": 10,
+    "problem_text": "A particle of mass 0.2 kg is suspended from a ceiling by a string of length 0.75 m. The particle is set into motion such that it moves in a horizontal circle. If the tension in the string is measured to be 2.5 N, what is the angle the string makes with the vertical? Use g = 9.81 m/s² and express your answer in degrees.",
+    "numerical_answer": 38.29
+  },
+  {
+    "signature": "Circular Motion_R11_11_v1",
+    "source_problem_ID": "Circular Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 1,
+    "problem_text": "A small CubeSat of mass 15 kg is connected by a flexible space tether of natural length 8 m to a larger orbital platform. The tether behaves like a spring with a spring constant of 60 N/m. If the CubeSat is made to orbit the platform in a horizontal plane with an angular velocity of 0.2 rad/s, what is the elongation of the tether?",
+    "numerical_answer": 0.08
+  },
+  {
+    "signature": "Circular Motion_R11_11_v2",
+    "source_problem_ID": "Circular Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 2,
+    "problem_text": "A small experimental mass of 0.1 kg is attached to a central post by a horizontal spring on a frictionless rotating platform. The spring has a natural length of 0.05 m and a spring constant of 500 N/m. If the platform rotates at an angular velocity of 50 rad/s, determine the elongation of the spring.",
+    "numerical_answer": 0.05
+  },
+  {
+    "signature": "Circular Motion_R11_11_v3",
+    "source_problem_ID": "Circular Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 3,
+    "problem_text": "In a conceptual amusement park ride, a seat for a passenger of mass 60 kg is attached to a central rotating pillar by an elastic arm. The arm has a natural length of 4 m and acts as a spring with a spring constant of 400 N/m. If the ride rotates horizontally at an angular speed of 0.8 rad/s, calculate the additional length the arm stretches.",
+    "numerical_answer": 0.42
+  },
+  {
+    "signature": "Circular Motion_R11_11_v4",
+    "source_problem_ID": "Circular Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 4,
+    "problem_text": "Imagine a theoretical scenario where a small probe of mass 200 kg is secured by an 'elastic anchor' to the equatorial surface of a rapidly spinning dwarf planet. The anchor behaves as a spring with a natural length of 50 m and a spring constant of 150 N/m. If the dwarf planet completes one rotation in 100 seconds (angular velocity approximately 0.0628 rad/s), what is the elongation of the anchor due to the rotation?",
+    "numerical_answer": 0.26
+  },
+  {
+    "signature": "Circular Motion_R11_11_v5",
+    "source_problem_ID": "Circular Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 5,
+    "problem_text": "In an industrial centrifuge, a sample holder of mass 0.3 kg is attached to a rotating arm by a radial spring. The spring has a natural length of 0.25 m and a spring constant of 80 N/m. If the centrifuge operates at an angular velocity of 4 rad/s, calculate the extension of the spring.",
+    "numerical_answer": 0.02
+  },
+  {
+    "signature": "Circular Motion_R11_11_v6",
+    "source_problem_ID": "Circular Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 6,
+    "problem_text": "A small reconnaissance drone of mass 100 kg is tethered to a larger mothership by a high-strength elastic tether with a natural length of 10 m and an effective spring constant of 500 N/m. The drone orbits the mothership in a frictionless vacuum, moving in a horizontal circle relative to the mothership. If the system rotates at an angular velocity of 0.5 rad/s, calculate the elongation of the tether due to the drone's rotation.",
+    "numerical_answer": 0.53
+  },
+  {
+    "signature": "Circular Motion_R11_11_v7",
+    "source_problem_ID": "Circular Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 7,
+    "problem_text": "An amusement park ride features a capsule of total mass 80 kg connected to a central rotating pillar by an elastic rope. The rope has a natural length of 3 m and an effective spring constant of 200 N/m. Assuming the capsule moves in a horizontal circle and the rope remains horizontal, find the elongation of the elastic rope when the ride rotates at an angular velocity of 1 rad/s.",
+    "numerical_answer": 2.0
+  },
+  {
+    "signature": "Circular Motion_R11_11_v8",
+    "source_problem_ID": "Circular Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 8,
+    "problem_text": "In a control system for heavy machinery, a small sensor mass of 0.5 kg is designed to slide along a frictionless radial arm which rotates about a central pivot. The sensor is connected to the pivot by a spring that remains along the arm. The spring has a natural length of 0.1 m and a spring constant of 400 N/m. If the arm rotates at an angular velocity of 10 rad/s, determine the elongation of the spring from its natural length.",
+    "numerical_answer": 0.01
+  },
+  {
+    "signature": "Circular Motion_R11_11_v9",
+    "source_problem_ID": "Circular Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 9,
+    "problem_text": "A high-speed laboratory centrifuge has a small sample vial of mass 0.02 kg connected to its central rotating shaft by a tiny elastic thread. The thread, which remains horizontal, has a natural length of 0.05 m and an effective spring constant of 1000 N/m. If the centrifuge operates at an angular velocity of 100 rad/s, calculate the elongation of the elastic thread.",
+    "numerical_answer": 0.01
+  },
+  {
+    "signature": "Circular Motion_R11_11_v10",
+    "source_problem_ID": "Circular Motion_R11",
+    "Pair_Number": 11,
+    "variation_number": 10,
+    "problem_text": "In an industrial mixing tank, a robust sensing probe of mass 5 kg is attached to a rotating arm. The connection is made via a flexible coupling that behaves like a spring, having a natural length of 0.8 m and a spring constant of 150 N/m. If the mixer arm rotates horizontally at an angular velocity of 2 rad/s, determine the elongation of the flexible coupling.",
+    "numerical_answer": 0.12
+  },
+  {
+    "signature": "Circular Motion_R12_12_v1",
+    "source_problem_ID": "Circular Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 1,
+    "problem_text": "A section of a roller coaster track forms part of a vertical circular loop. A car with a total mass of 500 kg (including passengers) is moving along this track. At an instant when the car is at an angle of 30 degrees from the lowest point of the loop, its speed is 18 m/s. Assuming the acceleration due to gravity is 9.81 m/s^2 and the radius of the loop is 15 m, what is the normal force exerted by the track on the car at this instant?",
+    "numerical_answer": 15049.23
+  },
+  {
+    "signature": "Circular Motion_R12_12_v2",
+    "source_problem_ID": "Circular Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 2,
+    "problem_text": "A popular amusement park ride consists of a large gondola that swings back and forth like a giant pendulum. The gondola and its occupants have a combined mass of 120 kg. It is attached to a rigid arm of length 10 m. At a particular moment, the gondola is 45 degrees from its lowest point (vertical position) and moving at a speed of 8 m/s. Calculate the force exerted by the arm on the gondola at this instant. Use g = 9.81 m/s^2.",
+    "numerical_answer": 1600.4
+  },
+  {
+    "signature": "Circular Motion_R12_12_v3",
+    "source_problem_ID": "Circular Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 3,
+    "problem_text": "A small scientific satellite, with a mass of 15 kg, is attached to a space station by a 200 m long tether. The tether system is designed so that the satellite can swing in a plane that effectively behaves as a vertical circle under the influence of the planet's gravity. When the satellite's tether makes an angle of 60 degrees with the local vertical (direction towards the planet), its speed relative to the station in its swing is 5 m/s. If the effective gravitational acceleration at this altitude is 8.5 m/s^2, what is the tension in the tether at this moment?",
+    "numerical_answer": 65.63
+  },
+  {
+    "signature": "Circular Motion_R12_12_v4",
+    "source_problem_ID": "Circular Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 4,
+    "problem_text": "A car with a mass of 1500 kg drives through a dip in the road that has a circular cross-section with a radius of 40 m. At a specific point, the car is 20 degrees from the lowest point of the dip and is traveling at a speed of 25 m/s. Determine the normal force exerted by the road on the car at this instant. Take g = 9.81 m/s^2.",
+    "numerical_answer": 37265.16
+  },
+  {
+    "signature": "Circular Motion_R12_12_v5",
+    "source_problem_ID": "Circular Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 5,
+    "problem_text": "A ski jumper is performing on a curved ramp designed as part of a vertical circle. The skier and equipment have a combined mass of 75 kg. The radius of curvature of the ramp is 30 m. At a point where the ramp makes an angle of 50 degrees with the lowest point of the curve, the skier's speed is 12 m/s. Assuming friction is negligible, calculate the normal force exerted by the ramp on the skier at this position. Use g = 9.81 m/s^2.",
+    "numerical_answer": 832.83
+  },
+  {
+    "signature": "Circular Motion_R12_12_v6",
+    "source_problem_ID": "Circular Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 6,
+    "problem_text": "A small spherical marble of mass 0.2 kg slides inside a frictionless spherical bowl of radius 0.5 m. At a certain instant, the marble is moving with a speed of 2.5 m/s, and its position vector (from the center of the bowl) makes an angle of 30 degrees with the downward vertical. Find the normal force exerted by the bowl on the marble at this instant. (Take g = 9.81 m/s^2).",
+    "numerical_answer": 4.2
+  },
+  {
+    "signature": "Circular Motion_R12_12_v7",
+    "source_problem_ID": "Circular Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 7,
+    "problem_text": "A car of mass 1200 kg is traversing a circular dip in the road. The radius of curvature of the dip is 40 m. At an instant when the car's speed is 20 m/s, and the radius connecting the center of curvature to the car makes an angle of 25 degrees with the downward vertical, find the normal force exerted by the road on the car. (Take g = 9.81 m/s^2).",
+    "numerical_answer": 22669.2
+  },
+  {
+    "signature": "Circular Motion_R12_12_v8",
+    "source_problem_ID": "Circular Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 8,
+    "problem_text": "A block of mass 0.5 kg is attached to a string of length 1.2 m, forming a pendulum. The block oscillates in a vertical circle. An additional constant upward force of 1.5 N is applied to the block throughout its motion. At an instant when the string makes an angle of 45 degrees with the downward vertical, the speed of the block is 3.0 m/s. Find the tension in the string at this instant. (Take g = 9.81 m/s^2).",
+    "numerical_answer": 6.16
+  },
+  {
+    "signature": "Circular Motion_R12_12_v9",
+    "source_problem_ID": "Circular Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 9,
+    "problem_text": "A small object of mass 0.8 kg is attached to the end of a light, rigid rod of length 1.5 m. The other end of the rod is pivoted at a fixed point, allowing the object to move in a vertical circle. A constant external force of 2.0 N is applied to the object, always acting vertically downwards. At an instant when the rod makes an angle of 60 degrees with the downward vertical, the object's speed is 4.0 m/s. Find the tension in the rod at this instant. (Take g = 9.81 m/s^2).",
+    "numerical_answer": 13.46
+  },
+  {
+    "signature": "Circular Motion_R12_12_v10",
+    "source_problem_ID": "Circular Motion_R12",
+    "Pair_Number": 12,
+    "variation_number": 10,
+    "problem_text": "A charged bead of mass 0.01 kg and charge 1.0 x 10^-5 C is threaded onto a smooth circular hoop of radius 0.1 m, fixed in a vertical plane. A uniform electric field of 1.0 x 10^5 N/C is present, directed vertically downwards. The bead is moving along the hoop, and at the very bottom of its path (when the radius is vertically downwards), its speed is 1.0 m/s. Find the normal force exerted by the hoop on the bead at this instant. (Take g = 9.81 m/s^2).",
+    "numerical_answer": 1.2
+  },
+  {
+    "signature": "Circular Motion_R13_13_v1",
+    "source_problem_ID": "Circular Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 1,
+    "problem_text": "A small ball of mass 0.5 kg is tied to a string of length 1.2 m and swung in a vertical circle. What is the minimum speed the ball must have at the very top of its path so that the string remains taut? If the ball maintains this minimum speed, what is the tension in the string when the ball is at the lowest point of its path?",
+    "numerical_answer": 9.81
+  },
+  {
+    "signature": "Circular Motion_R13_13_v2",
+    "source_problem_ID": "Circular Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 2,
+    "problem_text": "A roller coaster car, with a total mass of 200 kg (including passengers), is designed to navigate a perfect vertical circular loop of radius 10 meters. Determine the minimum speed the car must have at the highest point of the loop to ensure it stays on the track. Assuming it continues with this minimum speed, what is the normal force exerted by the track on the car when it reaches the lowest point of the loop?",
+    "numerical_answer": 3924.0
+  },
+  {
+    "signature": "Circular Motion_R13_13_v3",
+    "source_problem_ID": "Circular Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 3,
+    "problem_text": "An expert stunt rider performs inside a spherical 'Globe of Death' of radius 4 meters. The combined mass of the motorcycle and rider is 250 kg. What minimum speed must the rider achieve at the uppermost point of the vertical circle to avoid falling off the track? If the rider continues to maintain this speed, calculate the normal force exerted by the spherical cage on the motorcycle when it is at the lowest point of its trajectory.",
+    "numerical_answer": 4905.0
+  },
+  {
+    "signature": "Circular Motion_R13_13_v4",
+    "source_problem_ID": "Circular Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 4,
+    "problem_text": "A small bead of mass 0.05 kg is threaded onto a smooth rigid circular wire of radius 0.8 meters, fixed in a vertical plane. What is the minimum speed the bead must have at the top of the loop to maintain contact with the wire throughout its motion? If the bead completes the loop at this minimum speed, what is the magnitude of the normal force exerted by the wire on the bead when it is at the very bottom of the loop?",
+    "numerical_answer": 0.98
+  },
+  {
+    "signature": "Circular Motion_R13_13_v5",
+    "source_problem_ID": "Circular Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 5,
+    "problem_text": "Water (with an effective mass of 1.5 kg for calculation purposes) is flowing through a completely enclosed circular pipe of radius 2.5 meters in a vertical plane. What is the minimum speed of the water at the top of the loop for it to completely fill the pipe (i.e., maintain contact with the top inner surface)? If the water maintains this minimum speed, what is the normal contact force exerted by the pipe on the water at the lowest point of the loop?",
+    "numerical_answer": 29.43
+  },
+  {
+    "signature": "Circular Motion_R13_13_v6",
+    "source_problem_ID": "Circular Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 6,
+    "problem_text": "A 70 kg passenger is riding a roller coaster that goes through a vertical circular loop of radius 15 m. What is the minimum speed the coaster must have at the top of the loop for the passenger to remain in contact with the seat? If the coaster continues with this minimum speed, what is the apparent weight of the passenger at the lowest point of the loop?",
+    "numerical_answer": 4116.0
+  },
+  {
+    "signature": "Circular Motion_R13_13_v7",
+    "source_problem_ID": "Circular Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 7,
+    "problem_text": "A 0.5 kg ball is attached to a string of length 1.2 m and whirled in a vertical circle. What is the minimum speed the ball must have at the top of its path for the string to remain taut? Assuming it completes the circle with this minimum speed at the top, what is the tension in the string when the ball is at the lowest point of its path?",
+    "numerical_answer": 29.4
+  },
+  {
+    "signature": "Circular Motion_R13_13_v8",
+    "source_problem_ID": "Circular Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 8,
+    "problem_text": "A motorcyclist attempts a loop-the-loop stunt on a track with a vertical circular radius of 8 m. The combined mass of the motorcycle and rider is 250 kg. What is the minimum speed the motorcyclist must maintain at the very top of the loop to successfully complete the stunt without falling off? If the motorcyclist completes the loop with this minimum speed at the top, calculate the normal contact force exerted by the track on the motorcycle at the lowest point of the loop.",
+    "numerical_answer": 14700.0
+  },
+  {
+    "signature": "Circular Motion_R13_13_v9",
+    "source_problem_ID": "Circular Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 9,
+    "problem_text": "A 75 kg fighter pilot performs a vertical circular loop maneuver with a radius of 300 m. What is the minimum speed the jet must have at the highest point of the loop for the pilot to avoid momentarily lifting off their seat? If the jet maintains this minimum speed at the top, what is the apparent weight the pilot experiences at the lowest point of the maneuver?",
+    "numerical_answer": 4410.0
+  },
+  {
+    "signature": "Circular Motion_R13_13_v10",
+    "source_problem_ID": "Circular Motion_R13",
+    "Pair_Number": 13,
+    "variation_number": 10,
+    "problem_text": "A small 2.0 kg block is released inside a frictionless vertical circular pipe of radius 0.75 m. What is the minimum speed the block must have at the very top of the loop to ensure it remains in contact with the inner surface of the pipe? If the block successfully completes the loop with this minimum speed, what is the normal force exerted by the pipe on the block when it is at the absolute bottom of the circle?",
+    "numerical_answer": 117.6
+  },
+  {
+    "signature": "Circular Motion_R14_14_v1",
+    "source_problem_ID": "Circular Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 1,
+    "problem_text": "A roller coaster car, including its passengers, has a total mass of 800 kg. It is traveling at a speed of 90 km/hr at the lowest point of a vertical dip in the track. If the radius of curvature of the dip at this point is 20 m, calculate the normal force exerted by the track on the car. (Take g = 9.8 m/s^2)",
+    "numerical_answer": 32840.0
+  },
+  {
+    "signature": "Circular Motion_R14_14_v2",
+    "source_problem_ID": "Circular Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 2,
+    "problem_text": "A car with a mass of 1500 kg is driven over a dip in the road at a constant speed of 72 km/hr. If the lowest point of the dip has a radius of curvature of 100 m, what is the normal force exerted by the road on the car at that point? (Assume g = 9.8 m/s^2)",
+    "numerical_answer": 20700.0
+  },
+  {
+    "signature": "Circular Motion_R14_14_v3",
+    "source_problem_ID": "Circular Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 3,
+    "problem_text": "A 0.5 kg stone is whirled in a vertical circle at the end of a 1.5 m long string. If its speed at the lowest point of the circle is 8 m/s, calculate the tension in the string at that instant. (Use g = 9.8 m/s^2)",
+    "numerical_answer": 26.23
+  },
+  {
+    "signature": "Circular Motion_R14_14_v4",
+    "source_problem_ID": "Circular Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 4,
+    "problem_text": "A train car, with a mass of 50,000 kg, is moving through a valley where the track forms a vertical circular arc. If the train's speed at the lowest point of this arc is 108 km/hr and the radius of curvature of the track is 500 m, determine the total normal force exerted by the track on the train car at that point. (Assume g = 9.8 m/s^2)",
+    "numerical_answer": 580000.0
+  },
+  {
+    "signature": "Circular Motion_R14_14_v5",
+    "source_problem_ID": "Circular Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 5,
+    "problem_text": "An astronaut with a mass of 70 kg is undergoing training in a large centrifuge that simulates high gravitational forces. The centrifuge rotates in a vertical plane, and its arm has a length of 10 m. If the astronaut's speed at the lowest point of the vertical rotation is 35 m/s, calculate the apparent weight (normal force) experienced by the astronaut at that instant. (Take g = 9.8 m/s^2)",
+    "numerical_answer": 9261.0
+  },
+  {
+    "signature": "Circular Motion_R14_14_v6",
+    "source_problem_ID": "Circular Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 6,
+    "problem_text": "A roller coaster car, including passengers, has a total mass of 1500 kg. It passes through the lowest point of a vertical loop at a speed of 100 km/hr. If the radius of curvature of the track at this point is 20 m, calculate the normal force exerted by the track on the car. Take g = 9.8 m/s^2.",
+    "numerical_answer": 72582.63
+  },
+  {
+    "signature": "Circular Motion_R14_14_v7",
+    "source_problem_ID": "Circular Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 7,
+    "problem_text": "A 5 kg bucket containing water is swung in a vertical circle at the end of a 1.2 m long rope. If the speed of the bucket at the lowest point of its path is 8 m/s, what is the tension in the rope at that instant? Take g = 9.8 m/s^2.",
+    "numerical_answer": 315.67
+  },
+  {
+    "signature": "Circular Motion_R14_14_v8",
+    "source_problem_ID": "Circular Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 8,
+    "problem_text": "A cable car with a total mass of 3000 kg is moving through a dip in its path, which can be approximated as a vertical circular arc. At the lowest point of this arc, the cable car's speed is 60 km/hr, and the radius of curvature of the cable is 500 m. Determine the tension in the supporting cable at this point. Take g = 9.8 m/s^2.",
+    "numerical_answer": 31067.33
+  },
+  {
+    "signature": "Circular Motion_R14_14_v9",
+    "source_problem_ID": "Circular Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 9,
+    "problem_text": "A skateboarder and their board have a combined mass of 70 kg. They are moving at a speed of 15 m/s at the very bottom of a U-shaped ramp (half-pipe). If the radius of curvature of the ramp at its lowest point is 3 m, find the normal force exerted by the ramp on the skateboarder. Take g = 9.8 m/s^2.",
+    "numerical_answer": 5936.0
+  },
+  {
+    "signature": "Circular Motion_R14_14_v10",
+    "source_problem_ID": "Circular Motion_R14",
+    "Pair_Number": 14,
+    "variation_number": 10,
+    "problem_text": "A crane is lifting a 5000 kg container. Due to a swing in the crane's boom, the container momentarily moves in a vertical circular arc at the bottom of its swing. If the container's speed at this lowest point is 20 km/hr and the length of the crane cable (radius of swing) is 25 m, what is the tension in the crane cable? Take g = 9.8 m/s^2.",
+    "numerical_answer": 55182.72
+  },
+  {
+    "signature": "Circular Motion_R15_15_v1",
+    "source_problem_ID": "Circular Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 1,
+    "problem_text": "A unique amusement park ride features a central rotating pole with arms extending horizontally. From the end of one such arm, a passenger gondola is suspended by a cable. The arm has a length of 5.0 meters, and the suspension cable is 3.0 meters long. When the ride is operating at a constant angular speed, the cable supporting the gondola makes an angle of 25 degrees with the vertical. Assuming g = 9.8 m/s^2, determine the angular speed of the ride's rotation.",
+    "numerical_answer": 0.85
+  },
+  {
+    "signature": "Circular Motion_R15_15_v2",
+    "source_problem_ID": "Circular Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 2,
+    "problem_text": "Consider a rigid rod of length 50 cm with one end pivoted at a central vertical axis. A small mass is attached to the other end of this rod. From this mass, another identical small mass is suspended by a massless string of length 30 cm. The entire system rotates in a horizontal plane with a constant angular speed. If the string makes an angle of 40 degrees with the vertical, determine the angular speed of the rotation. Use g = 9.81 m/s^2.",
+    "numerical_answer": 3.45
+  },
+  {
+    "signature": "Circular Motion_R15_15_v3",
+    "source_problem_ID": "Circular Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 3,
+    "problem_text": "A simplified model of a mechanical governor consists of a horizontal arm of length 15 cm, connected at one end to a central rotating shaft. From the outer end of this arm, a mass is suspended by a rigid link of length 25 cm. When the shaft rotates at a constant angular speed in a horizontal plane, the suspended link makes an angle of 35 degrees with the vertical. Calculate the angular speed of the rotating shaft. Take g = 10 m/s^2.",
+    "numerical_answer": 4.89
+  },
+  {
+    "signature": "Circular Motion_R15_15_v4",
+    "source_problem_ID": "Circular Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 4,
+    "problem_text": "An astronaut training centrifuge consists of a long horizontal arm of length 8.0 meters, which rotates about a vertical axis. From the end of this arm, a training pod is suspended by a cable of length 2.0 meters. When the centrifuge operates at a constant angular speed, the suspension cable makes an angle of 15 degrees with the vertical. Determine the angular speed of the centrifuge. Use g = 9.8 m/s^2.",
+    "numerical_answer": 0.56
+  },
+  {
+    "signature": "Circular Motion_R15_15_v5",
+    "source_problem_ID": "Circular Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 5,
+    "problem_text": "A child sits on a rotating stool, holding a lightweight rod horizontally. The rod extends 1.0 meter from the central axis of rotation of the stool. From the outer end of this rod, a small toy is suspended by a string of length 40 cm. If the stool and child are spun at a constant angular speed, and the string makes an angle of 60 degrees with the vertical, what is the angular speed of the stool? Take g = 9.81 m/s^2.",
+    "numerical_answer": 3.55
+  },
+  {
+    "signature": "Circular Motion_R15_15_v6",
+    "source_problem_ID": "Circular Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 6,
+    "problem_text": "An amusement park ride features a long horizontal arm of length 3.0 m, which rotates about a central vertical axis. From the end of this arm, a chair is suspended by a chain of length 2.5 m. If the chain holding the chair makes an angle of 45 degrees with the vertical when the ride is in operation, what is the constant angular speed of the ride? Take g = 9.81 m/s^2.",
+    "numerical_answer": 1.43
+  },
+  {
+    "signature": "Circular Motion_R15_15_v7",
+    "source_problem_ID": "Circular Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 7,
+    "problem_text": "In an industrial centrifuge, a test probe is attached by a flexible cable of length 0.3 m to a point on the inner wall of the rotating cylindrical chamber. This attachment point is at a horizontal distance of 0.8 m from the central axis of the centrifuge. If the cable consistently makes an angle of 15 degrees with the vertical during operation, what is the angular speed of the centrifuge? Take g = 9.8 m/s^2.",
+    "numerical_answer": 1.73
+  },
+  {
+    "signature": "Circular Motion_R15_15_v8",
+    "source_problem_ID": "Circular Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 8,
+    "problem_text": "A miniature helicopter's main rotor blade has an effective length of 0.35 m from the central hub to its tip. A small marker flag is attached to the tip of this blade by a light string of length 0.10 m. As the rotor spins horizontally, the string is observed to make a constant angle of 25 degrees with the downward vertical. Determine the angular speed of the rotor in rad/s. Take g = 10 m/s^2.",
+    "numerical_answer": 3.45
+  },
+  {
+    "signature": "Circular Motion_R15_15_v9",
+    "source_problem_ID": "Circular Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 9,
+    "problem_text": "A construction crane has a horizontal jib arm that extends 8.0 m from its pivot. From the end of this jib, a cable of length 5.0 m suspends a wrecking ball. If the crane's jib arm rotates horizontally at a constant angular speed, causing the wrecking ball's cable to make a steady angle of 10 degrees with the vertical, what is the angular speed of the crane's rotation? Take g = 9.81 m/s^2.",
+    "numerical_answer": 0.44
+  },
+  {
+    "signature": "Circular Motion_R15_15_v10",
+    "source_problem_ID": "Circular Motion_R15",
+    "Pair_Number": 15,
+    "variation_number": 10,
+    "problem_text": "For inspection purposes, a small drone is tethered by a cable of length 5.0 m to a point near the tip of a wind turbine blade. This attachment point is at a horizontal distance of 20.0 m from the central axis of the turbine. If the turbine blades are rotating at a constant angular speed and the drone's tether makes an angle of 5 degrees with the vertical, calculate the angular speed of the turbine. Assume negligible air effects on the drone. Take g = 9.8 m/s^2.",
+    "numerical_answer": 0.2
+  },
+  {
+    "signature": "Circular Motion_R16_16_v1",
+    "source_problem_ID": "Circular Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 1,
+    "problem_text": "A small experimental module of mass 200 kg is tethered to a larger space station by a 50 meter long cable. The station and module rotate about a common axis to simulate artificial gravity for the module. If the cable is designed to withstand a maximum tension of 5000 N, what is the maximum frequency (in Hz) at which the system can rotate without the cable breaking?",
+    "numerical_answer": 0.11
+  },
+  {
+    "signature": "Circular Motion_R16_16_v2",
+    "source_problem_ID": "Circular Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 2,
+    "problem_text": "A race car of mass 1200 kg is navigating a flat, circular track with a radius of 80 meters. The maximum static friction force between the tires and the road surface that can provide the necessary centripetal force is 9000 N. Determine the maximum speed (in m/s) the car can achieve without skidding off the track.",
+    "numerical_answer": 24.49
+  },
+  {
+    "signature": "Circular Motion_R16_16_v3",
+    "source_problem_ID": "Circular Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 3,
+    "problem_text": "In a laboratory centrifuge, a biological sample of mass 10 grams (0.01 kg) is placed at a distance of 15 cm (0.15 m) from the axis of rotation. If the cells in the sample can withstand a maximum centripetal force of 200 N before being damaged, what is the maximum frequency (in Hz) at which the centrifuge can operate?",
+    "numerical_answer": 58.11
+  },
+  {
+    "signature": "Circular Motion_R16_16_v4",
+    "source_problem_ID": "Circular Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 4,
+    "problem_text": "A child is swinging a small toy ball of mass 0.2 kg attached to a string of length 0.9 m in a horizontal circle just above the ground. If the string has a breaking strength of 30 N, what is the maximum tangential speed (in m/s) the ball can have before the string breaks?",
+    "numerical_answer": 11.62
+  },
+  {
+    "signature": "Circular Motion_R16_16_v5",
+    "source_problem_ID": "Circular Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 5,
+    "problem_text": "A thrill ride, the 'Rotor', has a cylindrical chamber with a radius of 4 meters. A rider of mass 70 kg stands against the inner wall. When the ride spins, the centripetal force provided by the wall presses the rider against it. If the structural limit of the wall allows for a maximum normal force of 15000 N on a single rider's contact area, calculate the maximum frequency (in Hz) at which the ride can rotate without exceeding this limit for the rider.",
+    "numerical_answer": 1.16
+  },
+  {
+    "signature": "Circular Motion_R16_16_v6",
+    "source_problem_ID": "Circular Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 6,
+    "problem_text": "An astronaut is undergoing training in a human centrifuge designed to simulate high G-forces. The astronaut, with a mass of 70 kg, is seated at a radius of 5 meters from the center of rotation. If the maximum force the restraint system can safely withstand is 3430 N, find the maximum frequency (in Hz) at which the centrifuge can be rotated without exceeding this limit.",
+    "numerical_answer": 0.5
+  },
+  {
+    "signature": "Circular Motion_R16_16_v7",
+    "source_problem_ID": "Circular Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 7,
+    "problem_text": "A specific garment with a mass of 0.5 kg is being spun in a washing machine drum with a radius of 0.25 meters. The drum's inner wall exerts a normal force on the garment to provide the necessary centripetal force. If the fabric can only withstand a maximum centripetal force of 20 N before potential damage, calculate the maximum frequency (in Hz) at which the drum can rotate.",
+    "numerical_answer": 2.01
+  },
+  {
+    "signature": "Circular Motion_R16_16_v8",
+    "source_problem_ID": "Circular Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 8,
+    "problem_text": "A child's toy, having a mass of 0.1 kg, is tied to the outer edge of a large, flat merry-go-round by a light string. The string has a breaking tension of 15 N. The merry-go-round has a radius of 3 meters. Determine the maximum frequency (in Hz) at which the merry-go-round can be rotated horizontally without the string breaking.",
+    "numerical_answer": 1.13
+  },
+  {
+    "signature": "Circular Motion_R16_16_v9",
+    "source_problem_ID": "Circular Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 9,
+    "problem_text": "In a laboratory, a high-speed centrifuge is used to separate components of a liquid sample. A sample tube, including its contents, has a total mass of 0.05 kg and is positioned at a radius of 0.1 meters from the central axis of rotation. If the sample holder is designed to withstand a maximum centripetal force of 50 N, what is the highest frequency (in Hz) at which the centrifuge can operate?",
+    "numerical_answer": 15.92
+  },
+  {
+    "signature": "Circular Motion_R16_16_v10",
+    "source_problem_ID": "Circular Motion_R16",
+    "Pair_Number": 16,
+    "variation_number": 10,
+    "problem_text": "A remote-controlled model airplane, with a mass of 1.5 kg, is flying in a horizontal circle tethered by a strong but light wire. The wire has a length of 8 meters and a maximum breaking strength of 200 N. Calculate the maximum frequency (in Hz) at which the airplane can be flown in a circular path without snapping the wire.",
+    "numerical_answer": 0.65
+  },
+  {
+    "signature": "Circular Motion_R17_17_v1",
+    "source_problem_ID": "Circular Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 1,
+    "problem_text": "A popular amusement park ride, the 'Gravity Wheel', consists of a large hollow vertical cylinder rotating about its axis. Riders press against the inner wall. At a certain rotational speed, the floor retracts, and the riders remain suspended due to friction. If the cylinder has a radius of 5 meters and the coefficient of static friction between the riders' clothing and the wall is 0.3, what is the minimum linear speed of the cylinder's wall required to keep the riders from falling? (Assume g = 10 m/s^2)",
+    "numerical_answer": 12.91
+  },
+  {
+    "signature": "Circular Motion_R17_17_v2",
+    "source_problem_ID": "Circular Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 2,
+    "problem_text": "In a 'Wall of Death' spectacle, a motorcyclist rides horizontally around the inner vertical wall of a cylindrical arena. The motorcycle and rider are held up by friction with the wall. If the arena has a radius of 8 meters and the coefficient of static friction between the tires and the wall is 0.6, calculate the minimum linear speed the motorcyclist must maintain to prevent sliding down. (Assume g = 10 m/s^2)",
+    "numerical_answer": 11.55
+  },
+  {
+    "signature": "Circular Motion_R17_17_v3",
+    "source_problem_ID": "Circular Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 3,
+    "problem_text": "An industrial centrifugal dryer is used to remove liquid from small components. The components are placed against the inner wall of a rotating vertical drum. If the drum has a radius of 0.5 meters and the coefficient of static friction between the components and the drum wall is 0.25, what is the minimum linear speed of the drum's inner surface required to hold the components against the wall without them slipping downwards? (Assume g = 10 m/s^2)",
+    "numerical_answer": 4.47
+  },
+  {
+    "signature": "Circular Motion_R17_17_v4",
+    "source_problem_ID": "Circular Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 4,
+    "problem_text": "In a specialized research chamber, a small particle is held against the inner vertical wall of a rapidly rotating cylindrical container. The container has a radius of 0.15 meters. If the coefficient of static friction between the particle and the wall is 0.18, determine the minimum linear speed of the container's inner wall necessary to prevent the particle from falling. (Assume g = 10 m/s^2)",
+    "numerical_answer": 2.89
+  },
+  {
+    "signature": "Circular Motion_R17_17_v5",
+    "source_problem_ID": "Circular Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 5,
+    "problem_text": "A novel vertical delivery system uses a rotating cylindrical shaft to transport packages. Cylindrical packages are pressed against the inner wall of the shaft and are held at a particular height by friction. If the shaft has a radius of 1.2 meters and the coefficient of static friction between the packages and the shaft lining is 0.4, find the minimum linear speed of the shaft's inner wall required to keep the packages from sliding down. (Assume g = 10 m/s^2)",
+    "numerical_answer": 5.48
+  },
+  {
+    "signature": "Circular Motion_R17_17_v6",
+    "source_problem_ID": "Circular Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 6,
+    "problem_text": "A small block is pressed against the outer surface of a vertical rotating industrial shaft of radius 0.15 m. The coefficient of static friction between the block and the shaft is 0.6. Find the minimum speed of rotation (in m/s) of the shaft required for the block to remain suspended without slipping down.",
+    "numerical_answer": 1.58
+  },
+  {
+    "signature": "Circular Motion_R17_17_v7",
+    "source_problem_ID": "Circular Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 7,
+    "problem_text": "In a 'Wall of Death' carnival ride, a stunt car drives horizontally along the inner vertical wall of a cylindrical track. The track has a radius of 10 m. If the coefficient of static friction between the tires and the wall is 0.8, what is the minimum speed (in m/s) the car must maintain to avoid slipping down the wall?",
+    "numerical_answer": 11.18
+  },
+  {
+    "signature": "Circular Motion_R17_17_v8",
+    "source_problem_ID": "Circular Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 8,
+    "problem_text": "A research centrifuge has a vertical axis and a radius of 0.5 m. Ferromagnetic samples are placed on its inner wall. A specialized magnetic field creates a constant downward force on these samples, equivalent to an artificial gravitational acceleration of 5 m/s². If the coefficient of static friction between the samples and the wall is 0.3, what is the minimum tangential speed (in m/s) at which the centrifuge must rotate to prevent the samples from sliding down?",
+    "numerical_answer": 2.89
+  },
+  {
+    "signature": "Circular Motion_R17_17_v9",
+    "source_problem_ID": "Circular Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 9,
+    "problem_text": "A future amusement park ride for a lunar colony is a 'Rotor' style attraction. A person rests against the inner wall of a hollow vertical cylindrical structure with a radius of 3 m. The acceleration due to gravity on the Moon is 1.62 m/s². If the coefficient of static friction between the person and the wall is 0.5, find the minimum speed (in m/s) at which the structure must rotate for the person to remain suspended when the floor is removed.",
+    "numerical_answer": 3.12
+  },
+  {
+    "signature": "Circular Motion_R17_17_v10",
+    "source_problem_ID": "Circular Motion_R17",
+    "Pair_Number": 17,
+    "variation_number": 10,
+    "problem_text": "An industrial vertical cylindrical mixer drum has a radius of 1.2 m. During operation, ingredients are pressed against the inner wall. For a particularly sticky powder clump, the coefficient of static friction with the drum wall is 0.45. What is the minimum tangential speed (in m/s) required for the drum to rotate, such that the powder clump does not slide down the wall?",
+    "numerical_answer": 5.16
+  },
+  {
+    "signature": "Circular Motion_R18_18_v1",
+    "source_problem_ID": "Circular Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 1,
+    "problem_text": "A small object of mass `m` is suspended by a string of length `L = 1.2` meters from a fixed point. It is set into motion such that it describes a horizontal circle with constant angular speed `omega`. The string makes a constant angle of `theta = 45` degrees with the vertical. Calculate the angular speed `omega` of the object.",
+    "numerical_answer": 3.4
+  },
+  {
+    "signature": "Circular Motion_R18_18_v2",
+    "source_problem_ID": "Circular Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 2,
+    "problem_text": "A smooth circular wire hoop of radius `R = 0.3` meters is rotated about its vertical diameter with a constant angular speed `omega`. A small bead of mass `m` is threaded onto the hoop and is observed to remain at a fixed position on the hoop, such that the radius connecting the center of the hoop to the bead makes an angle of `theta = 60` degrees with the upward vertical. Find the angular speed `omega` of the hoop.",
+    "numerical_answer": 8.08
+  },
+  {
+    "signature": "Circular Motion_R18_18_v3",
+    "source_problem_ID": "Circular Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 3,
+    "problem_text": "A smooth conical funnel of semi-vertical angle `theta = 37` degrees is rotating about its vertical axis of symmetry with a constant angular speed `omega`. A small particle is placed on the inner surface of the funnel and remains at a fixed height. If the particle's slant distance from the vertex of the cone is `L = 0.8` meters, determine the angular speed `omega` of the funnel.",
+    "numerical_answer": 3.92
+  },
+  {
+    "signature": "Circular Motion_R18_18_v4",
+    "source_problem_ID": "Circular Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 4,
+    "problem_text": "A child is on a swing with a chain of length `L = 3.5` meters. The entire playground swing set apparatus rotates about a central vertical axis. The child, chain, and seat are in uniform circular motion, with the chain making a constant angle of `theta = 25` degrees with the vertical. The pivot point for the chain is fixed relative to the rotating frame. Find the angular speed `omega` of the rotation.",
+    "numerical_answer": 1.76
+  },
+  {
+    "signature": "Circular Motion_R18_18_v5",
+    "source_problem_ID": "Circular Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 5,
+    "problem_text": "A small component of mass `m` is being tested in a centrifuging machine. It is held by a rigid, massless arm of length `L = 0.6` meters, which is smoothly pivoted to a rotating vertical shaft. The arm is designed to keep the component at a fixed angle of `theta = 50` degrees relative to the vertical while the entire assembly spins. Determine the angular speed `omega` at which the centrifuging machine is rotating.",
+    "numerical_answer": 5.04
+  },
+  {
+    "signature": "Circular Motion_R18_18_v6",
+    "source_problem_ID": "Circular Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 6,
+    "problem_text": "A small ball of mass 0.2 kg is attached to a string of length 1.2 m and set into motion in a horizontal circle, forming a conical pendulum. If the string makes an angle of 30 degrees with the vertical, what is the angular speed of the ball?",
+    "numerical_answer": 3.07
+  },
+  {
+    "signature": "Circular Motion_R18_18_v7",
+    "source_problem_ID": "Circular Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 7,
+    "problem_text": "A small particle is placed on the smooth inner surface of an inverted cone, which is rotating about its vertical axis of symmetry. The semi-vertical angle of the cone is 45 degrees. If the particle maintains a constant position relative to the cone at a distance of 0.5 m from the apex along the slant surface, what is the angular speed of the cone?",
+    "numerical_answer": 5.27
+  },
+  {
+    "signature": "Circular Motion_R18_18_v8",
+    "source_problem_ID": "Circular Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 8,
+    "problem_text": "A smooth circular wire loop of radius 0.8 m is rotated about its vertical diameter. A small bead threaded on the wire maintains a constant position such that the radius connecting the center of the loop to the bead makes an angle of 60 degrees with the vertical diameter. Determine the angular speed of the rotating wire.",
+    "numerical_answer": 4.95
+  },
+  {
+    "signature": "Circular Motion_R18_18_v9",
+    "source_problem_ID": "Circular Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 9,
+    "problem_text": "In a swing ride at an amusement park, passengers are seated in chairs suspended by chains. Each chain is 5.0 m long. When the ride is operating at its design speed, the chains make an angle of 40 degrees with the vertical. Calculate the angular speed of the ride.",
+    "numerical_answer": 1.6
+  },
+  {
+    "signature": "Circular Motion_R18_18_v10",
+    "source_problem_ID": "Circular Motion_R18",
+    "Pair_Number": 18,
+    "variation_number": 10,
+    "problem_text": "A rigid, massless rod of length 2.0 m is pivoted at one end, allowing it to swing freely. A small mass of 0.5 kg is attached to the other end. The rod is set into rotation about a vertical axis passing through its pivot point. If the rod makes a constant angle of 50 degrees with the vertical, what is the angular speed of rotation?",
+    "numerical_answer": 2.76
+  },
+  {
+    "signature": "Circular Motion_R19_19_v1",
+    "source_problem_ID": "Circular Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 1,
+    "problem_text": "A uniform ring of space debris, with a total mass of 1.5 x 10^7 kg and a radius of 8 x 10^6 m, orbits a planet. If each part of this ring moves with an average tangential speed of 7.0 x 10^3 m/s, calculate the effective internal tension or stress within the ring structure, assuming it behaves as a continuous, cohesive entity.",
+    "numerical_answer": 14622055.9
+  },
+  {
+    "signature": "Circular Motion_R19_19_v2",
+    "source_problem_ID": "Circular Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 2,
+    "problem_text": "A high-strength composite ring, designed as a component for a kinetic energy storage flywheel, has a mass of 25 kg and a radius of 0.6 meters. When the flywheel operates at maximum efficiency, each point on the ring moves with a tangential speed of 120 m/s. Determine the tension developed within the material of the ring under these operating conditions.",
+    "numerical_answer": 95593.7
+  },
+  {
+    "signature": "Circular Motion_R19_19_v3",
+    "source_problem_ID": "Circular Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 3,
+    "problem_text": "A uniform circular chain, used in a specialized industrial machine, has a total mass of 1.8 kg and a radius of 0.4 m. When operating at a high speed, each link of the chain moves with a tangential velocity of 20 m/s. What is the tension in the chain?",
+    "numerical_answer": 286.4
+  },
+  {
+    "signature": "Circular Motion_R19_19_v4",
+    "source_problem_ID": "Circular Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 4,
+    "problem_text": "A futuristic artificial habitat is designed as a colossal ring structure, intended to rotate to simulate gravity. This ring has a total mass of 8.0 x 10^9 kg and a radius of 2.5 x 10^3 m. If the habitat rotates such that every part of its outer edge moves with a speed of 150 m/s, what is the enormous structural tension experienced within the ring material?",
+    "numerical_answer": 11459155903.04
+  },
+  {
+    "signature": "Circular Motion_R19_19_v5",
+    "source_problem_ID": "Circular Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 5,
+    "problem_text": "In a simplified model of a particle accelerator, a beam of protons forms a continuous ring. The total effective mass of all protons in this ring is 2.5 x 10^-10 kg, and the ring has a radius of 100 meters. If each proton in the beam travels at an average speed of 2.0 x 10^7 m/s (not relativistic for simplicity), calculate the effective \"tension\" or internal force that would be exerted if the beam were a continuous, cohesive loop.",
+    "numerical_answer": 159.15
+  },
+  {
+    "signature": "Circular Motion_R19_19_v6",
+    "source_problem_ID": "Circular Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 6,
+    "problem_text": "A decorative chain, with a total mass of 2.5 kg, is formed into a perfect circular loop and spun horizontally on a smooth surface. If the radius of the loop is 1.2 meters and each segment of the chain moves with a tangential speed of 8.0 m/s, calculate the tension present in the chain.",
+    "numerical_answer": 21.22
+  },
+  {
+    "signature": "Circular Motion_R19_19_v7",
+    "source_problem_ID": "Circular Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 7,
+    "problem_text": "During a specialized industrial process, a flexible hose, containing a fluid and having a combined mass of 15 kg, is formed into a circular loop with a radius of 0.8 meters. This loop is then rotated rapidly such that every point on the hose travels at a speed of 25 m/s. Determine the internal tension developed within the hose due to this rotation.",
+    "numerical_answer": 1864.92
+  },
+  {
+    "signature": "Circular Motion_R19_19_v8",
+    "source_problem_ID": "Circular Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 8,
+    "problem_text": "A conceptual rotating cylindrical space station, designed to provide artificial gravity, has a total structural mass of 5.0 x 10^5 kg and a radius of 100 meters. If the station is rotated such that its outer shell moves tangentially at a speed of 15 m/s, what is the internal hoop tension experienced by the station's main ring structure?",
+    "numerical_answer": 179040.84
+  },
+  {
+    "signature": "Circular Motion_R19_19_v9",
+    "source_problem_ID": "Circular Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 9,
+    "problem_text": "Consider a high-performance turbine rotor where a critical ring-shaped component, of mass 80 kg and radius 0.5 meters, spins at an extremely high angular velocity. If the tangential speed of the material at the outer edge of this ring is 300 m/s, what is the tension sustained by the material of this component?",
+    "numerical_answer": 2291831.18
+  },
+  {
+    "signature": "Circular Motion_R19_19_v10",
+    "source_problem_ID": "Circular Motion_R19",
+    "Pair_Number": 19,
+    "variation_number": 10,
+    "problem_text": "An advanced amusement park ride features a large circular section with a radius of 10 meters. The main structural ring of this section has a total mass of 5000 kg. When the ride is in full operation, this circular section spins such that every point on its circumference moves at a speed of 20 m/s. Calculate the tensile force (hoop tension) acting within this structural ring.",
+    "numerical_answer": 31830.99
+  },
+  {
+    "signature": "Circular Motion_R20_20_v1",
+    "source_problem_ID": "Circular Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 1,
+    "problem_text": "A laboratory centrifuge has a horizontal rotor with radial grooves. A small biological sample is placed in a tube which is gently inserted into a groove such that it is initially at rest relative to the rotor at a distance of 5.0 cm from the center of rotation. The centrifuge spins at a constant angular speed of 200 revolutions per minute (RPM). What will be the speed of the sample relative to the rotor when it reaches a distance of 20.0 cm from the center?",
+    "numerical_answer": 4.06
+  },
+  {
+    "signature": "Circular Motion_R20_20_v2",
+    "source_problem_ID": "Circular Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 2,
+    "problem_text": "In a conceptual rotating cylindrical space station designed for artificial gravity, an object is gently released from rest within a frictionless radial corridor. The space station rotates at a constant angular speed of 1.5 revolutions per minute (RPM). If the object is released at an initial radial distance of 100 meters from the central axis, what will be its speed relative to the corridor when it reaches the outer wall at a radial distance of 300 meters?",
+    "numerical_answer": 44.44
+  },
+  {
+    "signature": "Circular Motion_R20_20_v3",
+    "source_problem_ID": "Circular Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 3,
+    "problem_text": "A small, charged bead of mass `m` is confined to move along a long, straight, frictionless insulating rod. A specialized non-uniform electric field is configured such that it exerts a purely radial repulsive force on the bead, directed away from a fixed point on the rod. The magnitude of this force is directly proportional to the bead's distance `x` from that point, such that the ratio `(Force / (mass * x))` is a constant `K_eff^2`. The bead, initially at rest at a distance `a = 0.1 \text{ m}` from the fixed point, is allowed to move. If `K_eff = 2.5 \text{ s}^{-1}`, what is the speed of the bead when it reaches a distance `L = 0.5 \text{ m}` from the fixed point?",
+    "numerical_answer": 1.22
+  },
+  {
+    "signature": "Circular Motion_R20_20_v4",
+    "source_problem_ID": "Circular Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 4,
+    "problem_text": "A small block is attached to a robotic arm that pivots around a fixed point on a smooth horizontal surface. The block can slide along a frictionless radial slot in the arm. The robotic arm is programmed to rotate at a constant angular speed of 5.0 rad/s. If the block is initially placed at rest relative to the arm at a distance of 0.20 meters from the pivot point, what is its speed relative to the arm when it reaches the end of the slot at 1.0 meter from the pivot point?",
+    "numerical_answer": 4.9
+  },
+  {
+    "signature": "Circular Motion_R20_20_v5",
+    "source_problem_ID": "Circular Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 5,
+    "problem_text": "Consider a tiny fluid particle inside a frictionless radial channel of a rapidly rotating centrifugal pump impeller. The impeller rotates at a constant angular speed of 100 rad/s. If a fluid particle is considered to be gently introduced and initially at rest relative to the impeller at an inner radius of 5.0 cm, what will be its speed relative to the impeller when it reaches the outer discharge radius of 25.0 cm?",
+    "numerical_answer": 24.49
+  },
+  {
+    "signature": "Circular Motion_R20_20_v6",
+    "source_problem_ID": "Circular Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 6,
+    "problem_text": "A specialized centrifuge, rotating at a constant angular speed of 50 rad/s, has a radial channel on its inner surface. A small biological sample is gently placed in this channel at a distance of 0.05 meters from the center of rotation. Assuming the channel is frictionless, what is the speed of the sample relative to the centrifuge wall when its distance from the center becomes 0.2 meters?",
+    "numerical_answer": 9.68
+  },
+  {
+    "signature": "Circular Motion_R20_20_v7",
+    "source_problem_ID": "Circular Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 7,
+    "problem_text": "An experimental robotic arm, designed for micro-gravity environments, is rotating on a base at an angular speed of 0.5 rad/s. A small inspection drone is released from rest within a frictionless guide rail along the arm, at an initial distance of 5 meters from the center of rotation. Determine the speed of the drone relative to the arm when it reaches a distance of 15 meters from the center.",
+    "numerical_answer": 7.07
+  },
+  {
+    "signature": "Circular Motion_R20_20_v8",
+    "source_problem_ID": "Circular Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 8,
+    "problem_text": "Consider an amusement park ride where a circular platform rotates horizontally. A passenger sits on a seat that can slide outwards along a radial track, starting from a safety stop. If the platform rotates at 1.2 rad/s and the passenger's seat is released from rest at 1 meter from the center, what is their speed relative to the platform when they reach the end of the track at 4 meters from the center? Assume negligible friction.",
+    "numerical_answer": 4.65
+  },
+  {
+    "signature": "Circular Motion_R20_20_v9",
+    "source_problem_ID": "Circular Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 9,
+    "problem_text": "A quality control test involves a small component sliding along a radial groove on a rapidly rotating disk. The disk maintains an angular velocity of 0.8 rad/s. The component is placed without initial radial velocity at a distance of 0.2 meters from the disk's center. Calculate the speed of the component with respect to the disk when it reaches a distance of 0.6 meters from the center, assuming the groove is perfectly smooth.",
+    "numerical_answer": 0.45
+  },
+  {
+    "signature": "Circular Motion_R20_20_v10",
+    "source_problem_ID": "Circular Motion_R20",
+    "Pair_Number": 20,
+    "variation_number": 10,
+    "problem_text": "In a laboratory setup, a lightweight bead is free to slide along a frictionless rod that is rotating uniformly about one of its ends in a horizontal plane. The rod's angular speed is 2 rad/s. If the bead starts from rest (relative to the rod) at a distance of 0.1 meters from the axis of rotation, what will be its speed relative to the rod when it reaches a position 0.5 meters from the axis?",
+    "numerical_answer": 0.98
+  }
+]

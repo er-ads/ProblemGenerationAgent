@@ -1,0 +1,882 @@
+[
+  {
+    "signature": "Friction_R1_1_v1",
+    "source_problem_ID": "Friction_R1",
+    "Pair_Number": 1,
+    "variation_number": 1,
+    "problem_text": "A large industrial machine with a mass of 2000 kg rests on a factory floor. A horizontal force of 5000 N is applied to it, but the machine remains stationary due to static friction. Calculate the magnitude of the total contact force exerted by the floor on the machine. Take g = 9.8 m/s^2.",
+    "numerical_answer": 20227.7
+  },
+  {
+    "signature": "Friction_R1_1_v2",
+    "source_problem_ID": "Friction_R1",
+    "Pair_Number": 1,
+    "variation_number": 2,
+    "problem_text": "A heavy safe with a mass of 800 kg is being dragged across a concrete floor. If the coefficient of kinetic friction between the safe and the floor is 0.6, what is the angle (in degrees) that the total contact force from the floor makes with the vertical? Take g = 9.8 m/s^2.",
+    "numerical_answer": 30.96
+  },
+  {
+    "signature": "Friction_R1_1_v3",
+    "source_problem_ID": "Friction_R1",
+    "Pair_Number": 1,
+    "variation_number": 3,
+    "problem_text": "A wooden block of mass 2.5 kg slides at a constant velocity across a workbench. The kinetic frictional force acting on the block is 12 N. Determine the magnitude of the resultant contact force exerted by the workbench on the block. Take g = 10 m/s^2.",
+    "numerical_answer": 27.73
+  },
+  {
+    "signature": "Friction_R1_1_v4",
+    "source_problem_ID": "Friction_R1",
+    "Pair_Number": 1,
+    "variation_number": 4,
+    "problem_text": "A snowboarder, along with their equipment, has a total mass of 70 kg. They are standing stationary on a flat section of snow, resisting a constant horizontal wind force of 15 N. Find the angle (in degrees) that the total contact force from the snow makes with the vertical. Take g = 9.8 m/s^2.",
+    "numerical_answer": 1.25
+  },
+  {
+    "signature": "Friction_R1_1_v5",
+    "source_problem_ID": "Friction_R1",
+    "Pair_Number": 1,
+    "variation_number": 5,
+    "problem_text": "An empty industrial container, weighing 500 kg, is being pulled by a forklift across a rough concrete surface. The coefficient of kinetic friction between the container and the surface is 0.45. What is the magnitude of the total contact force exerted by the concrete surface on the container? Take g = 9.8 m/s^2.",
+    "numerical_answer": 5373.28
+  },
+  {
+    "signature": "Friction_R1_1_v6",
+    "source_problem_ID": "Friction_R1",
+    "Pair_Number": 1,
+    "variation_number": 6,
+    "problem_text": "A heavy crate of mass 20 kg is being dragged across a rough warehouse floor. If the total frictional force opposing its motion is 80 N, find the angle made by the contact force on the crate with the vertical. Take g = 10 m/s^2.",
+    "numerical_answer": 21.8
+  },
+  {
+    "signature": "Friction_R1_1_v7",
+    "source_problem_ID": "Friction_R1",
+    "Pair_Number": 1,
+    "variation_number": 7,
+    "problem_text": "A large machine of mass 150 kg is sliding on a concrete surface. If the kinetic frictional force acting on the machine is 450 N, calculate the magnitude of the total contact force exerted by the surface on the machine. Take g = 10 m/s^2.",
+    "numerical_answer": 1566.03
+  },
+  {
+    "signature": "Friction_R1_1_v8",
+    "source_problem_ID": "Friction_R1",
+    "Pair_Number": 1,
+    "variation_number": 8,
+    "problem_text": "A hockey puck with a mass of 170 g slides across a slightly rough patch of ice. If the frictional force experienced by the puck is 0.5 N, what is the angle (in degrees) that the total contact force makes with the vertical? Take g = 10 m/s^2.",
+    "numerical_answer": 16.39
+  },
+  {
+    "signature": "Friction_R1_1_v9",
+    "source_problem_ID": "Friction_R1",
+    "Pair_Number": 1,
+    "variation_number": 9,
+    "problem_text": "During emergency braking, a car of mass 1200 kg skids on a horizontal road. If the total frictional force exerted by the road on the tires is 4000 N, determine the magnitude of the overall contact force from the road on the car. Take g = 10 m/s^2.",
+    "numerical_answer": 12649.11
+  },
+  {
+    "signature": "Friction_R1_1_v10",
+    "source_problem_ID": "Friction_R1",
+    "Pair_Number": 1,
+    "variation_number": 10,
+    "problem_text": "A physics textbook with a mass of 750 g is pushed across a horizontal desk. If the frictional force acting on the book is 1.5 N, find the angle (in degrees) made by the resultant contact force with the vertical. Take g = 10 m/s^2.",
+    "numerical_answer": 11.31
+  },
+  {
+    "signature": "Friction_R2_2_v1",
+    "source_problem_ID": "Friction_R2",
+    "Pair_Number": 2,
+    "variation_number": 1,
+    "problem_text": "A child of mass 30 kg is riding a sled of mass 5 kg across a flat, snow-covered field. If the coefficient of kinetic friction between the sled and the snow is 0.05, determine the magnitude of the kinetic friction force exerted by the snow on the sled.",
+    "numerical_answer": 17.15
+  },
+  {
+    "signature": "Friction_R2_2_v2",
+    "source_problem_ID": "Friction_R2",
+    "Pair_Number": 2,
+    "variation_number": 2,
+    "problem_text": "A car of mass 1200 kg is skidding to a stop on a horizontal dry asphalt road. If the coefficient of kinetic friction between the tires and the road surface is 0.7, calculate the magnitude of the kinetic friction force acting on the car.",
+    "numerical_answer": 8232.0
+  },
+  {
+    "signature": "Friction_R2_2_v3",
+    "source_problem_ID": "Friction_R2",
+    "Pair_Number": 2,
+    "variation_number": 3,
+    "problem_text": "An interior decorator is rearranging a client's room and needs to slide a large wooden wardrobe of mass 80 kg across a horizontal linoleum floor. If the coefficient of kinetic friction between the wardrobe and the floor is 0.35, what is the force of kinetic friction acting on the wardrobe?",
+    "numerical_answer": 274.4
+  },
+  {
+    "signature": "Friction_R2_2_v4",
+    "source_problem_ID": "Friction_R2",
+    "Pair_Number": 2,
+    "variation_number": 4,
+    "problem_text": "A heavy industrial crate, with a mass of 500 kg, is being pushed across a horizontal concrete floor in a factory. The base of the crate is made of steel. If the coefficient of kinetic friction between the steel base and the concrete floor is 0.6, determine the magnitude of the kinetic friction force opposing the motion.",
+    "numerical_answer": 2940.0
+  },
+  {
+    "signature": "Friction_R2_2_v5",
+    "source_problem_ID": "Friction_R2",
+    "Pair_Number": 2,
+    "variation_number": 5,
+    "problem_text": "A physics textbook of mass 2.5 kg is accidentally nudged off a student's desk and slides horizontally for a short distance before falling. Assuming the coefficient of kinetic friction between the textbook's cover and the wooden desk surface is 0.4, what is the magnitude of the kinetic friction force acting on the textbook while it slides?",
+    "numerical_answer": 9.8
+  },
+  {
+    "signature": "Friction_R2_2_v6",
+    "source_problem_ID": "Friction_R2",
+    "Pair_Number": 2,
+    "variation_number": 6,
+    "problem_text": "A warehouse worker pushes a pallet loaded with goods across a concrete floor. If the total mass of the pallet and goods is 150 kg and the coefficient of kinetic friction between the pallet and the floor is 0.30, determine the magnitude of the friction force acting on the pallet.",
+    "numerical_answer": 441.0
+  },
+  {
+    "signature": "Friction_R2_2_v7",
+    "source_problem_ID": "Friction_R2",
+    "Pair_Number": 2,
+    "variation_number": 7,
+    "problem_text": "A child on a sled, with a combined mass of 40 kg, is pulled across a flat snowy field. Assuming the coefficient of kinetic friction between the sled runners and the snow is 0.10, what is the magnitude of the kinetic friction force resisting the sled's motion?",
+    "numerical_answer": 39.2
+  },
+  {
+    "signature": "Friction_R2_2_v8",
+    "source_problem_ID": "Friction_R2",
+    "Pair_Number": 2,
+    "variation_number": 8,
+    "problem_text": "During an emergency stop, a car skids on a dry horizontal asphalt road. If the car's mass is 1200 kg and the coefficient of kinetic friction between the tires and the road is 0.70, calculate the magnitude of the friction force acting on the car while it is skidding.",
+    "numerical_answer": 8232.0
+  },
+  {
+    "signature": "Friction_R2_2_v9",
+    "source_problem_ID": "Friction_R2",
+    "Pair_Number": 2,
+    "variation_number": 9,
+    "problem_text": "A person is attempting to slide a heavy wooden bookshelf, with a mass of 80 kg, across a carpeted floor. If the coefficient of kinetic friction between the bookshelf and the carpet is 0.40, what is the force of kinetic friction that must be overcome to keep the bookshelf moving?",
+    "numerical_answer": 313.6
+  },
+  {
+    "signature": "Friction_R2_2_v10",
+    "source_problem_ID": "Friction_R2",
+    "Pair_Number": 2,
+    "variation_number": 10,
+    "problem_text": "In a physics experiment, a 5 kg block of plastic is dragged uniformly across a horizontal wooden surface. If the coefficient of kinetic friction between the plastic block and the wooden surface is 0.20, calculate the magnitude of the kinetic friction force exerted on the block.",
+    "numerical_answer": 9.8
+  },
+  {
+    "signature": "Friction_R3_3_v1",
+    "source_problem_ID": "Friction_R3",
+    "Pair_Number": 3,
+    "variation_number": 1,
+    "problem_text": "A 50 kg wooden crate rests on the flatbed of a truck. The truck starts from rest and accelerates uniformly at 1.5 m/s^2. (a) If the crate does not slide, what is the magnitude of the static friction force exerted by the truck bed on the crate? (b) If the crate slides backward relative to the truck during this acceleration, what can be concluded about the coefficient of static friction between the crate and the truck bed? (Take g = 10 m/s^2)",
+    "numerical_answer": 75.0
+  },
+  {
+    "signature": "Friction_R3_3_v2",
+    "source_problem_ID": "Friction_R3",
+    "Pair_Number": 3,
+    "variation_number": 2,
+    "problem_text": "During takeoff, a commercial airplane accelerates horizontally at 2.5 m/s^2. A 20 kg suitcase is placed on the floor of the cabin. (a) Assuming the suitcase does not slide, what is the static friction force exerted by the airplane floor on the suitcase? (b) If the suitcase does slide backward relative to the airplane, what upper limit can be placed on the coefficient of static friction between the suitcase and the floor? (Take g = 10 m/s^2)",
+    "numerical_answer": 50.0
+  },
+  {
+    "signature": "Friction_R3_3_v3",
+    "source_problem_ID": "Friction_R3",
+    "Pair_Number": 3,
+    "variation_number": 3,
+    "problem_text": "A 5 kg wooden block is placed on top of a laboratory cart. The cart is then accelerated along a horizontal track at 3.0 m/s^2. (a) Determine the magnitude of the static friction force acting on the block if it remains stationary relative to the cart. (b) If the block begins to slide backward on the cart during this acceleration, what can be stated about the maximum possible value of the coefficient of static friction between the block and the cart? (Use g = 10 m/s^2)",
+    "numerical_answer": 15.0
+  },
+  {
+    "signature": "Friction_R3_3_v4",
+    "source_problem_ID": "Friction_R3",
+    "Pair_Number": 3,
+    "variation_number": 4,
+    "problem_text": "A 0.8 kg wrench is left on a horizontal work platform that can move. The platform undergoes an acceleration of 4.0 m/s^2. (a) What is the force of static friction exerted on the wrench by the platform if the wrench does not slip? (b) If the wrench slides off the platform during the acceleration, what conclusion can be drawn regarding the coefficient of static friction between the wrench and the platform? (Assume g = 10 m/s^2)",
+    "numerical_answer": 3.2
+  },
+  {
+    "signature": "Friction_R3_3_v5",
+    "source_problem_ID": "Friction_R3",
+    "Pair_Number": 3,
+    "variation_number": 5,
+    "problem_text": "A 12 kg package is placed on an accelerating section of a horizontal conveyor belt. The conveyor belt accelerates at 0.8 m/s^2. (a) Calculate the static friction force acting on the package if it moves along with the belt without slipping. (b) If the package does slip backward relative to the belt, what inequality describes the coefficient of static friction between the package and the belt surface? (Take g = 10 m/s^2)",
+    "numerical_answer": 9.6
+  },
+  {
+    "signature": "Friction_R3_3_v6",
+    "source_problem_ID": "Friction_R3",
+    "Pair_Number": 3,
+    "variation_number": 6,
+    "problem_text": "A 100 kg crate is placed on the flatbed of a truck. The truck starts from rest and accelerates uniformly at 3.0 m/s^2. What is the minimum coefficient of static friction required between the crate and the truck bed to prevent the crate from sliding? Take g = 10 m/s^2.",
+    "numerical_answer": 0.3
+  },
+  {
+    "signature": "Friction_R3_3_v7",
+    "source_problem_ID": "Friction_R3",
+    "Pair_Number": 3,
+    "variation_number": 7,
+    "problem_text": "A 2.5 kg block is resting on a horizontal conveyor belt. The belt starts accelerating from rest and reaches a speed of 1.5 m/s in 0.5 seconds. Assuming the block does not slip relative to the belt, what is the force of static friction exerted by the belt on the block? Take g = 10 m/s^2.",
+    "numerical_answer": 7.5
+  },
+  {
+    "signature": "Friction_R3_3_v8",
+    "source_problem_ID": "Friction_R3",
+    "Pair_Number": 3,
+    "variation_number": 8,
+    "problem_text": "A 60 kg passenger is standing in a train car. The coefficient of static friction between the passenger's shoes and the train floor is 0.25. What is the maximum acceleration the train can have before the passenger starts to slip backwards? Take g = 10 m/s^2.",
+    "numerical_answer": 2.5
+  },
+  {
+    "signature": "Friction_R3_3_v9",
+    "source_problem_ID": "Friction_R3",
+    "Pair_Number": 3,
+    "variation_number": 9,
+    "problem_text": "A 2.0 kg laptop is placed on a horizontal desk. The maximum coefficient of static friction between the laptop and the desk surface is 0.40. What is the maximum force of static friction that the desk can exert on the laptop before it begins to slide? Take g = 10 m/s^2.",
+    "numerical_answer": 8.0
+  },
+  {
+    "signature": "Friction_R3_3_v10",
+    "source_problem_ID": "Friction_R3",
+    "Pair_Number": 3,
+    "variation_number": 10,
+    "problem_text": "A 0.5 kg tool is resting on a workbench which is mounted on a wheeled cart. The cart accelerates horizontally at a constant rate of 4.0 m/s^2. If the tool does not slide, what is the magnitude of the force of static friction exerted by the workbench on the tool? Take g = 10 m/s^2.",
+    "numerical_answer": 2.0
+  },
+  {
+    "signature": "Friction_R4_4_v1",
+    "source_problem_ID": "Friction_R4",
+    "Pair_Number": 4,
+    "variation_number": 1,
+    "problem_text": "An engineering team is testing the sliding behavior of a heavy machinery component on a dry concrete ramp. They observe that the component begins to slip down the ramp when the ramp's inclination reaches 25 degrees with the horizontal. After it starts moving, they find that it can continue to slide down at a constant speed if the ramp's angle is reduced to 20 degrees. Determine the difference between the coefficient of static friction and the coefficient of kinetic friction between the component and the concrete surface.",
+    "numerical_answer": 0.1
+  },
+  {
+    "signature": "Friction_R4_4_v2",
+    "source_problem_ID": "Friction_R4",
+    "Pair_Number": 4,
+    "variation_number": 2,
+    "problem_text": "A skier is standing at rest on a gentle snow-covered slope. She begins to slide when the slope's angle of inclination reaches 12 degrees with the horizontal. Once in motion, she can maintain a constant velocity if the slope's angle is reduced to 8 degrees. Calculate the absolute difference between the coefficient of static friction and the coefficient of kinetic friction between her skis and the snow.",
+    "numerical_answer": 0.07
+  },
+  {
+    "signature": "Friction_R4_4_v3",
+    "source_problem_ID": "Friction_R4",
+    "Pair_Number": 4,
+    "variation_number": 3,
+    "problem_text": "In an automated warehouse, a package is placed on an inclined metal chute. It is found that the package starts to slide down the chute when the inclination angle is 35 degrees with respect to the horizontal. If the angle is subsequently lowered to 30 degrees, the package continues to slide down at a uniform speed. What is the difference between the coefficient of static friction and the coefficient of kinetic friction for the package on the chute?",
+    "numerical_answer": 0.12
+  },
+  {
+    "signature": "Friction_R4_4_v4",
+    "source_problem_ID": "Friction_R4",
+    "Pair_Number": 4,
+    "variation_number": 4,
+    "problem_text": "A car is parked on a tilting tow ramp. Mechanics observe that the car just begins to slide down the ramp when its inclination is increased to 22 degrees. If the ramp's angle is then adjusted to 17 degrees, the car slides down at a steady speed. Find the difference between the static and kinetic coefficients of friction between the car tires and the ramp surface.",
+    "numerical_answer": 0.1
+  },
+  {
+    "signature": "Friction_R4_4_v5",
+    "source_problem_ID": "Friction_R4",
+    "Pair_Number": 4,
+    "variation_number": 5,
+    "problem_text": "Geologists are studying the stability of a rock slab on a weathered fault line. They determine that the slab will begin to move when the fault line's angle with the horizontal reaches 40 degrees. Once it is in motion, the slab continues to slide uniformly if the effective angle of the fault line is 33 degrees. Calculate the difference between the coefficient of static friction and the coefficient of kinetic friction relevant to the rock slab's movement.",
+    "numerical_answer": 0.19
+  },
+  {
+    "signature": "Friction_R4_4_v6",
+    "source_problem_ID": "Friction_R4",
+    "Pair_Number": 4,
+    "variation_number": 6,
+    "problem_text": "A heavy industrial crate is placed on an adjustable steel ramp. When the ramp's inclination reaches 22 degrees, the crate just begins to slide. After it starts moving, it's found that the ramp's inclination can be reduced to 19 degrees for the crate to continue sliding down at a constant velocity. What is the coefficient of kinetic friction between the crate and the steel ramp?",
+    "numerical_answer": 0.34
+  },
+  {
+    "signature": "Friction_R4_4_v7",
+    "source_problem_ID": "Friction_R4",
+    "Pair_Number": 4,
+    "variation_number": 7,
+    "problem_text": "A researcher is testing a new composite material for its static friction properties against a rough concrete surface. She places a block of the material on a concrete plank and gradually tilts the plank. If the coefficient of static friction between the block and the concrete is determined to be 0.65, at what angle of inclination (in degrees) will the block just begin to slide?",
+    "numerical_answer": 33.02
+  },
+  {
+    "signature": "Friction_R4_4_v8",
+    "source_problem_ID": "Friction_R4",
+    "Pair_Number": 4,
+    "variation_number": 8,
+    "problem_text": "During a winter sports competition, a bobsled is found to slide down a specially prepared icy track with uniform velocity when the track's incline is 8.5 degrees. Assuming the track's surface provides a constant kinetic friction, calculate the coefficient of kinetic friction between the bobsled and the ice.",
+    "numerical_answer": 0.15
+  },
+  {
+    "signature": "Friction_R4_4_v9",
+    "source_problem_ID": "Friction_R4",
+    "Pair_Number": 4,
+    "variation_number": 9,
+    "problem_text": "An engineer is designing a conveyor system where packages slide down an incline. For a particular package and belt material, the coefficient of static friction is measured to be 0.70, and the coefficient of kinetic friction is 0.55. If the conveyor is designed so that packages just start to slide, what is the required angle of inclination (in degrees) for the conveyor belt?",
+    "numerical_answer": 34.99
+  },
+  {
+    "signature": "Friction_R4_4_v10",
+    "source_problem_ID": "Friction_R4",
+    "Pair_Number": 4,
+    "variation_number": 10,
+    "problem_text": "A mountaineer is assessing the stability of a rock slope. She observes that a loose boulder on the slope just begins to move when the slope's angle is 30 degrees with the horizontal. If the coefficient of kinetic friction between the boulder and the slope is estimated to be 0.40, what is the coefficient of static friction between the boulder and the slope?",
+    "numerical_answer": 0.58
+  },
+  {
+    "signature": "Friction_R5_5_v1",
+    "source_problem_ID": "Friction_R5",
+    "Pair_Number": 5,
+    "variation_number": 1,
+    "problem_text": "A standard shipping container needs to be securely positioned on a cargo ramp. The coefficient of static friction between the container and the ramp surface is 0.45. What is the maximum angle, in degrees, that the ramp can make with the horizontal before the container begins to slip?",
+    "numerical_answer": 24.23
+  },
+  {
+    "signature": "Friction_R5_5_v2",
+    "source_problem_ID": "Friction_R5",
+    "Pair_Number": 5,
+    "variation_number": 2,
+    "problem_text": "A car of mass 1200 kg is parked on a hill that makes an angle of 20 degrees with the horizontal. The coefficient of static friction between the tires and the road is 0.6. Calculate the magnitude of the static frictional force acting on the car.",
+    "numerical_answer": 4791.95
+  },
+  {
+    "signature": "Friction_R5_5_v3",
+    "source_problem_ID": "Friction_R5",
+    "Pair_Number": 5,
+    "variation_number": 3,
+    "problem_text": "An art exhibition features a 75 kg marble sculpture placed on an inclined pedestal. The coefficient of static friction between the base of the sculpture and the pedestal is 0.55. If the pedestal is tilted at an angle of 25 degrees to the horizontal, what is the magnitude of the frictional force preventing the sculpture from sliding?",
+    "numerical_answer": 310.97
+  },
+  {
+    "signature": "Friction_R5_5_v4",
+    "source_problem_ID": "Friction_R5",
+    "Pair_Number": 5,
+    "variation_number": 4,
+    "problem_text": "In a materials testing lab, a sample of composite material is placed on an adjustable inclined plane. Researchers observe that the sample just begins to slide down the plane when the angle of inclination reaches 35 degrees. Determine the coefficient of static friction between the composite material and the plane.",
+    "numerical_answer": 0.7
+  },
+  {
+    "signature": "Friction_R5_5_v5",
+    "source_problem_ID": "Friction_R5",
+    "Pair_Number": 5,
+    "variation_number": 5,
+    "problem_text": "A delicate piece of laboratory equipment, with a mass of 35 kg, is situated on an experimental table designed to tilt. The coefficient of static friction between the equipment's base and the table surface is 0.28. If the table is set to an inclination of 10 degrees with respect to the horizontal, calculate the static frictional force exerted on the equipment.",
+    "numerical_answer": 59.54
+  },
+  {
+    "signature": "Friction_R5_5_v6",
+    "source_problem_ID": "Friction_R5",
+    "Pair_Number": 5,
+    "variation_number": 6,
+    "problem_text": "A 50 kg crate rests on a wooden loading ramp. The coefficient of static friction between the crate and the ramp is 0.45. (a) What is the maximum possible angle of inclination, in degrees, for the ramp with the horizontal so that the crate does not slip down? (b) If the ramp is set at an angle equal to half of this maximum angle, calculate the static frictional force acting on the crate.",
+    "numerical_answer": 102.77
+  },
+  {
+    "signature": "Friction_R5_5_v7",
+    "source_problem_ID": "Friction_R5",
+    "Pair_Number": 5,
+    "variation_number": 7,
+    "problem_text": "An SUV with a mass of 1200 kg is parked on a sloped section of a parking lot. The coefficient of static friction between its tires and the dry asphalt surface is 0.6. (a) Determine the steepest angle, in degrees, that the parking lot can make with the horizontal before the SUV starts to slide. (b) If the parking lot's actual incline is one-third of this maximum angle, find the static frictional force exerted by the asphalt on the SUV.",
+    "numerical_answer": 2108.98
+  },
+  {
+    "signature": "Friction_R5_5_v8",
+    "source_problem_ID": "Friction_R5",
+    "Pair_Number": 5,
+    "variation_number": 8,
+    "problem_text": "A large boulder of mass 800 kg is precariously balanced on a rough rock face. The coefficient of static friction between the boulder and the rock face is estimated to be 0.8. (a) What is the greatest angle of inclination, in degrees, of the rock face with the horizontal that would prevent the boulder from sliding? (b) If the rock face's inclination is exactly half of this critical angle, calculate the frictional force acting on the boulder.",
+    "numerical_answer": 2594.39
+  },
+  {
+    "signature": "Friction_R5_5_v9",
+    "source_problem_ID": "Friction_R5",
+    "Pair_Number": 5,
+    "variation_number": 9,
+    "problem_text": "A 75 kg sled (including rider) is stationary on a snow-covered hill. The coefficient of static friction between the sled runners and the packed snow is 0.15. (a) Calculate the maximum possible angle, in degrees, that the hill can have with the horizontal for the sled to remain at rest. (b) If the hill's actual slope is 75% of this maximum angle, determine the static frictional force acting on the sled.",
+    "numerical_answer": 81.93
+  },
+  {
+    "signature": "Friction_R5_5_v10",
+    "source_problem_ID": "Friction_R5",
+    "Pair_Number": 5,
+    "variation_number": 10,
+    "problem_text": "A 90 kg wardrobe is being pushed up a moving ramp to a truck. The ramp is temporarily stopped, and the coefficient of static friction between the wardrobe and the wooden ramp is 0.55. (a) Find the largest angle, in degrees, at which the ramp can be inclined with the horizontal without the wardrobe slipping downwards. (b) If the ramp is currently inclined at 60% of this maximum angle, what is the magnitude of the static frictional force acting on the wardrobe?",
+    "numerical_answer": 261.8
+  },
+  {
+    "signature": "Friction_R6_6_v1",
+    "source_problem_ID": "Friction_R6",
+    "Pair_Number": 6,
+    "variation_number": 1,
+    "problem_text": "A student applies a horizontal force of 12 N to a 2.5 kg physics textbook resting on a wooden desk. If the textbook does not slide, what is the magnitude of the static frictional force exerted by the desk on the textbook? What is the minimum possible coefficient of static friction between the textbook and the desk? Take g = 10 m/s^2.",
+    "numerical_answer": 0.48
+  },
+  {
+    "signature": "Friction_R6_6_v2",
+    "source_problem_ID": "Friction_R6",
+    "Pair_Number": 6,
+    "variation_number": 2,
+    "problem_text": "A worker attempts to push a 75 kg wooden crate across a concrete floor by applying a horizontal force of 250 N. If the crate remains stationary, calculate the static frictional force acting on the crate. What is the lowest possible value for the coefficient of static friction between the crate and the floor? Assume g = 10 m/s^2.",
+    "numerical_answer": 0.33
+  },
+  {
+    "signature": "Friction_R6_6_v3",
+    "source_problem_ID": "Friction_R6",
+    "Pair_Number": 6,
+    "variation_number": 3,
+    "problem_text": "A refrigerator with a mass of 90 kg is being pushed horizontally with a force of 360 N across a kitchen floor. If the refrigerator does not move, determine the magnitude of the static frictional force opposing its motion. What is the minimum coefficient of static friction required for the refrigerator to remain at rest under this applied force? Use g = 9.8 m/s^2.",
+    "numerical_answer": 0.41
+  },
+  {
+    "signature": "Friction_R6_6_v4",
+    "source_problem_ID": "Friction_R6",
+    "Pair_Number": 6,
+    "variation_number": 4,
+    "problem_text": "A large rock, weighing 150 kg, sits on a horizontal sandy path. A person tries to move it by applying a horizontal force of 480 N, but the rock remains undisturbed. Calculate the static frictional force exerted by the sand on the rock. What is the least possible value for the coefficient of static friction between the rock and the sand? Take g = 10 m/s^2.",
+    "numerical_answer": 0.32
+  },
+  {
+    "signature": "Friction_R6_6_v5",
+    "source_problem_ID": "Friction_R6",
+    "Pair_Number": 6,
+    "variation_number": 5,
+    "problem_text": "An engineer applies a horizontal force of 18 N to a 25 kg industrial component placed on a level workshop bench. The component does not budge. What is the static frictional force acting on the component? Determine the minimum coefficient of static friction between the component and the bench. Assume g = 10 m/s^2.",
+    "numerical_answer": 0.07
+  },
+  {
+    "signature": "Friction_R6_6_v6",
+    "source_problem_ID": "Friction_R6",
+    "Pair_Number": 6,
+    "variation_number": 6,
+    "problem_text": "A large wooden crate of mass 100 kg is being pushed horizontally across a warehouse floor with a force of 300 N. The crate remains stationary. Calculate the magnitude of the static frictional force exerted by the floor on the crate. What is the minimum possible value for the coefficient of static friction between the crate and the floor? (Take g = 10 m/s^2).",
+    "numerical_answer": 0.3
+  },
+  {
+    "signature": "Friction_R6_6_v7",
+    "source_problem_ID": "Friction_R6",
+    "Pair_Number": 6,
+    "variation_number": 7,
+    "problem_text": "A stalled car of mass 1200 kg is being pushed horizontally along a flat road with a combined force of 2400 N by several people. The car does not budge. Determine the magnitude of the static frictional force opposing the push. What is the lowest possible value for the coefficient of static friction between the car tires and the road surface? (Assume g = 10 m/s^2).",
+    "numerical_answer": 0.2
+  },
+  {
+    "signature": "Friction_R6_6_v8",
+    "source_problem_ID": "Friction_R6",
+    "Pair_Number": 6,
+    "variation_number": 8,
+    "problem_text": "An 80 kg refrigerator is placed on a kitchen floor. A person attempts to slide it by applying a horizontal force of 360 N, but the refrigerator remains immobile. Calculate the static frictional force exerted by the floor on the refrigerator. What is the minimum possible coefficient of static friction between the refrigerator and the floor? (Take g = 10 m/s^2).",
+    "numerical_answer": 0.45
+  },
+  {
+    "signature": "Friction_R6_6_v9",
+    "source_problem_ID": "Friction_R6",
+    "Pair_Number": 6,
+    "variation_number": 9,
+    "problem_text": "A critical machine component weighing 250 kg rests on a factory floor. Workers apply a horizontal pulling force of 1500 N to try and shift it, but the component does not move. What is the magnitude of the static frictional force acting on the component? What is the lowest possible coefficient of static friction between the component and the floor? (Assume g = 10 m/s^2).",
+    "numerical_answer": 0.6
+  },
+  {
+    "signature": "Friction_R6_6_v10",
+    "source_problem_ID": "Friction_R6",
+    "Pair_Number": 6,
+    "variation_number": 10,
+    "problem_text": "A standard shipping container of mass 2000 kg is resting on a concrete dock. A tug vehicle attempts to move it by applying a horizontal force of 6000 N, but the container does not slide. Determine the static frictional force acting on the container. What is the minimum coefficient of static friction required between the container and the concrete surface for it to remain stationary? (Use g = 10 m/s^2).",
+    "numerical_answer": 0.3
+  },
+  {
+    "signature": "Friction_R7_7_v1",
+    "source_problem_ID": "Friction_R7",
+    "Pair_Number": 7,
+    "variation_number": 1,
+    "problem_text": "A heavy industrial crate of mass 50 kg is resting on a concrete floor. It is observed that a horizontal force less than 200 N is insufficient to make the crate budge. Once a horizontal force of 200 N is applied and the crate is given a gentle push to start its motion, it slides a distance of 15 meters in 6 seconds. Assume g = 10 m/s^2. Determine the coefficients of static and kinetic friction between the crate and the floor.",
+    "numerical_answer": 0.32
+  },
+  {
+    "signature": "Friction_R7_7_v2",
+    "source_problem_ID": "Friction_R7",
+    "Pair_Number": 7,
+    "variation_number": 2,
+    "problem_text": "A sled with a child, totaling a mass of 15 kg, is on a flat, snowy surface. A horizontal force just under 18 N is applied, and the sled does not move. However, when a constant horizontal force of 18 N is applied, and the sled is given a slight initial push, it covers a distance of 20 meters in 8 seconds. Taking g = 9.8 m/s^2, calculate the coefficients of static and kinetic friction between the sled and the snow.",
+    "numerical_answer": 0.06
+  },
+  {
+    "signature": "Friction_R7_7_v3",
+    "source_problem_ID": "Friction_R7",
+    "Pair_Number": 7,
+    "variation_number": 3,
+    "problem_text": "An old, massive machine with a mass of 500 kg needs to be moved across a factory floor. Workers find that applying a horizontal force just shy of 3000 N is not enough to overcome its inertia. With a continuous horizontal push of 3000 N and a small initial nudge, the machine accelerates and travels 25 meters in 10 seconds. Assuming g = 10 m/s^2, what are the coefficients of static and kinetic friction between the machine and the floor?",
+    "numerical_answer": 0.55
+  },
+  {
+    "signature": "Friction_R7_7_v4",
+    "source_problem_ID": "Friction_R7",
+    "Pair_Number": 7,
+    "variation_number": 4,
+    "problem_text": "A wooden box of mass 30 kg sits on a wooden floor. When a horizontal force less than 100 N is exerted on the box, it remains stationary. If a steady horizontal force of 100 N is applied and the box is given a gentle push, it travels 8 meters in 4 seconds. Given g = 10 m/s^2, find the coefficients of static and kinetic friction between the box and the floor.",
+    "numerical_answer": 0.23
+  },
+  {
+    "signature": "Friction_R7_7_v5",
+    "source_problem_ID": "Friction_R7",
+    "Pair_Number": 7,
+    "variation_number": 5,
+    "problem_text": "A large storage container, weighing 1200 kg, is to be pulled by a forklift across a warehouse floor. It is observed that the container begins to slide only if the horizontal pulling force exceeds 7200 N. If a constant horizontal force of 7200 N is applied and the container is given an initial gentle nudge, it moves 30 meters in 12 seconds. Using g = 10 m/s^2, calculate the coefficients of static and kinetic friction between the container and the floor.",
+    "numerical_answer": 0.56
+  },
+  {
+    "signature": "Friction_R7_7_v6",
+    "source_problem_ID": "Friction_R7",
+    "Pair_Number": 7,
+    "variation_number": 6,
+    "problem_text": "An industrial crate of mass 50 kg is placed on a rough factory floor. Workers observe that a horizontal force less than 200 N is insufficient to move the crate. Once the force reaches 200 N and the crate is given a gentle push, it begins to slide and covers a distance of 20 m in 4 seconds. Assuming g = 10 m/s^2, determine the coefficients of static and kinetic friction between the crate and the floor. (Provide the coefficient of kinetic friction as the numerical answer)",
+    "numerical_answer": 0.15
+  },
+  {
+    "signature": "Friction_R7_7_v7",
+    "source_problem_ID": "Friction_R7",
+    "Pair_Number": 7,
+    "variation_number": 7,
+    "problem_text": "A heavy machine weighing 100 kg rests on a horizontal concrete slab. It is found that a minimum horizontal force of 400 N is required to initiate its motion. If the machine is then subjected to a sustained horizontal force of 400 N and starts from rest, it travels 15 m in 3 seconds. Using g = 10 m/s^2, calculate the coefficients of static and kinetic friction. (Provide the coefficient of kinetic friction as the numerical answer)",
+    "numerical_answer": 0.07
+  },
+  {
+    "signature": "Friction_R7_7_v8",
+    "source_problem_ID": "Friction_R7",
+    "Pair_Number": 7,
+    "variation_number": 8,
+    "problem_text": "A large wooden cabinet with a mass of 75 kg is being moved across a room. A horizontal force of 250 N is the maximum force that can be applied without the cabinet starting to slide. When a horizontal force of 520.5 N is applied and the cabinet is gently started, it moves 8 m in 2 seconds. Taking g = 9.8 m/s^2, find the coefficients of static and kinetic friction between the cabinet and the floor. (Provide the coefficient of kinetic friction as the numerical answer)",
+    "numerical_answer": 0.3
+  },
+  {
+    "signature": "Friction_R7_7_v9",
+    "source_problem_ID": "Friction_R7",
+    "Pair_Number": 7,
+    "variation_number": 9,
+    "problem_text": "In a physics experiment, a 1.2 kg block of an unknown material is placed on a horizontal test bench. It is observed that the block remains stationary if a horizontal force below 8.5 N is applied. However, if a horizontal force of 8.5 N is continuously applied and the block is given an initial nudge, it covers 5 meters in 2.5 seconds. Given g = 9.8 m/s^2, calculate the coefficients of static and kinetic friction for the surfaces in contact. (Provide the coefficient of kinetic friction as the numerical answer)",
+    "numerical_answer": 0.56
+  },
+  {
+    "signature": "Friction_R7_7_v10",
+    "source_problem_ID": "Friction_R7",
+    "Pair_Number": 7,
+    "variation_number": 10,
+    "problem_text": "A concrete slab of 200 kg is to be moved on a horizontal construction site. Engineers determine that a horizontal pushing force less than 600 N is insufficient to dislodge the slab. If a horizontal force of 600 N is applied and the slab is pushed to start, it covers a distance of 30 m in 6 seconds. Assuming g = 10 m/s^2, calculate the coefficients of static and kinetic friction between the slab and the ground. (Provide the coefficient of kinetic friction as the numerical answer)",
+    "numerical_answer": 0.13
+  },
+  {
+    "signature": "Friction_R8_8_v1",
+    "source_problem_ID": "Friction_R8",
+    "Pair_Number": 8,
+    "variation_number": 1,
+    "problem_text": "An industrial crate, with a mass of 200 kg, rests on a horizontal factory floor. The coefficient of static friction between the crate and the floor is 0.6. A worker attempts to push the crate by applying a force 'F' at an angle of 70 degrees with respect to the vertical (such that the force has a downward vertical component). Calculate the minimum force 'F' required to just start moving the crate horizontally.",
+    "numerical_answer": 1601.1
+  },
+  {
+    "signature": "Friction_R8_8_v2",
+    "source_problem_ID": "Friction_R8",
+    "Pair_Number": 8,
+    "variation_number": 2,
+    "problem_text": "A heavy refrigerator, with a mass of 120 kg, needs to be moved across a kitchen floor. The coefficient of static friction between the refrigerator and the floor is 0.55. A person pushes the refrigerator with a force 'F' directed at an angle of 65 degrees with the vertical (acting downwards into the refrigerator). Determine the magnitude of the force 'F' needed to overcome static friction and initiate motion.",
+    "numerical_answer": 959.85
+  },
+  {
+    "signature": "Friction_R8_8_v3",
+    "source_problem_ID": "Friction_R8",
+    "Pair_Number": 8,
+    "variation_number": 3,
+    "problem_text": "A massive machine base, weighing 5000 kg, is to be shifted on a concrete slab. The static friction coefficient between the base and the slab is 0.8. A hydraulic ram applies a force 'F' to the machine base at an angle of 80 degrees with the vertical, pushing downwards. What is the minimum force 'F' the hydraulic ram must exert to just get the machine base to slide?",
+    "numerical_answer": 46337.81
+  },
+  {
+    "signature": "Friction_R8_8_v4",
+    "source_problem_ID": "Friction_R8",
+    "Pair_Number": 8,
+    "variation_number": 4,
+    "problem_text": "A large warehouse sliding door, with a mass of 300 kg, is stuck on its track. The coefficient of static friction for the door on the track is 0.7. A maintenance worker pushes the door with a force 'F' making an angle of 50 degrees with the vertical (pushing downwards and horizontally). Find the minimum force 'F' required to just set the door into horizontal motion.",
+    "numerical_answer": 6512.66
+  },
+  {
+    "signature": "Friction_R8_8_v5",
+    "source_problem_ID": "Friction_R8",
+    "Pair_Number": 8,
+    "variation_number": 5,
+    "problem_text": "A heavy toolbox, mass 50 kg, sits on a workbench. The coefficient of static friction between the toolbox and the bench is 0.4. An apprentice applies a force 'F' to the toolbox, pushing it at an angle of 75 degrees with the vertical (so the force has a downward vertical component). Calculate the magnitude of the force 'F' necessary to just get the toolbox to slide.",
+    "numerical_answer": 227.28
+  },
+  {
+    "signature": "Friction_R8_8_v6",
+    "source_problem_ID": "Friction_R8",
+    "Pair_Number": 8,
+    "variation_number": 6,
+    "problem_text": "A massive shipping container, with a mass of 5000 kg, rests on a dock surface where the coefficient of static friction is 0.5. A specialized pushing device is used to apply a force F downwards at an angle of 15 degrees with the horizontal to just initiate its movement. Calculate the minimum force F required. (Assume g = 9.81 m/s²)",
+    "numerical_answer": 29317.39
+  },
+  {
+    "signature": "Friction_R8_8_v7",
+    "source_problem_ID": "Friction_R8",
+    "Pair_Number": 8,
+    "variation_number": 7,
+    "problem_text": "A heavy industrial machine component, weighing 500 kg, needs to be slid across a factory floor with a coefficient of static friction of 0.75. A worker applies a force F downwards at an angle of 45 degrees relative to the horizontal. Determine the minimum force F needed to get the component just started. (Assume g = 9.81 m/s²)",
+    "numerical_answer": 20810.98
+  },
+  {
+    "signature": "Friction_R8_8_v8",
+    "source_problem_ID": "Friction_R8",
+    "Pair_Number": 8,
+    "variation_number": 8,
+    "problem_text": "A large wooden crate, with a mass of 150 kg, is being pushed across a warehouse floor. The coefficient of static friction between the crate and the floor is 0.6. If a force F is applied downwards at an angle of 30 degrees with the horizontal, what is the minimum force required to set the crate in motion? (Assume g = 9.81 m/s²)",
+    "numerical_answer": 1559.89
+  },
+  {
+    "signature": "Friction_R8_8_v9",
+    "source_problem_ID": "Friction_R8",
+    "Pair_Number": 8,
+    "variation_number": 9,
+    "problem_text": "A 25 kg cart, loaded with supplies, is to be pushed over a rough asphalt surface where the coefficient of static friction is 0.8. If the pushing force F is directed downwards at an angle of 35 degrees to the horizontal, what is the magnitude of the force F required to just overcome static friction and start the cart moving? (Assume g = 9.81 m/s²)",
+    "numerical_answer": 544.55
+  },
+  {
+    "signature": "Friction_R8_8_v10",
+    "source_problem_ID": "Friction_R8",
+    "Pair_Number": 8,
+    "variation_number": 10,
+    "problem_text": "An arctic explorer needs to push a 40 kg sled, loaded with equipment, across a patch of packed snow where the coefficient of static friction is 0.15. To optimize the push, the explorer applies a force F downwards at an angle of 20 degrees with the horizontal. Calculate the minimum force F that must be applied to get the sled just moving. (Assume g = 9.81 m/s²)",
+    "numerical_answer": 66.25
+  },
+  {
+    "signature": "Friction_R9_9_v1",
+    "source_problem_ID": "Friction_R9",
+    "Pair_Number": 9,
+    "variation_number": 1,
+    "problem_text": "A block of mass `m` rests on a rough horizontal surface and is connected by a light string passing over a frictionless pulley to another block of mass `M` on a rough inclined plane. The inclined plane makes an angle of 40 degrees with the horizontal. The coefficient of static friction `mu` for both contacts (block `m` on horizontal surface and block `M` on inclined plane) is 0.6. Find the maximum value of the ratio `M/m` such that the entire system remains at rest.",
+    "numerical_answer": 3.28
+  },
+  {
+    "signature": "Friction_R9_9_v2",
+    "source_problem_ID": "Friction_R9",
+    "Pair_Number": 9,
+    "variation_number": 2,
+    "problem_text": "A wooden crate of mass `m` rests on a rough horizontal loading dock. It's connected by a light string over a frictionless pulley to a large sandbag of mass `M` which rests on an inclined ramp. The ramp makes an angle of 35 degrees with the horizontal. The coefficient of static friction `mu` is 0.4, which is the same between the crate and the dock, and between the sandbag and the ramp. Determine the maximum ratio `M/m` for the entire system to remain in equilibrium, assuming the sandbag tends to slide down the ramp.",
+    "numerical_answer": 1.63
+  },
+  {
+    "signature": "Friction_R9_9_v3",
+    "source_problem_ID": "Friction_R9",
+    "Pair_Number": 9,
+    "variation_number": 3,
+    "problem_text": "An industrial lifting system uses a counterweight mechanism. A large machine part of mass `M` is positioned on a conveyor belt inclined at an angle of 45 degrees to the horizontal. It is connected by a cable (via a pulley) to a smaller balancing mass `m` on a horizontal support rail. The coefficient of static friction `mu` is 0.5, identical for both the machine part on the conveyor and the balancing mass on the rail. Assuming the machine part has a tendency to slide down the incline, calculate the maximum possible ratio `M/m` for the system to remain stationary.",
+    "numerical_answer": 1.41
+  },
+  {
+    "signature": "Friction_R9_9_v4",
+    "source_problem_ID": "Friction_R9",
+    "Pair_Number": 9,
+    "variation_number": 4,
+    "problem_text": "An artist is designing a kinetic sculpture installation where two pieces are connected. A smaller metal cube (mass `m`) rests on a horizontal display platform. It is tethered by a thin, strong cable (passing over a small, frictionless pulley) to a larger, irregularly shaped stone sculpture (mass `M`) which sits on an inclined pedestal. The pedestal makes an angle of 38 degrees with the horizontal. The coefficient of static friction `mu` is 0.3, which is the same for both the cube on the platform and the stone on the pedestal. What is the highest possible ratio `M/m` such that the entire sculpture system remains perfectly still, assuming the stone sculpture tends to slide down the incline?",
+    "numerical_answer": 0.79
+  },
+  {
+    "signature": "Friction_R9_9_v5",
+    "source_problem_ID": "Friction_R9",
+    "Pair_Number": 9,
+    "variation_number": 5,
+    "problem_text": "In a simplified model for landslide prevention, a section of unstable rock formation (effective mass `M`) on a hill slope is being studied. The slope makes an angle of 32 degrees with the horizontal. Engineers propose anchoring it to a stable counterweight (mass `m`) placed on flat, horizontal ground below via a high-strength cable and a pulley system. The coefficient of friction `mu` between the rock formation and the slope, and also between the counterweight and the ground, is considered uniform at 0.55. Determine the maximum ratio `M/m` for which this anchoring system can prevent the rock formation from sliding down the slope.",
+    "numerical_answer": 8.66
+  },
+  {
+    "signature": "Friction_R9_9_v6",
+    "source_problem_ID": "Friction_R9",
+    "Pair_Number": 9,
+    "variation_number": 6,
+    "problem_text": "A block of mass M is placed on a rough inclined plane making an angle of 30 degrees with the horizontal. It is connected by a light string passing over a frictionless pulley to another block of mass m resting on a rough horizontal surface. The coefficient of static friction for both contact surfaces is 0.4. What is the maximum ratio of M/m for which the system will remain at rest?",
+    "numerical_answer": 2.6
+  },
+  {
+    "signature": "Friction_R9_9_v7",
+    "source_problem_ID": "Friction_R9",
+    "Pair_Number": 9,
+    "variation_number": 7,
+    "problem_text": "An industrial crate of mass M needs to be lowered down an inclined conveyor belt, making an angle of 45 degrees with the ground. To control its descent, a cable connects it to a counterweight of mass m on a flat, horizontal platform. If the coefficient of static friction for both the crate on the conveyor and the counterweight on the platform is 0.3, determine the maximum M/m ratio such that the system remains stationary.",
+    "numerical_answer": 0.61
+  },
+  {
+    "signature": "Friction_R9_9_v8",
+    "source_problem_ID": "Friction_R9",
+    "Pair_Number": 9,
+    "variation_number": 8,
+    "problem_text": "In a construction site, a bucket filled with gravel, having a total mass M, is positioned on a rough ramp inclined at 37 degrees to the horizontal. It is tethered by a rope that runs over a pulley and attaches to a stabilizing mass m placed on the level ground. If the coefficient of static friction at all contact points (bucket on ramp and mass on ground) is 0.5, calculate the highest possible value of M/m for the system to stay in equilibrium.",
+    "numerical_answer": 2.5
+  },
+  {
+    "signature": "Friction_R9_9_v9",
+    "source_problem_ID": "Friction_R9",
+    "Pair_Number": 9,
+    "variation_number": 9,
+    "problem_text": "Consider a large snow-making unit of mass M on a snowy slope, inclined at 20 degrees to the horizontal. It is secured by a cable connected to a smaller counterbalance sled of mass m resting on a flat, icy patch of ground. Assuming the coefficient of static friction between the snow-making unit and the slope, and the sled and the icy ground, is 0.2, find the maximum M/m ratio for which the entire system will not move.",
+    "numerical_answer": 1.3
+  },
+  {
+    "signature": "Friction_R9_9_v10",
+    "source_problem_ID": "Friction_R9",
+    "Pair_Number": 9,
+    "variation_number": 10,
+    "problem_text": "A heavy pallet of goods with mass M is located on a rough loading ramp, inclined at an angle of 53 degrees from the horizontal. To prevent it from sliding down, it's connected via a rope and pulley to an anchor mass m situated on the warehouse floor. If the coefficient of static friction for both the pallet on the ramp and the anchor mass on the floor is 0.6, what is the greatest M/m ratio that ensures the system remains completely at rest?",
+    "numerical_answer": 1.37
+  },
+  {
+    "signature": "Friction_R10_10_v1",
+    "source_problem_ID": "Friction_R10",
+    "Pair_Number": 10,
+    "variation_number": 1,
+    "problem_text": "An industrial flatbed trolley of mass M = 500 kg rests on a smooth horizontal floor. A pallet of goods (Block A) of mass m = 50 kg is placed on the flatbed. An identical pallet of goods (Block B), also of mass m = 50 kg, is pressed against a vertical side support of the trolley, connected to Block A by a steel cable passing over a frictionless pulley fixed to the trolley. The coefficient of static friction `mu = 0.4` applies between Block A and the flatbed, and also between Block B and the vertical side support. Find the minimum horizontal force F that can be applied to the trolley to ensure both pallets remain at rest relative to the trolley.",
+    "numerical_answer": 2522.4
+  },
+  {
+    "signature": "Friction_R10_10_v2",
+    "source_problem_ID": "Friction_R10",
+    "Pair_Number": 10,
+    "variation_number": 2,
+    "problem_text": "A high-speed amusement park ride car of mass M = 800 kg accelerates linearly along a track. A passenger (Block A) of mass m = 70 kg sits on a seat inside the car. A piece of luggage (Block B), also of mass m = 70 kg, is secured against a vertical partition wall within the car, connected to the passenger by a strap over a low-friction roller attached to the partition. The coefficient of static friction `mu = 0.35` exists between the passenger and the seat, and between the luggage and the vertical partition. Determine the minimum horizontal force F the ride's propulsion system must exert to prevent any relative motion between the passenger, luggage, and the car.",
+    "numerical_answer": 4437.74
+  },
+  {
+    "signature": "Friction_R10_10_v3",
+    "source_problem_ID": "Friction_R10",
+    "Pair_Number": 10,
+    "variation_number": 3,
+    "problem_text": "At a construction site, a specialized cart of mass M = 300 kg moves on a smooth horizontal track. A stack of bricks (Block A) with mass m = 20 kg is placed on the cart's floor. An identical stack of bricks (Block B), also of mass m = 20 kg, is held vertically against a side frame of the cart, connected to Block A by a rope passing over a small frictionless pulley on the cart. The coefficient of static friction `mu = 0.6` is effective for both the contact between Block A and the cart's floor, and Block B and the vertical side frame. Calculate the minimum horizontal force F required to accelerate the cart such that both stacks of bricks do not slip relative to the cart.",
+    "numerical_answer": 833.85
+  },
+  {
+    "signature": "Friction_R10_10_v4",
+    "source_problem_ID": "Friction_R10",
+    "Pair_Number": 10,
+    "variation_number": 4,
+    "problem_text": "In a laboratory experiment, a glider of mass M = 1.5 kg slides on a frictionless air track. A small block (Block A) of mass m = 0.2 kg is placed on the glider's horizontal surface. An identical small block (Block B), also of mass m = 0.2 kg, is held against a vertical side panel of the glider, connected to Block A by a light string over a frictionless pulley mounted on the glider. The coefficient of static friction `mu = 0.2` applies to both the horizontal contact between Block A and the glider, and the vertical contact between Block B and the glider's side panel. What is the minimum horizontal force F that must be applied to the glider to maintain Block A and Block B at rest relative to the glider?",
+    "numerical_answer": 12.43
+  },
+  {
+    "signature": "Friction_R10_10_v5",
+    "source_problem_ID": "Friction_R10",
+    "Pair_Number": 10,
+    "variation_number": 5,
+    "problem_text": "A massive cargo ship of mass M = 100,000 kg navigates a calm sea, experiencing linear acceleration. A large cargo crate (Block A) of mass m = 5000 kg rests on the ship's deck. Another identical cargo crate (Block B), also of mass m = 5000 kg, is secured against a vertical bulkhead (wall) of the ship, connected to Block A by a heavy-duty rope over a robust pulley fixed to the bulkhead. The coefficient of static friction `mu = 0.5` acts between Block A and the deck, and also between Block B and the vertical bulkhead. Determine the minimum horizontal force F that the ship's engines can exert to accelerate the ship without any relative movement of the cargo crates.",
+    "numerical_answer": 359700.0
+  },
+  {
+    "signature": "Friction_R10_10_v6",
+    "source_problem_ID": "Friction_R10",
+    "Pair_Number": 10,
+    "variation_number": 6,
+    "problem_text": "A large flatcar (mass M = 5000 kg) moves on frictionless rails. On its deck, a heavy container (mass m_A = 1000 kg) rests. This container is connected via a cable and pulley system to a counterweight (mass m_B = 1000 kg) that hangs freely off the side of the flatcar. A locomotive applies a horizontal force F to the flatcar. The coefficient of static friction between the container and the flatcar's deck is mu = 0.4. What is the minimum horizontal force F (in Newtons) required to ensure the container does not slip relative to the flatcar? (Assume g = 9.81 m/s²)",
+    "numerical_answer": 29429.4
+  },
+  {
+    "signature": "Friction_R10_10_v7",
+    "source_problem_ID": "Friction_R10",
+    "Pair_Number": 10,
+    "variation_number": 7,
+    "problem_text": "In a laboratory experiment, a cart (mass M = 3.5 kg) rests on a low-friction track. A small wooden block (mass m_1 = 0.5 kg) is placed on top of the cart. This wooden block is connected by a light string over a low-friction pulley attached to the front of the cart, to a second identical wooden block (mass m_2 = 0.5 kg) hanging vertically. A horizontal force F is applied to the cart. The coefficient of static friction between the wooden block m_1 and the cart is mu = 0.25. What is the maximum horizontal force F (in Newtons) that can be applied such that the upper wooden block (m_1) does not slip relative to the cart? (Assume g = 9.81 m/s²)",
+    "numerical_answer": 66.26
+  },
+  {
+    "signature": "Friction_R10_10_v8",
+    "source_problem_ID": "Friction_R10",
+    "Pair_Number": 10,
+    "variation_number": 8,
+    "problem_text": "A large construction platform (mass M = 800 kg) is being pulled horizontally on a smooth surface. On its surface, a heavy construction element (mass m_A = 150 kg) is temporarily placed. This element is connected by a cable over a pulley (fixed to the platform and moving with it) to a counterweight (mass m_B = 150 kg) hanging down a shaft. The coefficient of static friction between m_A and the platform is mu = 0.15. Calculate the minimum horizontal tension F (in Newtons) that can be applied to the platform such that the construction element m_A does not slip relative to the platform. (Assume g = 9.81 m/s²)",
+    "numerical_answer": 863.38
+  },
+  {
+    "signature": "Friction_R10_10_v9",
+    "source_problem_ID": "Friction_R10",
+    "Pair_Number": 10,
+    "variation_number": 9,
+    "problem_text": "A research submersible (main body mass M = 1500 kg) is performing a delicate maneuver in a horizontal plane. Inside the submersible, a heavy scientific instrument (mass m_1 = 300 kg) is resting on a vibration-dampening platform. This instrument is secured by a tether that passes over a low-friction internal pulley, connecting to a ballast weight (mass m_2 = 300 kg) designed to act as a counterforce in a vertical compartment. The submersible's thrusters apply a net horizontal force F to accelerate the main body. The coefficient of static friction between the instrument and its platform is mu = 0.35. Determine the minimum horizontal force F (in Newtons) the thrusters can generate while ensuring the instrument m_1 does not slip relative to its platform. (Assume g = 9.81 m/s² for calculation, ignoring buoyancy effects on friction for simplicity).",
+    "numerical_answer": 9921.24
+  },
+  {
+    "signature": "Friction_R10_10_v10",
+    "source_problem_ID": "Friction_R10",
+    "Pair_Number": 10,
+    "variation_number": 10,
+    "problem_text": "A heavy industrial conveyor belt unit (mass M = 200 kg) is being moved horizontally across a factory floor on smooth rollers. A primary load (mass m_P = 50 kg) is placed on the moving part of the conveyor, and this load is linked by a chain over a pulley (fixed to the conveyor unit) to a secondary load (mass m_S = 50 kg) hanging alongside the unit. A horizontal force F is applied to the entire conveyor belt unit. The coefficient of static friction between the primary load m_P and the conveyor belt surface is mu = 0.2. What is the maximum horizontal force F (in Newtons) that can be applied such that the primary load m_P does not slip relative to the conveyor belt unit? (Assume g = 9.81 m/s²)",
+    "numerical_answer": 4414.5
+  },
+  {
+    "signature": "Friction_R11_11_v1",
+    "source_problem_ID": "Friction_R11",
+    "Pair_Number": 11,
+    "variation_number": 1,
+    "problem_text": "A system consists of a 3 kg block (Block A) resting on an incline of 30 degrees, connected by a light string over a frictionless pulley to another block (Block B) on an incline of 60 degrees. The coefficient of static friction is 0.3 for both surfaces. Find the minimum mass of Block B (m) for which the system remains at rest.",
+    "numerical_answer": 0.71
+  },
+  {
+    "signature": "Friction_R11_11_v2",
+    "source_problem_ID": "Friction_R11",
+    "Pair_Number": 11,
+    "variation_number": 2,
+    "problem_text": "Two blocks are connected by a light string passing over a frictionless pulley at the apex of a triangular wedge. Both inclined surfaces are at 45 degrees to the horizontal. The 4 kg block (Block A) rests on a surface with a static friction coefficient of 0.35 and kinetic friction coefficient of 0.3. The other block (Block B) rests on a surface with a static friction coefficient of 0.2 and kinetic friction coefficient of 0.15. If Block A is gently pushed to start sliding down the incline, calculate the acceleration of the system.",
+    "numerical_answer": 0.35
+  },
+  {
+    "signature": "Friction_R11_11_v3",
+    "source_problem_ID": "Friction_R11",
+    "Pair_Number": 11,
+    "variation_number": 3,
+    "problem_text": "Consider two blocks linked by a string over a pulley, similar to the setup where both inclines are 45 degrees. The coefficient of static friction is 0.28 and kinetic friction is 0.25 for both surfaces. If one block has a mass of 1.5 kg, what is the maximum mass for the other block (M) such that the system remains at rest? If this maximum mass M is then gently nudged to start sliding up its incline, calculate the acceleration of the system.",
+    "numerical_answer": 0.21
+  },
+  {
+    "signature": "Friction_R11_11_v4",
+    "source_problem_ID": "Friction_R11",
+    "Pair_Number": 11,
+    "variation_number": 4,
+    "problem_text": "A mining cart of 100 kg is on a track inclined at 20 degrees to the horizontal, connected by a cable over a pulley to a 70 kg counterweight on another track inclined at 70 degrees. The coefficient of kinetic friction for both tracks is 0.1. If the 70 kg counterweight is gently pushed to slide down its incline, determine the acceleration of the system.",
+    "numerical_answer": 1.14
+  },
+  {
+    "signature": "Friction_R11_11_v5",
+    "source_problem_ID": "Friction_R11",
+    "Pair_Number": 11,
+    "variation_number": 5,
+    "problem_text": "A 5 kg mass (Block P) is placed on a 30-degree incline with coefficients of static and kinetic friction of 0.4 and 0.35, respectively. It is connected by a light string over a frictionless pulley to another mass (Block Q) placed on a frictionless 45-degree incline. Find the maximum mass of Block Q for which the system remains at rest.",
+    "numerical_answer": 5.98
+  },
+  {
+    "signature": "Friction_R11_11_v6",
+    "source_problem_ID": "Friction_R11",
+    "Pair_Number": 11,
+    "variation_number": 6,
+    "problem_text": "A 5 kg block rests on a 30-degree inclined plane and is connected by a light, inextensible string passing over a frictionless pulley to another block of mass 'm' hanging freely. The coefficients of static and kinetic friction between the block and the incline are 0.3 and 0.25, respectively. (a) Find the minimum value of 'm' (in kg) for which the system remains at rest. (b) If 'm' is given this minimum value and the system is gently nudged, find the acceleration of the blocks (in m/s^2).",
+    "numerical_answer": 0.34
+  },
+  {
+    "signature": "Friction_R11_11_v7",
+    "source_problem_ID": "Friction_R11",
+    "Pair_Number": 11,
+    "variation_number": 7,
+    "problem_text": "A 4 kg crate is placed on a 37-degree inclined ramp and is attached by a light cable, via a frictionless pulley, to a smaller box of mass 'm' resting on a horizontal surface. Both surfaces have a coefficient of static friction of 0.4 and a coefficient of kinetic friction of 0.3. (a) Determine the minimum mass 'm' (in kg) of the box on the horizontal surface that prevents the crate from sliding down the ramp. (b) If the box 'm' is set to this minimum mass and the system is given a slight push, calculate the acceleration of the system (in m/s^2).",
+    "numerical_answer": 0.87
+  },
+  {
+    "signature": "Friction_R11_11_v8",
+    "source_problem_ID": "Friction_R11",
+    "Pair_Number": 11,
+    "variation_number": 8,
+    "problem_text": "Two packages are connected by a light string over a frictionless pulley at the apex of a triangular wedge. One package, with a mass of 3 kg, is on a 30-degree incline, while the other package of mass 'm' is on a 60-degree incline. The coefficient of static friction for both surfaces is 0.35, and the coefficient of kinetic friction is 0.3. (a) Calculate the minimum mass 'm' (in kg) for which the system remains in equilibrium. (b) If 'm' is at this minimum value and the system is gently released, what is the acceleration of the packages (in m/s^2)?",
+    "numerical_answer": 0.4
+  },
+  {
+    "signature": "Friction_R11_11_v9",
+    "source_problem_ID": "Friction_R11",
+    "Pair_Number": 11,
+    "variation_number": 9,
+    "problem_text": "Consider two blocks, M = 2 kg and 'm', connected by a light string over a frictionless pulley, resting on the two inclined faces of a wedge, both at 45 degrees to the horizontal. The coefficient of static friction for the 2 kg block's surface is 0.28, and kinetic friction is 0.25. For block 'm's surface, the coefficients of static and kinetic friction are 0.35 and 0.3, respectively. (a) Find the minimum value of 'm' (in kg) for which the system stays at rest. (b) If 'm' is set to this minimum value and the system is given a small nudge, what is the resulting acceleration (in m/s^2)?",
+    "numerical_answer": 0.26
+  },
+  {
+    "signature": "Friction_R11_11_v10",
+    "source_problem_ID": "Friction_R11",
+    "Pair_Number": 11,
+    "variation_number": 10,
+    "problem_text": "A 5 kg block is placed on an inclined plane with an angle of 37 degrees (sin 37° ≈ 0.6, cos 37° ≈ 0.8). It is connected via a light string and a frictionless pulley to a second block of mass 'm' on another inclined plane, also at 37 degrees. The coefficients of static and kinetic friction are 0.35 and 0.3, respectively, for both surfaces. (a) Determine the minimum value of 'm' (in kg) for which the system remains in static equilibrium. (b) If 'm' has this minimum value and the system is then given a gentle push, what is the acceleration of the blocks (in m/s^2)?",
+    "numerical_answer": 0.39
+  }
+]

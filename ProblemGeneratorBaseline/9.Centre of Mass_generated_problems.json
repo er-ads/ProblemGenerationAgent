@@ -1,0 +1,2322 @@
+[
+  {
+    "signature": "Centre of Mass_R1_1_v1",
+    "source_problem_ID": "Centre of Mass_R1",
+    "Pair_Number": 1,
+    "variation_number": 1,
+    "problem_text": "A rectangular thin plate of length 8 meters and width 6 meters has four point masses attached to its corners. Mass M1 (2 kg) is at the origin (0,0), Mass M2 (4 kg) is at (8,0), Mass M3 (6 kg) is at (8,6), and Mass M4 (8 kg) is at (0,6). Assuming the plate itself is massless, determine the X-coordinate of the center of mass of this system.",
+    "numerical_answer": 4.0
+  },
+  {
+    "signature": "Centre of Mass_R1_1_v2",
+    "source_problem_ID": "Centre of Mass_R1",
+    "Pair_Number": 1,
+    "variation_number": 2,
+    "problem_text": "Consider a hypothetical molecule composed of four atoms. Atom A (1.00 amu) is located at (0.00, 0.00) Å, Atom B (12.00 amu) is at (1.10, 0.00) Å, Atom C (16.00 amu) is at (1.10, 0.80) Å, and Atom D (14.00 amu) is at (0.50, 0.80) Å. Calculate the Y-coordinate of the center of mass for this molecular system.",
+    "numerical_answer": 0.56
+  },
+  {
+    "signature": "Centre of Mass_R1_1_v3",
+    "source_problem_ID": "Centre of Mass_R1",
+    "Pair_Number": 1,
+    "variation_number": 3,
+    "problem_text": "Four critical components of a satellite system are positioned relative to a central reference point (0,0). A propulsion unit (150 kg) is at (0,0) m, a payload module (200 kg) is at (2.0, 0) m, a power unit (100 kg) is at (1.5, 1.5) m, and a communication array (50 kg) is at (0.5, 1.0) m. Find the distance of the satellite's center of mass from the central reference point (0,0).",
+    "numerical_answer": 1.22
+  },
+  {
+    "signature": "Centre of Mass_R1_1_v4",
+    "source_problem_ID": "Centre of Mass_R1",
+    "Pair_Number": 1,
+    "variation_number": 4,
+    "problem_text": "An irregularly shaped flat object has four point masses attached to it: M1 (5 kg) at (1.0, 2.0) cm, M2 (7 kg) at (4.0, 1.0) cm, M3 (3 kg) at (6.0, 5.0) cm, and M4 (9 kg) at (2.0, 7.0) cm. Determine the X-coordinate of the center of mass of this system.",
+    "numerical_answer": 2.88
+  },
+  {
+    "signature": "Centre of Mass_R1_1_v5",
+    "source_problem_ID": "Centre of Mass_R1",
+    "Pair_Number": 1,
+    "variation_number": 5,
+    "problem_text": "Four cars are parked in a large rectangular lot. Car A (1200 kg) is at coordinates (-5, 10) m, Car B (1500 kg) is at (15, 10) m, Car C (1800 kg) is at (15, -10) m, and Car D (1000 kg) is at (-5, -10) m, relative to a lamppost at the origin. Calculate the Y-coordinate of the center of mass of the system of these four cars.",
+    "numerical_answer": -0.18
+  },
+  {
+    "signature": "Centre of Mass_R1_1_v6",
+    "source_problem_ID": "Centre of Mass_R1",
+    "Pair_Number": 1,
+    "variation_number": 6,
+    "problem_text": "A specialized research satellite has four main components: a propulsion module (50 kg) at the origin (0,0) m, a scientific payload (100 kg) located at (2,0) m, a power generation array (75 kg) at (2,2) m, and a communication dish (120 kg) at (0,2) m. All coordinates are relative to the satellite's central frame. Determine the X-coordinate of the satellite's center of mass.",
+    "numerical_answer": 1.01
+  },
+  {
+    "signature": "Centre of Mass_R1_1_v7",
+    "source_problem_ID": "Centre of Mass_R1",
+    "Pair_Number": 1,
+    "variation_number": 7,
+    "problem_text": "Four friends of different weights decide to stand at the corners of a rectangular raft with dimensions 3 meters by 2 meters. John (60 kg) is at (0,0), Emily (75 kg) is at (3,0), Sarah (80 kg) is at (3,2), and David (90 kg) is at (0,2). All coordinates are in meters relative to one corner of the raft. Calculate the Y-coordinate of the center of mass of the system formed by the four friends.",
+    "numerical_answer": 1.11
+  },
+  {
+    "signature": "Centre of Mass_R1_1_v8",
+    "source_problem_ID": "Centre of Mass_R1",
+    "Pair_Number": 1,
+    "variation_number": 8,
+    "problem_text": "Consider a highly simplified model of a planar molecule with four atoms. Atom A (12 amu) is positioned at (0,0) Å, Atom B (16 amu) is at (1.5,0) Å, Atom C (14 amu) is at (1.5,1.5) Å, and Atom D (1 amu) is at (0,1.5) Å. Determine the X-coordinate of the center of mass for this molecular system.",
+    "numerical_answer": 1.05
+  },
+  {
+    "signature": "Centre of Mass_R1_1_v9",
+    "source_problem_ID": "Centre of Mass_R1",
+    "Pair_Number": 1,
+    "variation_number": 9,
+    "problem_text": "A shipping container, when viewed from above, has four crates placed at its corners. Crate A (500 kg) is at (0,0) m, Crate B (750 kg) is at (6,0) m, Crate C (600 kg) is at (6,2.5) m, and Crate D (800 kg) is at (0,2.5) m. These coordinates are relative to one corner of the container. Find the Y-coordinate of the center of mass of the cargo within the container.",
+    "numerical_answer": 1.32
+  },
+  {
+    "signature": "Centre of Mass_R1_1_v10",
+    "source_problem_ID": "Centre of Mass_R1",
+    "Pair_Number": 1,
+    "variation_number": 10,
+    "problem_text": "In a hypothetical two-dimensional planetary system, four small planets orbit a star. Their positions and masses are as follows: Planet 1 (0.5 × 10^24 kg) is at (0,0) million km, Planet 2 (0.8 × 10^24 kg) is at (100,0) million km, Planet 3 (0.6 × 10^24 kg) is at (100,100) million km, and Planet 4 (1.0 × 10^24 kg) is at (0,100) million km. Calculate the X-coordinate of the center of mass of this four-planet system.",
+    "numerical_answer": 48.28
+  },
+  {
+    "signature": "Centre of Mass_R2_2_v1",
+    "source_problem_ID": "Centre of Mass_R2",
+    "Pair_Number": 2,
+    "variation_number": 1,
+    "problem_text": "Two asteroids, one with a mass of 5.0 x 10^12 kg and the other with a mass of 2.0 x 10^13 kg, are initially at rest relative to each other in deep space, separated by a distance of 100 km. Due to their mutual gravitational attraction, they begin to move towards each other. Assuming no other external forces, where will they collide with respect to the initial position of the less massive asteroid?",
+    "numerical_answer": 80000.0
+  },
+  {
+    "signature": "Centre of Mass_R2_2_v2",
+    "source_problem_ID": "Centre of Mass_R2",
+    "Pair_Number": 2,
+    "variation_number": 2,
+    "problem_text": "Consider a highly simplified model of an isolated proton and an electron. Initially, they are at rest and separated by a distance of 1 Angstrom (10^-10 m). Because of their electrostatic attraction, they accelerate towards each other. Neglecting quantum effects and external forces, where will they meet relative to the initial position of the proton? (Mass of proton ≈ 1.672 x 10^-27 kg, Mass of electron ≈ 9.109 x 10^-31 kg)",
+    "numerical_answer": 0.0
+  },
+  {
+    "signature": "Centre of Mass_R2_2_v3",
+    "source_problem_ID": "Centre of Mass_R2",
+    "Pair_Number": 2,
+    "variation_number": 3,
+    "problem_text": "Two ice skaters, one with a mass of 60 kg and the other with a mass of 90 kg, stand on a perfectly smooth (frictionless) ice rink. They are initially 15 meters apart and at rest. They begin to pull on a rope connecting them, causing them to move towards each other. Where will they meet on the ice rink with respect to the initial position of the 60 kg skater?",
+    "numerical_answer": 9.0
+  },
+  {
+    "signature": "Centre of Mass_R2_2_v4",
+    "source_problem_ID": "Centre of Mass_R2",
+    "Pair_Number": 2,
+    "variation_number": 4,
+    "problem_text": "Two blocks, with masses m1 = 2.0 kg and m2 = 3.0 kg, are placed on a frictionless horizontal table, separated by a distance of 0.5 meters. They are connected by a light spring which is initially at its natural length. An internal mechanism causes the spring to contract, pulling the blocks towards each other until they collide. Determine the position of the collision point relative to the initial position of the 2.0 kg mass.",
+    "numerical_answer": 0.3
+  },
+  {
+    "signature": "Centre of Mass_R2_2_v5",
+    "source_problem_ID": "Centre of Mass_R2",
+    "Pair_Number": 2,
+    "variation_number": 5,
+    "problem_text": "A space module of mass 1500 kg and a smaller space probe of mass 500 kg are floating initially at rest relative to each other in outer space, 200 meters apart. They activate their internal thrusters to gently approach each other for a docking maneuver. Assuming the thruster forces are internal to the system and no external forces act, where will the docking occur relative to the initial position of the space module?",
+    "numerical_answer": 50.0
+  },
+  {
+    "signature": "Centre of Mass_R2_2_v6",
+    "source_problem_ID": "Centre of Mass_R2",
+    "Pair_Number": 2,
+    "variation_number": 6,
+    "problem_text": "Two asteroids, Asteroid A with a mass of 1.5 x 10^10 kg and Asteroid B with a mass of 3.0 x 10^10 kg, are initially separated by a distance of 1500 km in deep space. Due to their mutual gravitational attraction, they begin to move towards each other. Assuming no external forces act on the system, where will they collide with respect to the initial position of Asteroid A?",
+    "numerical_answer": 1000.0
+  },
+  {
+    "signature": "Centre of Mass_R2_2_v7",
+    "source_problem_ID": "Centre of Mass_R2",
+    "Pair_Number": 2,
+    "variation_number": 7,
+    "problem_text": "Two boats, Boat 1 (mass 200 kg) and Boat 2 (mass 300 kg), are initially at rest 50 meters apart on a perfectly calm lake. A rope connects them, and they start pulling on the rope towards each other. Neglecting water resistance, at what distance from the initial position of Boat 1 will the two boats meet?",
+    "numerical_answer": 30.0
+  },
+  {
+    "signature": "Centre of Mass_R2_2_v8",
+    "source_problem_ID": "Centre of Mass_R2",
+    "Pair_Number": 2,
+    "variation_number": 8,
+    "problem_text": "A magnetic block A of mass 0.4 kg and a magnetic block B of mass 0.8 kg are placed on a frictionless air track, initially separated by 1.2 meters. Due to their mutual magnetic attraction, they accelerate towards each other. Where on the track will they collide relative to the initial position of block A?",
+    "numerical_answer": 0.8
+  },
+  {
+    "signature": "Centre of Mass_R2_2_v9",
+    "source_problem_ID": "Centre of Mass_R2",
+    "Pair_Number": 2,
+    "variation_number": 9,
+    "problem_text": "Two ice skaters, Skater 1 (mass 60 kg) and Skater 2 (mass 90 kg), are initially standing still on a frictionless ice rink, separated by 18 meters. They begin to pull on a rope connecting them, moving towards each other. How far from the initial position of Skater 1 will they meet?",
+    "numerical_answer": 10.8
+  },
+  {
+    "signature": "Centre of Mass_R2_2_v10",
+    "source_problem_ID": "Centre of Mass_R2",
+    "Pair_Number": 2,
+    "variation_number": 10,
+    "problem_text": "A protoplanet (Mass A = 1.0 x 10^25 kg) and a larger protoplanet (Mass B = 4.0 x 10^25 kg) are initially at rest relative to each other, separated by 3.0 x 10^8 km. They begin to accelerate towards each other under their mutual gravitational pull. Assuming they are an isolated system, where will the collision occur with respect to the initial position of protoplanet A?",
+    "numerical_answer": 240000000.0
+  },
+  {
+    "signature": "Centre of Mass_R3_3_v1",
+    "source_problem_ID": "Centre of Mass_R3",
+    "Pair_Number": 3,
+    "variation_number": 1,
+    "problem_text": "In a controlled space docking maneuver, a service module with a mass of 5000 kg approaches a stationary space station module with a mass of 10000 kg at a relative speed of 0.5 m/s. The docking mechanism incorporates a series of spring-like dampeners with an effective spring constant of 20000 N/m. Assuming negligible external forces in space, find the maximum compression of the docking dampeners during the maneuver.",
+    "numerical_answer": 0.2
+  },
+  {
+    "signature": "Centre of Mass_R3_3_v2",
+    "source_problem_ID": "Centre of Mass_R3",
+    "Pair_Number": 3,
+    "variation_number": 2,
+    "problem_text": "A bumper car of mass 150 kg is moving at a speed of 3 m/s towards a stationary bumper car of mass 120 kg. The bumper mechanism on the stationary car can be modeled as a spring with a spring constant of 10000 N/m. Assuming the surface is frictionless, what is the maximum compression of the bumper when the cars collide?",
+    "numerical_answer": 0.24
+  },
+  {
+    "signature": "Centre of Mass_R3_3_v3",
+    "source_problem_ID": "Centre of Mass_R3",
+    "Pair_Number": 3,
+    "variation_number": 3,
+    "problem_text": "A freight train car, with a mass of 20,000 kg, is uncoupled and rolls freely at 0.8 m/s along a level track towards a stationary train car of mass 25,000 kg. The coupling mechanism between the two cars acts as a large spring with a constant of 50,000 N/m. Ignoring rolling friction, calculate the maximum compression of the coupling mechanism when the cars connect.",
+    "numerical_answer": 0.38
+  },
+  {
+    "signature": "Centre of Mass_R3_3_v4",
+    "source_problem_ID": "Centre of Mass_R3",
+    "Pair_Number": 3,
+    "variation_number": 4,
+    "problem_text": "During a prototype crash test on a frictionless track, a test sled of mass 500 kg is propelled at 4 m/s towards a stationary deformable barrier system, which has a mass of 200 kg and can be modeled as a single spring with a constant of 25000 N/m. Determine the maximum compression of the barrier spring.",
+    "numerical_answer": 0.3
+  },
+  {
+    "signature": "Centre of Mass_R3_3_v5",
+    "source_problem_ID": "Centre of Mass_R3",
+    "Pair_Number": 3,
+    "variation_number": 5,
+    "problem_text": "In an experimental magnetic levitation (maglev) transport system, a 'pod' of mass 8000 kg moves at 1.5 m/s towards a stationary pod of mass 6000 kg. The magnetic repulsion system between them acts as an effective spring, designed to prevent physical contact, with a spring constant of 75000 N/m. Assuming an ideal frictionless track, what is the maximum effective 'compression' (or closest approach distance related to the spring deformation) of the magnetic repulsion system?",
+    "numerical_answer": 0.38
+  },
+  {
+    "signature": "Centre of Mass_R3_3_v6",
+    "source_problem_ID": "Centre of Mass_R3",
+    "Pair_Number": 3,
+    "variation_number": 6,
+    "problem_text": "A 0.5 kg cart moving at 3 m/s on a frictionless air track collides with a stationary 1.5 kg cart. A light spring with a spring constant of 100 N/m is attached to the front of the stationary cart, facing the approaching cart. What is the maximum compression of the spring?",
+    "numerical_answer": 0.18
+  },
+  {
+    "signature": "Centre of Mass_R3_3_v7",
+    "source_problem_ID": "Centre of Mass_R3",
+    "Pair_Number": 3,
+    "variation_number": 7,
+    "problem_text": "During a delicate space docking procedure in zero gravity, a 500 kg probe approaches a 2500 kg space station module at a relative speed of 0.1 m/s. The probe's docking mechanism includes a spring buffer with an effective spring constant of 5000 N/m. Assuming the module is initially stationary relative to the common center of mass before the probe engages, calculate the maximum compression of the spring buffer during the soft dock.",
+    "numerical_answer": 0.03
+  },
+  {
+    "signature": "Centre of Mass_R3_3_v8",
+    "source_problem_ID": "Centre of Mass_R3",
+    "Pair_Number": 3,
+    "variation_number": 8,
+    "problem_text": "A 1200 kg car traveling at 5 m/s crashes into the rear of a stationary 1000 kg car. The crumple zone of the rear car's bumper acts as a spring with an effective spring constant of 100,000 N/m. Assuming the collision occurs on a frictionless surface (e.g., ice) and the cars move as a single unit at maximum compression, what is the maximum compression of the bumper?",
+    "numerical_answer": 0.37
+  },
+  {
+    "signature": "Centre of Mass_R3_3_v9",
+    "source_problem_ID": "Centre of Mass_R3",
+    "Pair_Number": 3,
+    "variation_number": 9,
+    "problem_text": "A small 0.01 kg projectile is fired at a speed of 100 m/s towards a 0.5 kg target block, which is initially at rest on a frictionless horizontal surface. The target block has a spring-loaded absorption mechanism with a spring constant of 2000 N/m. Determine the maximum compression of the spring when the projectile embeds itself in the target and the system moves together.",
+    "numerical_answer": 0.22
+  },
+  {
+    "signature": "Centre of Mass_R3_3_v10",
+    "source_problem_ID": "Centre of Mass_R3",
+    "Pair_Number": 3,
+    "variation_number": 10,
+    "problem_text": "Two toy train cars are on a horizontal, frictionless track. The rear car has a mass of 0.2 kg and moves towards the front car at 0.8 m/s. The front car, with a mass of 0.3 kg, is initially at rest and has a spring bumper (k = 25 N/m) attached to its rear. Find the maximum compression of the spring when the two cars collide.",
+    "numerical_answer": 0.06
+  },
+  {
+    "signature": "Centre of Mass_R4_4_v1",
+    "source_problem_ID": "Centre of Mass_R4",
+    "Pair_Number": 4,
+    "variation_number": 1,
+    "problem_text": "A freight train car of mass 20,000 kg is moving eastward at 15 km/h. It collides with another uncoupled train car of mass 15,000 kg that is moving westward on the same track at 5 km/h. If the two cars link together upon impact, what is their common speed immediately after the collision?",
+    "numerical_answer": 6.43
+  },
+  {
+    "signature": "Centre of Mass_R4_4_v2",
+    "source_problem_ID": "Centre of Mass_R4",
+    "Pair_Number": 4,
+    "variation_number": 2,
+    "problem_text": "In deep space, a major asteroid with a mass of 1.2 x 10^10 kg is drifting at 300 m/s. It encounters a smaller asteroid of mass 8.0 x 10^9 kg approaching it head-on at 180 m/s. If the two asteroids merge completely upon collision, determine the speed of the combined mass.",
+    "numerical_answer": 108.0
+  },
+  {
+    "signature": "Centre of Mass_R4_4_v3",
+    "source_problem_ID": "Centre of Mass_R4",
+    "Pair_Number": 4,
+    "variation_number": 3,
+    "problem_text": "A specialized 'sticky' billiard ball of mass 0.17 kg is moving across a table at 2.5 m/s. It strikes a second identical sticky billiard ball, also of mass 0.17 kg, which is moving directly towards it at 1.0 m/s. Assuming the two balls stick together instantly, what is their final common speed?",
+    "numerical_answer": 0.75
+  },
+  {
+    "signature": "Centre of Mass_R4_4_v4",
+    "source_problem_ID": "Centre of Mass_R4",
+    "Pair_Number": 4,
+    "variation_number": 4,
+    "problem_text": "Two massive icebergs are drifting in the Arctic Ocean. The first iceberg, with a mass of 5.0 x 10^7 kg, is moving south at 0.8 m/s. The second iceberg, with a mass of 3.0 x 10^7 kg, is moving north towards the first at 0.4 m/s. If they collide and become locked together by freezing, calculate the speed of the combined iceberg mass.",
+    "numerical_answer": 0.35
+  },
+  {
+    "signature": "Centre of Mass_R4_4_v5",
+    "source_problem_ID": "Centre of Mass_R4",
+    "Pair_Number": 4,
+    "variation_number": 5,
+    "problem_text": "A 10-gram bullet is fired horizontally at 500 m/s into a 2.0 kg wooden block. The block itself is sliding towards the bullet at 1.5 m/s on a frictionless surface. If the bullet embeds itself into the block, what is the final speed of the bullet-block system?",
+    "numerical_answer": 1.0
+  },
+  {
+    "signature": "Centre of Mass_R4_4_v6",
+    "source_problem_ID": "Centre of Mass_R4",
+    "Pair_Number": 4,
+    "variation_number": 6,
+    "problem_text": "A heavy train wagon of mass 15000 kg is moving at a speed of 15 m/s on a railway track. It collides with a lighter, uncoupled wagon of mass 10000 kg approaching it from the opposite direction at a speed of 5 m/s. If the two wagons couple and move together after the collision, what is their common speed?",
+    "numerical_answer": 7.0
+  },
+  {
+    "signature": "Centre of Mass_R4_4_v7",
+    "source_problem_ID": "Centre of Mass_R4",
+    "Pair_Number": 4,
+    "variation_number": 7,
+    "problem_text": "During an amusement park ride, a bumper car (Car A) with a combined mass of 200 kg (car + driver) is moving at 8 km/h. It directly hits another bumper car (Car B) with a combined mass of 150 kg (car + driver) that is moving towards it at 5 km/h. If the cars briefly lock together upon impact, what is their instantaneous common speed immediately after the collision?",
+    "numerical_answer": 2.43
+  },
+  {
+    "signature": "Centre of Mass_R4_4_v8",
+    "source_problem_ID": "Centre of Mass_R4",
+    "Pair_Number": 4,
+    "variation_number": 8,
+    "problem_text": "In deep space, a large piece of orbital debris (Mass A) of 300 kg is traveling at 500 m/s. It collides head-on with a smaller fragment of space junk (Mass B) of 100 kg, which is moving directly towards it at 1000 m/s. If the two pieces become permanently fused after impact, determine the speed of the combined mass.",
+    "numerical_answer": 125.0
+  },
+  {
+    "signature": "Centre of Mass_R4_4_v9",
+    "source_problem_ID": "Centre of Mass_R4",
+    "Pair_Number": 4,
+    "variation_number": 9,
+    "problem_text": "Two logs are floating in a river and collide. The first log, with a mass of 800 kg, is moving downstream at 2 m/s. The second log, with a mass of 400 kg, is moving upstream (towards the first log) at 1 m/s due to a localized current. If they entangle and move as a single unit after the collision, what is their combined speed?",
+    "numerical_answer": 1.0
+  },
+  {
+    "signature": "Centre of Mass_R4_4_v10",
+    "source_problem_ID": "Centre of Mass_R4",
+    "Pair_Number": 4,
+    "variation_number": 10,
+    "problem_text": "A fully loaded shopping cart of mass 40 kg is accidentally pushed down an aisle at 1.5 m/s. It collides with an empty shopping cart of mass 10 kg that is rolling towards it at 0.5 m/s. If the two carts stick together immediately after the collision, what is their common speed?",
+    "numerical_answer": 1.1
+  },
+  {
+    "signature": "Centre of Mass_R5_5_v1",
+    "source_problem_ID": "Centre of Mass_R5",
+    "Pair_Number": 5,
+    "variation_number": 1,
+    "problem_text": "A cue ball (mass 0.15 kg) moving at 2.0 m/s strikes a stationary object ball (mass 0.225 kg) head-on. After the collision, the cue ball comes completely to rest. What is the coefficient of restitution for this collision?",
+    "numerical_answer": 0.67
+  },
+  {
+    "signature": "Centre of Mass_R5_5_v2",
+    "source_problem_ID": "Centre of Mass_R5",
+    "Pair_Number": 5,
+    "variation_number": 2,
+    "problem_text": "During a crash test, a compact car of mass 1200 kg, traveling at 15.0 m/s, collides with the rear of a stationary SUV of mass 3600 kg. If the compact car comes to an immediate halt after the collision, calculate the coefficient of restitution for the impact.",
+    "numerical_answer": 0.33
+  },
+  {
+    "signature": "Centre of Mass_R5_5_v3",
+    "source_problem_ID": "Centre of Mass_R5",
+    "Pair_Number": 5,
+    "variation_number": 3,
+    "problem_text": "A piece of space debris, with a mass of 5.0 kg, is moving at 1000 m/s when it collides head-on with a much larger, derelict satellite of mass 20.0 kg, which was initially stationary. If the debris becomes instantaneously motionless relative to the satellite's original position upon impact, determine the coefficient of restitution for this collision.",
+    "numerical_answer": 0.25
+  },
+  {
+    "signature": "Centre of Mass_R5_5_v4",
+    "source_problem_ID": "Centre of Mass_R5",
+    "Pair_Number": 5,
+    "variation_number": 4,
+    "problem_text": "In a physics demonstration, a curling stone of mass 19.1 kg is slid at 1.5 m/s towards a heavier, stationary \"super stone\" of mass 28.65 kg. Upon head-on collision, the lighter curling stone stops completely. What is the coefficient of restitution between the two stones?",
+    "numerical_answer": 0.67
+  },
+  {
+    "signature": "Centre of Mass_R5_5_v5",
+    "source_problem_ID": "Centre of Mass_R5",
+    "Pair_Number": 5,
+    "variation_number": 5,
+    "problem_text": "A freight car with a mass of 30,000 kg, moving at 1.0 m/s, bumps into a heavier, stationary freight car of mass 50,000 kg. The collision is head-on, and after impact, the lighter freight car is observed to be momentarily at rest. Calculate the coefficient of restitution for this coupling incident.",
+    "numerical_answer": 0.6
+  },
+  {
+    "signature": "Centre of Mass_R5_5_v6",
+    "source_problem_ID": "Centre of Mass_R5",
+    "Pair_Number": 5,
+    "variation_number": 6,
+    "problem_text": "A cue ball with a mass of 170 grams moving across a table at a certain speed strikes a stationary object ball of mass 255 grams head-on. After the collision, the cue ball comes completely to rest. Assuming the collision is one-dimensional, what is the coefficient of restitution between the two balls?",
+    "numerical_answer": 0.67
+  },
+  {
+    "signature": "Centre of Mass_R5_5_v7",
+    "source_problem_ID": "Centre of Mass_R5",
+    "Pair_Number": 5,
+    "variation_number": 7,
+    "problem_text": "A freight car of mass 10,000 kg is moving at a certain velocity when it collides head-on with a stationary, heavier freight car of mass 15,000 kg on the same track. Immediately after the impact, the first freight car (the 10,000 kg one) stops dead. Calculate the coefficient of restitution for this collision.",
+    "numerical_answer": 0.67
+  },
+  {
+    "signature": "Centre of Mass_R5_5_v8",
+    "source_problem_ID": "Centre of Mass_R5",
+    "Pair_Number": 5,
+    "variation_number": 8,
+    "problem_text": "In a simplified model of a nuclear interaction, an incident particle with an effective mass of 4 atomic mass units (amu) approaches a stationary target nucleus with an effective mass of 12 amu. After a head-on elastic-like collision, the incident particle is observed to come to a complete stop. Determine the coefficient of restitution for this interaction.",
+    "numerical_answer": 0.33
+  },
+  {
+    "signature": "Centre of Mass_R5_5_v9",
+    "source_problem_ID": "Centre of Mass_R5",
+    "Pair_Number": 5,
+    "variation_number": 9,
+    "problem_text": "A bowling ball with a mass of 6.0 kg rolls down the lane and strikes a specially weighted, stationary pin setup with an effective mass of 8.0 kg directly in the center. The collision is perfectly head-on, and the bowling ball stops immediately after impact. What is the coefficient of restitution for the collision between the bowling ball and the pin setup?",
+    "numerical_answer": 0.75
+  },
+  {
+    "signature": "Centre of Mass_R5_5_v10",
+    "source_problem_ID": "Centre of Mass_R5",
+    "Pair_Number": 5,
+    "variation_number": 10,
+    "problem_text": "A small robotic probe of mass 500 kg approaches a much larger, stationary space module of mass 2000 kg for a docking maneuver. Due to a malfunction, the probe collides head-on with the module, and after the impact, the probe's forward motion ceases completely. Assuming a one-dimensional collision, find the coefficient of restitution.",
+    "numerical_answer": 0.25
+  },
+  {
+    "signature": "Centre of Mass_R6_6_v1",
+    "source_problem_ID": "Centre of Mass_R6",
+    "Pair_Number": 6,
+    "variation_number": 1,
+    "problem_text": "A theoretical triatomic molecule consists of three atoms: Atom X with a mass of 12.0 atomic mass units (u) located at the origin (0,0) nanometers, Atom Y with a mass of 16.0 u located at (1.5, 0) nm, and Atom Z with a mass of 14.0 u located at (0.75, 1.3) nm. Calculate the x-coordinate of the center of mass for this molecular system relative to Atom X.",
+    "numerical_answer": 0.82
+  },
+  {
+    "signature": "Centre of Mass_R6_6_v2",
+    "source_problem_ID": "Centre of Mass_R6",
+    "Pair_Number": 6,
+    "variation_number": 2,
+    "problem_text": "In a structural engineering design, several point loads represent equipment on a large steel platform. A reinforcement mass of 15.0 kg is positioned at (0,0) meters, a connecting bracket of 8.0 kg is at (2.5, 0) m, and another bracket of 12.0 kg is at (0, 1.8) m. Additionally, a sensor unit of 10.0 kg is located at (1.0, 1.0) m. Determine the y-coordinate of the center of mass of this assembled system.",
+    "numerical_answer": 0.7
+  },
+  {
+    "signature": "Centre of Mass_R6_6_v3",
+    "source_problem_ID": "Centre of Mass_R6",
+    "Pair_Number": 6,
+    "variation_number": 3,
+    "problem_text": "Consider a simplified astronomical system consisting of a central planet (P) of mass 6.0 x 10^24 kg at the origin (0,0) km, a large moon (M1) of mass 7.5 x 10^22 kg at (4.2 x 10^5, 0) km, and a smaller moon (M2) of mass 3.3 x 10^22 kg at (2.5 x 10^5, 3.8 x 10^5) km. Calculate the x-coordinate of the center of mass for this system in kilometers.",
+    "numerical_answer": 6507.8
+  },
+  {
+    "signature": "Centre of Mass_R6_6_v4",
+    "source_problem_ID": "Centre of Mass_R6",
+    "Pair_Number": 6,
+    "variation_number": 4,
+    "problem_text": "A simplified model of a two-link robotic arm treats each joint and link as a point mass. The base joint (J1) has a mass of 5.0 kg and is located at (0,0) m. The first linkage (L1) has a mass of 3.0 kg, with its center of mass at (0.3, 0.0) m relative to the base. The second linkage (L2) has a mass of 2.0 kg, with its center of mass at (0.4, 0.2) m relative to the base. What is the total distance of the center of mass of the entire robotic arm from its base (origin)?",
+    "numerical_answer": 0.17
+  },
+  {
+    "signature": "Centre of Mass_R6_6_v5",
+    "source_problem_ID": "Centre of Mass_R6",
+    "Pair_Number": 6,
+    "variation_number": 5,
+    "problem_text": "An artist is designing a mobile art piece using four weighted elements. Element A, weighing 150 g, is placed at the primary suspension point (0,0) cm. Element B, weighing 80 g, is at (10.0, 0) cm. Element C, weighing 120 g, is positioned at (-5.0, 8.0) cm. Finally, Element D, weighing 50 g, is located at (12.0, -3.0) cm. Determine the y-coordinate of the center of mass of this mobile relative to its central suspension point.",
+    "numerical_answer": 2.03
+  },
+  {
+    "signature": "Centre of Mass_R6_6_v6",
+    "source_problem_ID": "Centre of Mass_R6",
+    "Pair_Number": 6,
+    "variation_number": 6,
+    "problem_text": "Three scientific satellites are positioned in a local coordinate system for a formation flight experiment. Satellite Alpha (mass 500 kg) is at the origin (0,0). Satellite Beta (mass 800 kg) is located at (60 km, 0). Satellite Gamma (mass 1200 kg) is at (0, 80 km). Determine the x-coordinate of the center of mass of this three-satellite system.",
+    "numerical_answer": 19.2
+  },
+  {
+    "signature": "Centre of Mass_R6_6_v7",
+    "source_problem_ID": "Centre of Mass_R6",
+    "Pair_Number": 6,
+    "variation_number": 7,
+    "problem_text": "Consider a simplified model of a triatomic molecule where three atoms are arranged at the corners of a right-angled structure. Atom A (mass 12 amu) is at the vertex (0,0). Atom B (mass 1 amu) is along the x-axis at a distance of 150 pm from A. Atom C (mass 16 amu) is along the y-axis at a distance of 110 pm from A. Calculate the y-coordinate of the molecule's center of mass.",
+    "numerical_answer": 60.69
+  },
+  {
+    "signature": "Centre of Mass_R6_6_v8",
+    "source_problem_ID": "Centre of Mass_R6",
+    "Pair_Number": 6,
+    "variation_number": 8,
+    "problem_text": "A specialized robotic arm consists of three main components treated as point masses for analysis. The base joint (2.5 kg) is at the origin (0,0) of a planar coordinate system. A connecting link (1.8 kg) extends along the x-axis to a point (0.75 m, 0). An actuator module (3.2 kg) is positioned along the y-axis at (0, 0.60 m). Find the magnitude of the position vector of the center of mass from the base joint.",
+    "numerical_answer": 0.31
+  },
+  {
+    "signature": "Centre of Mass_R6_6_v9",
+    "source_problem_ID": "Centre of Mass_R6",
+    "Pair_Number": 6,
+    "variation_number": 9,
+    "problem_text": "On a tactical board game, three distinct game pieces are placed. A 'King' piece (50 g) is at the corner (0,0) of a grid. A 'Rook' piece (30 g) is placed 12 cm along the x-axis from the King. A 'Bishop' piece (40 g) is placed 9 cm along the y-axis from the King. What is the x-coordinate of the center of mass of this system of game pieces?",
+    "numerical_answer": 3.0
+  },
+  {
+    "signature": "Centre of Mass_R6_6_v10",
+    "source_problem_ID": "Centre of Mass_R6",
+    "Pair_Number": 6,
+    "variation_number": 10,
+    "problem_text": "Three cargo containers are loaded onto a ship's deck. Container A (10 tonnes) is positioned at the reference point (0,0). Container B (15 tonnes) is located 20 meters along the x-axis from A. Container C (8 tonnes) is placed 15 meters along the y-axis from A. Determine the y-coordinate of the center of mass of this cargo system.",
+    "numerical_answer": 3.64
+  },
+  {
+    "signature": "Centre of Mass_R7_7_v1",
+    "source_problem_ID": "Centre of Mass_R7",
+    "Pair_Number": 7,
+    "variation_number": 1,
+    "problem_text": "A uniform rod of total length 10 meters is composed of two segments of equal length. The first segment, starting from the left end, has a linear mass density of 2 kg/m, and the second segment has a linear mass density of 5 kg/m. Locate the center of mass of the entire rod from its left end.",
+    "numerical_answer": 6.07
+  },
+  {
+    "signature": "Centre of Mass_R7_7_v2",
+    "source_problem_ID": "Centre of Mass_R7",
+    "Pair_Number": 7,
+    "variation_number": 2,
+    "problem_text": "A straight, non-conducting rod of length 1.2 meters has two sections of equal length. The first section (0 to 0.6 m from the left end) carries a uniform linear charge density of +4 nC/m, and the second section (0.6 m to 1.2 m from the left end) carries a uniform linear charge density of +10 nC/m. Assuming the origin is at the left end of the rod, find the position of the effective center of charge of the rod.",
+    "numerical_answer": 0.73
+  },
+  {
+    "signature": "Centre of Mass_R7_7_v3",
+    "source_problem_ID": "Centre of Mass_R7",
+    "Pair_Number": 7,
+    "variation_number": 3,
+    "problem_text": "A rectangular display panel has a total width of 0.8 meters. The left half of the panel (0 to 0.4 m from the left edge) is subjected to a uniform pressure of 500 Pa, while the right half (0.4 m to 0.8 m from the left edge) is subjected to a uniform pressure of 1200 Pa. If the height of the panel is constant, determine the horizontal position of the resultant force's point of application (center of pressure) relative to the left edge.",
+    "numerical_answer": 0.48
+  },
+  {
+    "signature": "Centre of Mass_R7_7_v4",
+    "source_problem_ID": "Centre of Mass_R7",
+    "Pair_Number": 7,
+    "variation_number": 4,
+    "problem_text": "A composite thermal system consists of a long, insulated cylindrical rod of total length 2 meters. The first half (0 to 1 m from the left end) is made of material A with a specific heat capacity of 400 J/(kg·K), and the second half (1 m to 2 m from the left end) is made of material B with a specific heat capacity of 800 J/(kg·K). Both materials have the same density and cross-sectional area. Locate the 'thermal centroid' of the rod, which represents the effective point where the total heat capacity is concentrated, from the left end.",
+    "numerical_answer": 1.17
+  },
+  {
+    "signature": "Centre of Mass_R7_7_v5",
+    "source_problem_ID": "Centre of Mass_R7",
+    "Pair_Number": 7,
+    "variation_number": 5,
+    "problem_text": "A seismic wave travels through a horizontal rock layer of total length 6 km. The first half of the layer (0 to 3 km) has a wave propagation velocity of 3 km/s, and the second half (3 km to 6 km) has a wave propagation velocity of 5 km/s. If we consider the 'effective center of travel time' for a wave crossing the entire layer, locate this point relative to the start of the layer.",
+    "numerical_answer": 2.63
+  },
+  {
+    "signature": "Centre of Mass_R7_7_v6",
+    "source_problem_ID": "Centre of Mass_R7",
+    "Pair_Number": 7,
+    "variation_number": 6,
+    "problem_text": "A thin, uniform rod of total length 2.0 meters is composed of two equally long sections. The left section, spanning from 0 to 1.0 m, has a linear mass density of 0.5 kg/m. The right section, spanning from 1.0 m to 2.0 m, has a linear mass density of 1.5 kg/m. If the origin is placed at the left end of the rod (x=0), determine the center of mass of the entire rod.",
+    "numerical_answer": 1.25
+  },
+  {
+    "signature": "Centre of Mass_R7_7_v7",
+    "source_problem_ID": "Centre of Mass_R7",
+    "Pair_Number": 7,
+    "variation_number": 7,
+    "problem_text": "A horizontal cylindrical pipe, 5.0 meters in total length, is sealed and completely filled with two immiscible liquids. The left half of the pipe is filled with liquid A (density 800 kg/m^3), and the right half is filled with liquid B (density 1200 kg/m^3). Assuming a uniform circular cross-section and placing the origin at the center of the left end face of the pipe, locate the center of mass of the liquid-filled pipe system.",
+    "numerical_answer": 2.75
+  },
+  {
+    "signature": "Centre of Mass_R7_7_v8",
+    "source_problem_ID": "Centre of Mass_R7",
+    "Pair_Number": 7,
+    "variation_number": 8,
+    "problem_text": "Consider a thin, non-conducting rod of length 0.8 meters. The left half of the rod possesses a uniform linear charge density of +10 nC/m, while the right half has a uniform linear charge density of +20 nC/m. With the origin placed at the left end of the rod, determine the position of the effective 'center of charge' for this composite system.",
+    "numerical_answer": 0.47
+  },
+  {
+    "signature": "Centre of Mass_R7_7_v9",
+    "source_problem_ID": "Centre of Mass_R7",
+    "Pair_Number": 7,
+    "variation_number": 9,
+    "problem_text": "An imaginary rectangular administrative region has a total length of 100 km along its east-west axis. The western half of this region has an average population density of 200 people/km^2, and the eastern half has an average population density of 500 people/km^2. Assuming a uniform width for the region, locate the 'population center' relative to an origin placed at the midpoint of the western boundary (x=0).",
+    "numerical_answer": 60.71
+  },
+  {
+    "signature": "Centre of Mass_R7_7_v10",
+    "source_problem_ID": "Centre of Mass_R7",
+    "Pair_Number": 7,
+    "variation_number": 10,
+    "problem_text": "A solid bar of length 0.4 meters is fabricated from a composite alloy. The left half of the bar (0 to 0.2 m) exhibits a uniform molar concentration of a specific rare-earth element X at 0.8 mol/L, while the right half (0.2 to 0.4 m) shows a concentration of 1.2 mol/L for the same element. Assuming a uniform cross-sectional area throughout the bar, determine the 'center of concentration' for element X, taking the origin at the left end of the bar.",
+    "numerical_answer": 0.22
+  },
+  {
+    "signature": "Centre of Mass_R8_8_v1",
+    "source_problem_ID": "Centre of Mass_R8",
+    "Pair_Number": 8,
+    "variation_number": 1,
+    "problem_text": "A specialized I-beam used in construction has a length of 8 meters. Due to a manufacturing defect (or design choice for specific stress distribution), its linear mass density varies along its length. The density can be modeled as ρ(x) = (10 + 1.2x) kg/m, where x is the distance in meters from one end of the beam. Determine the position of the center of mass of this I-beam, measured from the end where x=0.",
+    "numerical_answer": 4.43
+  },
+  {
+    "signature": "Centre of Mass_R8_8_v2",
+    "source_problem_ID": "Centre of Mass_R8",
+    "Pair_Number": 8,
+    "variation_number": 2,
+    "problem_text": "A thin, straight insulating rod of length 0.5 meters carries a non-uniform linear charge density. The charge density is given by λ(x) = (2.0 - 1.0x) × 10⁻⁹ C/m, where x is the distance in meters from the left end of the rod. Calculate the position of the center of charge (analogous to the center of mass for charge distribution) from the left end.",
+    "numerical_answer": 0.24
+  },
+  {
+    "signature": "Centre of Mass_R8_8_v3",
+    "source_problem_ID": "Centre of Mass_R8",
+    "Pair_Number": 8,
+    "variation_number": 3,
+    "problem_text": "A 12-meter long segment of an industrial pipeline experiences significant internal sediment buildup. The linear mass density of the pipe-sediment system is found to vary along its length according to the function ρ(x) = (25 + 0.8x) kg/m, where x is the distance in meters from the starting point of the segment. Locate the center of mass of this pipe segment relative to its starting point.",
+    "numerical_answer": 6.32
+  },
+  {
+    "signature": "Centre of Mass_R8_8_v4",
+    "source_problem_ID": "Centre of Mass_R8",
+    "Pair_Number": 8,
+    "variation_number": 4,
+    "problem_text": "In a laboratory experiment, a synthetic polymer fiber of length 15 cm is engineered such that its linear mass density varies from one end to the other. The density profile is given by ρ(x) = (0.01 + 0.0005x) g/cm, where x is the distance in centimeters from the initial end. Find the exact position of the center of mass of this polymer fiber.",
+    "numerical_answer": 8.18
+  },
+  {
+    "signature": "Centre of Mass_R8_8_v5",
+    "source_problem_ID": "Centre of Mass_R8",
+    "Pair_Number": 8,
+    "variation_number": 5,
+    "problem_text": "A roof gutter, 6 meters in length, is filled with snow. Due to uneven wind patterns, the linear mass density of the snow along the gutter varies as ρ(x) = (3 + 0.7x) kg/m, where x is the distance in meters from the left end of the gutter. To ensure proper support, engineers need to find the effective balancing point for the snow load. Determine the position of this balancing point (center of mass) from the left end.",
+    "numerical_answer": 3.41
+  },
+  {
+    "signature": "Centre of Mass_R8_8_v6",
+    "source_problem_ID": "Centre of Mass_R8",
+    "Pair_Number": 8,
+    "variation_number": 6,
+    "problem_text": "A long, thin metallic wire of length 2.0 m carries a non-uniform linear charge density given by \\(\\lambda(x) = (1.0 \\times 10^{-6} + 0.5 \\times 10^{-6} x)\\) C/m, where \\(x\\) is the distance from the left end of the wire. Determine the position of the center of charge with respect to the left end.",
+    "numerical_answer": 1.11
+  },
+  {
+    "signature": "Centre of Mass_R8_8_v7",
+    "source_problem_ID": "Centre of Mass_R8",
+    "Pair_Number": 8,
+    "variation_number": 7,
+    "problem_text": "A vertical retaining wall of height 5.0 m experiences a non-uniform lateral pressure distribution from the soil. The pressure intensity at a depth \\(x\\) from the top of the wall is given by \\(P(x) = (10.0 + 2.0 x)\\) kPa, where \\(x\\) is in meters. Calculate the depth from the top of the wall where the resultant force due to this pressure acts (i.e., the center of pressure).",
+    "numerical_answer": 2.78
+  },
+  {
+    "signature": "Centre of Mass_R8_8_v8",
+    "source_problem_ID": "Centre of Mass_R8",
+    "Pair_Number": 8,
+    "variation_number": 8,
+    "problem_text": "A polluted river segment, 100.0 m long, has a varying concentration of a particular pollutant. The linear concentration profile along its length is given by \\(C(x) = (0.1 + 0.005 x)\\) mg/L per meter, where \\(x\\) is the distance from the beginning of the segment. Find the effective location along the segment (from the beginning) where a representative sample would capture the overall distribution of the pollutant mass.",
+    "numerical_answer": 61.9
+  },
+  {
+    "signature": "Centre of Mass_R8_8_v9",
+    "source_problem_ID": "Centre of Mass_R8",
+    "Pair_Number": 8,
+    "variation_number": 9,
+    "problem_text": "A horizontal beam of length 8.0 m is subjected to a distributed load that varies along its span. The load intensity per unit length is given by \\(w(x) = (500 + 100 x)\\) N/m, where \\(x\\) is the distance from the left support. Calculate the position from the left support where the single equivalent resultant force of this distributed load would act.",
+    "numerical_answer": 4.59
+  },
+  {
+    "signature": "Centre of Mass_R8_8_v10",
+    "source_problem_ID": "Centre of Mass_R8",
+    "Pair_Number": 8,
+    "variation_number": 10,
+    "problem_text": "A linear section of a nebula, extending 10.0 light-years in length, exhibits a non-uniform luminosity distribution. The luminosity per unit length along this section is described by \\(I(x) = (100 + 10 x)\\) Solar Luminosity/light-year, where \\(x\\) is the distance from one end. Determine the effective center of light emission of this nebula section, measured from the same end.",
+    "numerical_answer": 5.56
+  },
+  {
+    "signature": "Centre of Mass_R9_9_v1",
+    "source_problem_ID": "Centre of Mass_R9",
+    "Pair_Number": 9,
+    "variation_number": 1,
+    "problem_text": "An elevator cabin of mass 750 kg is carrying 6 passengers, each with an average mass of 70 kg. Initially, the passengers are all standing, with their combined center of mass (COM) at 1.0 m above the cabin floor. They then all sit down, causing their combined COM to drop to 0.4 m above the cabin floor. Assuming the cabin's COM remains fixed relative to its floor, how far does the overall center of mass of the 'cabin plus passengers' system come down?",
+    "numerical_answer": 0.22
+  },
+  {
+    "signature": "Centre of Mass_R9_9_v2",
+    "source_problem_ID": "Centre of Mass_R9",
+    "Pair_Number": 9,
+    "variation_number": 2,
+    "problem_text": "A flatbed truck with a mass of 4000 kg is loaded with 1200 kg of cargo. Initially, the cargo is stacked in a tall configuration, with its center of mass (COM) at 1.2 m above the truck bed. For better stability, the cargo is then rearranged into a wider, flatter layer, lowering its COM to 0.3 m above the truck bed. If the truck's COM is considered fixed relative to its bed, calculate the downward shift in the overall center of mass of the 'truck plus cargo' system.",
+    "numerical_answer": 0.21
+  },
+  {
+    "signature": "Centre of Mass_R9_9_v3",
+    "source_problem_ID": "Centre of Mass_R9",
+    "Pair_Number": 9,
+    "variation_number": 3,
+    "problem_text": "A research submarine, with a mass of 80,000 kg, is equipped with a specialized chamber containing 5,000 kg of dense scientific equipment. To adjust its buoyancy and trim, this equipment can be moved vertically within the chamber. Initially, the equipment's center of mass (COM) is positioned at 3.0 m above the submarine's keel. It is then lowered to a new position where its COM is 0.5 m above the keel. Assuming the submarine's own COM remains fixed relative to the keel, determine how much the overall center of mass of the 'submarine plus equipment' system comes down.",
+    "numerical_answer": 0.15
+  },
+  {
+    "signature": "Centre of Mass_R9_9_v4",
+    "source_problem_ID": "Centre of Mass_R9",
+    "Pair_Number": 9,
+    "variation_number": 4,
+    "problem_text": "A cylindrical industrial drum of mass 20 kg contains 150 kg of a dense, viscous liquid. Initially, the liquid fills the drum to a height such that its center of mass (COM) is 0.75 m above the base of the drum. Over time, due to settling and slight compaction, the liquid's height uniformly decreases, and its COM effectively drops to 0.70 m above the base. Assuming the drum's COM is fixed, calculate the downward shift in the overall center of mass of the 'drum plus liquid' system.",
+    "numerical_answer": 0.04
+  },
+  {
+    "signature": "Centre of Mass_R9_9_v5",
+    "source_problem_ID": "Centre of Mass_R9",
+    "Pair_Number": 9,
+    "variation_number": 5,
+    "problem_text": "A segment of a large suspension bridge, along with its permanent access scaffolding, has a combined mass of 50,000 kg. A maintenance crew, including their specialized tools, has a total mass of 400 kg. Initially, the crew is working at a high level on the scaffolding, where their combined center of mass (COM) is 8.0 m above the bridge deck. After completing their tasks, they descend to a lower level, repositioning their COM to 3.0 m above the bridge deck. Assuming the bridge segment's COM remains constant, determine the downward shift in the overall center of mass of the 'bridge segment plus crew' system.",
+    "numerical_answer": 0.04
+  },
+  {
+    "signature": "Centre of Mass_R9_9_v6",
+    "source_problem_ID": "Centre of Mass_R9",
+    "Pair_Number": 9,
+    "variation_number": 6,
+    "problem_text": "An insulated container of mass 5.0 kg has a cubical block of ice, mass 2.0 kg and edge length 30 cm, placed inside it. If the ice completely melts into water, how far does the centre of mass of the 'container plus water' system come down?",
+    "numerical_answer": 0.04
+  },
+  {
+    "signature": "Centre of Mass_R9_9_v7",
+    "source_problem_ID": "Centre of Mass_R9",
+    "Pair_Number": 9,
+    "variation_number": 7,
+    "problem_text": "A large, empty cylindrical grain silo has a mass of 2000 kg. A hopper at the top of the silo contains 500 kg of grain, with its center of mass initially 8.0 meters above the silo's base. If all the grain is released from the hopper and settles uniformly on the bottom floor of the silo, how far does the center of mass of the 'silo plus grain' system come down?",
+    "numerical_answer": 1.6
+  },
+  {
+    "signature": "Centre of Mass_R9_9_v8",
+    "source_problem_ID": "Centre of Mass_R9",
+    "Pair_Number": 9,
+    "variation_number": 8,
+    "problem_text": "A spacecraft has a mass of 15000 kg. An astronaut, along with her equipment, has a total mass of 120 kg. If the astronaut moves from an upper deck, whose center is 3.5 meters above the spacecraft's main deck reference level, to the main deck, how far does the center of mass of the 'spacecraft plus astronaut' system come down? Assume the main deck reference level is the new effective COM of the astronaut for vertical position.",
+    "numerical_answer": 0.03
+  },
+  {
+    "signature": "Centre of Mass_R9_9_v9",
+    "source_problem_ID": "Centre of Mass_R9",
+    "Pair_Number": 9,
+    "variation_number": 9,
+    "problem_text": "A sturdy wooden bookshelf has a mass of 30.0 kg. A stack of 5 identical books, each 8.0 cm thick, stands upright on the top shelf. The total mass of the books is 10.0 kg. If the books are carefully laid down horizontally on the same shelf, how far does the centre of mass of the 'bookshelf plus books' system come down? (Assume the initial COM of the stack is at half its total height, and the final COM of the books is effectively on the shelf surface.)",
+    "numerical_answer": 0.05
+  },
+  {
+    "signature": "Centre of Mass_R9_9_v10",
+    "source_problem_ID": "Centre of Mass_R9",
+    "Pair_Number": 9,
+    "variation_number": 10,
+    "problem_text": "A mobile construction crane has a base chassis mass of 20,000 kg. It is carrying a heavy concrete slab of mass 5,000 kg, which is initially suspended with its center of mass 15.0 meters above the ground. The crane operator slowly lowers the concrete slab until it rests on the ground. How far does the center of mass of the 'crane plus slab' system come down?",
+    "numerical_answer": 3.0
+  },
+  {
+    "signature": "Centre of Mass_R10_10_v1",
+    "source_problem_ID": "Centre of Mass_R10",
+    "Pair_Number": 10,
+    "variation_number": 1,
+    "problem_text": "An 80 kg man and a 60 kg woman are sitting at opposite ends of a stationary 10-meter-long boat in still water. If the man slowly walks 2.5 meters towards the center of the boat, by what distance (in meters) must the woman move in the opposite direction relative to her original position to ensure the boat's center of mass remains at the same fixed point in the water?",
+    "numerical_answer": 3.33
+  },
+  {
+    "signature": "Centre of Mass_R10_10_v2",
+    "source_problem_ID": "Centre of Mass_R10",
+    "Pair_Number": 10,
+    "variation_number": 2,
+    "problem_text": "Consider a simplified model of a binary star system consisting of a star of mass 2.5 solar masses and a companion star of mass 0.75 solar masses. If the more massive star shifts its position by 1.2 x 10^7 kilometers towards their mutual center of mass, what distance (in kilometers) must the less massive companion star move to keep the system's center of mass (barycenter) stationary?",
+    "numerical_answer": 40000000.0
+  },
+  {
+    "signature": "Centre of Mass_R10_10_v3",
+    "source_problem_ID": "Centre of Mass_R10",
+    "Pair_Number": 10,
+    "variation_number": 3,
+    "problem_text": "Two astronauts, one with a mass of 90 kg and the other with a mass of 70 kg, are tethered together in deep space, effectively forming a two-particle system. If the 90 kg astronaut pulls themselves along the tether by a distance of 1.8 meters, how far (in meters) must the 70 kg astronaut be pulled towards the 90 kg astronaut to maintain their combined center of mass at a constant position?",
+    "numerical_answer": 2.31
+  },
+  {
+    "signature": "Centre of Mass_R10_10_v4",
+    "source_problem_ID": "Centre of Mass_R10",
+    "Pair_Number": 10,
+    "variation_number": 4,
+    "problem_text": "A heavy-duty crane (mass 40,000 kg) and a counterweight (mass 15,000 kg) are positioned on a long, rigid platform. If the crane is moved 0.6 meters along the platform towards the counterweight, what distance (in meters) must the counterweight be moved in the opposite direction to ensure the center of mass of the crane-counterweight system remains fixed relative to the ground?",
+    "numerical_answer": 1.6
+  },
+  {
+    "signature": "Centre of Mass_R10_10_v5",
+    "source_problem_ID": "Centre of Mass_R10",
+    "Pair_Number": 10,
+    "variation_number": 5,
+    "problem_text": "Imagine a diatomic molecule where one atom has a mass of 24 atomic mass units (amu) and the other has a mass of 12 amu. If the heavier atom undergoes a displacement of 0.08 nanometers towards their bond's midpoint (which is also their center of mass), what displacement (in nanometers) must the lighter atom experience in the opposite direction to keep the molecule's center of mass at the same spatial location?",
+    "numerical_answer": 0.16
+  },
+  {
+    "signature": "Centre of Mass_R10_10_v6",
+    "source_problem_ID": "Centre of Mass_R10",
+    "Pair_Number": 10,
+    "variation_number": 6,
+    "problem_text": "A 70 kg person (Person A) and a 90 kg person (Person B) are initially at rest on a long, massless plank floating on a calm lake. If Person A walks 1.5 meters towards the initial common center of mass of the two-person system, how far and in what direction must Person B move to ensure that the common center of mass of the two-person system remains precisely at its original position relative to the lake?",
+    "numerical_answer": 1.17
+  },
+  {
+    "signature": "Centre of Mass_R10_10_v7",
+    "source_problem_ID": "Centre of Mass_R10",
+    "Pair_Number": 10,
+    "variation_number": 7,
+    "problem_text": "Two blocks, one with mass 2.0 kg (Block X) and the other with mass 5.0 kg (Block Y), are placed on a perfectly frictionless horizontal surface. If Block X is pushed 0.3 meters towards the common center of mass of the two-block system, what distance must Block Y be moved to prevent the common center of mass from shifting from its initial location?",
+    "numerical_answer": 0.12
+  },
+  {
+    "signature": "Centre of Mass_R10_10_v8",
+    "source_problem_ID": "Centre of Mass_R10",
+    "Pair_Number": 10,
+    "variation_number": 8,
+    "problem_text": "Consider two experimental satellites, Satellite P (mass 150 kg) and Satellite Q (mass 250 kg), linked by a very lightweight, extensible boom in deep space. If Satellite P is pulled inward by 0.8 meters towards the initial center of mass of the two-satellite system (perhaps by retracting a part of the boom), what distance must Satellite Q be simultaneously moved to maintain the overall center of mass of the system at its original inertial position?",
+    "numerical_answer": 0.48
+  },
+  {
+    "signature": "Centre of Mass_R10_10_v9",
+    "source_problem_ID": "Centre of Mass_R10",
+    "Pair_Number": 10,
+    "variation_number": 9,
+    "problem_text": "A 30 kg child (Child A) and a 45 kg child (Child B) are playing on a balanced seesaw (assume the seesaw itself is massless and the pivot is at the system's center of mass). If Child A slides 0.2 meters closer to the pivot point, how far must Child B slide, and in which direction, to keep the seesaw perfectly balanced (i.e., to keep the center of mass at the pivot)?",
+    "numerical_answer": 0.13
+  },
+  {
+    "signature": "Centre of Mass_R10_10_v10",
+    "source_problem_ID": "Centre of Mass_R10",
+    "Pair_Number": 10,
+    "variation_number": 10,
+    "problem_text": "In a laboratory setup, a 1200 kg experimental apparatus (Component M) and an 800 kg counterweight (Component N) are mounted on a frictionless horizontal rail. To fine-tune the system, Component M is precisely moved 5.0 cm (0.05 m) towards the current center of mass of the two-component system. What distance must Component N be moved to ensure that the combined center of mass of the system does not shift from its initial reference point?",
+    "numerical_answer": 0.08
+  },
+  {
+    "signature": "Centre of Mass_R11_11_v1",
+    "source_problem_ID": "Centre of Mass_R11",
+    "Pair_Number": 11,
+    "variation_number": 1,
+    "problem_text": "A hockey puck, with a mass of 0.17 kg, is being struck by multiple players on a frictionless ice surface. Four forces act on the puck simultaneously: F1 = 10 N at an angle of 30° counter-clockwise from the positive x-axis, F2 = 8 N at an angle of 45° clockwise from the positive x-axis, F3 = 12 N directed purely along the negative x-axis, and F4 = 5 N at an angle of 60° counter-clockwise from the positive y-axis (towards the negative x-axis). Determine the magnitude of the acceleration of the puck.",
+    "numerical_answer": 16.06
+  },
+  {
+    "signature": "Centre of Mass_R11_11_v2",
+    "source_problem_ID": "Centre of Mass_R11",
+    "Pair_Number": 11,
+    "variation_number": 2,
+    "problem_text": "A small satellite, having a mass of 150 kg, is adjusting its position in orbit using several thrusters. At a particular instant, it experiences the following forces: F1 = 20 N directed forward (+x-axis), F2 = 15 N directed backward (-x-axis), F3 = 10 N at an angle of 45° counter-clockwise from the forward direction, and F4 = 12 N at an angle of 30° clockwise from the forward direction. Calculate the magnitude of the resultant acceleration of the satellite.",
+    "numerical_answer": 0.15
+  },
+  {
+    "signature": "Centre of Mass_R11_11_v3",
+    "source_problem_ID": "Centre of Mass_R11",
+    "Pair_Number": 11,
+    "variation_number": 3,
+    "problem_text": "A massive barge with a total mass of 200,000 kg is being maneuvered through a narrow channel by several tugboats. Four forces are exerted on the barge: F1 = 5000 N directly forward (positive x-axis), F2 = 3000 N at an angle of 30° to port (left of forward), F3 = 4000 N at an angle of 45° to starboard (right of forward), and F4 = 2000 N representing water resistance directly backward (-x-axis). Find the magnitude of the acceleration of the barge.",
+    "numerical_answer": 0.02
+  },
+  {
+    "signature": "Centre of Mass_R11_11_v4",
+    "source_problem_ID": "Centre of Mass_R11",
+    "Pair_Number": 11,
+    "variation_number": 4,
+    "problem_text": "A robotic arm is manipulating a component of mass 5 kg. Three actuators apply forces to the component simultaneously: F1 = 30 N at an angle of 60° relative to the arm's longitudinal axis (positive x-axis) in the first quadrant, F2 = 25 N at an angle of 30° below the negative x-axis, and F3 = 15 N directed purely along the positive y-axis. Determine the magnitude of the acceleration of the component.",
+    "numerical_answer": 5.85
+  },
+  {
+    "signature": "Centre of Mass_R11_11_v5",
+    "source_problem_ID": "Centre of Mass_R11",
+    "Pair_Number": 11,
+    "variation_number": 5,
+    "problem_text": "An aircraft of mass 5000 kg is flying through turbulent air. At a specific moment, it experiences four forces: F1 (thrust) = 15000 N directed forward (+x-axis), F2 (lift) = 55000 N directed upward (+y-axis), F3 (drag) = 10000 N directed backward (-x-axis), and F4 (wind gust) = 3000 N at an angle of 45° clockwise from the forward direction. Calculate the magnitude of the net acceleration of the aircraft.",
+    "numerical_answer": 10.67
+  },
+  {
+    "signature": "Centre of Mass_R11_11_v6",
+    "source_problem_ID": "Centre of Mass_R11",
+    "Pair_Number": 11,
+    "variation_number": 6,
+    "problem_text": "A block of mass 5.0 kg rests on a frictionless horizontal surface. It is simultaneously subjected to four forces: F1 = 10 N acting at an angle of 30 degrees above the positive x-axis, F2 = 12 N acting at an angle of 45 degrees below the positive x-axis, F3 = 8 N acting purely in the negative x-direction, and F4 = 7 N acting purely in the positive y-direction. Calculate the magnitude of the acceleration of the block.",
+    "numerical_answer": 1.96
+  },
+  {
+    "signature": "Centre of Mass_R11_11_v7",
+    "source_problem_ID": "Centre of Mass_R11",
+    "Pair_Number": 11,
+    "variation_number": 7,
+    "problem_text": "A 500 kg satellite in deep space fires its thrusters. Four thrusters are active: T1 = 20 N along the positive x-axis, T2 = 30 N at 60 degrees above the negative x-axis (in the second quadrant), T3 = 15 N purely in the negative y-direction, and T4 = 25 N at 30 degrees below the positive x-axis (in the fourth quadrant). Determine the magnitude of the resultant acceleration of the satellite.",
+    "numerical_answer": 0.05
+  },
+  {
+    "signature": "Centre of Mass_R11_11_v8",
+    "source_problem_ID": "Centre of Mass_R11",
+    "Pair_Number": 11,
+    "variation_number": 8,
+    "problem_text": "A microscopic particle of mass 1.2 x 10^-9 kg is suspended in a fluid. It experiences several forces due to molecular collisions and electric fields: F_A = 5.0 x 10^-6 N at 45 degrees above the positive x-axis, F_B = 3.0 x 10^-6 N at 60 degrees above the negative x-axis, and F_C = 4.0 x 10^-6 N purely in the negative y-direction. What is the magnitude of the particle's acceleration?",
+    "numerical_answer": 2457.33
+  },
+  {
+    "signature": "Centre of Mass_R11_11_v9",
+    "source_problem_ID": "Centre of Mass_R11",
+    "Pair_Number": 11,
+    "variation_number": 9,
+    "problem_text": "A car with a mass of 1200 kg is moving on a level road. The forces acting on it are: an engine thrust of 1500 N purely in the positive x-direction, air resistance of 300 N purely in the negative x-direction, a crosswind force of 200 N at 45 degrees above the positive x-axis, and a minor drag force of 50 N at 30 degrees below the negative x-axis (in the third quadrant). Find the magnitude of the car's acceleration.",
+    "numerical_answer": 1.09
+  },
+  {
+    "signature": "Centre of Mass_R11_11_v10",
+    "source_problem_ID": "Centre of Mass_R11",
+    "Pair_Number": 11,
+    "variation_number": 10,
+    "problem_text": "An 800 kg boat in a lake is influenced by multiple forces: its engine provides a thrust of 1000 N along the positive x-axis, the water current exerts 200 N at 30 degrees below the positive x-axis, the wind pushes with 150 N at 60 degrees above the negative x-axis, and there's an additional drag force of 50 N purely in the negative x-direction. Calculate the magnitude of the boat's acceleration.",
+    "numerical_answer": 1.31
+  },
+  {
+    "signature": "Centre of Mass_R12_12_v1",
+    "source_problem_ID": "Centre of Mass_R12",
+    "Pair_Number": 12,
+    "variation_number": 1,
+    "problem_text": "In the vacuum of deep space, two experimental spacecraft modules, a Habitation Module (mass m1 = 1000 kg) and a Propulsion Module (mass m2 = 1500 kg), are initially at rest and connected by an elastic docking mechanism (simulating an unstretched spring). A constant force F = 100 N is applied by a thruster on the Propulsion Module, pulling it away from the Habitation Module. After 20 seconds, the extension of the docking mechanism is observed to be 0.5 meters. Determine the displacement of the Habitation Module (m1) from its initial position at this instant.",
+    "numerical_answer": 7.7
+  },
+  {
+    "signature": "Centre of Mass_R12_12_v2",
+    "source_problem_ID": "Centre of Mass_R12",
+    "Pair_Number": 12,
+    "variation_number": 2,
+    "problem_text": "On a frictionless, straight section of a shunting yard, two railway carriages are initially at rest and connected by an unstretched buffer spring. Carriage 1 has a mass m1 = 20000 kg, and Carriage 2 has a mass m2 = 30000 kg. A shunting engine applies a constant force F = 500 N to Carriage 2, pushing it away from Carriage 1. If, after 15 seconds, the buffer spring has been extended by 0.05 meters, calculate the displacement of Carriage 1 (m1) from its initial position.",
+    "numerical_answer": 1.1
+  },
+  {
+    "signature": "Centre of Mass_R12_12_v3",
+    "source_problem_ID": "Centre of Mass_R12",
+    "Pair_Number": 12,
+    "variation_number": 3,
+    "problem_text": "A specialized robotic arm in a zero-gravity testing facility consists of two segments, initially at rest and connected by a flexible joint that behaves like an unstretched spring. The first segment has a mass m1 = 5 kg, and the second segment has a mass m2 = 3 kg. A small thruster attached to the second segment applies a constant force F = 2 N, pulling it away from the first segment. If, after 10 seconds, the extension of the flexible joint is 0.1 meters, what is the displacement of the first segment (m1) from its initial position?",
+    "numerical_answer": 12.46
+  },
+  {
+    "signature": "Centre of Mass_R12_12_v4",
+    "source_problem_ID": "Centre of Mass_R12",
+    "Pair_Number": 12,
+    "variation_number": 4,
+    "problem_text": "Two submerged research buoys, initially at rest in still water, are connected by an elastic tether (like an unstretched spring). Buoy 1 has a mass m1 = 50 kg, and Buoy 2 has a mass m2 = 70 kg. A miniature propulsion system on Buoy 2 exerts a constant horizontal force F = 15 N, pulling it away from Buoy 1. Assuming negligible water resistance, if the tether has stretched by 0.2 meters after 8 seconds, find the displacement of Buoy 1 (m1) from its starting point.",
+    "numerical_answer": 3.88
+  },
+  {
+    "signature": "Centre of Mass_R12_12_v5",
+    "source_problem_ID": "Centre of Mass_R12",
+    "Pair_Number": 12,
+    "variation_number": 5,
+    "problem_text": "In a physics laboratory, two air track carts are initially at rest and connected by a light, unstretched spring. Cart 1 has a mass m1 = 1.0 kg, and Cart 2 has a mass m2 = 1.5 kg. A constant force F = 0.5 N is applied horizontally to Cart 2, pulling it away from Cart 1. The air track ensures frictionless motion. After 5 seconds, the spring is observed to have extended by 0.03 meters. Calculate the displacement of Cart 1 (m1) from its initial position at this moment.",
+    "numerical_answer": 2.48
+  },
+  {
+    "signature": "Centre of Mass_R12_12_v6",
+    "source_problem_ID": "Centre of Mass_R12",
+    "Pair_Number": 12,
+    "variation_number": 6,
+    "problem_text": "Two identical small spacecraft modules, each with a mass of 50 kg, are initially at rest in deep space, connected by a flexible tether that acts like an unstretched spring. One module fires a thruster, applying a constant force of 200 N, pulling it away from the other. After 5 seconds, the tether has stretched by 0.5 meters. What is the displacement of the module that fired its thruster from its initial position?",
+    "numerical_answer": 25.25
+  },
+  {
+    "signature": "Centre of Mass_R12_12_v7",
+    "source_problem_ID": "Centre of Mass_R12",
+    "Pair_Number": 12,
+    "variation_number": 7,
+    "problem_text": "Two identical particles, each with a mass of 2 kg, are connected by an invisible, massless quantum link that behaves like an unstretched spring, and the system is initially at rest in a frictionless vacuum. A constant external force of 10 N is applied to one of the particles, pulling it away from the other. What is the position of the center of mass of the two-particle system after 2 seconds?",
+    "numerical_answer": 5.0
+  },
+  {
+    "signature": "Centre of Mass_R12_12_v8",
+    "source_problem_ID": "Centre of Mass_R12",
+    "Pair_Number": 12,
+    "variation_number": 8,
+    "problem_text": "Two identical train wagons, each weighing 2000 kg, are coupled together by an uncompressed spring-loaded buffer system and are initially at rest on a perfectly frictionless horizontal track. A shunting engine applies a constant force of 500 N to the front wagon, pulling it forward. After 10 seconds, the buffer system between the wagons is compressed by 0.8 meters. What is the displacement of the rear wagon from its initial position at this instant?",
+    "numerical_answer": 5.85
+  },
+  {
+    "signature": "Centre of Mass_R12_12_v9",
+    "source_problem_ID": "Centre of Mass_R12",
+    "Pair_Number": 12,
+    "variation_number": 9,
+    "problem_text": "A physics experiment involves two identical air track gliders, each of mass 0.5 kg, connected by a light, unstretched spring. The system starts from rest on a frictionless horizontal air track. A student applies a constant force of 1.5 N to one of the gliders, pulling it horizontally. After 3 seconds, the spring connecting the gliders has extended by 0.05 meters. Calculate the displacement of the glider to which the force was applied.",
+    "numerical_answer": 6.78
+  },
+  {
+    "signature": "Centre of Mass_R12_12_v10",
+    "source_problem_ID": "Centre of Mass_R12",
+    "Pair_Number": 12,
+    "variation_number": 10,
+    "problem_text": "Two identical ocean buoys, each with a mass of 80 kg, are linked by a slack elastic rope (initially unstretched) and are at rest in calm waters. A strong, constant current exerts a force of 300 N on one of the buoys, pulling it horizontally. Assuming negligible water resistance for the system as a whole, what is the position of the center of mass of the two-buoy system after 4 seconds relative to its initial position?",
+    "numerical_answer": 15.0
+  },
+  {
+    "signature": "Centre of Mass_R13_13_v1",
+    "source_problem_ID": "Centre of Mass_R13",
+    "Pair_Number": 13,
+    "variation_number": 1,
+    "problem_text": "A military shell is fired from a cannon with an initial speed of 80 m/s at an angle of 45 degrees above the horizontal. At the highest point of its trajectory, the shell breaks into two equal parts. One part is propelled backward such that it lands precisely at the launch point of the cannon. Assuming g = 10 m/s^2, determine the distance from the launching point to where the other (second) part lands.",
+    "numerical_answer": 1280.0
+  },
+  {
+    "signature": "Centre of Mass_R13_13_v2",
+    "source_problem_ID": "Centre of Mass_R13",
+    "Pair_Number": 13,
+    "variation_number": 2,
+    "problem_text": "A high-altitude research rocket is launched with a velocity of 150 m/s at an angle of 53 degrees with respect to the horizontal. At its maximum height, the rocket disintegrates into two pieces with a mass ratio of 2:3. The smaller piece is observed to land at a horizontal distance 100 m short of the point where the explosion occurred. Assuming g = 10 m/s^2, calculate the horizontal distance from the launch point to where the heavier piece lands.",
+    "numerical_answer": 2946.67
+  },
+  {
+    "signature": "Centre of Mass_R13_13_v3",
+    "source_problem_ID": "Centre of Mass_R13",
+    "Pair_Number": 13,
+    "variation_number": 3,
+    "problem_text": "A projectile is launched from a naval gun at an initial speed of 200 m/s at an angle of 30 degrees above the horizontal. At the apex of its parabolic path, it explodes into two fragments with a mass ratio of 1:4. The smaller fragment is found to land just 100 m horizontally from the initial launch point. Taking g = 9.8 m/s^2, what is the horizontal range of the heavier fragment, measured from the launch site?",
+    "numerical_answer": 4393.37
+  },
+  {
+    "signature": "Centre of Mass_R13_13_v4",
+    "source_problem_ID": "Centre of Mass_R13",
+    "Pair_Number": 13,
+    "variation_number": 4,
+    "problem_text": "A large firework rocket is launched from the ground at a speed of 75 m/s at an angle of 60 degrees to the horizontal. At its highest point, the rocket explodes into two pieces with a mass ratio of 3:1. The larger piece comes to rest immediately after the explosion and falls vertically downwards. Assuming g = 10 m/s^2, find the horizontal distance from the launching point to where the smaller piece lands.",
+    "numerical_answer": 1217.19
+  },
+  {
+    "signature": "Centre of Mass_R13_13_v5",
+    "source_problem_ID": "Centre of Mass_R13",
+    "Pair_Number": 13,
+    "variation_number": 5,
+    "problem_text": "A meteoroid enters Earth's atmosphere and is observed to be moving at a speed of 300 m/s at an angle of 40 degrees above the horizontal when it fragments. This fragmentation occurs at the highest point of its observed trajectory. It breaks into two pieces with a mass ratio of 1:2. The smaller piece is propelled forward and lands 200 m horizontally beyond the point where the fragmentation occurred. Assuming g = 10 m/s^2, calculate the total horizontal distance from the initial point of observation to the landing spot of the heavier piece.",
+    "numerical_answer": 10981.25
+  },
+  {
+    "signature": "Centre of Mass_R13_13_v6",
+    "source_problem_ID": "Centre of Mass_R13",
+    "Pair_Number": 13,
+    "variation_number": 6,
+    "problem_text": "A projectile is launched from the ground with an initial speed of 80 m/s at an angle of 60 degrees above the horizontal. At its highest point, it explodes into two fragments with a mass ratio of 1:4. If the smaller fragment falls back and lands exactly at the launching point, what is the horizontal distance from the launching point where the larger fragment lands? (Assume g = 10 m/s^2)",
+    "numerical_answer": 692.8
+  },
+  {
+    "signature": "Centre of Mass_R13_13_v7",
+    "source_problem_ID": "Centre of Mass_R13",
+    "Pair_Number": 13,
+    "variation_number": 7,
+    "problem_text": "A shell is fired from a cannon with an initial velocity of 120 m/s at an angle of 45 degrees to the horizontal. At the highest point of its trajectory, it breaks into two pieces with a mass ratio of 2:3. The smaller piece (2/5 of the total mass) falls vertically downwards and lands at the horizontal position where the explosion occurred. Determine the landing distance of the heavier piece from the cannon. (Assume g = 10 m/s^2)",
+    "numerical_answer": 1920.0
+  },
+  {
+    "signature": "Centre of Mass_R13_13_v8",
+    "source_problem_ID": "Centre of Mass_R13",
+    "Pair_Number": 13,
+    "variation_number": 8,
+    "problem_text": "A firework rocket is launched from the ground at an initial speed of 75 m/s, making an angle of 53 degrees with the horizontal. At its maximum height, it explodes into two fragments with a mass ratio of 1:2. The lighter fragment lands at a horizontal distance of 600 m from the launch point. Calculate the horizontal distance from the launch point where the heavier fragment lands. (Assume g = 10 m/s^2)",
+    "numerical_answer": 510.0
+  },
+  {
+    "signature": "Centre of Mass_R13_13_v9",
+    "source_problem_ID": "Centre of Mass_R13",
+    "Pair_Number": 13,
+    "variation_number": 9,
+    "problem_text": "A model rocket is launched at a speed of 90 m/s at an angle of 30 degrees above the horizontal. Upon reaching its apex, it detonates into two pieces with a mass ratio of 1:5. The lighter fragment ceases horizontal motion at the point of explosion and falls straight down. Calculate the horizontal separation distance between the landing points of the two fragments. (Assume g = 10 m/s^2 and sqrt(3) = 1.732)",
+    "numerical_answer": 420.88
+  },
+  {
+    "signature": "Centre of Mass_R13_13_v10",
+    "source_problem_ID": "Centre of Mass_R13",
+    "Pair_Number": 13,
+    "variation_number": 10,
+    "problem_text": "A mortar shell is launched from the ground at 110 m/s at an angle of 30 degrees to the horizontal. At the highest point of its trajectory, it breaks into two pieces with masses in the ratio 3:7. If the lighter piece lands at a horizontal distance of 500 m from the launch point, what is the horizontal distance from the launch point where the heavier piece lands? (Assume g = 10 m/s^2 and sqrt(3) = 1.732)",
+    "numerical_answer": 1282.66
+  },
+  {
+    "signature": "Centre of Mass_R14_14_v1",
+    "source_problem_ID": "Centre of Mass_R14",
+    "Pair_Number": 14,
+    "variation_number": 1,
+    "problem_text": "A 75 kg person walks from the front to the back of a 3.0 m long boat. The boat has a mass of 225 kg and is initially at rest in still water (negligible resistance). Assuming the person walks the entire length of the boat relative to the boat, what is the distance the boat moves relative to the water?",
+    "numerical_answer": 0.75
+  },
+  {
+    "signature": "Centre of Mass_R14_14_v2",
+    "source_problem_ID": "Centre of Mass_R14",
+    "Pair_Number": 14,
+    "variation_number": 2,
+    "problem_text": "Two blocks, A (mass 2.0 kg) and B (mass 4.0 kg), are initially at rest on a frictionless horizontal surface with a compressed spring between them. When the spring is released, it pushes the blocks apart, and its natural length is 0.60 m. What is the distance block B moves from its initial position by the time the spring fully expands and falls away, assuming the blocks start nearly touching?",
+    "numerical_answer": 0.2
+  },
+  {
+    "signature": "Centre of Mass_R14_14_v3",
+    "source_problem_ID": "Centre of Mass_R14",
+    "Pair_Number": 14,
+    "variation_number": 3,
+    "problem_text": "An 80 kg astronaut is initially at rest at one end of a 10.0 m long spacecraft, which has a mass of 720 kg. The spacecraft is isolated in space, experiencing no external forces. The astronaut pushes off the end and drifts to the opposite end of the spacecraft. What is the total distance the spacecraft recoils during this process?",
+    "numerical_answer": 1.0
+  },
+  {
+    "signature": "Centre of Mass_R14_14_v4",
+    "source_problem_ID": "Centre of Mass_R14",
+    "Pair_Number": 14,
+    "variation_number": 4,
+    "problem_text": "A 60 kg student is standing on a large, frictionless cart (mass 120 kg) with their 60 kg physics instructor. The student pushes the instructor, causing the student to move 1.5 m across the cart relative to the instructor (who remains stationary on the cart relative to the cart's surface). Assuming both are initially at rest on the cart, what is the distance the cart (with the instructor) moves during this interaction?",
+    "numerical_answer": 0.38
+  },
+  {
+    "signature": "Centre of Mass_R14_14_v5",
+    "source_problem_ID": "Centre of Mass_R14",
+    "Pair_Number": 14,
+    "variation_number": 5,
+    "problem_text": "A small 0.5 kg steel ball rolls from one end to the other inside a 4.5 kg cart that is initially at rest on a frictionless horizontal track. The internal length of the cart is 1.8 m. Assuming the ball rolls the entire length of the cart relative to the cart, what is the displacement of the cart relative to the ground?",
+    "numerical_answer": 0.18
+  },
+  {
+    "signature": "Centre of Mass_R14_14_v6",
+    "source_problem_ID": "Centre of Mass_R14",
+    "Pair_Number": 14,
+    "variation_number": 6,
+    "problem_text": "A person of mass 70 kg walks from the bow to the stern of a 200 kg boat. The boat is 4 meters long and is initially at rest in still water. Assuming no water resistance, how far does the boat move relative to the shore during the walk?",
+    "numerical_answer": 1.04
+  },
+  {
+    "signature": "Centre of Mass_R14_14_v7",
+    "source_problem_ID": "Centre of Mass_R14",
+    "Pair_Number": 14,
+    "variation_number": 7,
+    "problem_text": "A child of mass 30 kg jumps from one end of a 2 meter long sled to the other. The sled has a mass of 10 kg and rests on a frictionless icy surface. What is the displacement of the sled relative to the ground during the child's jump?",
+    "numerical_answer": 1.5
+  },
+  {
+    "signature": "Centre of Mass_R14_14_v8",
+    "source_problem_ID": "Centre of Mass_R14",
+    "Pair_Number": 14,
+    "variation_number": 8,
+    "problem_text": "A sandbag of mass 15 kg is placed on a 50 kg flatbed cart. An internal mechanism causes the sandbag to slide 3 meters across the cart's surface from one end to the other. If the cart is on frictionless rails and starts from rest, what is the distance the cart moves relative to the ground while the sandbag slides?",
+    "numerical_answer": 0.69
+  },
+  {
+    "signature": "Centre of Mass_R14_14_v9",
+    "source_problem_ID": "Centre of Mass_R14",
+    "Pair_Number": 14,
+    "variation_number": 9,
+    "problem_text": "An astronaut with a mass of 80 kg pushes off from one end of a 500 kg modular section of a space station and glides to the opposite end, a distance of 8 meters, in zero gravity. How far does the space station module move from its initial position as the astronaut travels this distance?",
+    "numerical_answer": 1.1
+  },
+  {
+    "signature": "Centre of Mass_R14_14_v10",
+    "source_problem_ID": "Centre of Mass_R14",
+    "Pair_Number": 14,
+    "variation_number": 10,
+    "problem_text": "A lumberjack of mass 90 kg walks from one end of a 6-meter-long log raft to the other. The raft has a mass of 180 kg and floats in a calm river. Neglecting water resistance, calculate the distance the raft displaces relative to the shore during the lumberjack's walk.",
+    "numerical_answer": 2.0
+  },
+  {
+    "signature": "Centre of Mass_R15_15_v1",
+    "source_problem_ID": "Centre of Mass_R15",
+    "Pair_Number": 15,
+    "variation_number": 1,
+    "problem_text": "A firefighter battles a blaze using a high-pressure hose that expels water at a speed of 25 m/s. If the hose discharges 5 kg of water per second, what is the average recoil force experienced by the firefighter during a 8-second burst?",
+    "numerical_answer": 125.0
+  },
+  {
+    "signature": "Centre of Mass_R15_15_v2",
+    "source_problem_ID": "Centre of Mass_R15",
+    "Pair_Number": 15,
+    "variation_number": 2,
+    "problem_text": "During a spacewalk, an astronaut's suit is struck by a swarm of small asteroid fragments. Each fragment has a mass of 10 grams and impacts the suit at a speed of 500 m/s. If 150 such fragments strike the suit over a period of 5 seconds, what is the average force exerted on the suit? (Assume fragments stick to the suit upon impact).",
+    "numerical_answer": 150.0
+  },
+  {
+    "signature": "Centre of Mass_R15_15_v3",
+    "source_problem_ID": "Centre of Mass_R15",
+    "Pair_Number": 15,
+    "variation_number": 3,
+    "problem_text": "A conveyor belt system transports coal from a mine. Coal chunks, each with a mass of 2 kg, are dropped from a chute onto the belt, hitting it with a vertical velocity of 4 m/s. If 25 such chunks fall onto the belt every 10 seconds, what is the average vertical force exerted on the conveyor belt during this period?",
+    "numerical_answer": 20.0
+  },
+  {
+    "signature": "Centre of Mass_R15_15_v4",
+    "source_problem_ID": "Centre of Mass_R15",
+    "Pair_Number": 15,
+    "variation_number": 4,
+    "problem_text": "A small experimental rocket engine expels hot gases at a speed of 2000 m/s relative to the rocket. If the engine consumes fuel and expels exhaust at a constant rate of 0.5 kg/s for a duration of 6 seconds, what is the average thrust force generated by the engine during this burn?",
+    "numerical_answer": 1000.0
+  },
+  {
+    "signature": "Centre of Mass_R15_15_v5",
+    "source_problem_ID": "Centre of Mass_R15",
+    "Pair_Number": 15,
+    "variation_number": 5,
+    "problem_text": "A car is parked during a torrential downpour. Individual raindrops, each with a mass of 0.05 grams, hit the car's roof at an average speed of 10 m/s. If an estimated 10,000 raindrops strike the roof within a 2-second interval, what is the average downward force exerted by the rain on the car's roof during this period? (Assume raindrops transfer all their momentum upon impact).",
+    "numerical_answer": 2.5
+  },
+  {
+    "signature": "Centre of Mass_R15_15_v6",
+    "source_problem_ID": "Centre of Mass_R15",
+    "Pair_Number": 15,
+    "variation_number": 6,
+    "problem_text": "A satellite's propulsion system fires short bursts of gas to adjust its orbit. Each burst expels 200 g of gas at a velocity of 3 km/s. If the satellite fires 15 such bursts over a total duration of 5 seconds, what is the average thrust force exerted on the satellite during this period?",
+    "numerical_answer": 1800.0
+  },
+  {
+    "signature": "Centre of Mass_R15_15_v7",
+    "source_problem_ID": "Centre of Mass_R15",
+    "Pair_Number": 15,
+    "variation_number": 7,
+    "problem_text": "A firefighter holds a hose that expels water at a steady rate of 30 kg/s. If the water leaves the nozzle horizontally at a speed of 25 m/s, what average force must the firefighter exert to hold the hose steady?",
+    "numerical_answer": 750.0
+  },
+  {
+    "signature": "Centre of Mass_R15_15_v8",
+    "source_problem_ID": "Centre of Mass_R15",
+    "Pair_Number": 15,
+    "variation_number": 8,
+    "problem_text": "An automatic tennis ball launcher fires balls, each with a mass of 60 g, at a speed of 40 m/s. If the machine launches 50 balls in a total time interval of 10 seconds, what average force does the machine exert on its support due to the recoil?",
+    "numerical_answer": 12.0
+  },
+  {
+    "signature": "Centre of Mass_R15_15_v9",
+    "source_problem_ID": "Centre of Mass_R15",
+    "Pair_Number": 15,
+    "variation_number": 9,
+    "problem_text": "In a manufacturing plant, packages each with a mass of 2 kg are dropped onto a conveyor belt that moves at a constant speed of 1.5 m/s. If 30 packages fall onto the belt in 1 minute, what average additional force must the motor exert to maintain the belt's constant speed, assuming the packages start from rest relative to the ground when they land on the belt?",
+    "numerical_answer": 1.5
+  },
+  {
+    "signature": "Centre of Mass_R15_15_v10",
+    "source_problem_ID": "Centre of Mass_R15",
+    "Pair_Number": 15,
+    "variation_number": 10,
+    "problem_text": "A sandblasting machine projects sand particles, each with a mass of 0.5 g, at a target surface with a speed of 80 m/s. If the machine projects sand at a rate of 500 particles per second, what average force is exerted on the target by the sand particles? Assume particles stop completely upon impact.",
+    "numerical_answer": 20.0
+  },
+  {
+    "signature": "Centre of Mass_R16_16_v1",
+    "source_problem_ID": "Centre of Mass_R16",
+    "Pair_Number": 16,
+    "variation_number": 1,
+    "problem_text": "A large, uncrewed space probe, initially coasting through space at a constant speed of 10 km/s relative to a fixed frame, experiences an internal structural failure and breaks into two identical pieces. Both pieces continue to move along the original direction of motion. If one of the pieces is observed to move at 15 km/s, what is the speed of the second piece, and what is the fractional increase in the kinetic energy of the system?",
+    "numerical_answer": 0.25
+  },
+  {
+    "signature": "Centre of Mass_R16_16_v2",
+    "source_problem_ID": "Centre of Mass_R16",
+    "Pair_Number": 16,
+    "variation_number": 2,
+    "problem_text": "A specialized modular vehicle designed for rough terrain is traveling horizontally at a speed of 40 m/s when it suddenly separates into two equal modules. Assuming no external forces like friction are significant during the brief separation, and both modules continue in the same forward direction. If one module accelerates to 55 m/s, determine the speed of the second module and calculate the fractional change in the total kinetic energy of the system.",
+    "numerical_answer": 0.14
+  },
+  {
+    "signature": "Centre of Mass_R16_16_v3",
+    "source_problem_ID": "Centre of Mass_R16",
+    "Pair_Number": 16,
+    "variation_number": 3,
+    "problem_text": "An aerial bomb, moving horizontally at a speed of 150 m/s just before impact, explodes into two fragments of equal mass. The explosion propels both fragments forward, along the original line of motion. If one fragment's speed immediately after the explosion is 200 m/s, find the speed of the other fragment and the fractional increase in the kinetic energy of the bomb system.",
+    "numerical_answer": 0.11
+  },
+  {
+    "signature": "Centre of Mass_R16_16_v4",
+    "source_problem_ID": "Centre of Mass_R16",
+    "Pair_Number": 16,
+    "variation_number": 4,
+    "problem_text": "A high-speed experimental boat is cruising across calm water at 25 m/s when its central section detonates, splitting it into two symmetrical hulls of equal mass. Both hulls maintain their forward trajectory. If one hull's speed immediately after the split is 38 m/s, what is the speed of the second hull, and what is the fractional gain in the kinetic energy of the system?",
+    "numerical_answer": 0.27
+  },
+  {
+    "signature": "Centre of Mass_R16_16_v5",
+    "source_problem_ID": "Centre of Mass_R16",
+    "Pair_Number": 16,
+    "variation_number": 5,
+    "problem_text": "A composite subatomic particle, moving with a velocity of 1.0 x 10^6 m/s, spontaneously decays into two identical daughter particles. These daughter particles continue to propagate in the same direction as the original particle. If one of the daughter particles moves at 1.6 x 10^6 m/s, calculate the speed of the other daughter particle and determine the fractional change in the total kinetic energy of the system.",
+    "numerical_answer": 0.36
+  },
+  {
+    "signature": "Centre of Mass_R16_16_v6",
+    "source_problem_ID": "Centre of Mass_R16",
+    "Pair_Number": 16,
+    "variation_number": 6,
+    "problem_text": "A spent rocket upper stage, moving at a speed of 5000 m/s in deep space, undergoes an internal separation process, splitting into two fragments of equal mass that continue moving in the original direction. If one of the fragments accelerates to a speed of 7000 m/s, with what speed does the second fragment move and what is the fractional change in the kinetic energy of the system?",
+    "numerical_answer": 0.16
+  },
+  {
+    "signature": "Centre of Mass_R16_16_v7",
+    "source_problem_ID": "Centre of Mass_R16",
+    "Pair_Number": 16,
+    "variation_number": 7,
+    "problem_text": "An atomic nucleus, initially moving at 1.0 x 10^7 m/s, undergoes fission into two daughter nuclei of equal mass. These fragments continue moving along the original direction of the parent nucleus. If one of the daughter nuclei moves at 1.2 x 10^7 m/s, determine the speed of the other daughter nucleus and the fractional change in the total kinetic energy of the system.",
+    "numerical_answer": 0.04
+  },
+  {
+    "signature": "Centre of Mass_R16_16_v8",
+    "source_problem_ID": "Centre of Mass_R16",
+    "Pair_Number": 16,
+    "variation_number": 8,
+    "problem_text": "A train car, detached from its engine and coasting at 15 m/s, experiences a structural failure causing it to split into two equally massive sections. Both sections continue to move in the same forward direction. If one section's speed increases to 25 m/s immediately after the split, calculate the speed of the second section and the fractional change in the kinetic energy of the car's mass.",
+    "numerical_answer": 0.44
+  },
+  {
+    "signature": "Centre of Mass_R16_16_v9",
+    "source_problem_ID": "Centre of Mass_R16",
+    "Pair_Number": 16,
+    "variation_number": 9,
+    "problem_text": "A high-velocity projectile travels horizontally at 800 m/s. An internal charge detonates, causing it to split into two identical fragments which both continue in the original direction of motion. If one fragment's speed becomes 1000 m/s, what is the speed of the other fragment and what is the fractional increase in the total kinetic energy?",
+    "numerical_answer": 0.06
+  },
+  {
+    "signature": "Centre of Mass_R16_16_v10",
+    "source_problem_ID": "Centre of Mass_R16",
+    "Pair_Number": 16,
+    "variation_number": 10,
+    "problem_text": "A glider, maintaining a steady horizontal flight at 30 m/s, suffers a catastrophic structural failure due to aerodynamic stresses, breaking into two pieces of equal mass. Both pieces continue to move forward along the original flight path. If one piece is observed to move at 40 m/s immediately after the breakage, what is the speed of the second piece and what is the fractional change in the total kinetic energy of the glider?",
+    "numerical_answer": 0.11
+  },
+  {
+    "signature": "Centre of Mass_R17_17_v1",
+    "source_problem_ID": "Centre of Mass_R17",
+    "Pair_Number": 17,
+    "variation_number": 1,
+    "problem_text": "A 5.0 kg trolley is moving horizontally at a speed of 3.0 m/s. It collides and instantly couples with a stationary 2.0 kg trolley. What is the common velocity of the two trolleys immediately after the collision?",
+    "numerical_answer": 2.14
+  },
+  {
+    "signature": "Centre of Mass_R17_17_v2",
+    "source_problem_ID": "Centre of Mass_R17",
+    "Pair_Number": 17,
+    "variation_number": 2,
+    "problem_text": "A probe of mass 20,000 kg is approaching a stationary space station module of mass 5,000 kg with a relative velocity of 0.5 m/s. During the docking procedure, the probe successfully latches onto the module. Assuming no external forces, what is the final common velocity of the combined system?",
+    "numerical_answer": 0.4
+  },
+  {
+    "signature": "Centre of Mass_R17_17_v3",
+    "source_problem_ID": "Centre of Mass_R17",
+    "Pair_Number": 17,
+    "variation_number": 3,
+    "problem_text": "A bullet of mass 10 g is fired horizontally with a speed of 300 m/s into a stationary wooden block of mass 990 g resting on a frictionless surface. The bullet embeds itself completely in the block. Calculate the speed of the bullet-block system immediately after impact.",
+    "numerical_answer": 3.0
+  },
+  {
+    "signature": "Centre of Mass_R17_17_v4",
+    "source_problem_ID": "Centre of Mass_R17",
+    "Pair_Number": 17,
+    "variation_number": 4,
+    "problem_text": "A 150 kg rowboat is moving at a velocity of 2.0 m/s relative to the water. A 70 kg person, initially standing still on a nearby dock, jumps horizontally into the moving boat. What is the new velocity of the boat immediately after the person lands in it? (Assume the jump has no horizontal velocity component relative to the water before landing in the boat).",
+    "numerical_answer": 1.36
+  },
+  {
+    "signature": "Centre of Mass_R17_17_v5",
+    "source_problem_ID": "Centre of Mass_R17",
+    "Pair_Number": 17,
+    "variation_number": 5,
+    "problem_text": "A freight car with a mass of 60,000 kg is rolling horizontally on a straight track at a speed of 0.8 m/s. It collides and couples with a stationary freight car of mass 40,000 kg. Assuming no friction, determine the common speed of the two coupled cars immediately after the collision.",
+    "numerical_answer": 0.48
+  },
+  {
+    "signature": "Centre of Mass_R17_17_v6",
+    "source_problem_ID": "Centre of Mass_R17",
+    "Pair_Number": 17,
+    "variation_number": 6,
+    "problem_text": "A freight train car of mass 20000 kg is moving with a uniform velocity of 10 m/s on a straight, horizontal track. A parcel of mass 50 kg is dropped vertically from a crane onto the train car. Assuming negligible air resistance and rolling friction, what will be the new velocity of the train car immediately after the parcel lands on it?",
+    "numerical_answer": 9.98
+  },
+  {
+    "signature": "Centre of Mass_R17_17_v7",
+    "source_problem_ID": "Centre of Mass_R17",
+    "Pair_Number": 17,
+    "variation_number": 7,
+    "problem_text": "A hovercraft, with a total mass of 3000 kg, is gliding horizontally over a flat surface at a constant speed of 15 m/s. A person of mass 70 kg, initially hovering above the hovercraft, drops straight down onto it and immediately latches on. What is the velocity of the hovercraft immediately after the person lands?",
+    "numerical_answer": 14.66
+  },
+  {
+    "signature": "Centre of Mass_R17_17_v8",
+    "source_problem_ID": "Centre of Mass_R17",
+    "Pair_Number": 17,
+    "variation_number": 8,
+    "problem_text": "A glider of mass 300 kg is flying horizontally at a constant speed of 30 m/s. A skydiver of mass 80 kg, after deploying their parachute, manages to gently land vertically onto the glider's fuselage and cling on. What is the combined velocity of the glider and skydiver immediately after the skydiver lands?",
+    "numerical_answer": 23.68
+  },
+  {
+    "signature": "Centre of Mass_R17_17_v9",
+    "source_problem_ID": "Centre of Mass_R17",
+    "Pair_Number": 17,
+    "variation_number": 9,
+    "problem_text": "A small boat of mass 800 kg is moving with a constant velocity of 5 m/s across a calm lake. Its anchor, with a mass of 100 kg, is accidentally dropped vertically from a height directly into the boat. What is the velocity of the boat immediately after the anchor comes to rest within it?",
+    "numerical_answer": 4.44
+  },
+  {
+    "signature": "Centre of Mass_R17_17_v10",
+    "source_problem_ID": "Centre of Mass_R17",
+    "Pair_Number": 17,
+    "variation_number": 10,
+    "problem_text": "A laboratory cart of mass 20 kg is rolling without friction on a horizontal track at a uniform velocity of 2 m/s. A sandbag of mass 5 kg is dropped vertically from a small height onto the cart. What is the velocity of the cart (with the sandbag) immediately after the sandbag lands?",
+    "numerical_answer": 1.6
+  },
+  {
+    "signature": "Centre of Mass_R18_18_v1",
+    "source_problem_ID": "Centre of Mass_R18",
+    "Pair_Number": 18,
+    "variation_number": 1,
+    "problem_text": "A two-stage rocket, with a total mass M, is travelling in deep space at a velocity of 25000 km/h with respect to a stationary observer. It ejects its spent first stage backward, which has a mass equal to one-fourth of the residual second stage. If the spent stage is ejected at a speed of 800 km/h relative to the rocket's velocity just before ejection, what is the final velocity of the second stage?",
+    "numerical_answer": 25200.0
+  },
+  {
+    "signature": "Centre of Mass_R18_18_v2",
+    "source_problem_ID": "Centre of Mass_R18",
+    "Pair_Number": 18,
+    "variation_number": 2,
+    "problem_text": "A freight train, with a total mass M, is moving at 60 km/h along a straight track. It decouples and releases its rearmost car backward. The detached car has a mass that is one-ninth of the mass of the remaining part of the train. If the car is released such that its speed relative to the train just before decoupling is 5 km/h, calculate the final velocity of the remaining train.",
+    "numerical_answer": 60.56
+  },
+  {
+    "signature": "Centre of Mass_R18_18_v3",
+    "source_problem_ID": "Centre of Mass_R18",
+    "Pair_Number": 18,
+    "variation_number": 3,
+    "problem_text": "A motorboat, carrying a life raft, is cruising across a lake at 30 km/h. It launches the life raft forward. The mass of the life raft is one-nineteenth of the mass of the remaining boat. If the life raft is launched at a speed of 15 km/h relative to the boat's initial state, what is the final velocity of the motorboat?",
+    "numerical_answer": 29.21
+  },
+  {
+    "signature": "Centre of Mass_R18_18_v4",
+    "source_problem_ID": "Centre of Mass_R18",
+    "Pair_Number": 18,
+    "variation_number": 4,
+    "problem_text": "A cannon, mounted on a frictionless flatcar, is moving at 10 m/s relative to the ground. It fires a projectile forward. The mass of the projectile is one-forty-ninth of the mass of the cannon and flatcar combined after the projectile has left. The projectile leaves the cannon at a muzzle velocity of 500 m/s relative to the cannon's state before firing. Determine the final velocity of the cannon and flatcar.",
+    "numerical_answer": -0.2
+  },
+  {
+    "signature": "Centre of Mass_R18_18_v5",
+    "source_problem_ID": "Centre of Mass_R18",
+    "Pair_Number": 18,
+    "variation_number": 5,
+    "problem_text": "A skateboarder, with a total mass (skateboarder + skateboard) M, is riding at a speed of 5 m/s. The skateboarder decides to jump backward off the skateboard. The skateboarder's mass is 4 times the mass of the skateboard. If the skateboarder pushes off at a speed of 2 m/s relative to their combined initial velocity, what is the final velocity of the skateboard?",
+    "numerical_answer": 13.0
+  },
+  {
+    "signature": "Centre of Mass_R18_18_v6",
+    "source_problem_ID": "Centre of Mass_R18",
+    "Pair_Number": 18,
+    "variation_number": 6,
+    "problem_text": "A two-stage rocket, with a total mass M, is travelling through space at a constant velocity of 8000 m/s. For the next phase of its mission, the upper stage, which constitutes one-fourth of the total mass, is propelled forward. If the upper stage separates with a speed of 500 m/s relative to the velocity of the main stage just before separation, what is the final velocity of the main stage?",
+    "numerical_answer": 7833.33
+  },
+  {
+    "signature": "Centre of Mass_R18_18_v7",
+    "source_problem_ID": "Centre of Mass_R18",
+    "Pair_Number": 18,
+    "variation_number": 7,
+    "problem_text": "A freight train, initially moving at a speed of 72 km/h, consists of an engine and five identical cargo cars. The total mass of the train is M. The last cargo car, which constitutes one-sixth of the train's total mass, is intentionally uncoupled and gently released backward with a relative speed of 5 km/h with respect to the train's initial velocity. Assuming negligible friction, what is the new speed of the remaining part of the train?",
+    "numerical_answer": 73.0
+  },
+  {
+    "signature": "Centre of Mass_R18_18_v8",
+    "source_problem_ID": "Centre of Mass_R18",
+    "Pair_Number": 18,
+    "variation_number": 8,
+    "problem_text": "A specialized fireboat with a large water cannon has a total mass M (including a single heavy projectile for a specific task) and is moving at 10 m/s. The boat fires a cannonball, weighing 1/100th of its total mass, directly forward. If the cannonball is ejected at a speed of 200 m/s relative to the boat's velocity just before firing, calculate the recoil velocity of the boat immediately after firing.",
+    "numerical_answer": 7.98
+  },
+  {
+    "signature": "Centre of Mass_R18_18_v9",
+    "source_problem_ID": "Centre of Mass_R18",
+    "Pair_Number": 18,
+    "variation_number": 9,
+    "problem_text": "An asteroid of total mass M is drifting through space at a speed of 50 km/s relative to a fixed point. Due to internal forces, a fragment detaches from the asteroid. The mass of the fragment is 1/20th of the mass of the residual asteroid body. If this fragment ejects backward at a speed of 2 km/s relative to the asteroid's velocity just before fragmentation, determine the final speed of the larger, residual asteroid body.",
+    "numerical_answer": 50.1
+  },
+  {
+    "signature": "Centre of Mass_R18_18_v10",
+    "source_problem_ID": "Centre of Mass_R18",
+    "Pair_Number": 18,
+    "variation_number": 10,
+    "problem_text": "A person on a skateboard, with a backpack on, is moving at a speed of 5 m/s. The total mass of the person and backpack is M. The person decides to throw the backpack forward, which has a mass of 1/15th of the total initial mass. If the backpack is thrown with a speed of 3 m/s relative to the person's initial velocity, what is the final speed of the person on the skateboard?",
+    "numerical_answer": 4.79
+  },
+  {
+    "signature": "Centre of Mass_R19_19_v1",
+    "source_problem_ID": "Centre of Mass_R19",
+    "Pair_Number": 19,
+    "variation_number": 1,
+    "problem_text": "An astronaut of mass 90 kg, initially at rest relative to a small, unpowered satellite of mass 150 kg in deep space, pushes off from it. The astronaut moves away with a velocity of 0.5 m/s relative to their original position. With what velocity does the satellite recoil? At what rate are the astronaut and the satellite separating from each other?",
+    "numerical_answer": 0.3
+  },
+  {
+    "signature": "Centre of Mass_R19_19_v2",
+    "source_problem_ID": "Centre of Mass_R19",
+    "Pair_Number": 19,
+    "variation_number": 2,
+    "problem_text": "A stationary cannon of mass 300 kg fires a 15 kg cannonball horizontally. The cannonball leaves the muzzle with a velocity of 150 m/s relative to the ground. Assuming the cannon is on frictionless rails, what is the recoil velocity of the cannon? What is the rate at which the cannonball and the cannon are separating?",
+    "numerical_answer": 7.5
+  },
+  {
+    "signature": "Centre of Mass_R19_19_v3",
+    "source_problem_ID": "Centre of Mass_R19",
+    "Pair_Number": 19,
+    "variation_number": 3,
+    "problem_text": "Two ice skaters, A (mass 60 kg) and B (mass 80 kg), are initially holding each other at rest on a frictionless ice rink. Skater A pushes off Skater B and moves away with a velocity of 2.0 m/s relative to the ice. With what velocity does Skater B recoil? At what rate are the two skaters separating from each other?",
+    "numerical_answer": 1.5
+  },
+  {
+    "signature": "Centre of Mass_R19_19_v4",
+    "source_problem_ID": "Centre of Mass_R19",
+    "Pair_Number": 19,
+    "variation_number": 4,
+    "problem_text": "A modular space probe, initially stationary in deep space, ejects a scientific package of mass 200 kg. The package moves away from the probe with a velocity of 0.8 m/s relative to the original position. If the remaining main probe body has a mass of 800 kg, what is the recoil velocity of the main probe? At what rate are the package and the probe separating?",
+    "numerical_answer": 0.2
+  },
+  {
+    "signature": "Centre of Mass_R19_19_v5",
+    "source_problem_ID": "Centre of Mass_R19",
+    "Pair_Number": 19,
+    "variation_number": 5,
+    "problem_text": "A person of mass 70 kg jumps horizontally from a small boat of mass 120 kg, which is initially at rest in still water. The person's velocity relative to the water is 3.0 m/s. Assuming negligible water resistance during the jump, with what velocity does the boat recoil? With what rate are the person and the boat separating from each other?",
+    "numerical_answer": 1.75
+  },
+  {
+    "signature": "Centre of Mass_R19_19_v6",
+    "source_problem_ID": "Centre of Mass_R19",
+    "Pair_Number": 19,
+    "variation_number": 6,
+    "problem_text": "An astronaut of mass 80 kg is initially at rest relative to a large modular spaceship of mass 2000 kg in deep space. The astronaut pushes off the spaceship with a velocity component of 0.5 m/s in a horizontal direction relative to the initial position of the spaceship. With what velocity does the spaceship recoil? At what rate are the astronaut and the spaceship separating from each other?",
+    "numerical_answer": 0.02
+  },
+  {
+    "signature": "Centre of Mass_R19_19_v7",
+    "source_problem_ID": "Centre of Mass_R19",
+    "Pair_Number": 19,
+    "variation_number": 7,
+    "problem_text": "A stationary cannon of mass 500 kg fires a cannonball of mass 15 kg horizontally. The cannonball leaves the muzzle with a velocity of 100 m/s relative to the ground. With what velocity does the cannon recoil? With what rate are the cannonball and the cannon separating from each other?",
+    "numerical_answer": 3.0
+  },
+  {
+    "signature": "Centre of Mass_R19_19_v8",
+    "source_problem_ID": "Centre of Mass_R19",
+    "Pair_Number": 19,
+    "variation_number": 8,
+    "problem_text": "A person of mass 70 kg stands on a small, stationary raft of mass 30 kg on calm water. The person jumps off the raft with a horizontal velocity component of 3 m/s with respect to the water. With what velocity does the raft recoil? At what rate are the person and the raft separating from each other?",
+    "numerical_answer": 7.0
+  },
+  {
+    "signature": "Centre of Mass_R19_19_v9",
+    "source_problem_ID": "Centre of Mass_R19",
+    "Pair_Number": 19,
+    "variation_number": 9,
+    "problem_text": "A larger glider of mass 0.8 kg is at rest on a frictionless air track. A small block of mass 0.2 kg is 'launched' horizontally from the glider with a velocity of 2 m/s relative to the lab frame. With what velocity does the larger glider recoil? At what rate are the block and the glider separating from each other?",
+    "numerical_answer": 0.5
+  },
+  {
+    "signature": "Centre of Mass_R19_19_v10",
+    "source_problem_ID": "Centre of Mass_R19",
+    "Pair_Number": 19,
+    "variation_number": 10,
+    "problem_text": "A rider of mass 60 kg is initially at rest on a jet ski of mass 120 kg floating on a tranquil lake. The rider jumps horizontally off the jet ski with a velocity component of 4 m/s relative to the water. With what velocity does the jet ski recoil? At what rate are the rider and the jet ski separating from each other?",
+    "numerical_answer": 2.0
+  },
+  {
+    "signature": "Centre of Mass_R20_20_v1",
+    "source_problem_ID": "Centre of Mass_R20",
+    "Pair_Number": 20,
+    "variation_number": 1,
+    "problem_text": "An astronaut of mass 90 kg is performing an EVA (Extra-vehicular Activity) and is initially at rest relative to a small, unattached scientific satellite of mass 450 kg. To move away, the astronaut pushes off the satellite, acquiring a speed of 1.2 m/s relative to the satellite. What is the speed of the satellite relative to the spacecraft's frame of reference after the push?",
+    "numerical_answer": 0.2
+  },
+  {
+    "signature": "Centre of Mass_R20_20_v2",
+    "source_problem_ID": "Centre of Mass_R20",
+    "Pair_Number": 20,
+    "variation_number": 2,
+    "problem_text": "A heavy cargo box of mass 20 kg is loaded onto a frictionless cart which, including its operator, has a mass of 150 kg. The cart is initially at rest on a smooth horizontal surface. The operator quickly pushes the box off the cart, giving it a speed of 3.0 m/s relative to the cart. What is the recoil speed of the cart relative to the ground?",
+    "numerical_answer": 0.35
+  },
+  {
+    "signature": "Centre of Mass_R20_20_v3",
+    "source_problem_ID": "Centre of Mass_R20",
+    "Pair_Number": 20,
+    "variation_number": 3,
+    "problem_text": "A rifle of mass 4.0 kg fires a bullet of mass 10 g. The muzzle velocity of the bullet (its speed relative to the rifle barrel) is 800 m/s. Assuming the rifle is free to move and is initially at rest, calculate the recoil speed of the rifle immediately after firing.",
+    "numerical_answer": 2.0
+  },
+  {
+    "signature": "Centre of Mass_R20_20_v4",
+    "source_problem_ID": "Centre of Mass_R20",
+    "Pair_Number": 20,
+    "variation_number": 4,
+    "problem_text": "A child of mass 40 kg is standing on a small, stationary raft of mass 100 kg in still water. The child suddenly decides to jump off the raft horizontally to the shore, pushing off the raft such that their speed relative to the raft is 2.0 m/s. What is the recoil speed of the raft relative to the water?",
+    "numerical_answer": 0.57
+  },
+  {
+    "signature": "Centre of Mass_R20_20_v5",
+    "source_problem_ID": "Centre of Mass_R20",
+    "Pair_Number": 20,
+    "variation_number": 5,
+    "problem_text": "A repairman of mass 80 kg is on a frictionless wheeled cart of mass 10 kg, which is initially at rest. He throws a heavy wrench of mass 1.5 kg horizontally away from him. The speed of the wrench relative to the cart as he releases it is 6.0 m/s. What is the recoil speed of the cart (with the repairman) relative to the ground?",
+    "numerical_answer": 0.1
+  },
+  {
+    "signature": "Centre of Mass_R20_20_v6",
+    "source_problem_ID": "Centre of Mass_R20",
+    "Pair_Number": 20,
+    "variation_number": 6,
+    "problem_text": "A fisherman of mass 80 kg stands at rest on a small, stationary boat of mass 200 kg floating on still water. If the fisherman starts walking towards the bow of the boat with a speed of 1.5 m/s relative to the boat, what is the recoil speed of the boat relative to the water?",
+    "numerical_answer": 0.43
+  },
+  {
+    "signature": "Centre of Mass_R20_20_v7",
+    "source_problem_ID": "Centre of Mass_R20",
+    "Pair_Number": 20,
+    "variation_number": 7,
+    "problem_text": "A toy block of mass 2 kg is placed on a frictionless, wheeled cart of mass 10 kg, both initially at rest on a smooth horizontal surface. If a child pushes the block to move it with a speed of 5 m/s relative to the cart, determine the speed with which the cart recoils relative to the ground.",
+    "numerical_answer": 0.83
+  },
+  {
+    "signature": "Centre of Mass_R20_20_v8",
+    "source_problem_ID": "Centre of Mass_R20",
+    "Pair_Number": 20,
+    "variation_number": 8,
+    "problem_text": "An astronaut of mass 75 kg is floating at rest inside a large spacecraft of mass 5000 kg, far from any significant gravitational influence. If the astronaut pushes off a wall and moves with a speed of 0.8 m/s relative to the spacecraft towards the opposite end, what is the recoil speed of the spacecraft relative to its initial rest frame?",
+    "numerical_answer": 0.01
+  },
+  {
+    "signature": "Centre of Mass_R20_20_v9",
+    "source_problem_ID": "Centre of Mass_R20",
+    "Pair_Number": 20,
+    "variation_number": 9,
+    "problem_text": "A large duck, with a mass of 0.5 kg, is resting on a stationary log of mass 5 kg, which is floating freely on a calm pond. When the duck suddenly takes flight, pushing off from the log with a speed of 3 m/s relative to the log, what is the speed at which the log begins to move backward relative to the water?",
+    "numerical_answer": 0.27
+  },
+  {
+    "signature": "Centre of Mass_R20_20_v10",
+    "source_problem_ID": "Centre of Mass_R20",
+    "Pair_Number": 20,
+    "variation_number": 10,
+    "problem_text": "A worker of mass 90 kg is standing on a heavy sled of mass 300 kg, which is initially at rest on a patch of smooth, icy ground. If the worker starts running across the sled with a speed of 4 m/s relative to the sled, calculate the velocity of the sled relative to the ice.",
+    "numerical_answer": 0.92
+  },
+  {
+    "signature": "Centre of Mass_R21_21_v1",
+    "source_problem_ID": "Centre of Mass_R21",
+    "Pair_Number": 21,
+    "variation_number": 1,
+    "problem_text": "A fast neutron of mass 'm', moving with a velocity of 1000 m/s along the X-axis, strikes a stationary, unstable atomic nucleus of mass '2m'. After the collision, the neutron comes to a complete rest. The unstable nucleus then fragments into two equal pieces. If one of these pieces moves along the Y-axis with a speed of 500 m/s, what will be the speed of the other fragment?",
+    "numerical_answer": 1118.03
+  },
+  {
+    "signature": "Centre of Mass_R21_21_v2",
+    "source_problem_ID": "Centre of Mass_R21",
+    "Pair_Number": 21,
+    "variation_number": 2,
+    "problem_text": "A small asteroid of mass 500 kg, traveling at 200 m/s along the X-axis, collides with a stationary space station module of mass 1000 kg. The asteroid embeds itself into the module, effectively bringing its forward motion to a halt. As a result of the impact, the module breaks into two equal pieces. If one of these pieces moves along the Y-axis with a speed of 100 m/s, what will be the speed of the other piece?",
+    "numerical_answer": 223.61
+  },
+  {
+    "signature": "Centre of Mass_R21_21_v3",
+    "source_problem_ID": "Centre of Mass_R21",
+    "Pair_Number": 21,
+    "variation_number": 3,
+    "problem_text": "A cue ball of mass 0.17 kg is rolled with a velocity of 5 m/s along the X-axis and strikes a stationary object ball of mass 0.34 kg. After the collision, the cue ball comes to a complete stop. The object ball shatters into two equal fragments. If one of these fragments moves along the Y-axis with a speed of 3 m/s, what will be the speed of the other fragment?",
+    "numerical_answer": 5.83
+  },
+  {
+    "signature": "Centre of Mass_R21_21_v4",
+    "source_problem_ID": "Centre of Mass_R21",
+    "Pair_Number": 21,
+    "variation_number": 4,
+    "problem_text": "A spent rocket stage of mass 1000 kg, moving at 50 m/s along the X-axis, collides with a larger, stationary structural component of mass 2000 kg in space. The rocket stage deforms and stops relative to its initial motion. The structural component fractures into two equal parts. If one of these parts moves along the Y-axis with a speed of 20 m/s, what will be the speed of the other part?",
+    "numerical_answer": 53.85
+  },
+  {
+    "signature": "Centre of Mass_R21_21_v5",
+    "source_problem_ID": "Centre of Mass_R21",
+    "Pair_Number": 21,
+    "variation_number": 5,
+    "problem_text": "A bowling ball of mass 7 kg is rolled along the X-axis with a velocity of 15 m/s, striking a specially designed stationary target pin of mass 14 kg. After the impact, the bowling ball comes to a complete halt. The target pin shatters into two equal fragments. If one of these fragments moves along the Y-axis with a speed of 8 m/s, what will be the speed of the other fragment?",
+    "numerical_answer": 17.0
+  },
+  {
+    "signature": "Centre of Mass_R21_21_v6",
+    "source_problem_ID": "Centre of Mass_R21",
+    "Pair_Number": 21,
+    "variation_number": 6,
+    "problem_text": "An interceptor missile of mass 150 kg, moving horizontally along the X-axis at a speed of 850 m/s, strikes a stationary target drone of mass 300 kg. The interceptor missile disintegrates completely upon impact. The target drone shatters into two fragments of equal mass. One fragment is observed to move vertically upwards (along the Y-axis) with a speed of 520 m/s. What is the speed of the other fragment?",
+    "numerical_answer": 997.45
+  },
+  {
+    "signature": "Centre of Mass_R21_21_v7",
+    "source_problem_ID": "Centre of Mass_R21",
+    "Pair_Number": 21,
+    "variation_number": 7,
+    "problem_text": "In a particle accelerator experiment, a proton (mass 'm') traveling at 4.5 x 10^6 m/s along the X-axis collides with a stationary deuterium nucleus (mass '2m'). After the collision, the proton comes to a complete stop. The deuterium nucleus splits into two equal pieces. If one piece (a neutron) moves along the positive Y-axis with a speed of 2.8 x 10^6 m/s, what is the speed of the other piece (a proton)?",
+    "numerical_answer": 529.15
+  },
+  {
+    "signature": "Centre of Mass_R21_21_v8",
+    "source_problem_ID": "Centre of Mass_R21",
+    "Pair_Number": 21,
+    "variation_number": 8,
+    "problem_text": "A block of mass 0.75 kg, sliding on a frictionless horizontal table with a velocity of 9.0 m/s along the X-axis, collides with a stationary block of mass 1.5 kg. The first block comes to rest immediately after the collision. The stationary block shatters into two equal fragments. If one fragment moves along the positive Y-axis with a speed of 5.5 m/s, determine the speed of the other fragment.",
+    "numerical_answer": 10.55
+  },
+  {
+    "signature": "Centre of Mass_R21_21_v9",
+    "source_problem_ID": "Centre of Mass_R21",
+    "Pair_Number": 21,
+    "variation_number": 9,
+    "problem_text": "A small celestial body of mass 80 kg, traveling through space at 250 m/s along the X-axis, strikes a stationary piece of space debris of mass 160 kg. The small celestial body is completely absorbed by the debris, effectively bringing it to rest. The debris then breaks into two equal parts. If one part moves along the Y-axis with a speed of 180 m/s, what is the speed of the second part?",
+    "numerical_answer": 308.06
+  },
+  {
+    "signature": "Centre of Mass_R21_21_v10",
+    "source_problem_ID": "Centre of Mass_R21",
+    "Pair_Number": 21,
+    "variation_number": 10,
+    "problem_text": "A 3.0 kg drone flying horizontally along the X-axis at 12 m/s collides with a stationary 6.0 kg surveillance drone. The first drone stops completely after the impact. The surveillance drone breaks into two equal pieces. If one piece (e.g., a camera assembly) moves along the Y-axis with a speed of 7.0 m/s, what is the speed of the other piece?",
+    "numerical_answer": 13.89
+  },
+  {
+    "signature": "Centre of Mass_R22_22_v1",
+    "source_problem_ID": "Centre of Mass_R22",
+    "Pair_Number": 22,
+    "variation_number": 1,
+    "problem_text": "A block of mass 2 kg is placed on a frictionless horizontal surface. A 0.5 kg projectile, moving horizontally, strikes and embeds itself into the block. The combined mass then compresses an ideal spring (spring constant k = 1000 N/m) by a maximum distance of 0.2 m. Find the initial speed of the projectile just before impact. Ignore air resistance.",
+    "numerical_answer": 8.94
+  },
+  {
+    "signature": "Centre of Mass_R22_22_v2",
+    "source_problem_ID": "Centre of Mass_R22",
+    "Pair_Number": 22,
+    "variation_number": 2,
+    "problem_text": "A 1200 kg car is traveling at an unknown speed. It collides head-on with a stationary 1800 kg car. The two cars lock together and move up a frictionless incline, reaching a maximum vertical height of 0.3 m before momentarily coming to rest. Assuming g = 10 m/s^2, what was the initial speed of the first car?",
+    "numerical_answer": 6.71
+  },
+  {
+    "signature": "Centre of Mass_R22_22_v3",
+    "source_problem_ID": "Centre of Mass_R22",
+    "Pair_Number": 22,
+    "variation_number": 3,
+    "problem_text": "A 10 kg hammer moving horizontally strikes and embeds itself into a 40 kg wooden block, which is initially at rest on a rough horizontal surface. After the collision, the combined mass slides a distance of 1.2 m before coming to a stop. If the coefficient of kinetic friction between the block and the surface is 0.5, find the speed of the hammer just before impact. Take g = 10 m/s^2.",
+    "numerical_answer": 17.32
+  },
+  {
+    "signature": "Centre of Mass_R22_22_v4",
+    "source_problem_ID": "Centre of Mass_R22",
+    "Pair_Number": 22,
+    "variation_number": 4,
+    "problem_text": "A 60 kg person jumps horizontally with an unknown speed onto a stationary 140 kg raft floating on a calm lake. The person lands on the raft and immediately moves with it. The combined mass then slides up a frictionless ramp inclined at 45 degrees to the horizontal, covering a distance of 0.8 m along the incline before momentarily stopping. Calculate the horizontal speed of the person just before landing on the raft. Assume g = 10 m/s^2.",
+    "numerical_answer": 9.43
+  },
+  {
+    "signature": "Centre of Mass_R22_22_v5",
+    "source_problem_ID": "Centre of Mass_R22",
+    "Pair_Number": 22,
+    "variation_number": 5,
+    "problem_text": "A pile driver's ram, with a mass of 400 kg, is dropped from an unknown height onto a 100 kg pile. The ram embeds itself into the pile, and they move together, driving the pile a further 0.15 m into the ground. If the constant resistive force from the ground is 300,000 N, from what initial height was the ram dropped? Assume g = 10 m/s^2.",
+    "numerical_answer": 12.5
+  },
+  {
+    "signature": "Centre of Mass_R22_22_v6",
+    "source_problem_ID": "Centre of Mass_R22",
+    "Pair_Number": 22,
+    "variation_number": 6,
+    "problem_text": "A tranquilizer dart of mass 20 g is fired horizontally into a stationary deer of mass 2.98 kg resting on a frictionless ice patch. The dart becomes embedded in the deer, and the combined mass slides up a small, frictionless slope to a maximum vertical height of 0.05 m. Assuming g = 9.8 m/s^2, determine the initial speed of the tranquilizer dart.",
+    "numerical_answer": 148.49
+  },
+  {
+    "signature": "Centre of Mass_R22_22_v7",
+    "source_problem_ID": "Centre of Mass_R22",
+    "Pair_Number": 22,
+    "variation_number": 7,
+    "problem_text": "In a car crash safety test, a test vehicle of mass 1200 kg traveling horizontally collides with a stationary deformable barrier of mass 800 kg. The car becomes embedded in the barrier, and the combined wreckage then slides up a small incline to a maximum vertical height of 0.2 m. If g = 9.8 m/s^2, what was the initial speed of the test vehicle?",
+    "numerical_answer": 3.3
+  },
+  {
+    "signature": "Centre of Mass_R22_22_v8",
+    "source_problem_ID": "Centre of Mass_R22",
+    "Pair_Number": 22,
+    "variation_number": 8,
+    "problem_text": "A heavy package of mass 10 kg slides horizontally on a frictionless conveyor belt. It then collides and sticks to a lighter, stationary trolley of mass 20 kg. The combined package and trolley assembly then moves up a small ramp to a vertical height of 0.8 m. Assuming g = 10 m/s^2, determine the initial speed of the package.",
+    "numerical_answer": 12.0
+  },
+  {
+    "signature": "Centre of Mass_R22_22_v9",
+    "source_problem_ID": "Centre of Mass_R22",
+    "Pair_Number": 22,
+    "variation_number": 9,
+    "problem_text": "During a snowball fight, a large, dense snowball of mass 0.5 kg is thrown horizontally and hits a stationary wooden target of mass 9.5 kg mounted on a small sled resting on a frictionless frozen pond. The snowball gets embedded in the target, and the combined sled and target slide up a gentle incline to a maximum vertical height of 0.1 m. Taking g = 9.8 m/s^2, what was the initial speed of the snowball?",
+    "numerical_answer": 28.0
+  },
+  {
+    "signature": "Centre of Mass_R22_22_v10",
+    "source_problem_ID": "Centre of Mass_R22",
+    "Pair_Number": 22,
+    "variation_number": 10,
+    "problem_text": "A small dummy rocket stage of mass 200 kg moving horizontally collides with and latches onto a stationary test platform of mass 1800 kg designed to simulate a larger stage. The combined system then slides up a curved rail, reaching a maximum vertical height of 0.045 m. If g = 9.8 m/s^2, calculate the initial speed of the dummy rocket stage.",
+    "numerical_answer": 9.39
+  },
+  {
+    "signature": "Centre of Mass_R23_23_v1",
+    "source_problem_ID": "Centre of Mass_R23",
+    "Pair_Number": 23,
+    "variation_number": 1,
+    "problem_text": "Two gliders, with masses of 0.5 kg and 0.8 kg, are placed on a frictionless air track. A light spring with a spring constant of 200 N/m is compressed by 0.15 m between them. When the gliders are released from rest, they move apart. Calculate the speed of the 0.5 kg glider just after the spring loses contact and reaches its natural length.",
+    "numerical_answer": 2.35
+  },
+  {
+    "signature": "Centre of Mass_R23_23_v2",
+    "source_problem_ID": "Centre of Mass_R23",
+    "Pair_Number": 23,
+    "variation_number": 2,
+    "problem_text": "A main spacecraft module (1200 kg) and a smaller sub-module (300 kg) are initially latched together in deep space. A spring-loaded mechanism, with a spring constant of 5000 N/m, is compressed by 0.05 m between them. When released, the modules separate. Determine the speed of the main spacecraft module immediately after the separation mechanism fully extends.",
+    "numerical_answer": 0.05
+  },
+  {
+    "signature": "Centre of Mass_R23_23_v3",
+    "source_problem_ID": "Centre of Mass_R23",
+    "Pair_Number": 23,
+    "variation_number": 3,
+    "problem_text": "A small projectile of mass 20 g is loaded into a launcher weighing 1.5 kg, which rests on a smooth horizontal surface. A compressed spring inside the launcher, with a constant of 150 N/m, is initially compressed by 8 cm. When the spring is released, it propels the projectile forward and causes the launcher to recoil. Calculate the speed of the projectile just as it leaves the launcher and the spring reaches its natural length.",
+    "numerical_answer": 6.88
+  },
+  {
+    "signature": "Centre of Mass_R23_23_v4",
+    "source_problem_ID": "Centre of Mass_R23",
+    "Pair_Number": 23,
+    "variation_number": 4,
+    "problem_text": "Two toy cars, one with mass 0.3 kg and the other with mass 0.4 kg, are placed touching each other on a smooth horizontal table. A light spring with a spring constant of 50 N/m is placed between them, compressed by 0.12 m, and held by a string. When the string is cut, the cars are pushed apart. What is the speed of the 0.3 kg car immediately after the spring reaches its natural length?",
+    "numerical_answer": 1.17
+  },
+  {
+    "signature": "Centre of Mass_R23_23_v5",
+    "source_problem_ID": "Centre of Mass_R23",
+    "Pair_Number": 23,
+    "variation_number": 5,
+    "problem_text": "Two components of a mechanical system, Component A (8 kg) and Component B (20 kg), are initially held together on a frictionless surface. A robust spring, designed for deployment, with a spring constant of 1000 N/m, is compressed by 3 cm between them. Upon activation, the spring releases and pushes the components apart. Calculate the speed of Component A as the spring reaches its natural length.",
+    "numerical_answer": 0.28
+  },
+  {
+    "signature": "Centre of Mass_R23_23_v6",
+    "source_problem_ID": "Centre of Mass_R23",
+    "Pair_Number": 23,
+    "variation_number": 6,
+    "problem_text": "Two spacecraft, a main module of mass 5000 kg and a smaller probe of mass 500 kg, are docked together in deep space. A spring-loaded separation mechanism, with an effective spring constant of 10000 N/m, is activated, pushing them apart. If the spring was initially compressed by 0.5 meters, what is the final speed of the smaller probe relative to the initial combined center of mass?",
+    "numerical_answer": 2.13
+  },
+  {
+    "signature": "Centre of Mass_R23_23_v7",
+    "source_problem_ID": "Centre of Mass_R23",
+    "Pair_Number": 23,
+    "variation_number": 7,
+    "problem_text": "A stationary improvised explosive device, initially at rest, explodes into two fragments of masses 2 kg and 3 kg. The chemical energy released by the explosion is equivalent to the potential energy stored in a spring with a constant of 5000 N/m compressed by 0.1 meters. Calculate the speed of the 3 kg fragment immediately after the explosion.",
+    "numerical_answer": 2.58
+  },
+  {
+    "signature": "Centre of Mass_R23_23_v8",
+    "source_problem_ID": "Centre of Mass_R23",
+    "Pair_Number": 23,
+    "variation_number": 8,
+    "problem_text": "In a physics laboratory experiment on a frictionless air track, a 0.2 kg cart has a spring (spring constant 150 N/m) attached to its front. A second cart of mass 0.4 kg is pushed against this spring, compressing it by 0.05 meters. When the carts are released from rest, they move in opposite directions. Determine the final speed of the 0.2 kg cart.",
+    "numerical_answer": 1.12
+  },
+  {
+    "signature": "Centre of Mass_R23_23_v9",
+    "source_problem_ID": "Centre of Mass_R23",
+    "Pair_Number": 23,
+    "variation_number": 9,
+    "problem_text": "A miniature cannon of mass 20 kg is mounted on frictionless wheels. It fires a 1 kg projectile using a powerful internal spring with a spring constant of 2000 N/m. If the spring is initially compressed by 0.2 meters before firing, what is the recoil speed of the cannon?",
+    "numerical_answer": 0.44
+  },
+  {
+    "signature": "Centre of Mass_R23_23_v10",
+    "source_problem_ID": "Centre of Mass_R23",
+    "Pair_Number": 23,
+    "variation_number": 10,
+    "problem_text": "Two small, identical permanent magnets, one of mass 0.1 kg and the other of mass 0.2 kg, are held together on a frictionless horizontal surface with like poles facing each other, storing repulsive potential energy. This stored energy is equivalent to a spring with a constant of 200 N/m compressed by 0.01 meters. When released, they fly apart. What is the final speed of the 0.1 kg magnet?",
+    "numerical_answer": 0.37
+  },
+  {
+    "signature": "Centre of Mass_R24_24_v1",
+    "source_problem_ID": "Centre of Mass_R24",
+    "Pair_Number": 24,
+    "variation_number": 1,
+    "problem_text": "A forklift of mass 800 kg is designed to push heavy crates. It is equipped with a front buffer system that can be modeled as a single spring with a spring constant of 50,000 N/m. The forklift approaches a 200 kg crate on a perfectly smooth factory floor. Initially, both are at rest and the spring is at its natural length. The forklift's engine applies a constant forward thrust of 2000 N to the forklift itself. What is the maximum compression achieved by the buffer spring?",
+    "numerical_answer": 0.02
+  },
+  {
+    "signature": "Centre of Mass_R24_24_v2",
+    "source_problem_ID": "Centre of Mass_R24",
+    "Pair_Number": 24,
+    "variation_number": 2,
+    "problem_text": "In a zero-gravity environment, a large spacecraft (mass 5000 kg) attempts to dock with a smaller scientific module (mass 1000 kg). The docking mechanism can be simplified as a spring with a spring constant of 1000 N/m. Initially, the two spacecraft are at rest relative to each other, and the docking spring is completely relaxed. The larger spacecraft then applies a constant thrust of 50 N towards the module. What is the maximum compression that the docking spring will experience?",
+    "numerical_answer": 0.02
+  },
+  {
+    "signature": "Centre of Mass_R24_24_v3",
+    "source_problem_ID": "Centre of Mass_R24",
+    "Pair_Number": 24,
+    "variation_number": 3,
+    "problem_text": "A hobbyist sets up a model train on a perfectly frictionless track. The train consists of a 0.5 kg engine and a 0.2 kg passenger car, connected by a coupling mechanism that behaves like a spring with a constant of 10 N/m. Both are initially at rest, and the coupling spring is at its natural length. The engine then exerts a constant forward pull of 2 N on itself. Determine the maximum extension of the coupling spring.",
+    "numerical_answer": 0.11
+  },
+  {
+    "signature": "Centre of Mass_R24_24_v4",
+    "source_problem_ID": "Centre of Mass_R24",
+    "Pair_Number": 24,
+    "variation_number": 4,
+    "problem_text": "Engineers are testing a new rail-based projectile launch system. A 50 kg launcher base is on frictionless horizontal rails and connected to a 5 kg projectile carriage by a powerful spring with a spring constant of 500 N/m. The spring is initially relaxed, and the entire system is at rest. A hydraulic piston applies a constant force of 100 N to the launcher base. What is the maximum compression the spring will undergo?",
+    "numerical_answer": 0.04
+  },
+  {
+    "signature": "Centre of Mass_R24_24_v5",
+    "source_problem_ID": "Centre of Mass_R24",
+    "Pair_Number": 24,
+    "variation_number": 5,
+    "problem_text": "In a simulated crash test, a 1200 kg car chassis is mounted on frictionless rollers. Its 80 kg front bumper assembly is connected to the chassis by a system of springs with an effective spring constant of 15,000 N/m. Initially, the car and bumper are at rest, and the bumper springs are at their natural length. A constant force of 5000 N is applied to the main chassis, simulating a controlled impact. Calculate the maximum compression experienced by the bumper springs.",
+    "numerical_answer": 0.04
+  },
+  {
+    "signature": "Centre of Mass_R24_24_v6",
+    "source_problem_ID": "Centre of Mass_R24",
+    "Pair_Number": 24,
+    "variation_number": 6,
+    "problem_text": "An automated industrial trolley system features two carts connected by a spring. Cart A has a mass of 10 kg and Cart B has a mass of 20 kg. They are initially at rest on a smooth horizontal track, with the connecting spring unstretched. The spring constant is 500 N/m. A constant force of 150 N is applied to Cart B, pushing it forward. Determine the maximum extension of the spring during the subsequent motion.",
+    "numerical_answer": 0.2
+  },
+  {
+    "signature": "Centre of Mass_R24_24_v7",
+    "source_problem_ID": "Centre of Mass_R24",
+    "Pair_Number": 24,
+    "variation_number": 7,
+    "problem_text": "In a physics laboratory experiment, two gliders are placed on a frictionless air track. Glider A has a mass of 0.2 kg and Glider B has a mass of 0.3 kg. They are connected by a light spring with a spring constant of 15 N/m. Initially, the gliders are at rest and the spring is at its natural length. A constant horizontal force of 0.5 N is applied to Glider B. Calculate the maximum extension the spring will experience.",
+    "numerical_answer": 0.03
+  },
+  {
+    "signature": "Centre of Mass_R24_24_v8",
+    "source_problem_ID": "Centre of Mass_R24",
+    "Pair_Number": 24,
+    "variation_number": 8,
+    "problem_text": "During a simulated space docking maneuver in a zero-gravity environment, a smaller satellite of mass 2000 kg is to connect with a larger module of mass 5000 kg. The docking mechanism can be modeled as a spring with a spring constant of 10000 N/m. Initially, both spacecraft are relatively at rest and the mechanism is unstretched. The smaller satellite's thrusters apply a constant force of 500 N towards the larger module. Assuming the force acts only on the smaller satellite, what is the maximum compression (extension) of the docking spring?",
+    "numerical_answer": 0.03
+  },
+  {
+    "signature": "Centre of Mass_R24_24_v9",
+    "source_problem_ID": "Centre of Mass_R24",
+    "Pair_Number": 24,
+    "variation_number": 9,
+    "problem_text": "A child's toy truck, with a mass of 1.5 kg, pulls a toy trailer of mass 0.5 kg. They are connected by a flexible coupling that behaves like a spring with a spring constant of 20 N/m. Starting from rest on a smooth floor, the truck's motor generates a constant forward force of 3 N. What will be the maximum extension of the coupling spring?",
+    "numerical_answer": 0.08
+  },
+  {
+    "signature": "Centre of Mass_R24_24_v10",
+    "source_problem_ID": "Centre of Mass_R24",
+    "Pair_Number": 24,
+    "variation_number": 10,
+    "problem_text": "Consider a simplified model of a fault line where two massive rock layers interact. The upper layer has an effective mass of 50000 kg, and the lower layer has an effective mass of 100000 kg. These layers are connected by an elastic zone modeled as a spring with a constant of 5000 N/m. Initially, the layers are at rest, and the elastic zone is unstretched. A continuous tectonic force of 1000 N acts horizontally on the lower layer. Determine the maximum displacement (extension) that occurs within the elastic zone.",
+    "numerical_answer": 0.13
+  },
+  {
+    "signature": "Centre of Mass_R25_25_v1",
+    "source_problem_ID": "Centre of Mass_R25",
+    "Pair_Number": 25,
+    "variation_number": 1,
+    "problem_text": "A cue ball (Ball 1) of mass 0.16 kg is moving at 8.5 m/s towards an identical, stationary 8-ball (Ball 2) on a frictionless billiard table. A rigid wall is positioned just beyond the 8-ball. All collisions are perfectly elastic. After all possible collisions have occurred between the balls and the wall, what is the final speed of the cue ball?",
+    "numerical_answer": 8.5
+  },
+  {
+    "signature": "Centre of Mass_R25_25_v2",
+    "source_problem_ID": "Centre of Mass_R25",
+    "Pair_Number": 25,
+    "variation_number": 2,
+    "problem_text": "In a hypothetical linear particle accelerator, a proton (Particle A) with a mass of 1.67 x 10^-27 kg is propelled at a speed of 8.5 m/s, directly encountering an identical, stationary proton (Particle B). Immediately after Particle B is struck, it undergoes a perfectly elastic collision with a fixed, impenetrable atomic nucleus 'wall'. All collisions are perfectly elastic and occur in one dimension. Determine the final speed of Particle A after all collisions have ceased.",
+    "numerical_answer": 8.5
+  },
+  {
+    "signature": "Centre of Mass_R25_25_v3",
+    "source_problem_ID": "Centre of Mass_R25",
+    "Pair_Number": 25,
+    "variation_number": 3,
+    "problem_text": "Two identical experimental modules, each with a mass of 2500 kg, are undergoing a one-dimensional test in deep space. Module X is moving at 8.5 m/s towards Module Y, which is initially at rest. A robust, fixed space station panel acts as a perfectly elastic 'wall' a short distance beyond Module Y. Assuming all collisions are perfectly elastic, what is the final speed of Module X after all interactions (module-module and module-wall) have concluded?",
+    "numerical_answer": 8.5
+  },
+  {
+    "signature": "Centre of Mass_R25_25_v4",
+    "source_problem_ID": "Centre of Mass_R25",
+    "Pair_Number": 25,
+    "variation_number": 4,
+    "problem_text": "On a frictionless air hockey table, a red puck (Puck 1) of mass 0.02 kg slides at 8.5 m/s towards an identical blue puck (Puck 2), which is initially at rest. A sturdy, elastic bumper forms a wall at the far edge of the table, just beyond Puck 2. All collisions (puck-puck and puck-bumper) are perfectly elastic. Calculate the final speed of the red puck once all collisions have concluded.",
+    "numerical_answer": 8.5
+  },
+  {
+    "signature": "Centre of Mass_R25_25_v5",
+    "source_problem_ID": "Centre of Mass_R25",
+    "Pair_Number": 25,
+    "variation_number": 5,
+    "problem_text": "In an automated industrial facility, a powered cart (Cart 1) of mass 150 kg travels at 8.5 m/s along a straight track towards an identical, unpowered cart (Cart 2) which is momentarily at rest. At the end of the track is a heavy, fixed buffer that acts as a perfectly elastic barrier. Assuming all collisions (cart-cart and cart-buffer) are perfectly elastic and motion is strictly one-dimensional, what is the final speed of the initially powered cart (Cart 1) after all collisions?",
+    "numerical_answer": 8.5
+  },
+  {
+    "signature": "Centre of Mass_R25_25_v6",
+    "source_problem_ID": "Centre of Mass_R25",
+    "Pair_Number": 25,
+    "variation_number": 6,
+    "problem_text": "Two identical air hockey pucks, Puck A and Puck B, are on a frictionless table. Puck A (mass 0.15 kg) is moving at a speed of 3.5 m/s directly towards Puck B, which is initially at rest. Behind Puck B, at a short distance, is a perfectly rigid, stationary bumper. All collisions (puck-puck and puck-bumper) are perfectly elastic. What is the final speed of Puck A after all possible collisions have occurred?",
+    "numerical_answer": 3.5
+  },
+  {
+    "signature": "Centre of Mass_R25_25_v7",
+    "source_problem_ID": "Centre of Mass_R25",
+    "Pair_Number": 25,
+    "variation_number": 7,
+    "problem_text": "Consider two identical gas molecules, Molecule X and Molecule Y, moving in a one-dimensional path. Molecule X is moving at a speed of 450 m/s towards Molecule Y, which is initially at rest. Molecule Y is positioned such that it will collide head-on with a perfectly rigid and fixed container wall after its collision with Molecule X. All collisions are perfectly elastic. Determine the final speed of Molecule X after all collisions are complete.",
+    "numerical_answer": 450.0
+  },
+  {
+    "signature": "Centre of Mass_R25_25_v8",
+    "source_problem_ID": "Centre of Mass_R25",
+    "Pair_Number": 25,
+    "variation_number": 8,
+    "problem_text": "On a frictionless billiard table, Ball 1 is initially moving at 1.5 m/s towards an identical Ball 2, which is at rest. The initial distance between the centers of Ball 1 and Ball 2 is 0.6 m. A rigid cushion (wall) is located 0.9 m beyond Ball 2's initial position. All collisions (ball-ball and ball-cushion) are perfectly elastic. Calculate the total time elapsed from the moment of the first collision until Ball 1 returns to its initial starting position.",
+    "numerical_answer": 1.6
+  },
+  {
+    "signature": "Centre of Mass_R25_25_v9",
+    "source_problem_ID": "Centre of Mass_R25",
+    "Pair_Number": 25,
+    "variation_number": 9,
+    "problem_text": "Two identical satellites, Satellite Alpha and Satellite Beta, each with a mass of 250 kg, are in a zero-gravity environment. Satellite Alpha is moving at 80 m/s directly towards Satellite Beta, which is initially stationary. They undergo a perfectly elastic collision. After this, Satellite Beta moves towards and collides perfectly elastically with a massive, stationary space station component (acting as a rigid wall). What is the total kinetic energy of the two-satellite system after all collisions have concluded?",
+    "numerical_answer": 800000.0
+  },
+  {
+    "signature": "Centre of Mass_R25_25_v10",
+    "source_problem_ID": "Centre of Mass_R25",
+    "Pair_Number": 25,
+    "variation_number": 10,
+    "problem_text": "Two identical pendulum bobs, P and Q, are suspended such that they can swing along a straight line and undergo head-on collisions at their lowest point. Bob P is released from rest at a height of 0.75 m above its lowest point. It swings down and collides perfectly elastically with Bob Q, which is initially at rest at its lowest point. Immediately after colliding with Bob P, Bob Q then collides perfectly elastically with a rigid, stationary barrier. Assuming Bob P can swing back along its original path, what is the maximum height above its lowest point that Bob P reaches after all collisions?",
+    "numerical_answer": 0.75
+  },
+  {
+    "signature": "Centre of Mass_R26_26_v1",
+    "source_problem_ID": "Centre of Mass_R26",
+    "Pair_Number": 26,
+    "variation_number": 1,
+    "problem_text": "A cart of mass 2 kg moving at 5 m/s collides head-on with a 3 kg cart moving in the opposite direction at 2 m/s on a frictionless track. If the coefficient of restitution for the collision is 0.8, what is the final velocity of the 2 kg cart?",
+    "numerical_answer": -2.56
+  },
+  {
+    "signature": "Centre of Mass_R26_26_v2",
+    "source_problem_ID": "Centre of Mass_R26",
+    "Pair_Number": 26,
+    "variation_number": 2,
+    "problem_text": "A cue ball of mass 0.17 kg is shot at 3 m/s towards a stationary 8-ball, also of mass 0.17 kg. Assuming a head-on collision and a coefficient of restitution of 0.9, determine the final velocity of the 8-ball.",
+    "numerical_answer": 2.85
+  },
+  {
+    "signature": "Centre of Mass_R26_26_v3",
+    "source_problem_ID": "Centre of Mass_R26",
+    "Pair_Number": 26,
+    "variation_number": 3,
+    "problem_text": "A freight car with a mass of 20,000 kg traveling at 2 m/s in a railyard collides with a stationary freight car of mass 30,000 kg. If the collision is head-on and the coefficient of restitution is 0.6, find the final velocity of the 20,000 kg freight car.",
+    "numerical_answer": 0.08
+  },
+  {
+    "signature": "Centre of Mass_R26_26_v4",
+    "source_problem_ID": "Centre of Mass_R26",
+    "Pair_Number": 26,
+    "variation_number": 4,
+    "problem_text": "A 100 kg satellite fragment traveling at 15 m/s collides head-on with a larger, defunct 500 kg satellite moving towards it at 5 m/s. If the coefficient of restitution for this impact is 0.3, what is the final velocity of the 500 kg defunct satellite?",
+    "numerical_answer": -0.67
+  },
+  {
+    "signature": "Centre of Mass_R26_26_v5",
+    "source_problem_ID": "Centre of Mass_R26",
+    "Pair_Number": 26,
+    "variation_number": 5,
+    "problem_text": "In a game of curling, a 19 kg curling stone sliding at 1.5 m/s strikes a stationary 19 kg curling stone head-on. Given that the coefficient of restitution is 0.95, calculate the final velocity of the initially moving curling stone.",
+    "numerical_answer": 0.04
+  },
+  {
+    "signature": "Centre of Mass_R26_26_v6",
+    "source_problem_ID": "Centre of Mass_R26",
+    "Pair_Number": 26,
+    "variation_number": 6,
+    "problem_text": "A cue ball of mass 0.17 kg moving at 3.0 m/s strikes a stationary 8-ball of identical mass head-on. If the coefficient of restitution between the balls is 0.9, calculate the final velocity of the cue ball after the collision.",
+    "numerical_answer": 0.15
+  },
+  {
+    "signature": "Centre of Mass_R26_26_v7",
+    "source_problem_ID": "Centre of Mass_R26",
+    "Pair_Number": 26,
+    "variation_number": 7,
+    "problem_text": "A freight car of mass 20,000 kg traveling at 2.5 m/s collides head-on with a stationary freight car of mass 30,000 kg. If the coupling mechanism results in a coefficient of restitution of 0.4, determine the velocity of the heavier freight car immediately after the collision.",
+    "numerical_answer": 1.4
+  },
+  {
+    "signature": "Centre of Mass_R26_26_v8",
+    "source_problem_ID": "Centre of Mass_R26",
+    "Pair_Number": 26,
+    "variation_number": 8,
+    "problem_text": "In a controlled crash test, Car A (mass 1500 kg) moving at 10.0 m/s collides head-on with a stationary Car B (mass 1000 kg). Assuming the collision has a coefficient of restitution of 0.4, what is the final velocity of Car A?",
+    "numerical_answer": 4.4
+  },
+  {
+    "signature": "Centre of Mass_R26_26_v9",
+    "source_problem_ID": "Centre of Mass_R26",
+    "Pair_Number": 26,
+    "variation_number": 9,
+    "problem_text": "A small piece of space debris (mass 5 kg) is traveling at 500 m/s when it collides head-on with a larger satellite (mass 20 kg) moving in the same direction at 100 m/s. If the coefficient of restitution for this collision is 0.2, what is the velocity of the satellite immediately after impact?",
+    "numerical_answer": 196.0
+  },
+  {
+    "signature": "Centre of Mass_R26_26_v10",
+    "source_problem_ID": "Centre of Mass_R26",
+    "Pair_Number": 26,
+    "variation_number": 10,
+    "problem_text": "A projectile of mass 0.5 kg strikes a stationary block of wood of mass 2.0 kg head-on. After the collision, the block of wood moves forward at a velocity of 2.0 m/s. If the coefficient of restitution for this impact is 0.6, what was the initial speed of the projectile?",
+    "numerical_answer": 6.25
+  },
+  {
+    "signature": "Centre of Mass_R27_27_v1",
+    "source_problem_ID": "Centre of Mass_R27",
+    "Pair_Number": 27,
+    "variation_number": 1,
+    "problem_text": "A laboratory cart of mass 0.5 kg, moving at a speed of 3 m/s, collides head-on with an identical cart initially at rest on a frictionless track. If the coefficient of restitution for the collision is 0.8, calculate the loss of kinetic energy during the impact.",
+    "numerical_answer": 0.41
+  },
+  {
+    "signature": "Centre of Mass_R27_27_v2",
+    "source_problem_ID": "Centre of Mass_R27",
+    "Pair_Number": 27,
+    "variation_number": 2,
+    "problem_text": "A white billiard ball (mass 0.16 kg) is struck, giving it a speed of 1.5 m/s. It then collides head-on with a stationary black billiard ball of the same mass. If the coefficient of restitution between the balls is 0.75, determine the kinetic energy dissipated during the collision.",
+    "numerical_answer": 0.04
+  },
+  {
+    "signature": "Centre of Mass_R27_27_v3",
+    "source_problem_ID": "Centre of Mass_R27",
+    "Pair_Number": 27,
+    "variation_number": 3,
+    "problem_text": "On an ice rink, a hockey puck with a mass of 0.17 kg is shot at a speed of 5 m/s. It makes a direct, head-on collision with another identical puck that is at rest. Assuming the coefficient of restitution is 0.6, what is the total loss of kinetic energy in the system due to the collision?",
+    "numerical_answer": 0.68
+  },
+  {
+    "signature": "Centre of Mass_R27_27_v4",
+    "source_problem_ID": "Centre of Mass_R27",
+    "Pair_Number": 27,
+    "variation_number": 4,
+    "problem_text": "A small, unladen railway wagon of mass 500 kg is moving at 0.5 m/s when it collides head-on with an identical stationary wagon. If the coupling mechanism results in a coefficient of restitution of 0.4, find the energy lost in the collision.",
+    "numerical_answer": 26.25
+  },
+  {
+    "signature": "Centre of Mass_R27_27_v5",
+    "source_problem_ID": "Centre of Mass_R27",
+    "Pair_Number": 27,
+    "variation_number": 5,
+    "problem_text": "A piece of space debris, with a mass of 10 kg, is moving at 2 km/s when it undergoes a head-on collision with another identical piece of debris that is momentarily at rest relative to the first object's path. If the collision has a coefficient of restitution of 0.2, what is the total kinetic energy converted into other forms (e.g., heat, deformation) during the impact?",
+    "numerical_answer": 9600000.0
+  },
+  {
+    "signature": "Centre of Mass_R27_27_v6",
+    "source_problem_ID": "Centre of Mass_R27",
+    "Pair_Number": 27,
+    "variation_number": 6,
+    "problem_text": "A cue ball of mass 0.17 kg, moving at a speed of 1.5 m/s, strikes a stationary 8-ball of mass 0.16 kg head-on. The coefficient of restitution for the collision is 0.8. Calculate the loss of kinetic energy during this collision.",
+    "numerical_answer": 0.03
+  },
+  {
+    "signature": "Centre of Mass_R27_27_v7",
+    "source_problem_ID": "Centre of Mass_R27",
+    "Pair_Number": 27,
+    "variation_number": 7,
+    "problem_text": "A 1500 kg car traveling at 72 km/h collides head-on with a stationary 2000 kg truck. If the coefficient of restitution for this collision is 0.3, determine the total kinetic energy lost during the impact.",
+    "numerical_answer": 156111.63
+  },
+  {
+    "signature": "Centre of Mass_R27_27_v8",
+    "source_problem_ID": "Centre of Mass_R27",
+    "Pair_Number": 27,
+    "variation_number": 8,
+    "problem_text": "A tennis ball with a mass of 0.058 kg is served at 30 m/s and collides head-on with a stationary tennis racket. Assuming the effective mass of the racket head involved in the collision is 0.3 kg and the coefficient of restitution is 0.7, what is the loss of kinetic energy?",
+    "numerical_answer": 11.16
+  },
+  {
+    "signature": "Centre of Mass_R27_27_v9",
+    "source_problem_ID": "Centre of Mass_R27",
+    "Pair_Number": 27,
+    "variation_number": 9,
+    "problem_text": "During a docking procedure in space, a 15000 kg supply spacecraft approaches a massive 100000 kg space station module at a relative speed of 0.5 m/s. The module is initially considered stationary. If the docking collision has a coefficient of restitution of 0.1, find the loss of kinetic energy during this 'soft' impact.",
+    "numerical_answer": 1614.13
+  },
+  {
+    "signature": "Centre of Mass_R27_27_v10",
+    "source_problem_ID": "Centre of Mass_R27",
+    "Pair_Number": 27,
+    "variation_number": 10,
+    "problem_text": "A bullet of mass 0.01 kg is fired with a speed of 300 m/s into a stationary wooden block of mass 2 kg. The collision is head-on, and the coefficient of restitution is found to be 0.2. Calculate the kinetic energy dissipated during this impact.",
+    "numerical_answer": 429.85
+  },
+  {
+    "signature": "Centre of Mass_R28_28_v1",
+    "source_problem_ID": "Centre of Mass_R28",
+    "Pair_Number": 28,
+    "variation_number": 1,
+    "problem_text": "A billiard ball of mass 0.17 kg strikes a cushion with a speed of 3.0 m/s. The angle of incidence with the normal to the cushion is 30 degrees. If the coefficient of restitution between the ball and the cushion is 0.8, what is the speed of the billiard ball immediately after impact?",
+    "numerical_answer": 2.56
+  },
+  {
+    "signature": "Centre of Mass_R28_28_v2",
+    "source_problem_ID": "Centre of Mass_R28",
+    "Pair_Number": 28,
+    "variation_number": 2,
+    "problem_text": "A tennis ball, with an initial speed of 25.0 m/s, hits a rigid vertical wall. The ball's trajectory makes an angle of 45 degrees with the normal to the wall. Assuming a coefficient of restitution of 0.7 for the collision, calculate the speed of the tennis ball as it rebounds from the wall.",
+    "numerical_answer": 21.58
+  },
+  {
+    "signature": "Centre of Mass_R28_28_v3",
+    "source_problem_ID": "Centre of Mass_R28",
+    "Pair_Number": 28,
+    "variation_number": 3,
+    "problem_text": "A hockey puck slides across the ice and collides with the rink boards. Its speed before impact is 15.0 m/s, and it strikes the boards at an angle of 60 degrees relative to the normal of the board surface. If the coefficient of restitution for this collision is 0.6, determine the speed of the puck just after it leaves the boards.",
+    "numerical_answer": 13.75
+  },
+  {
+    "signature": "Centre of Mass_R28_28_v4",
+    "source_problem_ID": "Centre of Mass_R28",
+    "Pair_Number": 28,
+    "variation_number": 4,
+    "problem_text": "A high-velocity projectile of mass 0.5 kg impacts a reinforced bunker wall. The projectile's speed before impact is 300.0 m/s, and its path makes an angle of 15 degrees with the normal to the wall. Given a coefficient of restitution of 0.2 for the collision (indicating significant deformation), what is the speed of the projectile after rebounding?",
+    "numerical_answer": 96.84
+  },
+  {
+    "signature": "Centre of Mass_R28_28_v5",
+    "source_problem_ID": "Centre of Mass_R28",
+    "Pair_Number": 28,
+    "variation_number": 5,
+    "problem_text": "During a docking maneuver, a small spacecraft module inadvertently brushes against a deflector shield on a space station. The relative speed of the module before impact is 500.0 m/s, and its trajectory makes an angle of 75 degrees with the normal to the deflector surface. If the collision has a coefficient of restitution of 0.95, what is the angle of reflection (with respect to the normal) of the spacecraft module after impact?",
+    "numerical_answer": 75.72
+  },
+  {
+    "signature": "Centre of Mass_R28_28_v6",
+    "source_problem_ID": "Centre of Mass_R28",
+    "Pair_Number": 28,
+    "variation_number": 6,
+    "problem_text": "A billiard ball of mass 0.17 kg is moving with a speed of 3.5 m/s when it strikes a cushion. The angle of incidence with the normal to the cushion is 60 degrees. If the coefficient of restitution between the ball and the cushion is 0.85, what is the speed of the billiard ball immediately after the collision?",
+    "numerical_answer": 3.38
+  },
+  {
+    "signature": "Centre of Mass_R28_28_v7",
+    "source_problem_ID": "Centre of Mass_R28",
+    "Pair_Number": 28,
+    "variation_number": 7,
+    "problem_text": "A hockey puck of mass 0.16 kg is shot towards the sideboards of a rink with a speed of 20 m/s. It hits the boards at an angle of 45 degrees with respect to the normal to the board. Assuming the coefficient of restitution between the puck and the board is 0.7, calculate the angle of reflection of the puck with respect to the normal.",
+    "numerical_answer": 55.0
+  },
+  {
+    "signature": "Centre of Mass_R28_28_v8",
+    "source_problem_ID": "Centre of Mass_R28",
+    "Pair_Number": 28,
+    "variation_number": 8,
+    "problem_text": "A small projectile of mass 0.05 kg approaches an inclined plane with a speed of 15 m/s. It strikes the plane such that its angle of incidence with the normal to the plane is 30 degrees. Given a coefficient of restitution of 0.6 for the impact, determine the speed of the projectile just after it rebounds from the inclined plane.",
+    "numerical_answer": 10.82
+  },
+  {
+    "signature": "Centre of Mass_R28_28_v9",
+    "source_problem_ID": "Centre of Mass_R28",
+    "Pair_Number": 28,
+    "variation_number": 9,
+    "problem_text": "A compact car of mass 1200 kg skids into a rigid concrete barrier at a speed of 10 m/s. The angle its velocity vector makes with the normal to the barrier is 70 degrees. If the effective coefficient of restitution for this inelastic collision is 0.3, what will be the angle of its rebound velocity with respect to the normal?",
+    "numerical_answer": 83.77
+  },
+  {
+    "signature": "Centre of Mass_R28_28_v10",
+    "source_problem_ID": "Centre of Mass_R28",
+    "Pair_Number": 28,
+    "variation_number": 10,
+    "problem_text": "A squash ball with a mass of 0.024 kg is served with a speed of 30 m/s, hitting the front wall of the court. The angle of incidence with the normal to the wall is 50 degrees. If the coefficient of restitution for the squash ball-wall interaction is 0.8, what is the speed of the squash ball immediately after reflecting off the wall?",
+    "numerical_answer": 27.68
+  },
+  {
+    "signature": "Centre of Mass_R29_29_v1",
+    "source_problem_ID": "Centre of Mass_R29",
+    "Pair_Number": 29,
+    "variation_number": 1,
+    "problem_text": "A cargo pod of mass 500 kg approaches a space station's docking module with a speed of 0.5 m/s. The docking module, which has a mass of 1000 kg, is initially at rest and is connected by a strong cable to the main space station core of mass 10000 kg, acting like a counterweight over a frictionless pulley system in zero-gravity. The cargo pod docks (sticks) to the module. Find the speed of the combined cargo pod and docking module system immediately after the collision.",
+    "numerical_answer": 0.02
+  },
+  {
+    "signature": "Centre of Mass_R29_29_v2",
+    "source_problem_ID": "Centre of Mass_R29",
+    "Pair_Number": 29,
+    "variation_number": 2,
+    "problem_text": "During a construction project, a steel beam of mass 200 kg is accidentally dropped onto a stationary platform of mass 100 kg. This platform is part of a crane system, connected by a cable over a frictionless pulley to a 300 kg counterweight. The steel beam hits the platform with a speed of 2.0 m/s and sticks to it. Determine the speed of the platform immediately after the impact.",
+    "numerical_answer": 0.67
+  },
+  {
+    "signature": "Centre of Mass_R29_29_v3",
+    "source_problem_ID": "Centre of Mass_R29",
+    "Pair_Number": 29,
+    "variation_number": 3,
+    "problem_text": "In an underground mine, a loose boulder of mass 50 kg rolls off a ledge and falls onto an empty mining cart of mass 150 kg below. This cart is connected by a cable running over a smooth pulley to a 100 kg support cart, both initially at rest. The boulder impacts the empty cart with a speed of 3.0 m/s and immediately becomes lodged. What is the speed of the combined cart and boulder just after the collision?",
+    "numerical_answer": 0.5
+  },
+  {
+    "signature": "Centre of Mass_R29_29_v4",
+    "source_problem_ID": "Centre of Mass_R29",
+    "Pair_Number": 29,
+    "variation_number": 4,
+    "problem_text": "An elevator car of mass 500 kg is designed with an internal load platform of mass 50 kg, which is connected via a rope over a pulley to an 800 kg counterweight. Initially, the system is at rest. A heavy toolbox of mass 15 kg is dropped from a height and lands on the load platform with a speed of 4.0 m/s, sticking to it. Calculate the speed of the load platform immediately after the toolbox impacts it.",
+    "numerical_answer": 0.07
+  },
+  {
+    "signature": "Centre of Mass_R29_29_v5",
+    "source_problem_ID": "Centre of Mass_R29",
+    "Pair_Number": 29,
+    "variation_number": 5,
+    "problem_text": "In a specialized rock climbing setup, a climber of mass 70 kg loses grip and falls, impacting a safety platform (part of the belay system) of mass 10 kg with a speed of 5.0 m/s. This platform is connected by a rope over a smooth pulley to a stationary counterbalancing mass of 80 kg. The climber sticks to the platform. What is the speed of the platform and climber system just after the impact?",
+    "numerical_answer": 2.19
+  },
+  {
+    "signature": "Centre of Mass_R29_29_v6",
+    "source_problem_ID": "Centre of Mass_R29",
+    "Pair_Number": 29,
+    "variation_number": 6,
+    "problem_text": "A small meteoroid of mass 0.5 kg is traveling at 200 m/s when it collides and sticks to a stationary satellite in deep space. The satellite consists of a main body with mass 100 kg and an attached scientific probe of mass 50 kg, rigidly connected to the main body. Assuming the satellite and probe move as a single unit after the impact, what is the speed of the combined satellite system just after the collision?",
+    "numerical_answer": 0.66
+  },
+  {
+    "signature": "Centre of Mass_R29_29_v7",
+    "source_problem_ID": "Centre of Mass_R29",
+    "Pair_Number": 29,
+    "variation_number": 7,
+    "problem_text": "In an industrial setting, a 20 kg crate is dropped from a height and impacts a stationary section of a conveyor belt at a speed of 5 m/s. The crate immediately sticks to the belt. This conveyor belt section, which has a mass of 100 kg, is mechanically linked to a 80 kg counterweight by a cable and pulley system, ensuring they move together. What is the speed of the conveyor belt and counterweight system immediately after the crate sticks?",
+    "numerical_answer": 0.5
+  },
+  {
+    "signature": "Centre of Mass_R29_29_v8",
+    "source_problem_ID": "Centre of Mass_R29",
+    "Pair_Number": 29,
+    "variation_number": 8,
+    "problem_text": "A car of mass 1500 kg is traveling at 10 m/s when it rear-ends a stationary car of mass 1200 kg. The stationary car is towing a 300 kg trailer. All three vehicles become entangled and move as a single unit immediately after the perfectly inelastic collision. What is the speed of the combined wreckage just after the impact?",
+    "numerical_answer": 5.0
+  },
+  {
+    "signature": "Centre of Mass_R29_29_v9",
+    "source_problem_ID": "Centre of Mass_R29",
+    "Pair_Number": 29,
+    "variation_number": 9,
+    "problem_text": "During a physics demonstration, a tennis ball of mass 0.06 kg is launched horizontally at 30 m/s into a complex target. The target consists of two laboratory carts, cart A (mass 2 kg) and cart B (mass 1 kg), initially at rest on a frictionless track and connected by a light, rigid rod. The tennis ball embeds itself in cart A upon impact. What is the speed of the combined three-body system (ball + cart A + cart B) immediately after the collision?",
+    "numerical_answer": 0.59
+  },
+  {
+    "signature": "Centre of Mass_R29_29_v10",
+    "source_problem_ID": "Centre of Mass_R29",
+    "Pair_Number": 29,
+    "variation_number": 10,
+    "problem_text": "A high-speed projectile of mass 0.01 kg is fired horizontally at 100 m/s into a stationary wooden block of mass 0.5 kg. This block is connected by a compressed spring to an identical second wooden block of mass 0.5 kg, both resting on a frictionless surface. The projectile embeds itself in the first block. Assuming the spring's internal forces are negligible during the instantaneous collision, calculate the speed of the combined two-block and projectile system just after the projectile strikes.",
+    "numerical_answer": 0.99
+  }
+]

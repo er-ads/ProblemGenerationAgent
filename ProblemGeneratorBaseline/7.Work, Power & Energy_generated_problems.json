@@ -1,0 +1,1682 @@
+[
+  {
+    "signature": "Work, Power & Energy_R1_1_v1",
+    "source_problem_ID": "Work, Power & Energy_R1",
+    "Pair_Number": 1,
+    "variation_number": 1,
+    "problem_text": "A car's suspension system includes springs designed to absorb shocks. If one such spring, with a spring constant of 2.0 x 10^4 N/m, is compressed by 5.0 cm when the car hits a pothole, calculate the work done by the spring force on the chassis.",
+    "numerical_answer": -25.0
+  },
+  {
+    "signature": "Work, Power & Energy_R1_1_v2",
+    "source_problem_ID": "Work, Power & Energy_R1",
+    "Pair_Number": 1,
+    "variation_number": 2,
+    "problem_text": "In a classic pinball machine, the plunger is pulled back to compress a spring, launching the ball. If the spring has a spring constant of 250 N/m and is compressed by 8.0 cm, what is the work done by the spring force on the plunger?",
+    "numerical_answer": -0.8
+  },
+  {
+    "signature": "Work, Power & Energy_R1_1_v3",
+    "source_problem_ID": "Work, Power & Energy_R1",
+    "Pair_Number": 1,
+    "variation_number": 3,
+    "problem_text": "A simple mechanical toy is wound up by compressing an internal spring. If the spring constant is 80 N/m and the spring is compressed by 3.0 cm from its equilibrium position, determine the work done by the spring force on the winding mechanism.",
+    "numerical_answer": -0.04
+  },
+  {
+    "signature": "Work, Power & Energy_R1_1_v4",
+    "source_problem_ID": "Work, Power & Energy_R1",
+    "Pair_Number": 1,
+    "variation_number": 4,
+    "problem_text": "A student performs an experiment with a helical spring in a laboratory. The spring has a spring constant of 150 N/m. If the student compresses the spring by 6.0 cm from its relaxed length, calculate the work done by the spring force during this compression.",
+    "numerical_answer": -0.27
+  },
+  {
+    "signature": "Work, Power & Energy_R1_1_v5",
+    "source_problem_ID": "Work, Power & Energy_R1",
+    "Pair_Number": 1,
+    "variation_number": 5,
+    "problem_text": "An industrial machine uses a heavy-duty buffer spring to absorb impact. This spring has a spring constant of 5.0 x 10^4 N/m. If the spring is compressed by 2.0 cm during an impact, what is the work done by the spring force on the colliding object?",
+    "numerical_answer": -10.0
+  },
+  {
+    "signature": "Work, Power & Energy_R1_1_v6",
+    "source_problem_ID": "Work, Power & Energy_R1",
+    "Pair_Number": 1,
+    "variation_number": 6,
+    "problem_text": "A vertical spring with a spring constant of 100 N/m is compressed by 2 cm by placing a mass on its top. Calculate the work done by the spring force on the mass during this compression.",
+    "numerical_answer": -0.02
+  },
+  {
+    "signature": "Work, Power & Energy_R1_1_v7",
+    "source_problem_ID": "Work, Power & Energy_R1",
+    "Pair_Number": 1,
+    "variation_number": 7,
+    "problem_text": "A child's toy car launcher uses a spring with a spring constant of 20 N/m. To launch the car, the spring is compressed by 5 cm. Determine the work done by the spring on the car during this compression.",
+    "numerical_answer": -0.03
+  },
+  {
+    "signature": "Work, Power & Energy_R1_1_v8",
+    "source_problem_ID": "Work, Power & Energy_R1",
+    "Pair_Number": 1,
+    "variation_number": 8,
+    "problem_text": "A safety bumper on a loading dock incorporates a large spring with a spring constant of 500 N/m. When a crate gently pushes against it, the spring is compressed by 1.5 cm. What is the work done by the bumper's spring force on the crate during this compression?",
+    "numerical_answer": -0.06
+  },
+  {
+    "signature": "Work, Power & Energy_R1_1_v9",
+    "source_problem_ID": "Work, Power & Energy_R1",
+    "Pair_Number": 1,
+    "variation_number": 9,
+    "problem_text": "In a specialized industrial press, a strong elastic component, modeled as a spring with a constant of 2000 N/m, is compressed by 0.5 cm during an operation. Calculate the work done by this elastic component's restoring force on the pressing mechanism during the compression.",
+    "numerical_answer": -0.03
+  },
+  {
+    "signature": "Work, Power & Energy_R1_1_v10",
+    "source_problem_ID": "Work, Power & Energy_R1",
+    "Pair_Number": 1,
+    "variation_number": 10,
+    "problem_text": "A spring-loaded door closer mechanism has a spring constant of 75 N/m. When the door is fully opened, the spring is compressed from its equilibrium position by 3 cm. How much work is done by the spring's force on the door during this compression?",
+    "numerical_answer": -0.03
+  },
+  {
+    "signature": "Work, Power & Energy_R2_2_v1",
+    "source_problem_ID": "Work, Power & Energy_R2",
+    "Pair_Number": 2,
+    "variation_number": 1,
+    "problem_text": "A small model rocket, after its engine cuts off, is observed to have an upward velocity of 30 m/s. If the rocket has a mass of 0.5 kg, find the work done by the force of gravity as it continues to coast upwards until it momentarily stops at its maximum height.",
+    "numerical_answer": -225.0
+  },
+  {
+    "signature": "Work, Power & Energy_R2_2_v2",
+    "source_problem_ID": "Work, Power & Energy_R2",
+    "Pair_Number": 2,
+    "variation_number": 2,
+    "problem_text": "A diver with a mass of 70 kg executes a vertical leap from a springboard with an initial upward speed of 3 m/s. Calculate the work done by the force of gravity on the diver as they ascend to their highest point.",
+    "numerical_answer": -315.0
+  },
+  {
+    "signature": "Work, Power & Energy_R2_2_v3",
+    "source_problem_ID": "Work, Power & Energy_R2",
+    "Pair_Number": 2,
+    "variation_number": 3,
+    "problem_text": "A cannonball, weighing 5 kg, is fired straight upwards with an initial muzzle velocity of 50 m/s. Determine the work done by the force of gravity on the cannonball during its upward trajectory until it reaches its peak.",
+    "numerical_answer": -6250.0
+  },
+  {
+    "signature": "Work, Power & Energy_R2_2_v4",
+    "source_problem_ID": "Work, Power & Energy_R2",
+    "Pair_Number": 2,
+    "variation_number": 4,
+    "problem_text": "An elevator carrying a total mass of 500 kg is moving upwards. Due to a power failure, its motor stops, and it momentarily continues to coast upwards with an initial speed of 2 m/s before coming to a complete stop. What is the work done by the force of gravity on the elevator during this upward deceleration phase?",
+    "numerical_answer": -1000.0
+  },
+  {
+    "signature": "Work, Power & Energy_R2_2_v5",
+    "source_problem_ID": "Work, Power & Energy_R2",
+    "Pair_Number": 2,
+    "variation_number": 5,
+    "problem_text": "An astronaut on the Moon throws a small rock of mass 0.1 kg vertically upwards with an initial speed of 15 m/s. Find the work done by the force of lunar gravity on the rock as it travels upwards to its maximum height.",
+    "numerical_answer": -11.25
+  },
+  {
+    "signature": "Work, Power & Energy_R2_2_v6",
+    "source_problem_ID": "Work, Power & Energy_R2",
+    "Pair_Number": 2,
+    "variation_number": 6,
+    "problem_text": "A car of mass 1500 kg is traveling at a speed of 25 m/s when the brakes are applied. Assuming the braking force brings the car to a complete stop, calculate the work done by the braking force.",
+    "numerical_answer": -468750.0
+  },
+  {
+    "signature": "Work, Power & Energy_R2_2_v7",
+    "source_problem_ID": "Work, Power & Energy_R2",
+    "Pair_Number": 2,
+    "variation_number": 7,
+    "problem_text": "A block of mass 0.5 kg is pushed up a frictionless inclined plane with an initial speed of 6 m/s. If the block momentarily comes to rest at its highest point on the incline, what is the work done by the force of gravity on the block during its upward motion?",
+    "numerical_answer": -9.0
+  },
+  {
+    "signature": "Work, Power & Energy_R2_2_v8",
+    "source_problem_ID": "Work, Power & Energy_R2",
+    "Pair_Number": 2,
+    "variation_number": 8,
+    "problem_text": "A block of mass 0.8 kg slides on a frictionless horizontal surface with a speed of 3.5 m/s and collides with an ideal spring, compressing it. What is the work done by the spring force on the block as it brings the block momentarily to rest?",
+    "numerical_answer": -4.9
+  },
+  {
+    "signature": "Work, Power & Energy_R2_2_v9",
+    "source_problem_ID": "Work, Power & Energy_R2",
+    "Pair_Number": 2,
+    "variation_number": 9,
+    "problem_text": "A space probe of mass 8 kg is moving through space with a speed of 100 m/s relative to a target. Its retro-thrusters are fired, applying a decelerating force that eventually brings the probe to a complete stop relative to the target. Calculate the total work done by the retro-thruster force.",
+    "numerical_answer": -40000.0
+  },
+  {
+    "signature": "Work, Power & Energy_R2_2_v10",
+    "source_problem_ID": "Work, Power & Energy_R2",
+    "Pair_Number": 2,
+    "variation_number": 10,
+    "problem_text": "A diver of mass 65 kg leaves the diving board with an initial upward velocity of 4.8 m/s. Determine the work done by the force of gravity on the diver from the moment they leave the board until they reach their maximum height.",
+    "numerical_answer": -748.8
+  },
+  {
+    "signature": "Work, Power & Energy_R3_3_v1",
+    "source_problem_ID": "Work, Power & Energy_R3",
+    "Pair_Number": 3,
+    "variation_number": 1,
+    "problem_text": "A small sphere A, carrying a charge, is clamped to a fixed point. Another identical sphere B, also carrying the same charge and having a mass of 0.05 kg, is released from rest at an initial separation of 0.10 m from A. The spheres repel each other with an electrostatic force F = k_eff/r^2, where k_eff = 0.25 Nm^2. Calculate the speed of sphere B when its separation from A becomes very large.",
+    "numerical_answer": 10.0
+  },
+  {
+    "signature": "Work, Power & Energy_R3_3_v2",
+    "source_problem_ID": "Work, Power & Energy_R3",
+    "Pair_Number": 3,
+    "variation_number": 2,
+    "problem_text": "A hypothetical 'anti-gravity' generator creates a repulsive force field described by F = G_rep/r^2, where G_rep is a constant. A 2.0 kg mass is released from rest at a distance of 0.50 m from the fixed generator. If the constant G_rep is 20 Nm^2, what speed will the mass attain when it is far away from the generator?",
+    "numerical_answer": 6.32
+  },
+  {
+    "signature": "Work, Power & Energy_R3_3_v3",
+    "source_problem_ID": "Work, Power & Energy_R3",
+    "Pair_Number": 3,
+    "variation_number": 3,
+    "problem_text": "A scientific probe of mass 3.0 kg is released from rest at an initial distance of 0.20 m from the center of a specialized force generator. The generator exerts a repulsive force on the probe given by F = C/r^2, where C is a positive constant equal to 67.5 Nm^2. Determine the speed of the probe when it has moved very far away from the generator.",
+    "numerical_answer": 15.0
+  },
+  {
+    "signature": "Work, Power & Energy_R3_3_v4",
+    "source_problem_ID": "Work, Power & Energy_R3",
+    "Pair_Number": 3,
+    "variation_number": 4,
+    "problem_text": "A piece of space debris, with a mass of 100 kg, is fitted with an experimental repulsor unit. It is released from rest at a distance of 50.0 m from a fixed space station which emits a repulsive field. The repulsive force follows the law F = H/r^2, where H = 62500 Nm^2. What will be the speed of the space debris as it moves to a very large distance from the station?",
+    "numerical_answer": 5.0
+  },
+  {
+    "signature": "Work, Power & Energy_R3_3_v5",
+    "source_problem_ID": "Work, Power & Energy_R3",
+    "Pair_Number": 3,
+    "variation_number": 5,
+    "problem_text": "A hypothetical subatomic particle with a mass of 1.0 x 10^-27 kg is influenced by a new fundamental repulsive interaction. It is released from rest at a distance of 1.0 x 10^-14 m from a fixed, central nucleus. The force of repulsion is given by F = X_force/r^2, where X_force is a constant equal to 5.0 x 10^-32 Nm^2. Determine the speed of the particle when it has moved far away from the nucleus.",
+    "numerical_answer": 100000.0
+  },
+  {
+    "signature": "Work, Power & Energy_R3_3_v6",
+    "source_problem_ID": "Work, Power & Energy_R3",
+    "Pair_Number": 3,
+    "variation_number": 6,
+    "problem_text": "Two protons, P1 and P2, repel each other. Proton P1 is fixed at the origin, while proton P2, with a mass of 1.67 x 10^-27 kg, is released from rest when it is initially separated by 1.0 x 10^-10 m from P1. Assuming the electrostatic force of repulsion between them can be described as k/r^2, where k = 2.304 x 10^-28 N m^2, calculate the change in the potential energy of the two-proton system as the separation between them increases to a very large value. What will be the speed of proton P2 when their separation becomes very large?",
+    "numerical_answer": 52526.0
+  },
+  {
+    "signature": "Work, Power & Energy_R3_3_v7",
+    "source_problem_ID": "Work, Power & Energy_R3",
+    "Pair_Number": 3,
+    "variation_number": 7,
+    "problem_text": "A specialized research probe, with a mass of 100 kg, is released from rest at a distance of 20 meters from a fixed 'repulsion generator'. The generator creates a hypothetical repulsive force field described by F = k/r^2, where k is a constant with a value of 500 N m^2, and r is the separation. Find the change in potential energy of the probe-generator system as the probe moves far away from the generator. What will be the speed of the probe when its separation from the generator becomes very large?",
+    "numerical_answer": 0.71
+  },
+  {
+    "signature": "Work, Power & Energy_R3_3_v8",
+    "source_problem_ID": "Work, Power & Energy_R3",
+    "Pair_Number": 3,
+    "variation_number": 8,
+    "problem_text": "Consider a hypothetical scenario involving magnetic monopoles. A fixed North magnetic monopole is positioned, and another North magnetic monopole, with a mass of 1.0 x 10^-3 kg, is released from rest at an initial separation of 0.5 meters. The repulsive force between them is given by k/r^2, where k = 1.0 x 10^-7 N m^2. Determine the change in potential energy of the two-monopole system as their separation tends to infinity. What will be the speed of the released monopole at a very large separation?",
+    "numerical_answer": 0.02
+  },
+  {
+    "signature": "Work, Power & Energy_R3_3_v9",
+    "source_problem_ID": "Work, Power & Energy_R3",
+    "Pair_Number": 3,
+    "variation_number": 9,
+    "problem_text": "A small piece of space debris, of mass 10 kg, is subject to a repulsive force field from a fixed 'debris deflection node' on a space station. The force is given by F = k/r^2, where k = 50 N m^2, and r is the distance from the node. If the debris is released from rest at an initial distance of 100 meters from the node, what is the change in the potential energy of the debris-node system as the debris moves to a very large distance? Calculate the speed of the debris when it is very far away.",
+    "numerical_answer": 0.32
+  },
+  {
+    "signature": "Work, Power & Energy_R3_3_v10",
+    "source_problem_ID": "Work, Power & Energy_R3",
+    "Pair_Number": 3,
+    "variation_number": 10,
+    "problem_text": "A tiny micro-robot, with a mass of 1.0 x 10^-6 kg, is positioned near a fixed 'repulsor emitter' on a microfluidic chip. The emitter generates a repulsive force F = k/r^2, with k = 1.0 x 10^-9 N m^2, where r is the separation. If the micro-robot is released from rest at an initial separation of 1.0 x 10^-3 m from the emitter, find the change in the potential energy of the micro-robot-emitter system as the micro-robot moves to a very large separation. What will be the final speed of the micro-robot in this situation?",
+    "numerical_answer": 1.41
+  },
+  {
+    "signature": "Work, Power & Energy_R4_4_v1",
+    "source_problem_ID": "Work, Power & Energy_R4",
+    "Pair_Number": 4,
+    "variation_number": 1,
+    "problem_text": "A roller coaster car is released from rest at the top of a frictionless track, which is 45.0 meters above the ground. What is the speed of the car when it reaches the bottom of the track?",
+    "numerical_answer": 29.71
+  },
+  {
+    "signature": "Work, Power & Energy_R4_4_v2",
+    "source_problem_ID": "Work, Power & Energy_R4",
+    "Pair_Number": 4,
+    "variation_number": 2,
+    "problem_text": "A diver steps off a 10.0 m high platform, falling freely towards the water below. Assuming no air resistance, what is the speed of the diver just before hitting the water?",
+    "numerical_answer": 14.01
+  },
+  {
+    "signature": "Work, Power & Energy_R4_4_v3",
+    "source_problem_ID": "Work, Power & Energy_R4",
+    "Pair_Number": 4,
+    "variation_number": 3,
+    "problem_text": "A simple pendulum is pulled aside such that its bob is raised by 0.50 meters vertically from its lowest equilibrium position. If the bob is then released from rest, what is its speed at the lowest point of its swing?",
+    "numerical_answer": 3.13
+  },
+  {
+    "signature": "Work, Power & Energy_R4_4_v4",
+    "source_problem_ID": "Work, Power & Energy_R4",
+    "Pair_Number": 4,
+    "variation_number": 4,
+    "problem_text": "A ski jumper starts from rest at the top of a frictionless ramp, which has a vertical drop of 70.0 meters from the starting point to the take-off edge. What is the speed of the ski jumper just as they reach the take-off edge?",
+    "numerical_answer": 37.06
+  },
+  {
+    "signature": "Work, Power & Energy_R4_4_v5",
+    "source_problem_ID": "Work, Power & Energy_R4",
+    "Pair_Number": 4,
+    "variation_number": 5,
+    "problem_text": "A package is released from rest at the top of a frictionless delivery chute that slopes downwards through a vertical height of 8.0 meters. What is the speed of the package when it reaches the bottom of the chute?",
+    "numerical_answer": 12.53
+  },
+  {
+    "signature": "Work, Power & Energy_R4_4_v6",
+    "source_problem_ID": "Work, Power & Energy_R4",
+    "Pair_Number": 4,
+    "variation_number": 6,
+    "problem_text": "A roller coaster car with a mass of 750 kg is released from rest at the top of a frictionless hill, which is 35 meters above the ground. What is its speed when it reaches the bottom of the hill?",
+    "numerical_answer": 26.2
+  },
+  {
+    "signature": "Work, Power & Energy_R4_4_v7",
+    "source_problem_ID": "Work, Power & Energy_R4",
+    "Pair_Number": 4,
+    "variation_number": 7,
+    "problem_text": "A skier starts from rest at the top of a ski jump ramp, which has a vertical height of 50 meters. Assuming no air resistance or friction on the ramp, what is the skier's speed just as they leave the end of the ramp?",
+    "numerical_answer": 31.32
+  },
+  {
+    "signature": "Work, Power & Energy_R4_4_v8",
+    "source_problem_ID": "Work, Power & Energy_R4",
+    "Pair_Number": 4,
+    "variation_number": 8,
+    "problem_text": "A spherical cannonball is dropped from rest from a height of 120 meters above the ground. Neglecting air resistance, what is the speed of the cannonball just before it strikes the ground?",
+    "numerical_answer": 48.52
+  },
+  {
+    "signature": "Work, Power & Energy_R4_4_v9",
+    "source_problem_ID": "Work, Power & Energy_R4",
+    "Pair_Number": 4,
+    "variation_number": 9,
+    "problem_text": "A child slides down a frictionless water slide from a starting point 18 meters above the water level. If the child begins from rest, what is their speed when they reach the bottom of the slide, just before entering the pool?",
+    "numerical_answer": 18.79
+  },
+  {
+    "signature": "Work, Power & Energy_R4_4_v10",
+    "source_problem_ID": "Work, Power & Energy_R4",
+    "Pair_Number": 4,
+    "variation_number": 10,
+    "problem_text": "A simple pendulum of length 2.5 meters is released from rest when its string makes an angle of 60 degrees with the vertical. Calculate the speed of the pendulum bob at the lowest point of its swing.",
+    "numerical_answer": 4.95
+  },
+  {
+    "signature": "Work, Power & Energy_R5_5_v1",
+    "source_problem_ID": "Work, Power & Energy_R5",
+    "Pair_Number": 5,
+    "variation_number": 1,
+    "problem_text": "A rollercoaster car has a speed of 15 m/s at the very bottom of a dip, which can be approximated as a circular arc of radius 8 m. What is its speed when it reaches a point where the track makes an angle of 45 degrees with the vertical from the center of the arc? Assume no friction and take g = 9.8 m/s^2.",
+    "numerical_answer": 13.38
+  },
+  {
+    "signature": "Work, Power & Energy_R5_5_v2",
+    "source_problem_ID": "Work, Power & Energy_R5",
+    "Pair_Number": 5,
+    "variation_number": 2,
+    "problem_text": "A child on a swing has a speed of 5 m/s while passing through the lowest point of their trajectory. What is their speed when the swing ropes make an angle of 53.13 degrees with the vertical? The length of the swing ropes is 3 m. Take g = 10 m/s^2.",
+    "numerical_answer": 1.0
+  },
+  {
+    "signature": "Work, Power & Energy_R5_5_v3",
+    "source_problem_ID": "Work, Power & Energy_R5",
+    "Pair_Number": 5,
+    "variation_number": 3,
+    "problem_text": "A stunt motorcyclist rides into a frictionless half-pipe, achieving a speed of 20 m/s at the absolute bottom. If the half-pipe has a radius of 10 m, what will be the motorcyclist's speed when they reach a point where their position vector from the center of the circular arc makes an angle of 30 degrees with the vertical? Use g = 10 m/s^2.",
+    "numerical_answer": 19.32
+  },
+  {
+    "signature": "Work, Power & Energy_R5_5_v4",
+    "source_problem_ID": "Work, Power & Energy_R5",
+    "Pair_Number": 5,
+    "variation_number": 4,
+    "problem_text": "A small block is pushed along a horizontal surface with an initial speed of 7 m/s. It then smoothly transitions onto a frictionless track shaped like a quarter-circle in a vertical plane, with a radius of 2 m. What is the speed of the block when it reaches the top edge of this quarter-circular track? Take g = 9.8 m/s^2.",
+    "numerical_answer": 3.13
+  },
+  {
+    "signature": "Work, Power & Energy_R5_5_v5",
+    "source_problem_ID": "Work, Power & Energy_R5",
+    "Pair_Number": 5,
+    "variation_number": 5,
+    "problem_text": "A ski jumper, after gaining initial momentum, coasts into the curved section of a jump ramp with a speed of 12 m/s at its lowest point. This curved section can be modeled as a circular arc of radius 6 m. What is the skier's speed when they reach a point where the line connecting them to the center of the arc makes an angle of 60 degrees with the vertical? Assume the skier remains on the track and ignore air resistance. Use g = 9.8 m/s^2.",
+    "numerical_answer": 9.23
+  },
+  {
+    "signature": "Work, Power & Energy_R5_5_v6",
+    "source_problem_ID": "Work, Power & Energy_R5",
+    "Pair_Number": 5,
+    "variation_number": 6,
+    "problem_text": "A roller coaster car starts at the bottom of a dip with a speed of 20 m/s. It then ascends a section of track that is 15 meters higher than the bottom of the dip. Assuming no friction, what is the speed of the car when it reaches this elevated point? Take g = 10 m/s^2.",
+    "numerical_answer": 10.0
+  },
+  {
+    "signature": "Work, Power & Energy_R5_5_v7",
+    "source_problem_ID": "Work, Power & Energy_R5",
+    "Pair_Number": 5,
+    "variation_number": 7,
+    "problem_text": "A ski jumper takes off from a ramp with an initial speed of 15 m/s. If the vertical height difference between the take-off point and the landing point is 20 meters, what is the speed of the skier just before landing? Ignore air resistance. Take g = 10 m/s^2.",
+    "numerical_answer": 25.0
+  },
+  {
+    "signature": "Work, Power & Energy_R5_5_v8",
+    "source_problem_ID": "Work, Power & Energy_R5",
+    "Pair_Number": 5,
+    "variation_number": 8,
+    "problem_text": "A stone is thrown vertically upwards from the ground with an initial speed of 30 m/s. What will be its speed when it reaches a height of 25 meters above the ground? Ignore air resistance. Take g = 10 m/s^2.",
+    "numerical_answer": 20.0
+  },
+  {
+    "signature": "Work, Power & Energy_R5_5_v9",
+    "source_problem_ID": "Work, Power & Energy_R5",
+    "Pair_Number": 5,
+    "variation_number": 9,
+    "problem_text": "A car is moving with a speed of 25 m/s at the base of a hill. It then coasts up the hill, reaching a point that is 10 meters vertically higher than its starting position. Assuming negligible friction and engine power, what is the car's speed at this higher point? Take g = 10 m/s^2.",
+    "numerical_answer": 20.62
+  },
+  {
+    "signature": "Work, Power & Energy_R5_5_v10",
+    "source_problem_ID": "Work, Power & Energy_R5",
+    "Pair_Number": 5,
+    "variation_number": 10,
+    "problem_text": "An object is given an initial downward push of 5 m/s into a deep well. If the object falls for a vertical distance of 10 meters, what is its speed just before it hits the bottom? Ignore air resistance. Take g = 10 m/s^2.",
+    "numerical_answer": 15.0
+  },
+  {
+    "signature": "Work, Power & Energy_R6_6_v1",
+    "source_problem_ID": "Work, Power & Energy_R6",
+    "Pair_Number": 6,
+    "variation_number": 1,
+    "problem_text": "An industrial cart of mass 1200 kg rolls horizontally on a frictionless track with a speed of 2.5 m/s. It then collides with and compresses a spring buffer system, which has an effective spring constant of 80000 N/m. How far will the spring compress before the cart momentarily comes to rest?",
+    "numerical_answer": 0.31
+  },
+  {
+    "signature": "Work, Power & Energy_R6_6_v2",
+    "source_problem_ID": "Work, Power & Energy_R6",
+    "Pair_Number": 6,
+    "variation_number": 2,
+    "problem_text": "A ski jumper, with a mass of 80 kg, lands horizontally on a flexible arrestor net after a jump, moving at a speed of 30 m/s. The net acts like a large spring with an effective spring constant of 15000 N/m. Assuming all kinetic energy is absorbed by the net, how much will the net deform horizontally before the jumper comes to an instantaneous stop?",
+    "numerical_answer": 2.19
+  },
+  {
+    "signature": "Work, Power & Energy_R6_6_v3",
+    "source_problem_ID": "Work, Power & Energy_R6",
+    "Pair_Number": 6,
+    "variation_number": 3,
+    "problem_text": "A small component of a micro-robot, with a mass of 0.05 kg, moves with a speed of 1.5 m/s. It is designed to engage a micro-spring mechanism with a spring constant of 5 N/m. How much will the micro-spring compress before the component momentarily stops?",
+    "numerical_answer": 0.15
+  },
+  {
+    "signature": "Work, Power & Energy_R6_6_v4",
+    "source_problem_ID": "Work, Power & Energy_R6",
+    "Pair_Number": 6,
+    "variation_number": 4,
+    "problem_text": "A tiny dust particle with a mass of 1 microgram (1e-9 kg) is observed moving with a speed of 10 m/s. It enters an advanced optical trap that creates a restoring force effectively behaving like a spring with a constant of 1e-3 N/m. How far will the dust particle penetrate into the trap before momentarily coming to rest?",
+    "numerical_answer": 0.01
+  },
+  {
+    "signature": "Work, Power & Energy_R6_6_v5",
+    "source_problem_ID": "Work, Power & Energy_R6",
+    "Pair_Number": 6,
+    "variation_number": 5,
+    "problem_text": "A heavy wrecking ball of mass 2000 kg swings down and impacts a horizontal spring at its lowest point with a speed of 8 m/s. The spring has a constant of 100000 N/m. Assuming the impact is purely horizontal and friction is negligible, how much will the spring compress before the wrecking ball momentarily comes to rest?",
+    "numerical_answer": 1.13
+  },
+  {
+    "signature": "Work, Power & Energy_R6_6_v6",
+    "source_problem_ID": "Work, Power & Energy_R6",
+    "Pair_Number": 6,
+    "variation_number": 6,
+    "problem_text": "A car of mass 1500 kg is traveling at a speed of 10 m/s when it crashes head-on into a deformable safety barrier. If the barrier acts like a giant spring with an effective spring constant of 8.0 x 10^5 N/m, how much will the barrier compress before the car momentarily comes to a stop?",
+    "numerical_answer": 0.43
+  },
+  {
+    "signature": "Work, Power & Energy_R6_6_v7",
+    "source_problem_ID": "Work, Power & Energy_R6",
+    "Pair_Number": 6,
+    "variation_number": 7,
+    "problem_text": "A heavy flywheel with a moment of inertia of 75 kg·m^2 is rotating at an angular speed of 12 rad/s. A braking mechanism engages, converting all its rotational kinetic energy into compressing a linear spring. If the spring constant is 3.0 x 10^4 N/m, what is the maximum compression of the spring?",
+    "numerical_answer": 0.6
+  },
+  {
+    "signature": "Work, Power & Energy_R6_6_v8",
+    "source_problem_ID": "Work, Power & Energy_R6",
+    "Pair_Number": 6,
+    "variation_number": 8,
+    "problem_text": "A cylindrical buoy of mass 120 kg and cross-sectional area 0.25 m^2 floats vertically in water (density 1000 kg/m^3). It is momentarily pushed down from its equilibrium position and released with an initial downward velocity of 0.6 m/s. Assuming negligible damping, what is the maximum additional distance it will submerge below its equilibrium position before momentarily stopping?",
+    "numerical_answer": 0.13
+  },
+  {
+    "signature": "Work, Power & Energy_R6_6_v9",
+    "source_problem_ID": "Work, Power & Energy_R6",
+    "Pair_Number": 6,
+    "variation_number": 9,
+    "problem_text": "An industrial hydraulic punch, with an effective mass of 75 kg (accounting for the moving parts and hydraulic fluid inertia), operates with a speed of 1.5 m/s just before impacting an elastic buffer. If the buffer has a spring constant of 1.0 x 10^4 N/m, what is the maximum distance the buffer will compress due to the impact?",
+    "numerical_answer": 0.13
+  },
+  {
+    "signature": "Work, Power & Energy_R6_6_v10",
+    "source_problem_ID": "Work, Power & Energy_R6",
+    "Pair_Number": 6,
+    "variation_number": 10,
+    "problem_text": "In a simplified model of molecular vibration, an atom of effective mass 6.64 x 10^-27 kg (e.g., a helium atom in a lattice) is momentarily displaced from its equilibrium position and then moves through it with a speed of 1500 m/s. If the interatomic forces can be modeled as an effective spring constant of 75 N/m, what is the maximum amplitude of its oscillation (i.e., how far will it move from the equilibrium before momentarily stopping)?",
+    "numerical_answer": 4.46e-12
+  },
+  {
+    "signature": "Work, Power & Energy_R7_7_v1",
+    "source_problem_ID": "Work, Power & Energy_R7",
+    "Pair_Number": 7,
+    "variation_number": 1,
+    "problem_text": "A block of mass 2.5 kg rests on a frictionless horizontal surface and is attached to a spring with a spring constant of 150 N/m. The block is initially at its equilibrium position. A sudden impulse gives the block an initial velocity of 0.8 m/s in the direction of the spring's compression/extension. What is the maximum distance the block travels from its equilibrium position before momentarily coming to rest?",
+    "numerical_answer": 0.1
+  },
+  {
+    "signature": "Work, Power & Energy_R7_7_v2",
+    "source_problem_ID": "Work, Power & Energy_R7",
+    "Pair_Number": 7,
+    "variation_number": 2,
+    "problem_text": "An LC circuit consists of an inductor with an inductance of 10 H and an uncharged capacitor with a capacitance of 10 μF. At time t=0, a switch is closed, connecting the fully energized inductor (carrying an initial current of 2 A) across the capacitor. Assuming no resistance in the circuit, what is the maximum charge that accumulates on the capacitor plates?",
+    "numerical_answer": 0.02
+  },
+  {
+    "signature": "Work, Power & Energy_R7_7_v3",
+    "source_problem_ID": "Work, Power & Energy_R7",
+    "Pair_Number": 7,
+    "variation_number": 3,
+    "problem_text": "A uniform disk of moment of inertia 0.05 kg·m² is suspended horizontally by a thin wire attached to its center. The wire acts as a torsional spring with a torsional constant of 1.2 N·m/radian. The disk is initially at its equilibrium angular position. It is then given a sharp twist, imparting an initial angular velocity of 0.4 rad/s. What is the maximum angle (in radians) through which the disk rotates from its equilibrium position before momentarily stopping?",
+    "numerical_answer": 0.08
+  },
+  {
+    "signature": "Work, Power & Energy_R7_7_v4",
+    "source_problem_ID": "Work, Power & Energy_R7",
+    "Pair_Number": 7,
+    "variation_number": 4,
+    "problem_text": "A U-shaped tube with a uniform cross-sectional area of 4 cm² contains a column of water (density 1000 kg/m³) with a total length of 80 cm. The water column is initially at equilibrium. If one side of the water column is momentarily pushed down, imparting an initial velocity of 0.3 m/s to the water surface, how high will the water level rise from its equilibrium position in the other arm before momentarily coming to rest?",
+    "numerical_answer": 0.06
+  },
+  {
+    "signature": "Work, Power & Energy_R7_7_v5",
+    "source_problem_ID": "Work, Power & Energy_R7",
+    "Pair_Number": 7,
+    "variation_number": 5,
+    "problem_text": "A cylindrical wooden block of mass 2 kg and cross-sectional area 200 cm² floats in water (density 1000 kg/m³). The block is initially in its equilibrium floating position. If it is given an initial downward velocity of 0.5 m/s, how far below its equilibrium position will it sink before momentarily reversing its motion?",
+    "numerical_answer": 0.05
+  },
+  {
+    "signature": "Work, Power & Energy_R7_7_v6",
+    "source_problem_ID": "Work, Power & Energy_R7",
+    "Pair_Number": 7,
+    "variation_number": 6,
+    "problem_text": "A 0.5 kg block is placed on a frictionless horizontal surface and is given an initial velocity of 3 m/s directly towards a spring. The spring has a spring constant of 200 N/m and its other end is fixed to a wall. Assuming the spring is initially at its natural length, how far will the spring be compressed from its initial position before the block momentarily comes to rest?",
+    "numerical_answer": 0.15
+  },
+  {
+    "signature": "Work, Power & Energy_R7_7_v7",
+    "source_problem_ID": "Work, Power & Energy_R7",
+    "Pair_Number": 7,
+    "variation_number": 7,
+    "problem_text": "A small train car of mass 5000 kg approaches a stationary spring-loaded bumper with a speed of 0.8 m/s. The bumper system has a combined effective spring constant of 1.2 x 10^5 N/m. What is the maximum distance the bumper springs will compress from their uncompressed state due to the impact?",
+    "numerical_answer": 0.16
+  },
+  {
+    "signature": "Work, Power & Energy_R7_7_v8",
+    "source_problem_ID": "Work, Power & Energy_R7",
+    "Pair_Number": 7,
+    "variation_number": 8,
+    "problem_text": "A 20-gram projectile is fired horizontally with an initial speed of 150 m/s into a stationary target. The target is attached to a sturdy support by a spring with a spring constant of 4500 N/m. Assuming the projectile becomes embedded in the target and the target's mass is negligible compared to the projectile, what is the maximum compression of the spring from its natural length?",
+    "numerical_answer": 0.32
+  },
+  {
+    "signature": "Work, Power & Energy_R7_7_v9",
+    "source_problem_ID": "Work, Power & Energy_R7",
+    "Pair_Number": 7,
+    "variation_number": 9,
+    "problem_text": "A service spacecraft with a mass of 750 kg attempts to dock with a space station. It approaches the docking port with a relative velocity of 0.05 m/s. The docking mechanism consists of energy-absorbing springs with a total effective spring constant of 50000 N/m, which are initially uncompressed. Calculate the maximum compression distance of these springs during the docking process.",
+    "numerical_answer": 0.01
+  },
+  {
+    "signature": "Work, Power & Energy_R7_7_v10",
+    "source_problem_ID": "Work, Power & Energy_R7",
+    "Pair_Number": 7,
+    "variation_number": 10,
+    "problem_text": "A simplified model of a building's top floor has a mass of 10000 kg. This floor is isolated by a horizontal seismic damper system with an effective spring constant of 2 x 10^6 N/m. During an earthquake, the ground imparts a sudden horizontal velocity of 0.2 m/s to the floor relative to its equilibrium position. What is the maximum horizontal displacement of the floor from its equilibrium position before it instantaneously reverses direction?",
+    "numerical_answer": 0.01
+  },
+  {
+    "signature": "Work, Power & Energy_R8_8_v1",
+    "source_problem_ID": "Work, Power & Energy_R8",
+    "Pair_Number": 8,
+    "variation_number": 1,
+    "problem_text": "A construction crane lifts a pre-fabricated concrete slab weighing 1500 kg from the ground and places it onto a scaffold 15.0 m above. Assuming the slab is lifted at a constant velocity, calculate the work done by the crane on the slab.",
+    "numerical_answer": 220500.0
+  },
+  {
+    "signature": "Work, Power & Energy_R8_8_v2",
+    "source_problem_ID": "Work, Power & Energy_R8",
+    "Pair_Number": 8,
+    "variation_number": 2,
+    "problem_text": "A powerful pump is used to fill a rooftop water tank with 500 liters of water. If the tank is located 10.0 m above the ground level where the pump is situated, calculate the minimum work done by the pump to lift the water. (Assume the density of water is 1000 kg/m³ and 1 liter = 1 kg).",
+    "numerical_answer": 49000.0
+  },
+  {
+    "signature": "Work, Power & Energy_R8_8_v3",
+    "source_problem_ID": "Work, Power & Energy_R8",
+    "Pair_Number": 8,
+    "variation_number": 3,
+    "problem_text": "An experienced mountaineer, along with their gear, has a total mass of 80 kg. They ascend a vertical distance of 800 m from their base camp to a peak. Calculate the work done by the mountaineer against gravity during this ascent.",
+    "numerical_answer": 627200.0
+  },
+  {
+    "signature": "Work, Power & Energy_R8_8_v4",
+    "source_problem_ID": "Work, Power & Energy_R8",
+    "Pair_Number": 8,
+    "variation_number": 4,
+    "problem_text": "In a warehouse, a forklift is used to lift a pallet of goods with a total mass of 750 kg from the floor to a storage rack 3.50 m high. Determine the work done by the forklift's lifting mechanism on the pallet.",
+    "numerical_answer": 25725.0
+  },
+  {
+    "signature": "Work, Power & Energy_R8_8_v5",
+    "source_problem_ID": "Work, Power & Energy_R8",
+    "Pair_Number": 8,
+    "variation_number": 5,
+    "problem_text": "A laboratory technician carefully lifts a 3.0 kg beaker filled with a chemical solution from the benchtop and places it onto a shelf 0.60 m higher. Calculate the work done by the technician on the beaker, assuming it's lifted at a steady speed.",
+    "numerical_answer": 17.64
+  },
+  {
+    "signature": "Work, Power & Energy_R8_8_v6",
+    "source_problem_ID": "Work, Power & Energy_R8",
+    "Pair_Number": 8,
+    "variation_number": 6,
+    "problem_text": "A construction crane lifts a steel beam with a mass of 850 kg from the ground to the top of a building under construction, which is 45 meters high. Assuming the beam starts and ends at rest, calculate the work done by the crane's motor on the steel beam.",
+    "numerical_answer": 374850.0
+  },
+  {
+    "signature": "Work, Power & Energy_R8_8_v7",
+    "source_problem_ID": "Work, Power & Energy_R8",
+    "Pair_Number": 8,
+    "variation_number": 7,
+    "problem_text": "An mountaineer, including their gear, has a total mass of 75 kg. They successfully climb a vertical rock face to an altitude 620 meters above their starting point. Ignoring air resistance and assuming the climber's kinetic energy at the start and end of the climb is negligible, determine the work done by the climber against gravity.",
+    "numerical_answer": 457350.0
+  },
+  {
+    "signature": "Work, Power & Energy_R8_8_v8",
+    "source_problem_ID": "Work, Power & Energy_R8",
+    "Pair_Number": 8,
+    "variation_number": 8,
+    "problem_text": "During its initial vertical ascent, a small experimental rocket with a mass of 12,000 kg travels from the launch pad to an altitude of 300 meters. Calculate the work done by the rocket's engines to achieve this vertical displacement, assuming constant gravitational acceleration and negligible change in kinetic energy over this phase.",
+    "numerical_answer": 35280000.0
+  },
+  {
+    "signature": "Work, Power & Energy_R8_8_v9",
+    "source_problem_ID": "Work, Power & Energy_R8",
+    "Pair_Number": 8,
+    "variation_number": 9,
+    "problem_text": "An elevator car, carrying several passengers, has a combined mass of 1500 kg. It ascends from the ground floor to the 10th floor, a total vertical distance of 35 meters. If the elevator starts from rest and comes to rest at the 10th floor, what is the work done by the elevator's motor on the car and passengers?",
+    "numerical_answer": 514500.0
+  },
+  {
+    "signature": "Work, Power & Energy_R8_8_v10",
+    "source_problem_ID": "Work, Power & Energy_R8",
+    "Pair_Number": 8,
+    "variation_number": 10,
+    "problem_text": "A well pump draws 800 liters of water from a depth of 12 meters below the ground surface to a storage tank at ground level. Calculate the work done by the pump to lift this volume of water. (Assume the density of water is 1000 kg/m³ and 1 liter = 0.001 m³)",
+    "numerical_answer": 94080.0
+  },
+  {
+    "signature": "Work, Power & Energy_R9_9_v1",
+    "source_problem_ID": "Work, Power & Energy_R9",
+    "Pair_Number": 9,
+    "variation_number": 1,
+    "problem_text": "A car with a mass of 1200 kg is climbing a frictionless hill with an incline of 10 degrees at a constant speed of 15 m/s. What is the minimum power output required from the engine to maintain this motion?",
+    "numerical_answer": 30588.48
+  },
+  {
+    "signature": "Work, Power & Energy_R9_9_v2",
+    "source_problem_ID": "Work, Power & Energy_R9",
+    "Pair_Number": 9,
+    "variation_number": 2,
+    "problem_text": "A pump is designed to lift water to a height of 30 meters at a constant volumetric flow rate of 0.05 m^3/s. Assuming the density of water is 1000 kg/m^3 and neglecting any energy losses due to friction, what is the minimum power required by the pump motor?",
+    "numerical_answer": 14700.0
+  },
+  {
+    "signature": "Work, Power & Energy_R9_9_v3",
+    "source_problem_ID": "Work, Power & Energy_R9",
+    "Pair_Number": 9,
+    "variation_number": 3,
+    "problem_text": "A tugboat pulls a barge through still water at a constant speed of 2.5 m/s. The resistive drag force exerted by the water on the barge is constant at 8000 N. Determine the power output of the tugboat's engine required for this motion.",
+    "numerical_answer": 20000.0
+  },
+  {
+    "signature": "Work, Power & Energy_R9_9_v4",
+    "source_problem_ID": "Work, Power & Energy_R9",
+    "Pair_Number": 9,
+    "variation_number": 4,
+    "problem_text": "A deep-sea submersible has a net effective weight (accounting for its weight and buoyancy) of 1500 N. If its thrusters are used to propel it upwards at a constant velocity of 0.5 m/s, what minimum power output is required from the thrusters?",
+    "numerical_answer": 750.0
+  },
+  {
+    "signature": "Work, Power & Energy_R9_9_v5",
+    "source_problem_ID": "Work, Power & Energy_R9",
+    "Pair_Number": 9,
+    "variation_number": 5,
+    "problem_text": "An industrial linear actuator pushes a 250 kg block horizontally across a surface at a constant speed of 0.1 m/s. The coefficient of kinetic friction between the block and the surface is 0.15. Calculate the minimum power required from the actuator motor.",
+    "numerical_answer": 36.75
+  },
+  {
+    "signature": "Work, Power & Energy_R9_9_v6",
+    "source_problem_ID": "Work, Power & Energy_R9",
+    "Pair_Number": 9,
+    "variation_number": 6,
+    "problem_text": "A winch pulls a 750 kg load up a frictionless ramp inclined at 30 degrees to the horizontal. If the load is moved at a constant speed of 0.5 m/s, what is the minimum power of the motor required in horsepower? (Take g = 9.8 m/s^2)",
+    "numerical_answer": 2.46
+  },
+  {
+    "signature": "Work, Power & Energy_R9_9_v7",
+    "source_problem_ID": "Work, Power & Energy_R9",
+    "Pair_Number": 9,
+    "variation_number": 7,
+    "problem_text": "A forklift is used to push a 1500 kg crate horizontally across a concrete floor at a constant speed of 0.4 m/s. If the coefficient of kinetic friction between the crate and the floor is 0.3, what is the minimum power required from the forklift's engine in horsepower? (Take g = 9.8 m/s^2)",
+    "numerical_answer": 2.36
+  },
+  {
+    "signature": "Work, Power & Energy_R9_9_v8",
+    "source_problem_ID": "Work, Power & Energy_R9",
+    "Pair_Number": 9,
+    "variation_number": 8,
+    "problem_text": "An unmanned aerial vehicle (UAV) designed for atmospheric sampling needs to maintain a constant horizontal flight speed of 20 m/s. If the total air resistance (drag) acting on the UAV at this speed is 150 N, what is the minimum power output of its propulsion system in horsepower?",
+    "numerical_answer": 4.02
+  },
+  {
+    "signature": "Work, Power & Energy_R9_9_v9",
+    "source_problem_ID": "Work, Power & Energy_R9",
+    "Pair_Number": 9,
+    "variation_number": 9,
+    "problem_text": "A construction hoist pulls a 1200 kg beam up a steel ramp inclined at 20 degrees above the horizontal at a constant speed of 0.3 m/s. The coefficient of kinetic friction between the beam and the ramp is 0.15. What is the minimum power, in horsepower, that the hoist motor must deliver? (Take g = 9.8 m/s^2)",
+    "numerical_answer": 2.3
+  },
+  {
+    "signature": "Work, Power & Energy_R9_9_v10",
+    "source_problem_ID": "Work, Power & Energy_R9",
+    "Pair_Number": 9,
+    "variation_number": 10,
+    "problem_text": "A deep-sea exploration vehicle operates a robotic arm to collect samples. The arm needs to overcome a constant resistance of 350 N from the deep-sea water and sediment while extending at a constant speed of 0.05 m/s. What is the minimum power required for the motor operating the arm, in horsepower?",
+    "numerical_answer": 0.02
+  },
+  {
+    "signature": "Work, Power & Energy_R10_10_v1",
+    "source_problem_ID": "Work, Power & Energy_R10",
+    "Pair_Number": 10,
+    "variation_number": 1,
+    "problem_text": "An elevator car, including its passengers, has a total mass of 800 kg. It starts from rest and accelerates uniformly upwards at 0.5 m/s^2. Assuming the tension in the cable is the pulling force, what is the average power delivered by the motor (via the cable) to the elevator during the first 6.0 seconds of its ascent? (Take g = 9.8 m/s^2)",
+    "numerical_answer": 12360.0
+  },
+  {
+    "signature": "Work, Power & Energy_R10_10_v2",
+    "source_problem_ID": "Work, Power & Energy_R10",
+    "Pair_Number": 10,
+    "variation_number": 2,
+    "problem_text": "A car of mass 1200 kg starts from rest and accelerates uniformly on a flat, rough road. The engine provides a pulling force that results in an acceleration of 1.5 m/s^2. If the constant kinetic friction force between the tires and the road is 1176 N (equivalent to a coefficient of kinetic friction of 0.1), what is the average power delivered by the engine during the first 5.0 seconds of motion?",
+    "numerical_answer": 11160.0
+  },
+  {
+    "signature": "Work, Power & Energy_R10_10_v3",
+    "source_problem_ID": "Work, Power & Energy_R10",
+    "Pair_Number": 10,
+    "variation_number": 3,
+    "problem_text": "A small experimental rocket, with a total mass of 50,000 kg, launches vertically upwards. It starts from rest and maintains a constant net acceleration of 3.0 m/s^2 during the initial phase of its flight. Assuming the thrust is the pulling force, calculate the average power delivered by the rocket engines during the first 10.0 seconds of its ascent. (Neglect air resistance and assume g = 9.8 m/s^2 is constant).",
+    "numerical_answer": 9600000.0
+  },
+  {
+    "signature": "Work, Power & Energy_R10_10_v4",
+    "source_problem_ID": "Work, Power & Energy_R10",
+    "Pair_Number": 10,
+    "variation_number": 4,
+    "problem_text": "A powerful tugboat pulls a barge of mass 50,000 kg from rest in a harbor. The tugboat exerts a constant towing force on the barge, causing it to accelerate uniformly at 0.2 m/s^2. If the constant water resistance acting on the barge is 2000 N, what is the average power delivered by the tugboat to the barge during the first 30.0 seconds of motion?",
+    "numerical_answer": 36000.0
+  },
+  {
+    "signature": "Work, Power & Energy_R10_10_v5",
+    "source_problem_ID": "Work, Power & Energy_R10",
+    "Pair_Number": 10,
+    "variation_number": 5,
+    "problem_text": "An aircraft with a total mass of 30,000 kg is taking off from an airfield. It starts from rest and accelerates uniformly down the runway at 2.0 m/s^2. If the average air resistance (drag) acting on the aircraft during this period is 5000 N, determine the average power delivered by the aircraft's engines during the first 25.0 seconds of its takeoff run.",
+    "numerical_answer": 1625000.0
+  },
+  {
+    "signature": "Work, Power & Energy_R10_10_v6",
+    "source_problem_ID": "Work, Power & Energy_R10",
+    "Pair_Number": 10,
+    "variation_number": 6,
+    "problem_text": "A car of mass 1200 kg starts from rest and accelerates uniformly on a horizontal road with a coefficient of kinetic friction of 0.2. If the car achieves an acceleration of 1.5 m/s^2, what is the instantaneous power delivered by the engine at t = 5.0 s after the motion begins? Take g = 9.8 m/s^2.",
+    "numerical_answer": 31140.0
+  },
+  {
+    "signature": "Work, Power & Energy_R10_10_v7",
+    "source_problem_ID": "Work, Power & Energy_R10",
+    "Pair_Number": 10,
+    "variation_number": 7,
+    "problem_text": "An elevator and its contents have a total mass of 500 kg. It starts from rest and moves upwards with a constant acceleration of 0.8 m/s^2. Calculate the instantaneous power delivered by the elevator motor to lift the load at a time of 6.0 s from the start of the motion. Use g = 9.8 m/s^2.",
+    "numerical_answer": 25440.0
+  },
+  {
+    "signature": "Work, Power & Energy_R10_10_v8",
+    "source_problem_ID": "Work, Power & Energy_R10",
+    "Pair_Number": 10,
+    "variation_number": 8,
+    "problem_text": "A rocket with an initial mass of 100,000 kg lifts off from a launchpad and accelerates vertically upwards with a constant net acceleration of 2.0 m/s^2 (after accounting for gravity). Determine the instantaneous power delivered by the rocket's engines at 10.0 s after liftoff. Assume air resistance is negligible for this simplified model and take g = 9.8 m/s^2.",
+    "numerical_answer": 23600000.0
+  },
+  {
+    "signature": "Work, Power & Energy_R10_10_v9",
+    "source_problem_ID": "Work, Power & Energy_R10",
+    "Pair_Number": 10,
+    "variation_number": 9,
+    "problem_text": "A 5.0 kg block is pulled horizontally across a frictionless surface by a rope. In addition to the pulling force, there is a constant air resistance force of 2.0 N opposing the motion. If the block accelerates uniformly at 3.0 m/s^2, find the instantaneous power delivered by the rope's pulling force at t = 3.0 s after it starts moving.",
+    "numerical_answer": 153.0
+  },
+  {
+    "signature": "Work, Power & Energy_R10_10_v10",
+    "source_problem_ID": "Work, Power & Energy_R10",
+    "Pair_Number": 10,
+    "variation_number": 10,
+    "problem_text": "A tow truck pulls a broken-down car, of mass 1500 kg, up an incline of 15 degrees with the horizontal. The coefficient of kinetic friction between the car's tires and the road is 0.1. If the car accelerates up the incline at 0.5 m/s^2, what is the instantaneous power delivered by the tow cable at 8.0 s after the pulling begins? Take g = 9.8 m/s^2.",
+    "numerical_answer": 23896.54
+  },
+  {
+    "signature": "Work, Power & Energy_R11_11_v1",
+    "source_problem_ID": "Work, Power & Energy_R11",
+    "Pair_Number": 11,
+    "variation_number": 1,
+    "problem_text": "An engineer is testing a novel elastic material. The force required to stretch it varies with displacement x according to F(x) = (5.0 + 2.0x) N, where x is the displacement from its relaxed position in meters. Calculate the work done by this force as the material is stretched from x = 0 m to x = 1.5 m.",
+    "numerical_answer": 9.75
+  },
+  {
+    "signature": "Work, Power & Energy_R11_11_v2",
+    "source_problem_ID": "Work, Power & Energy_R11",
+    "Pair_Number": 11,
+    "variation_number": 2,
+    "problem_text": "A gas expands in a cylinder, pushing a piston. The force exerted by the gas on the piston varies with its position x (measured from the cylinder's closed end) according to F(x) = (200 - 50x) N. Calculate the work done by the gas when the piston moves from x = 0.05 m to x = 0.20 m.",
+    "numerical_answer": 29.06
+  },
+  {
+    "signature": "Work, Power & Energy_R11_11_v3",
+    "source_problem_ID": "Work, Power & Energy_R11",
+    "Pair_Number": 11,
+    "variation_number": 3,
+    "problem_text": "A small magnetic probe is moved through a non-uniform magnetic field. The force exerted on the probe in the direction of motion is given by F(x) = (3.0 + 1.5x) N, where x is its position in meters. Determine the work done by this force as the probe moves from x = 1.0 m to x = 4.0 m.",
+    "numerical_answer": 20.25
+  },
+  {
+    "signature": "Work, Power & Energy_R11_11_v4",
+    "source_problem_ID": "Work, Power & Energy_R11",
+    "Pair_Number": 11,
+    "variation_number": 4,
+    "problem_text": "A special robotic arm is designed to lift objects where the resistance increases with height. The upward force required to lift an object is given by F(h) = (50 + 10h) N, where h is the height in meters. Calculate the work done by the robotic arm in lifting an object from the ground (h = 0 m) to a height of 5.0 m.",
+    "numerical_answer": 375.0
+  },
+  {
+    "signature": "Work, Power & Energy_R11_11_v5",
+    "source_problem_ID": "Work, Power & Energy_R11",
+    "Pair_Number": 11,
+    "variation_number": 5,
+    "problem_text": "A charged particle moves through a region where the electric field strength varies along the x-axis. The electrostatic force acting on the particle is given by F(x) = (0.5 + 2.0x) N, where x is the position in meters. Determine the work done by the electric field on the particle as it moves from x = 0.0 m to x = 0.3 m.",
+    "numerical_answer": 0.24
+  },
+  {
+    "signature": "Work, Power & Energy_R11_11_v6",
+    "source_problem_ID": "Work, Power & Energy_R11",
+    "Pair_Number": 11,
+    "variation_number": 6,
+    "problem_text": "A special elastic cord, designed for high-stress applications, has a restoring force given by F_restore = (20 + 5x) N, where x is the extension of the cord in meters. Determine the work done in stretching this cord from an extension of x = 0.1 meters to x = 0.5 meters.",
+    "numerical_answer": 8.6
+  },
+  {
+    "signature": "Work, Power & Energy_R11_11_v7",
+    "source_problem_ID": "Work, Power & Energy_R11",
+    "Pair_Number": 11,
+    "variation_number": 7,
+    "problem_text": "In a robust hydraulic system, a piston is pushed into a cylinder. The combined resistive force from the fluid pressure and seals is modeled by F = (150 + 250x) N, where x represents the depth of penetration of the piston in meters. Calculate the work done to push the piston from an initial depth of x = 0.05 m to a final depth of x = 0.15 m.",
+    "numerical_answer": 17.5
+  },
+  {
+    "signature": "Work, Power & Energy_R11_11_v8",
+    "source_problem_ID": "Work, Power & Energy_R11",
+    "Pair_Number": 11,
+    "variation_number": 8,
+    "problem_text": "A small magnetic object in a precisely controlled levitation system experiences a restoring force F = (1.5 + 2.0x) N, where x is the displacement from its equilibrium position in meters. Calculate the work done by this force as the object is displaced from x = 0.10 m to x = 0.30 m.",
+    "numerical_answer": 0.38
+  },
+  {
+    "signature": "Work, Power & Energy_R11_11_v9",
+    "source_problem_ID": "Work, Power & Energy_R11",
+    "Pair_Number": 11,
+    "variation_number": 9,
+    "problem_text": "An industrial conveyor belt system is designed to move heavy packages. The total resistive force acting on a package, including friction and internal resistance, is described by F = (50 + 10x) N, where x is the distance along the belt in meters from the loading point. What is the work done by the conveyor system to move a package from x = 1.0 m to x = 6.0 m?",
+    "numerical_answer": 425.0
+  },
+  {
+    "signature": "Work, Power & Energy_R11_11_v10",
+    "source_problem_ID": "Work, Power & Energy_R11",
+    "Pair_Number": 11,
+    "variation_number": 10,
+    "problem_text": "A specialized pile driver is used to push a large support pile into compacted soil. The resistive force exerted by the soil on the pile increases with depth and can be approximated by F = (8000 + 2000x) N, where x is the depth of penetration in meters. Calculate the work done by the pile driver to push the pile from an initial depth of x = 0.5 m to a final depth of x = 2.0 m.",
+    "numerical_answer": 15750.0
+  },
+  {
+    "signature": "Work, Power & Energy_R12_12_v1",
+    "source_problem_ID": "Work, Power & Energy_R12",
+    "Pair_Number": 12,
+    "variation_number": 1,
+    "problem_text": "A 6 kg crate is released from rest at the top of an inclined plane that is 5 meters high. Due to friction on the plane, it reaches the bottom with a speed of 0.8 times the speed it would have achieved if the plane were entirely frictionless. Calculate the work done by friction as the crate slides down the plane. (Use g = 9.8 m/s^2)",
+    "numerical_answer": -105.84
+  },
+  {
+    "signature": "Work, Power & Energy_R12_12_v2",
+    "source_problem_ID": "Work, Power & Energy_R12",
+    "Pair_Number": 12,
+    "variation_number": 2,
+    "problem_text": "A 2 kg block is pushed against a horizontal spring with a spring constant of 300 N/m, compressing it by 20 cm. When released, the block moves along a rough surface. Its speed as it passes through the spring's equilibrium position is 70% of the speed it would have achieved if the surface were frictionless. Calculate the work done by friction.",
+    "numerical_answer": -3.06
+  },
+  {
+    "signature": "Work, Power & Energy_R12_12_v3",
+    "source_problem_ID": "Work, Power & Energy_R12",
+    "Pair_Number": 12,
+    "variation_number": 3,
+    "problem_text": "A small spherical bead of mass 20 g and charge +5 µC is released from rest in a uniform electric field of 10^5 N/C. It moves a distance of 0.5 m along the field lines. If the final kinetic energy of the bead is 85% of what it would have been without any resistive forces, calculate the work done by resistive forces.",
+    "numerical_answer": -0.38
+  },
+  {
+    "signature": "Work, Power & Energy_R12_12_v4",
+    "source_problem_ID": "Work, Power & Energy_R12",
+    "Pair_Number": 12,
+    "variation_number": 4,
+    "problem_text": "A 0.5 kg ball is thrown vertically upwards with an initial speed of 15 m/s. It reaches a maximum height of 10 meters. Calculate the work done by air resistance during its ascent. (Use g = 9.8 m/s^2)",
+    "numerical_answer": -7.25
+  },
+  {
+    "signature": "Work, Power & Energy_R12_12_v5",
+    "source_problem_ID": "Work, Power & Energy_R12",
+    "Pair_Number": 12,
+    "variation_number": 5,
+    "problem_text": "A 1000 kg car starts from rest and accelerates down a hill, dropping a vertical distance of 25 meters. Its speed at the bottom of the hill is 20 m/s. How much mechanical energy was converted into thermal energy due to non-conservative forces (like air resistance and internal friction) during the descent? (Use g = 9.8 m/s^2)",
+    "numerical_answer": 45000.0
+  },
+  {
+    "signature": "Work, Power & Energy_R12_12_v6",
+    "source_problem_ID": "Work, Power & Energy_R12",
+    "Pair_Number": 12,
+    "variation_number": 6,
+    "problem_text": "A 2.0 kg block starts sliding down an incline from a vertical height of 5.0 meters with an initial speed of 1.0 m/s. It reaches the bottom of the incline with a speed of 8.0 m/s. Calculate the work done by friction during its descent.",
+    "numerical_answer": -35.0
+  },
+  {
+    "signature": "Work, Power & Energy_R12_12_v7",
+    "source_problem_ID": "Work, Power & Energy_R12",
+    "Pair_Number": 12,
+    "variation_number": 7,
+    "problem_text": "A car with a mass of 1200 kg is traveling on a level road at a speed of 25 m/s. The driver applies the brakes, and the car's speed reduces to 10 m/s. Assuming no other external forces besides braking act horizontally, calculate the total work done by the braking system.",
+    "numerical_answer": -315000.0
+  },
+  {
+    "signature": "Work, Power & Energy_R12_12_v8",
+    "source_problem_ID": "Work, Power & Energy_R12",
+    "Pair_Number": 12,
+    "variation_number": 8,
+    "problem_text": "A 0.5 kg ball is thrown vertically upwards from the ground with an initial speed of 15 m/s. When it reaches a height of 9.0 meters, its speed is measured to be 5.0 m/s. Assuming a constant gravitational acceleration of 9.8 m/s², determine the work done by air resistance during this segment of its flight.",
+    "numerical_answer": -5.9
+  },
+  {
+    "signature": "Work, Power & Energy_R12_12_v9",
+    "source_problem_ID": "Work, Power & Energy_R12",
+    "Pair_Number": 12,
+    "variation_number": 9,
+    "problem_text": "A 1.5 kg block is pressed against a horizontal spring, compressing it by 0.10 meters. The spring has a constant of 200 N/m. When released, the block moves across a rough horizontal surface. After losing contact with the spring, the block is observed to have a speed of 1.0 m/s. Calculate the work done by friction as the block moves from its initial compressed position until it reaches the 1.0 m/s speed.",
+    "numerical_answer": -0.25
+  },
+  {
+    "signature": "Work, Power & Energy_R12_12_v10",
+    "source_problem_ID": "Work, Power & Energy_R12",
+    "Pair_Number": 12,
+    "variation_number": 10,
+    "problem_text": "An electron (mass 9.11 x 10⁻³¹ kg, charge -1.602 x 10⁻¹⁹ C) starts from rest and accelerates through a potential drop of 500 Volts. If it reaches a final speed of 1.0 x 10⁷ m/s, calculate the work done by resistive forces acting on the electron.",
+    "numerical_answer": -3.46e-17
+  },
+  {
+    "signature": "Work, Power & Energy_R13_13_v1",
+    "source_problem_ID": "Work, Power & Energy_R13",
+    "Pair_Number": 13,
+    "variation_number": 1,
+    "problem_text": "A warehouse worker is pulling a heavy wooden crate of mass 150 kg across a concrete floor. He applies a force to a rope attached to the crate at an angle of 30 degrees above the horizontal. The coefficient of kinetic friction between the crate and the floor is 0.4. If the crate moves at a constant velocity for a distance of 20 meters, calculate the total work done by the worker's applied force. (Use g = 9.8 m/s^2)",
+    "numerical_answer": 9597.75
+  },
+  {
+    "signature": "Work, Power & Energy_R13_13_v2",
+    "source_problem_ID": "Work, Power & Energy_R13",
+    "Pair_Number": 13,
+    "variation_number": 2,
+    "problem_text": "An arctic explorer pulls a sled, laden with equipment totaling 80 kg, across a flat, snowy plain. The rope makes an angle of 20 degrees with the horizontal. Given that the coefficient of kinetic friction between the sled and the snow is 0.15, and the sled maintains a uniform speed over a distance of 50 meters, determine the work done by the explorer's pulling force. (Use g = 9.8 m/s^2)",
+    "numerical_answer": 5575.87
+  },
+  {
+    "signature": "Work, Power & Energy_R13_13_v3",
+    "source_problem_ID": "Work, Power & Energy_R13",
+    "Pair_Number": 13,
+    "variation_number": 3,
+    "problem_text": "In a factory, a heavy machine base with a mass of 250 kg needs to be dragged horizontally into position. A winch pulls the base via a cable inclined at 15 degrees to the floor. The coefficient of kinetic friction between the base and the factory floor is 0.6. If the winch pulls the base at a constant speed for a distance of 10 meters, what is the work done by the tension in the cable? (Use g = 9.8 m/s^2)",
+    "numerical_answer": 12659.29
+  },
+  {
+    "signature": "Work, Power & Energy_R13_13_v4",
+    "source_problem_ID": "Work, Power & Energy_R13",
+    "Pair_Number": 13,
+    "variation_number": 4,
+    "problem_text": "A student is rearranging their room and needs to slide a large wardrobe, weighing 120 kg, across a wooden floor. They push the wardrobe with a net force directed at an angle of 45 degrees below the horizontal. The coefficient of kinetic friction between the wardrobe and the floor is 0.5. If the wardrobe moves at a uniform velocity for 8 meters, calculate the work done by the student's pushing force. (Use g = 9.8 m/s^2)",
+    "numerical_answer": 3131.94
+  },
+  {
+    "signature": "Work, Power & Energy_R13_13_v5",
+    "source_problem_ID": "Work, Power & Energy_R13",
+    "Pair_Number": 13,
+    "variation_number": 5,
+    "problem_text": "During a track and field event, a trainer pulls a heavy equipment cart (total mass 60 kg) along an asphalt track. The handle of the cart is pulled at an angle of 25 degrees above the horizontal. Due to a locked wheel, the cart experiences a coefficient of kinetic friction of 0.7. If the trainer pulls the cart at a constant velocity for a displacement of 15 meters, how much work is done by the trainer's applied force? (Use g = 9.8 m/s^2)",
+    "numerical_answer": 4665.73
+  },
+  {
+    "signature": "Work, Power & Energy_R13_13_v6",
+    "source_problem_ID": "Work, Power & Energy_R13",
+    "Pair_Number": 13,
+    "variation_number": 6,
+    "problem_text": "A heavy industrial safe of mass 300 kg is being moved across a concrete warehouse floor. A worker pulls it with a chain that makes an angle of 25 degrees above the horizontal. The coefficient of kinetic friction between the safe and the floor is 0.4. If the safe moves at a constant velocity for a distance of 5 meters, what is the work done by the pulling force? (Take g = 9.8 m/s²)",
+    "numerical_answer": 4950.4
+  },
+  {
+    "signature": "Work, Power & Energy_R13_13_v7",
+    "source_problem_ID": "Work, Power & Energy_R13",
+    "Pair_Number": 13,
+    "variation_number": 7,
+    "problem_text": "A 80 kg sled carrying supplies is being pulled along a flat, snowy path. The rope used to pull the sled makes an angle of 20 degrees with the horizontal. The coefficient of kinetic friction between the sled and the snow is 0.08. Calculate the work done by the pulling force if the sled is moved at a uniform speed for a distance of 50 meters. (Take g = 9.8 m/s²)",
+    "numerical_answer": 3046.26
+  },
+  {
+    "signature": "Work, Power & Energy_R13_13_v8",
+    "source_problem_ID": "Work, Power & Energy_R13",
+    "Pair_Number": 13,
+    "variation_number": 8,
+    "problem_text": "A 500 kg wooden pallet, loaded with goods, is being dragged across a factory floor by a winch. The cable from the winch exerts a force at an angle of 35 degrees above the horizontal. The coefficient of kinetic friction between the pallet and the floor is 0.25. If the pallet moves at a steady velocity for a displacement of 12 meters, determine the work done by the winch's pulling force. (Take g = 9.8 m/s²)",
+    "numerical_answer": 12497.04
+  },
+  {
+    "signature": "Work, Power & Energy_R13_13_v9",
+    "source_problem_ID": "Work, Power & Energy_R13",
+    "Pair_Number": 13,
+    "variation_number": 9,
+    "problem_text": "A large shipping crate of mass 150 kg is being pulled across a rough wooden dock. The pulling force is applied via a thick rope at an angle of 40 degrees above the horizontal. The coefficient of kinetic friction between the crate and the dock surface is 0.5. If the crate slides at a constant velocity for 8 meters, calculate the work done by the force applied through the rope. (Take g = 9.8 m/s²)",
+    "numerical_answer": 4140.73
+  },
+  {
+    "signature": "Work, Power & Energy_R13_13_v10",
+    "source_problem_ID": "Work, Power & Energy_R13",
+    "Pair_Number": 13,
+    "variation_number": 10,
+    "problem_text": "An airport baggage cart, with a total mass of 120 kg (including luggage), is pulled by a small tug vehicle. The tow bar applies a force at an angle of 15 degrees above the horizontal. The coefficient of kinetic friction between the cart's wheels (modeled as sliding for this scenario due to locked brakes or rough surface approximation) and the tarmac is 0.15. If the cart travels 20 meters at a constant speed, find the work done by the force from the tug vehicle. (Take g = 9.8 m/s²)",
+    "numerical_answer": 3389.96
+  },
+  {
+    "signature": "Work, Power & Energy_R14_14_v1",
+    "source_problem_ID": "Work, Power & Energy_R14",
+    "Pair_Number": 14,
+    "variation_number": 1,
+    "problem_text": "A large grain silo is divided into two adjacent, vertical compartments, each with a horizontal cross-sectional area of 5.0 m². The bulk density of the grain (e.g., wheat) is 770 kg/m³. Initially, one compartment contains grain up to a height of 10.0 m, while the other contains grain up to 6.0 m. If the partition between them is carefully removed, allowing the grain levels to equalize, calculate the total work done by the force of gravity during this redistribution process. Assume no energy loss to friction.",
+    "numerical_answer": 151074.0
+  },
+  {
+    "signature": "Work, Power & Energy_R14_14_v2",
+    "source_problem_ID": "Work, Power & Energy_R14",
+    "Pair_Number": 14,
+    "variation_number": 2,
+    "problem_text": "Two capacitors of equal capacitance, 100 µF each, are initially charged to different potential differences. One capacitor is charged to 120 V, and the other to 60 V. They are then connected in parallel. Calculate the total energy dissipated as heat in the connecting wires during the charge redistribution until the potential differences equalize.",
+    "numerical_answer": 0.09
+  },
+  {
+    "signature": "Work, Power & Energy_R14_14_v3",
+    "source_problem_ID": "Work, Power & Energy_R14",
+    "Pair_Number": 14,
+    "variation_number": 3,
+    "problem_text": "A uniform flexible chain with a linear mass density of 15 kg/m is laid over two frictionless, parallel supports. Initially, the chain hangs such that one segment reaches a height of 3.0 m above a reference point, and another segment reaches 1.0 m. When the chain is released, it slides and rearranges itself until its effective vertical position averages out. Calculate the work done by gravity on the chain as it moves to this new equilibrium configuration.",
+    "numerical_answer": 147.15
+  },
+  {
+    "signature": "Work, Power & Energy_R14_14_v4",
+    "source_problem_ID": "Work, Power & Energy_R14",
+    "Pair_Number": 14,
+    "variation_number": 4,
+    "problem_text": "Consider two adjacent sections of an idealized, uniform glacier, each with an effective cross-sectional area of 1000 m². The glacial ice has a density of 917 kg/m³. Initially, due to topographical variations, the average surface elevation of the ice in one section is 100 m, and in the adjacent section, it is 80 m. Over a long period, the glacier slowly flows and redistributes itself such that the average surface elevations in both sections become equal. Assuming this process occurs without external work and neglecting frictional losses, calculate the work done by gravity during this natural leveling of the glacier sections.",
+    "numerical_answer": 899577000.0
+  },
+  {
+    "signature": "Work, Power & Energy_R14_14_v5",
+    "source_problem_ID": "Work, Power & Energy_R14",
+    "Pair_Number": 14,
+    "variation_number": 5,
+    "problem_text": "In a manufacturing facility, identical metal plates, each with a mass of 5 kg and a thickness of 0.01 m, are stored in two adjacent vertical stacks. Both stacks occupy an identical base area, meaning that the effective linear mass density for a stack is 500 kg/m. Initially, one stack has a total height of 3.0 m, and the other has a total height of 1.0 m. A robotic system then transfers plates, one by one, from the taller stack to the shorter one until both stacks reach an equal average height. Calculate the total work done by gravity during this plate redistribution process.",
+    "numerical_answer": 4905.0
+  },
+  {
+    "signature": "Work, Power & Energy_R14_14_v6",
+    "source_problem_ID": "Work, Power & Energy_R14",
+    "Pair_Number": 14,
+    "variation_number": 6,
+    "problem_text": "In an agricultural facility, two large cylindrical grain silos of equal cross-sectional area 8 m^2 are interconnected at their base. Initially, one silo contains wheat up to a height of 15 m, and the other up to a height of 9 m. When the interconnecting valve is opened, wheat flows from the taller silo to the shorter one until the grain levels in both silos become equal. Calculate the work done by the force of gravity during this equalization process. The bulk density of wheat is approximately 800 kg/m^3. (Assume g = 9.8 m/s^2)",
+    "numerical_answer": 564480.0
+  },
+  {
+    "signature": "Work, Power & Energy_R14_14_v7",
+    "source_problem_ID": "Work, Power & Energy_R14",
+    "Pair_Number": 14,
+    "variation_number": 7,
+    "problem_text": "A foundry uses two interconnected casting molds, both having an equal base area of 0.25 m^2, to create identical metal components. During a pour, molten iron initially fills one mold to a height of 0.8 m and the other to a height of 0.3 m. The molds are designed such that the molten iron levels quickly equalize. Determine the work done by gravity as the molten iron redistributes to reach equilibrium. The density of molten iron is 7800 kg/m^3. (Assume g = 9.8 m/s^2)",
+    "numerical_answer": 1194.38
+  },
+  {
+    "signature": "Work, Power & Energy_R14_14_v8",
+    "source_problem_ID": "Work, Power & Energy_R14",
+    "Pair_Number": 14,
+    "variation_number": 8,
+    "problem_text": "A construction company is leveling a large plot of land for a new building. The plot can be conceptually divided into two adjacent sections of equal horizontal area, 50 m^2 each. Before leveling, one section has an average ground height of 3.5 m, and the other section has an average height of 1.0 m. Earth is moved from the higher section to the lower section until a uniform average height is achieved across both sections. Calculate the work done by gravity on the earth during this leveling process. The average density of the soil is 1600 kg/m^3. (Assume g = 9.8 m/s^2)",
+    "numerical_answer": 1225000.0
+  },
+  {
+    "signature": "Work, Power & Energy_R14_14_v9",
+    "source_problem_ID": "Work, Power & Energy_R14",
+    "Pair_Number": 14,
+    "variation_number": 9,
+    "problem_text": "A chemical processing plant uses two cylindrical storage tanks of equal cross-sectional area 3 m^2, connected at the bottom by a pipe. Initially, one tank contains a chemical liquid at a height of 6 m, while the other contains the same liquid at a height of 2 m. A valve in the connecting pipe is opened, allowing the liquid levels to become equal. Determine the work done by the force of gravity during this process. The density of the chemical liquid is 1200 kg/m^3. (Assume g = 9.8 m/s^2)",
+    "numerical_answer": 141120.0
+  },
+  {
+    "signature": "Work, Power & Energy_R14_14_v10",
+    "source_problem_ID": "Work, Power & Energy_R14",
+    "Pair_Number": 14,
+    "variation_number": 10,
+    "problem_text": "In a mining operation, two interconnected settling ponds, each with an effective surface area of 0.5 m^2, are used to process mineral slurry. Due to an operational issue, the slurry level in one pond is initially 4.0 m, while in the other it is 1.5 m. The ponds are designed to allow the slurry to flow between them until the levels equalize. Calculate the work done by gravity as the slurry levels achieve equilibrium. The density of the mineral slurry is 1800 kg/m^3. (Assume g = 9.8 m/s^2)",
+    "numerical_answer": 13781.25
+  },
+  {
+    "signature": "Work, Power & Energy_R15_15_v1",
+    "source_problem_ID": "Work, Power & Energy_R15",
+    "Pair_Number": 15,
+    "variation_number": 1,
+    "problem_text": "A roller coaster car is designed to go through a vertical circular loop of radius 15.0 meters. What is the minimum speed the car must have at the very bottom of the loop to successfully complete the full circle without losing contact with the track at any point? Assume g = 9.81 m/s^2.",
+    "numerical_answer": 27.12
+  },
+  {
+    "signature": "Work, Power & Energy_R15_15_v2",
+    "source_problem_ID": "Work, Power & Energy_R15",
+    "Pair_Number": 15,
+    "variation_number": 2,
+    "problem_text": "A child is playing with a stone attached to a string, whirling it in a vertical circle. If the length of the string is 0.80 meters, what minimum speed must the stone have at its lowest point to ensure it completes the full vertical circle without the string going slack at the top? Assume g = 9.81 m/s^2.",
+    "numerical_answer": 6.26
+  },
+  {
+    "signature": "Work, Power & Energy_R15_15_v3",
+    "source_problem_ID": "Work, Power & Energy_R15",
+    "Pair_Number": 15,
+    "variation_number": 3,
+    "problem_text": "A person wants to swing a bucket of water in a vertical circle of radius 1.20 meters without spilling any water. What is the minimum speed the bucket must achieve at the lowest point of its path to prevent the water from falling out at the top of the circle? Assume g = 9.81 m/s^2.",
+    "numerical_answer": 7.67
+  },
+  {
+    "signature": "Work, Power & Energy_R15_15_v4",
+    "source_problem_ID": "Work, Power & Energy_R15",
+    "Pair_Number": 15,
+    "variation_number": 4,
+    "problem_text": "A small particle slides along the inside surface of a smooth, hollow spherical track of radius 2.50 meters. If the particle starts from the lowest point of the track, what minimum initial speed must it be given to ensure it completes a full vertical circular path along the inner surface? Assume g = 9.81 m/s^2.",
+    "numerical_answer": 11.07
+  },
+  {
+    "signature": "Work, Power & Energy_R15_15_v5",
+    "source_problem_ID": "Work, Power & Energy_R15",
+    "Pair_Number": 15,
+    "variation_number": 5,
+    "problem_text": "A gymnast performs a giant swing on a horizontal bar, where their center of mass effectively traces a vertical circle. If the effective radius of this circular path (from the bar to the gymnast's center of mass) is 1.80 meters, what minimum speed must the gymnast have at the very bottom of the swing to successfully complete a full vertical circle around the bar? Assume g = 9.81 m/s^2.",
+    "numerical_answer": 9.4
+  },
+  {
+    "signature": "Work, Power & Energy_R15_15_v6",
+    "source_problem_ID": "Work, Power & Energy_R15",
+    "Pair_Number": 15,
+    "variation_number": 6,
+    "problem_text": "A small sphere of mass 200g is attached to a light inextensible string of length 1.2 meters. It is set into motion such that it swings in a vertical circle. What is the minimum horizontal speed that must be imparted to the sphere at its lowest point so that it successfully completes the entire vertical circle without the string becoming slack?",
+    "numerical_answer": 7.67
+  },
+  {
+    "signature": "Work, Power & Energy_R15_15_v7",
+    "source_problem_ID": "Work, Power & Energy_R15",
+    "Pair_Number": 15,
+    "variation_number": 7,
+    "problem_text": "A roller coaster car approaches a vertical circular loop of radius 8.0 meters. Assuming there is no friction and the car maintains contact with the track throughout, what is the minimum speed the car must have at the bottom of the loop to successfully complete the full loop?",
+    "numerical_answer": 19.81
+  },
+  {
+    "signature": "Work, Power & Energy_R15_15_v8",
+    "source_problem_ID": "Work, Power & Energy_R15",
+    "Pair_Number": 15,
+    "variation_number": 8,
+    "problem_text": "A small block is placed inside a smooth, rigid, vertical circular track of radius 0.5 meters. What minimum horizontal speed must be given to the block at the lowest point of the track for it to successfully traverse the entire circular path and return to the bottom, ensuring it never loses contact with the track?",
+    "numerical_answer": 4.95
+  },
+  {
+    "signature": "Work, Power & Energy_R15_15_v9",
+    "source_problem_ID": "Work, Power & Energy_R15",
+    "Pair_Number": 15,
+    "variation_number": 9,
+    "problem_text": "An astronaut on the Moon (where acceleration due to gravity is approximately 1.62 m/s²) is swinging a 500g rock attached to a 2.5-meter long string in a vertical circle. Ignoring air resistance (due to vacuum), what minimum horizontal speed must the astronaut give the rock at its lowest point to ensure it completes the full vertical circle without the string going slack?",
+    "numerical_answer": 4.5
+  },
+  {
+    "signature": "Work, Power & Energy_R15_15_v10",
+    "source_problem_ID": "Work, Power & Energy_R15",
+    "Pair_Number": 15,
+    "variation_number": 10,
+    "problem_text": "A solid sphere of volume 0.001 m³ and density 1500 kg/m³ is attached to one end of a light rod of length 0.8 meters. The other end of the rod is pivoted. The entire system is submerged in water (density 1000 kg/m³). What minimum horizontal speed must be given to the sphere at its lowest point to make it describe a complete vertical circle within the water? Assume the rod remains taut and water resistance is negligible.",
+    "numerical_answer": 3.62
+  },
+  {
+    "signature": "Work, Power & Energy_R16_16_v1",
+    "source_problem_ID": "Work, Power & Energy_R16",
+    "Pair_Number": 16,
+    "variation_number": 1,
+    "problem_text": "A uniform flexible rope of length 20 meters and mass 5 kg is initially resting on a smooth, horizontal cliff edge such that one-fourth of its length hangs over the edge. Neglecting air resistance, calculate the kinetic energy of the rope just as the entire length slips off the cliff and becomes vertical.",
+    "numerical_answer": 459.84
+  },
+  {
+    "signature": "Work, Power & Energy_R16_16_v2",
+    "source_problem_ID": "Work, Power & Energy_R16",
+    "Pair_Number": 16,
+    "variation_number": 2,
+    "problem_text": "A heavy industrial chain, 50 meters long with a total mass of 25 kg, is coiled at the top of a tall, smooth tower. A small initial disturbance causes 1/5th of the chain's length to uncoil and hang vertically. Assuming it continues to uncoil smoothly, determine the kinetic energy of the chain the moment its entire length has uncoiled and is hanging freely from the tower.",
+    "numerical_answer": 5886.0
+  },
+  {
+    "signature": "Work, Power & Energy_R16_16_v3",
+    "source_problem_ID": "Work, Power & Energy_R16",
+    "Pair_Number": 16,
+    "variation_number": 3,
+    "problem_text": "A uniform flexible conduit of length 15 meters and mass 12 kg lies across a large-diameter horizontal pipe. Initially, half of its length hangs vertically on one side. If the conduit begins to slide, find its kinetic energy at the instant it completely slips off the pipe.",
+    "numerical_answer": 662.18
+  },
+  {
+    "signature": "Work, Power & Energy_R16_16_v4",
+    "source_problem_ID": "Work, Power & Energy_R16",
+    "Pair_Number": 16,
+    "variation_number": 4,
+    "problem_text": "A long, uniform roll of fabric, 30 meters in length and weighing 6 kg, is placed on a smooth cutting table. One-sixth of the fabric's length hangs over the edge. If it starts to slide due to gravity, what will be the kinetic energy of the fabric when its entire length has left the table?",
+    "numerical_answer": 858.71
+  },
+  {
+    "signature": "Work, Power & Energy_R16_16_v5",
+    "source_problem_ID": "Work, Power & Energy_R16",
+    "Pair_Number": 16,
+    "variation_number": 5,
+    "problem_text": "An engineering cable, 40 meters long with a mass of 8 kg, is stretched taut over a smooth horizontal support beam. Exactly 20% of the cable's length is initially hanging vertically over one end. Assuming no friction, what is the kinetic energy of the cable just as it completely slides off the beam?",
+    "numerical_answer": 1506.82
+  },
+  {
+    "signature": "Work, Power & Energy_R16_16_v6",
+    "source_problem_ID": "Work, Power & Energy_R16",
+    "Pair_Number": 16,
+    "variation_number": 6,
+    "problem_text": "A uniform chain of length 2 meters and total mass 4 kg is initially placed on a smooth horizontal table such that a 0.5-meter segment of the chain hangs vertically through a small hole in the table. The chain is then released and slips off the table completely. Calculate the kinetic energy of the chain just as its last segment leaves the table. (Assume g = 9.81 m/s^2)",
+    "numerical_answer": 36.79
+  },
+  {
+    "signature": "Work, Power & Energy_R16_16_v7",
+    "source_problem_ID": "Work, Power & Energy_R16",
+    "Pair_Number": 16,
+    "variation_number": 7,
+    "problem_text": "A uniform, flexible rod of length 3 meters and mass 6 kg is initially placed entirely on a smooth horizontal table. It is gently pushed over the edge, and it begins to slide when one-fourth of its length hangs over the edge. Calculate the kinetic energy of the rod at the instant when three-fourths of its length is hanging over the edge. (Assume g = 9.81 m/s^2)",
+    "numerical_answer": 44.15
+  },
+  {
+    "signature": "Work, Power & Energy_R16_16_v8",
+    "source_problem_ID": "Work, Power & Energy_R16",
+    "Pair_Number": 16,
+    "variation_number": 8,
+    "problem_text": "A uniform flexible ribbon of length 10 meters and mass 0.5 kg is initially wound around a massless spool placed on a smooth horizontal table. A 2-meter length of the ribbon is unwound and allowed to hang vertically over the edge of the table. The ribbon then starts to unwind further due to gravity. Calculate the kinetic energy of the ribbon when 6 meters of its length are hanging over the edge. (Assume g = 9.81 m/s^2)",
+    "numerical_answer": 7.85
+  },
+  {
+    "signature": "Work, Power & Energy_R16_16_v9",
+    "source_problem_ID": "Work, Power & Energy_R16",
+    "Pair_Number": 16,
+    "variation_number": 9,
+    "problem_text": "A uniform rope of length 8 meters and total mass 12 kg is initially placed entirely on a smooth inclined plane making an angle of 30 degrees with the horizontal. Its upper end is precisely at the top edge of the incline. The rope is then gently nudged and begins to slide. Calculate the kinetic energy of the rope at the instant its entire length has slipped off the inclined plane and is hanging vertically. (Assume g = 9.81 m/s^2)",
+    "numerical_answer": 235.44
+  },
+  {
+    "signature": "Work, Power & Energy_R16_16_v10",
+    "source_problem_ID": "Work, Power & Energy_R16",
+    "Pair_Number": 16,
+    "variation_number": 10,
+    "problem_text": "A long, uniform metal tape of length 5 meters and total mass 2 kg is initially laid flat on a smooth workbench. Due to an accidental nudge, it starts to slide off. Calculate the kinetic energy of the tape when two-fifths of its length is still on the table, given that it started to slide when one-tenth of its length was hanging off the edge. (Assume g = 9.81 m/s^2)",
+    "numerical_answer": 17.17
+  },
+  {
+    "signature": "Work, Power & Energy_R17_17_v1",
+    "source_problem_ID": "Work, Power & Energy_R17",
+    "Pair_Number": 17,
+    "variation_number": 1,
+    "problem_text": "A toy car of mass 0.2 kg is placed against a spring with a spring constant of 50 N/m, which is compressed by 10 cm. The car is released on a frictionless horizontal track. What is the speed of the car when the spring returns to its natural length?",
+    "numerical_answer": 1.58
+  },
+  {
+    "signature": "Work, Power & Energy_R17_17_v2",
+    "source_problem_ID": "Work, Power & Energy_R17",
+    "Pair_Number": 17,
+    "variation_number": 2,
+    "problem_text": "A small projectile of mass 50 grams is launched from a spring-powered catapult. The spring has a constant of 200 N/m and is initially compressed by 8 cm. Assuming no friction, determine the velocity of the projectile as it detaches from the spring at its natural length.",
+    "numerical_answer": 5.06
+  },
+  {
+    "signature": "Work, Power & Energy_R17_17_v3",
+    "source_problem_ID": "Work, Power & Energy_R17",
+    "Pair_Number": 17,
+    "variation_number": 3,
+    "problem_text": "In a pinball machine, a plunger with a spring constant of 120 N/m is used to launch a pinball of mass 80 grams. If the spring is initially pulled back, compressing it by 4 cm, what will be the speed of the pinball when the plunger spring expands to its natural length?",
+    "numerical_answer": 1.55
+  },
+  {
+    "signature": "Work, Power & Energy_R17_17_v4",
+    "source_problem_ID": "Work, Power & Energy_R17",
+    "Pair_Number": 17,
+    "variation_number": 4,
+    "problem_text": "A heavy platform of mass 50 kg is momentarily held against a robust industrial spring (k = 10000 N/m), compressing it by 15 cm. The platform is then released and allowed to move vertically under gravity, but we are interested in its speed at the instant it passes the spring's natural length, assuming the platform moves horizontally on a frictionless surface after release for simplicity (to isolate spring energy conversion as in the seed problem). Calculate this speed.",
+    "numerical_answer": 2.12
+  },
+  {
+    "signature": "Work, Power & Energy_R17_17_v5",
+    "source_problem_ID": "Work, Power & Energy_R17",
+    "Pair_Number": 17,
+    "variation_number": 5,
+    "problem_text": "A small scientific probe of mass 5 kg is deployed from a larger spacecraft in zero gravity using a spring mechanism. The spring has a constant of 300 N/m and is initially compressed by 20 cm. What is the speed of the probe relative to the spacecraft when the spring has fully expanded to its natural length?",
+    "numerical_answer": 1.55
+  },
+  {
+    "signature": "Work, Power & Energy_R17_17_v6",
+    "source_problem_ID": "Work, Power & Energy_R17",
+    "Pair_Number": 17,
+    "variation_number": 6,
+    "problem_text": "A toy car of mass 0.15 kg is launched horizontally on a frictionless track by a spring with a spring constant of 120 N/m. The natural length of the spring is 0.25 m. The spring is initially compressed to half its natural length. What is the speed of the car when its front end is 0.1875 m from the wall to which the spring is attached?",
+    "numerical_answer": 3.06
+  },
+  {
+    "signature": "Work, Power & Energy_R17_17_v7",
+    "source_problem_ID": "Work, Power & Energy_R17",
+    "Pair_Number": 17,
+    "variation_number": 7,
+    "problem_text": "A small stone of mass 0.05 kg is launched horizontally from a miniature catapult. The catapult uses a spring with a spring constant of 500 N/m and a natural length of 0.10 m. The spring is initially compressed by 0.08 m (meaning the stone is 0.02 m from the spring's fixed end). Determine the speed of the stone when it is 0.08 m from the spring's fixed end (base of the catapult).",
+    "numerical_answer": 7.75
+  },
+  {
+    "signature": "Work, Power & Energy_R17_17_v8",
+    "source_problem_ID": "Work, Power & Energy_R17",
+    "Pair_Number": 17,
+    "variation_number": 8,
+    "problem_text": "A nanoparticle of mass 1.0 x 10^-15 kg is confined in a linear harmonic trap that models a spring with a constant of 1.0 N/m. The equilibrium position (natural length) of this trap is at 1.0 x 10^-6 m from a reference wall. The particle is initially pushed to a position 0.5 x 10^-6 m from the wall and then released from rest. Calculate the speed of the nanoparticle when it reaches a position of 0.9 x 10^-6 m from the wall.",
+    "numerical_answer": 4.9
+  },
+  {
+    "signature": "Work, Power & Energy_R17_17_v9",
+    "source_problem_ID": "Work, Power & Energy_R17",
+    "Pair_Number": 17,
+    "variation_number": 9,
+    "problem_text": "A heavy test block of mass 500 kg is used in a shock absorber testing rig. It is pushed against a large industrial spring (spring constant 20000 N/m, natural length 1.5 m) fixed to a rigid wall. The block is initially positioned 0.7 m from the wall and released from rest. Assuming a frictionless surface, find the speed of the block when it has moved to a position 1.3 m from the wall.",
+    "numerical_answer": 4.9
+  },
+  {
+    "signature": "Work, Power & Energy_R17_17_v10",
+    "source_problem_ID": "Work, Power & Energy_R17",
+    "Pair_Number": 17,
+    "variation_number": 10,
+    "problem_text": "In a pinball machine, a plunger launches a pinball of mass 0.08 kg using a spring. The spring has a constant of 300 N/m and a natural length of 0.15 m. The plunger is initially pulled back so the pinball is 0.08 m from the spring's fixed end (the 'wall') and then released. What is the speed of the pinball when it reaches a position 0.12 m from the spring's fixed end?",
+    "numerical_answer": 3.87
+  },
+  {
+    "signature": "Work, Power & Energy_R18_18_v1",
+    "source_problem_ID": "Work, Power & Energy_R18",
+    "Pair_Number": 18,
+    "variation_number": 1,
+    "problem_text": "A frictionless roller coaster car is released from rest at the top of a hill, which is 28 meters above the ground. It then descends into a valley, reaching a point 12 meters above the ground. Calculate the speed of the car at this lower point. Take g = 9.8 m/s^2.",
+    "numerical_answer": 17.71
+  },
+  {
+    "signature": "Work, Power & Energy_R18_18_v2",
+    "source_problem_ID": "Work, Power & Energy_R18",
+    "Pair_Number": 18,
+    "variation_number": 2,
+    "problem_text": "A small marble is released from rest at the highest point of a smooth, curved track that is 3.5 meters above a reference level. It then rolls down and reaches a point on the track that is 0.75 meters above the same reference level. Determine the speed of the marble at this lower point. Assume g = 10 m/s^2.",
+    "numerical_answer": 7.42
+  },
+  {
+    "signature": "Work, Power & Energy_R18_18_v3",
+    "source_problem_ID": "Work, Power & Energy_R18",
+    "Pair_Number": 18,
+    "variation_number": 3,
+    "problem_text": "A block is gently pushed from rest at a height of 6 meters on a frictionless inclined ramp. It slides down the ramp to a point where its vertical height is 2.5 meters. What is the speed of the block at this lower point? Use g = 9.81 m/s^2.",
+    "numerical_answer": 8.29
+  },
+  {
+    "signature": "Work, Power & Energy_R18_18_v4",
+    "source_problem_ID": "Work, Power & Energy_R18",
+    "Pair_Number": 18,
+    "variation_number": 4,
+    "problem_text": "A professional ski jumper starts from rest at the top of a slope, which is effectively 40 meters higher than the take-off point of the jump. Assuming negligible air resistance and friction, what is their speed when they reach the take-off point? Take g = 9.8 m/s^2.",
+    "numerical_answer": 28.0
+  },
+  {
+    "signature": "Work, Power & Energy_R18_18_v5",
+    "source_problem_ID": "Work, Power & Energy_R18",
+    "Pair_Number": 18,
+    "variation_number": 5,
+    "problem_text": "A pendulum bob of mass 'm' is released from rest when its string makes an angle with the vertical, causing it to be 0.6 meters above its lowest possible point. Find the speed of the bob when it reaches its lowest point. (Ignore air resistance and mass of string). Take g = 10 m/s^2.",
+    "numerical_answer": 3.46
+  },
+  {
+    "signature": "Work, Power & Energy_R18_18_v6",
+    "source_problem_ID": "Work, Power & Energy_R18",
+    "Pair_Number": 18,
+    "variation_number": 6,
+    "problem_text": "A roller coaster car of mass 500 kg starts from rest at point A, which is 15 meters above the ground. Assuming a frictionless track, what is the speed of the car when it reaches point B, which is 8 meters above the ground? Take g = 9.81 m/s^2.",
+    "numerical_answer": 11.72
+  },
+  {
+    "signature": "Work, Power & Energy_R18_18_v7",
+    "source_problem_ID": "Work, Power & Energy_R18",
+    "Pair_Number": 18,
+    "variation_number": 7,
+    "problem_text": "A simple pendulum of length 2 meters is released from rest at a position where its bob is 0.75 meters above its lowest point. Calculate the speed of the bob as it passes through its lowest point. Neglect air resistance. Take g = 9.81 m/s^2.",
+    "numerical_answer": 3.84
+  },
+  {
+    "signature": "Work, Power & Energy_R18_18_v8",
+    "source_problem_ID": "Work, Power & Energy_R18",
+    "Pair_Number": 18,
+    "variation_number": 8,
+    "problem_text": "A skier starts from rest at the top of a smooth, snow-covered slope, which is at an altitude of 2500 meters. What will be the skier's speed when they reach a point further down the slope at an altitude of 2350 meters? Assume no friction and neglect air resistance. Take g = 9.81 m/s^2.",
+    "numerical_answer": 54.25
+  },
+  {
+    "signature": "Work, Power & Energy_R18_18_v9",
+    "source_problem_ID": "Work, Power & Energy_R18",
+    "Pair_Number": 18,
+    "variation_number": 9,
+    "problem_text": "An electron is released from rest at a point where the electric potential is 0 V. It then accelerates towards a region where the electric potential is 500 V. Calculate the speed of the electron when it reaches the 500 V potential. (Charge of electron = -1.602 x 10^-19 C, Mass of electron = 9.109 x 10^-31 kg).",
+    "numerical_answer": 13261674.83
+  },
+  {
+    "signature": "Work, Power & Energy_R18_18_v10",
+    "source_problem_ID": "Work, Power & Energy_R18",
+    "Pair_Number": 18,
+    "variation_number": 10,
+    "problem_text": "A 2 kg block is attached to a horizontal spring with a spring constant of 500 N/m. The spring is compressed by 0.15 meters from its equilibrium position and the block is then released from rest. What is the speed of the block when the spring is compressed by 0.05 meters from its equilibrium position? Assume a frictionless surface.",
+    "numerical_answer": 2.24
+  },
+  {
+    "signature": "Work, Power & Energy_R19_19_v1",
+    "source_problem_ID": "Work, Power & Energy_R19",
+    "Pair_Number": 19,
+    "variation_number": 1,
+    "problem_text": "A small rollercoaster car, with a total mass of 200 kg, is released from rest at the top of a frictionless track, 10 meters above its lowest point. At the bottom of the track, it encounters a safety spring buffer system. If the spring constant of the buffer is 50,000 N/m, what is the maximum compression of the spring?",
+    "numerical_answer": 0.89
+  },
+  {
+    "signature": "Work, Power & Energy_R19_19_v2",
+    "source_problem_ID": "Work, Power & Energy_R19",
+    "Pair_Number": 19,
+    "variation_number": 2,
+    "problem_text": "In an experimental setup for a heavy-duty spring mechanism, a 5 kg block is dropped from a height of 2 meters onto a vertical spring. Assuming the track leading to the spring is smooth and the block effectively transfers all its potential energy into compressing the spring, calculate the maximum compression of the spring if its spring constant is 2000 N/m.",
+    "numerical_answer": 0.31
+  },
+  {
+    "signature": "Work, Power & Energy_R19_19_v3",
+    "source_problem_ID": "Work, Power & Energy_R19",
+    "Pair_Number": 19,
+    "variation_number": 3,
+    "problem_text": "An elevator cabin, with a total mass of 800 kg, experiences a safety system failure and drops from a certain height. Fortunately, a powerful emergency spring buffer with a spring constant of 100,000 N/m is installed at the bottom of the shaft. If the cabin's center of mass effectively drops 5 meters onto the spring before coming to a momentary halt, what is the maximum compression of the spring?",
+    "numerical_answer": 0.89
+  },
+  {
+    "signature": "Work, Power & Energy_R19_19_v4",
+    "source_problem_ID": "Work, Power & Energy_R19",
+    "Pair_Number": 19,
+    "variation_number": 4,
+    "problem_text": "In a laboratory experiment, a tiny bead of mass 10 grams is released from rest at a height of 0.5 meters on a smooth, inclined track. At the end of the track, the bead compresses a very light spring. If the spring constant is 10 N/m, what is the maximum compression achieved by the spring?",
+    "numerical_answer": 0.1
+  },
+  {
+    "signature": "Work, Power & Energy_R19_19_v5",
+    "source_problem_ID": "Work, Power & Energy_R19",
+    "Pair_Number": 19,
+    "variation_number": 5,
+    "problem_text": "A 50 kg component is accidentally dropped from a height of 1.5 meters onto a spring-loaded impact absorption platform. The platform's spring has a constant of 8000 N/m. Assuming the component hits the spring perfectly vertically and all kinetic energy is converted into spring potential energy, determine the maximum compression of the spring.",
+    "numerical_answer": 0.43
+  },
+  {
+    "signature": "Work, Power & Energy_R19_19_v6",
+    "source_problem_ID": "Work, Power & Energy_R19",
+    "Pair_Number": 19,
+    "variation_number": 6,
+    "problem_text": "A roller coaster car, with a total mass of 250 kg, starts from rest at the top of a hill at a vertical height of 15 meters above the track's lowest point. After descending, it approaches a safety bumper system at the end of a horizontal section. This bumper system consists of a large spring with a spring constant of 60,000 N/m. Assuming all friction is negligible, calculate the maximum compression of the spring.",
+    "numerical_answer": 1.11
+  },
+  {
+    "signature": "Work, Power & Energy_R19_19_v7",
+    "source_problem_ID": "Work, Power & Energy_R19",
+    "Pair_Number": 19,
+    "variation_number": 7,
+    "problem_text": "In an industrial crushing operation, a 750 kg block is released from rest at a height of 3 meters above a spring-loaded platform. The platform is supported by a system of springs that collectively have an effective spring constant of 250,000 N/m. Assuming the block falls purely vertically and air resistance is negligible, determine the maximum distance the spring system will be compressed.",
+    "numerical_answer": 0.42
+  },
+  {
+    "signature": "Work, Power & Energy_R19_19_v8",
+    "source_problem_ID": "Work, Power & Energy_R19",
+    "Pair_Number": 19,
+    "variation_number": 8,
+    "problem_text": "An emergency safety system for a heavy freight elevator includes a large shock-absorbing spring at the bottom of the shaft. If the 1200 kg elevator cabin were to experience a complete cable failure when it is 0.5 meters above the spring, and assuming it falls from rest at that height, what would be the maximum compression of the spring? The effective spring constant of the safety spring system is 180,000 N/m.",
+    "numerical_answer": 0.26
+  },
+  {
+    "signature": "Work, Power & Energy_R19_19_v9",
+    "source_problem_ID": "Work, Power & Energy_R19",
+    "Pair_Number": 19,
+    "variation_number": 9,
+    "problem_text": "A glider of mass 0.3 kg is released from rest at a height of 0.4 meters on an inclined air track. It slides down the frictionless incline and collides with a spring attached to a rigid wall at the bottom of the track. The spring has a constant of 80 N/m. Calculate the maximum compression of the spring.",
+    "numerical_answer": 0.17
+  },
+  {
+    "signature": "Work, Power & Energy_R19_19_v10",
+    "source_problem_ID": "Work, Power & Energy_R19",
+    "Pair_Number": 19,
+    "variation_number": 10,
+    "problem_text": "During a simulated impact test, a 5 kg test mass is dropped from a height of 2.5 meters onto a specially designed spring mechanism. This mechanism is intended to absorb the impact energy. If the spring has a spring constant of 1500 N/m, what is the maximum compression of the spring during the impact?",
+    "numerical_answer": 0.4
+  },
+  {
+    "signature": "Work, Power & Energy_R20_20_v1",
+    "source_problem_ID": "Work, Power & Energy_R20",
+    "Pair_Number": 20,
+    "variation_number": 1,
+    "problem_text": "A miniature roller coaster car is designed to complete a vertical loop of radius 15 meters. From what minimum height above the very top of the loop must the car start, assuming it begins from rest on a frictionless track, to successfully navigate the entire loop without losing contact?",
+    "numerical_answer": 7.5
+  },
+  {
+    "signature": "Work, Power & Energy_R20_20_v2",
+    "source_problem_ID": "Work, Power & Energy_R20",
+    "Pair_Number": 20,
+    "variation_number": 2,
+    "problem_text": "A toy train locomotive is released from rest at the highest point of a frictionless track that includes a circular loop section. If the loop has a radius of 0.6 meters, what minimum speed must the locomotive achieve at the bottom of the loop to successfully complete the full circle without losing contact with the track?",
+    "numerical_answer": 5.42
+  },
+  {
+    "signature": "Work, Power & Energy_R20_20_v3",
+    "source_problem_ID": "Work, Power & Energy_R20",
+    "Pair_Number": 20,
+    "variation_number": 3,
+    "problem_text": "A worker swings a bucket of water, tied to a 1.5-meter long rope, in a vertical circle. What is the minimum frequency of rotation (in Hz) at which the worker must swing the bucket so that no water spills out when the bucket is at the very top of its circular path?",
+    "numerical_answer": 0.41
+  },
+  {
+    "signature": "Work, Power & Energy_R20_20_v4",
+    "source_problem_ID": "Work, Power & Energy_R20",
+    "Pair_Number": 20,
+    "variation_number": 4,
+    "problem_text": "A small bead is released from rest on a smooth, frictionless circular wire track fixed in a vertical plane. The track has a radius of 0.4 meters. What is the minimum height (measured from the lowest point of the track) from which the bead must be released to ensure it completes a full loop around the track?",
+    "numerical_answer": 1.0
+  },
+  {
+    "signature": "Work, Power & Energy_R20_20_v5",
+    "source_problem_ID": "Work, Power & Energy_R20",
+    "Pair_Number": 20,
+    "variation_number": 5,
+    "problem_text": "An experimental aircraft performs a vertical loop maneuver. If the radius of the loop is 500 meters, what is the minimum speed the aircraft must maintain at the highest point of the loop to prevent momentarily experiencing zero effective gravity (i.e., feeling weightless or 'falling out' if not strapped in), assuming no lift from wings and just relying on speed for centripetal force?",
+    "numerical_answer": 70.04
+  },
+  {
+    "signature": "Work, Power & Energy_R20_20_v6",
+    "source_problem_ID": "Work, Power & Energy_R20",
+    "Pair_Number": 20,
+    "variation_number": 6,
+    "problem_text": "A new rollercoaster ride features a vertical circular loop of radius R = 12.0 m. What is the minimum height, measured from the top of the loop, from which a car (starting from rest) must descend to successfully navigate the loop without falling off? Neglect friction and air resistance.",
+    "numerical_answer": 6.0
+  },
+  {
+    "signature": "Work, Power & Energy_R20_20_v7",
+    "source_problem_ID": "Work, Power & Energy_R20",
+    "Pair_Number": 20,
+    "variation_number": 7,
+    "problem_text": "A child's toy car track includes a perfect vertical loop of radius R = 0.30 m. If a toy car is released from rest on a ramp leading into the loop, what minimum height must the release point be above the highest point of the loop for the car to complete the loop without leaving the track? Assume no friction.",
+    "numerical_answer": 0.15
+  },
+  {
+    "signature": "Work, Power & Energy_R20_20_v8",
+    "source_problem_ID": "Work, Power & Energy_R20",
+    "Pair_Number": 20,
+    "variation_number": 8,
+    "problem_text": "A student swings a bucket of water in a vertical circle with an effective radius (length of arm) of R = 0.75 m. What is the minimum speed the bucket must have at the lowest point of its path to ensure no water spills out when the bucket is at the very top of the circle? Use g = 9.81 m/s^2.",
+    "numerical_answer": 6.07
+  },
+  {
+    "signature": "Work, Power & Energy_R20_20_v9",
+    "source_problem_ID": "Work, Power & Energy_R20",
+    "Pair_Number": 20,
+    "variation_number": 9,
+    "problem_text": "A small, smooth particle is released from rest from a certain height H on the inner surface of a large spherical shell of radius R = 2.5 m. What is the minimum height H, measured from the very bottom of the spherical shell, required for the particle to complete a full vertical circular path along the inner surface without losing contact? Neglect air resistance.",
+    "numerical_answer": 6.25
+  },
+  {
+    "signature": "Work, Power & Energy_R20_20_v10",
+    "source_problem_ID": "Work, Power & Energy_R20",
+    "Pair_Number": 20,
+    "variation_number": 10,
+    "problem_text": "An extreme skateboarder plans to attempt a perfect vertical loop of radius R = 4.0 m. To successfully navigate the loop without falling, what minimum height must the skateboarder reach on the entry ramp, measured relative to the top of the loop, before entering the loop? Assume negligible friction and that the skateboarder starts from rest on the ramp.",
+    "numerical_answer": 2.0
+  },
+  {
+    "signature": "Work, Power & Energy_R21_21_v1",
+    "source_problem_ID": "Work, Power & Energy_R21",
+    "Pair_Number": 21,
+    "variation_number": 1,
+    "problem_text": "A heavy particle is suspended by a string of length 1.5 meters. The particle is given a horizontal velocity v0 at its lowest point. The string becomes slack at some angle with the vertical, and the particle proceeds on a parabola. Find the value of v0 if the particle passes through the point of suspension. (Assume g = 9.81 m/s^2)",
+    "numerical_answer": 7.41
+  },
+  {
+    "signature": "Work, Power & Energy_R21_21_v2",
+    "source_problem_ID": "Work, Power & Energy_R21",
+    "Pair_Number": 21,
+    "variation_number": 2,
+    "problem_text": "A smooth bead is free to slide on a circular wire of radius 0.5 meters, fixed in a vertical plane. The bead is given a horizontal velocity v0 at the lowest point of the wire. At some angle with the vertical, the bead detaches from the wire and moves as a projectile. Calculate v0 if the bead subsequently passes through the center of the circular wire. (Assume g = 9.81 m/s^2)",
+    "numerical_answer": 4.28
+  },
+  {
+    "signature": "Work, Power & Energy_R21_21_v3",
+    "source_problem_ID": "Work, Power & Energy_R21",
+    "Pair_Number": 21,
+    "variation_number": 3,
+    "problem_text": "A skateboarder starts with a horizontal velocity v0 from the bottom of a frictionless half-pipe of radius 3 meters, which is fixed in a vertical plane. The skateboarder maintains contact with the pipe until an angle with the vertical, at which point they launch into the air as a projectile. Determine v0 such that the skateboarder lands exactly on the edge of the half-pipe directly above the starting point. (Assume g = 9.81 m/s^2)",
+    "numerical_answer": 10.48
+  },
+  {
+    "signature": "Work, Power & Energy_R21_21_v4",
+    "source_problem_ID": "Work, Power & Energy_R21",
+    "Pair_Number": 21,
+    "variation_number": 4,
+    "problem_text": "An astronaut on a low-gravity planet (acceleration due to gravity, g' = 3 m/s^2) is tethered to a fixed point by a rope of length 10 meters. She is given an initial horizontal velocity v0 at the lowest point of her swing. At some angle with the vertical, the tether becomes slack, and she floats freely. If her subsequent parabolic trajectory causes her to pass exactly through the point where the tether is fixed, what was her initial velocity v0?",
+    "numerical_answer": 10.58
+  },
+  {
+    "signature": "Work, Power & Energy_R21_21_v5",
+    "source_problem_ID": "Work, Power & Energy_R21",
+    "Pair_Number": 21,
+    "variation_number": 5,
+    "problem_text": "A wrecking ball is suspended from a crane by a cable of length 8 meters. The ball is given an initial horizontal velocity v0 at its lowest point. The supporting cable becomes slack at an angle with the vertical, and the ball continues its motion as a projectile. If the wrecking ball's trajectory causes it to pass through the point of suspension (where the cable is attached to the crane), calculate v0. (Assume g = 9.81 m/s^2)",
+    "numerical_answer": 17.11
+  },
+  {
+    "signature": "Work, Power & Energy_R21_21_v6",
+    "source_problem_ID": "Work, Power & Energy_R21",
+    "Pair_Number": 21,
+    "variation_number": 6,
+    "problem_text": "An acrobat performing a stunt is suspended by a flexible wire of length 2.0 meters, which acts like a string. Starting from the lowest point of their swing, they are given an initial horizontal velocity. The wire becomes slack at some point, and the acrobat continues moving as a projectile. Determine the initial horizontal velocity (in m/s) required at the lowest point if the acrobat is to pass through the point of suspension after the wire goes slack. Assume g = 9.81 m/s^2.",
+    "numerical_answer": 8.56
+  },
+  {
+    "signature": "Work, Power & Energy_R21_21_v7",
+    "source_problem_ID": "Work, Power & Energy_R21",
+    "Pair_Number": 21,
+    "variation_number": 7,
+    "problem_text": "A small car is designed for a vertical loop-de-loop rollercoaster, which has a radius of 10.0 meters. The car starts from the bottom of the loop and is given a horizontal velocity. Due to insufficient speed, the car leaves the track at some angle and proceeds as a projectile. What minimum initial horizontal velocity (in m/s) should the car have at the bottom of the loop to ensure it subsequently passes through the center of the loop (which is also the point of suspension for an equivalent pendulum)? Assume g = 9.81 m/s^2.",
+    "numerical_answer": 19.13
+  },
+  {
+    "signature": "Work, Power & Energy_R21_21_v8",
+    "source_problem_ID": "Work, Power & Energy_R21",
+    "Pair_Number": 21,
+    "variation_number": 8,
+    "problem_text": "A frictionless, spherical dome of radius 5.0 meters is installed on a playground. A child, represented as a point mass, starts from the very bottom of the dome and is given an initial horizontal velocity. The child loses contact with the dome's surface at a certain point and then follows a parabolic trajectory. Calculate the initial horizontal velocity (in m/s) at the bottom if the child is to land precisely at the center of the spherical dome (the 'point of suspension' if the motion were constrained by a string). Assume g = 9.81 m/s^2.",
+    "numerical_answer": 13.53
+  },
+  {
+    "signature": "Work, Power & Energy_R21_21_v9",
+    "source_problem_ID": "Work, Power & Energy_R21",
+    "Pair_Number": 21,
+    "variation_number": 9,
+    "problem_text": "In a cylindrical space habitat creating artificial gravity by rotation, an astronaut is practicing emergency maneuvers using a tether of length 3.0 meters. The effective gravitational acceleration is 5.0 m/s^2 downwards towards the habitat's axis. If the astronaut starts from the lowest point of a vertical swing and is given an initial horizontal velocity, at what minimum velocity (in m/s) must they begin if the tether goes slack and they subsequently pass through the pivot point of the tether (the 'point of suspension')?",
+    "numerical_answer": 7.48
+  },
+  {
+    "signature": "Work, Power & Energy_R21_21_v10",
+    "source_problem_ID": "Work, Power & Energy_R21",
+    "Pair_Number": 21,
+    "variation_number": 10,
+    "problem_text": "A geological research robot on the Moon is performing an experiment with a rock tied to a 1.5-meter long string. The robot gives the rock a horizontal velocity at the lowest point of its swing. The string becomes slack, and the rock travels as a projectile. Given the Moon's gravitational acceleration (g_moon = 1.62 m/s^2), what initial horizontal velocity (in m/s) should the rock have at the bottom if it is to eventually pass through the point where the string was attached?",
+    "numerical_answer": 3.01
+  }
+]
