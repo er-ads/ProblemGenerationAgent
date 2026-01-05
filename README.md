@@ -25,9 +25,7 @@ A multi-agent LLM pipeline that generates diverse physics word problems from see
 
 ---
 
-> This project would not have been possible without the extensive collaboration of  
-> [Sriram Hebbale](...), and the guidance and support of  
-> [Prof. Dhruv Kumar](...).
+
 
 ---
 
@@ -57,7 +55,7 @@ Highlights:
 ## 📊 Live Evaluation Report
 
 🔗 View the generated interactive report:
-...
+
 
 Note: Running the local evaluator will produce a single-file HTML report (see `run/dataset_evaluator.py`).
 
