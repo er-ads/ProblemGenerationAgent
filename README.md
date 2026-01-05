@@ -26,8 +26,8 @@ A multi-agent LLM pipeline that generates diverse physics word problems from see
 ---
 
 > This project would not have been possible without the extensive collaboration of  
-> [Sriram Hebbale](https://github.com/sriram-17-17), and the guidance and support of  
-> [Prof. Dhruv Kumar](https://github.com/kudhru).
+> [Sriram Hebbale](...), and the guidance and support of  
+> [Prof. Dhruv Kumar](...).
 
 ---
 
@@ -57,7 +57,7 @@ Highlights:
 ## 📊 Live Evaluation Report
 
 🔗 View the generated interactive report:
-https://er-ads.github.io/ProblemGenerationAgent/Physics_Evaluation_Report.html
+...
 
 Note: Running the local evaluator will produce a single-file HTML report (see `run/dataset_evaluator.py`).
 
